@@ -1,5 +1,5 @@
 import { reactive, readonly, toRaw } from 'vue'
-import { DEFAULT_EMOJI, SKIN_TONE_NEUTRAL } from '../constant'
+import { DEFAULT_EMOJI, SKIN_TONE_NEUTRAL, EMOJI_REMOTE_SRC } from '../constant'
 import { Emoji, EmojiRecord, Group, State, Store } from '../types'
 import emojis from '../data/emojis.json'
 import _groups from '../data/groups.json'
@@ -21,6 +21,8 @@ const defaultOptions: Record<string, any> = {
   additionalGroups: {},
   groupOrder: [],
   groupIcons: {},
+  emojiRemoteSource: EMOJI_REMOTE_SRC,
+  lazyLoading: false,
 }
 
 async function getRecentEmojis() {

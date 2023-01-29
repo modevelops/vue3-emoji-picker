@@ -45,12 +45,7 @@ import { computed, defineComponent, inject, ref, watch } from 'vue'
 /**
  * Internal dependencies
  */
-import {
-  EMOJI_REMOTE_SRC,
-  SKIN_TONES,
-  EMOJI_RESULT_KEY,
-  EMOJI_NAME_KEY,
-} from '../constant'
+import { SKIN_TONES, EMOJI_RESULT_KEY, EMOJI_NAME_KEY } from '../constant'
 import { Store } from '../types'
 import { unicodeToEmoji, isMac } from '../helpers'
 
@@ -70,7 +65,11 @@ export default defineComponent({
     const emoji = computed<any>(() => {
       return {
         ...state.emoji,
-        src: EMOJI_REMOTE_SRC + '/' + state.emoji[EMOJI_RESULT_KEY] + '.png',
+        src:
+          state.options.emojiRemoteSrc +
+          '/' +
+          state.emoji[EMOJI_RESULT_KEY] +
+          '.png',
       }
     })
 

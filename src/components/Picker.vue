@@ -16,7 +16,12 @@ import { defineComponent, provide, ref, PropType, toRaw } from 'vue'
 /**
  * Internal dependencies
  */
-import { COLOR_THEMES, GROUP_NAMES, STATIC_TEXTS } from '../constant'
+import {
+  COLOR_THEMES,
+  GROUP_NAMES,
+  STATIC_TEXTS,
+  EMOJI_REMOTE_SRC,
+} from '../constant'
 import Store from '../store'
 import PickerRoot from './Root.vue'
 import { ColorTheme } from '../types'
@@ -99,6 +104,14 @@ export default defineComponent({
       type: String as PropType<ColorTheme>,
       default: 'light',
     },
+    emojiRemoteSource: {
+      type: String,
+      default: EMOJI_REMOTE_SRC,
+    },
+    lazyLoading: {
+      type: Boolean,
+      default: false,
+    },
   },
   emits: ['update:text', 'select'],
   setup(props, { emit }) {
@@ -138,6 +151,8 @@ export default defineComponent({
       groupOrder: props.groupOrder,
       groupIcons: props.groupIcons,
       colorTheme: COLOR_THEMES.includes(props.theme) ? props.theme : 'light',
+      emojiRemoteSource: props.emojiRemoteSource,
+      lazyLoading: props.lazyLoading,
     })
 
     /**

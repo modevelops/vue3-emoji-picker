@@ -24,7 +24,8 @@
               <!-- Load from CDN when options.native = true -->
               <img
                 v-else
-                :src="EMOJI_REMOTE_SRC + `/${emoji.r}.png`"
+                :loading="lazyLoading ? `lazy` : `eager`"
+                :src="emojiRemoteSrc + `/${emoji.r}.png`"
                 :alt="emoji.n[0]"
                 @error="handleError($event, emoji.r)"
               />
@@ -56,12 +57,7 @@ import {
  */
 import { EmojiRecord, Emoji, Store } from '../types'
 
-import {
-  EMOJI_REMOTE_SRC,
-  GROUP_NAMES,
-  EMOJI_RESULT_KEY,
-  EMOJI_NAME_KEY,
-} from '../constant'
+import { GROUP_NAMES, EMOJI_RESULT_KEY, EMOJI_NAME_KEY } from '../constant'
 import {
   filterEmojis,
   unicodeToEmoji,
@@ -88,6 +84,9 @@ export default defineComponent({
     const isSticky = computed(() => !state.options.disableStickyGroupNames)
     const groupNames = toRaw(state.options.groupNames)
     const orderedKeys = state.orderedGroupKeys
+
+    const emojiRemoteSrc = state.options.emojiRemoteSource
+    const lazyLoading = state.options.lazyLoading
 
     if (state.options.additionalGroups) {
       Object.keys(state.options.additionalGroups).map((k) => {
@@ -139,7 +138,8 @@ export default defineComponent({
     return {
       emojis,
       bodyInner,
-      EMOJI_REMOTE_SRC,
+      emojiRemoteSrc,
+      lazyLoading,
       GROUP_NAMES,
       handleClick,
       handleError,
