@@ -104,7 +104,7 @@ export default defineComponent({
       type: String as PropType<ColorTheme>,
       default: 'light',
     },
-    emojiRemoteSource: {
+    emojiRemoteSrc: {
       type: String,
       default: EMOJI_REMOTE_SRC,
     },
@@ -151,7 +151,7 @@ export default defineComponent({
       groupOrder: props.groupOrder,
       groupIcons: props.groupIcons,
       colorTheme: COLOR_THEMES.includes(props.theme) ? props.theme : 'light',
-      emojiRemoteSource: props.emojiRemoteSource,
+      emojiRemoteSrc: props.emojiRemoteSrc,
       lazyLoading: props.lazyLoading,
     })
 

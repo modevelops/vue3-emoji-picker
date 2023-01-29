@@ -85,7 +85,7 @@ export default defineComponent({
     const groupNames = toRaw(state.options.groupNames)
     const orderedKeys = state.orderedGroupKeys
 
-    const emojiRemoteSrc = state.options.emojiRemoteSource
+    const emojiRemoteSrc = state.options.emojiRemoteSrc
     const lazyLoading = state.options.lazyLoading
 
     if (state.options.additionalGroups) {
