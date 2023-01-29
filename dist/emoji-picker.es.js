@@ -1,3 +1,22 @@
+var __defProp = Object.defineProperty;
+var __defProps = Object.defineProperties;
+var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
+var __getOwnPropSymbols = Object.getOwnPropertySymbols;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __propIsEnum = Object.prototype.propertyIsEnumerable;
+var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
+var __spreadValues = (a, b) => {
+  for (var prop in b || (b = {}))
+    if (__hasOwnProp.call(b, prop))
+      __defNormalProp(a, prop, b[prop]);
+  if (__getOwnPropSymbols)
+    for (var prop of __getOwnPropSymbols(b)) {
+      if (__propIsEnum.call(b, prop))
+        __defNormalProp(a, prop, b[prop]);
+    }
+  return a;
+};
+var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
 import { reactive, readonly, toRaw, defineComponent, inject, ref, computed, getCurrentInstance, watch, openBlock, createElementBlock, createElementVNode, normalizeClass, Fragment, renderList, withDirectives, toDisplayString, vShow, createCommentVNode, vModelText, onMounted, onBeforeUnmount, resolveComponent, createVNode, provide, createBlock } from "vue";
 const EMOJI_REMOTE_SRC = "https://cdn.jsdelivr.net/npm/emoji-datasource-apple@6.0.1/img/apple/64";
 const GROUP_NAMES = {
@@ -12045,11 +12064,11 @@ function getCursorAdvanceMethods() {
     IDBCursor.prototype.continuePrimaryKey
   ]);
 }
-const cursorRequestMap = /* @__PURE__ */ new WeakMap();
-const transactionDoneMap = /* @__PURE__ */ new WeakMap();
-const transactionStoreNamesMap = /* @__PURE__ */ new WeakMap();
-const transformCache = /* @__PURE__ */ new WeakMap();
-const reverseTransformCache = /* @__PURE__ */ new WeakMap();
+const cursorRequestMap = new WeakMap();
+const transactionDoneMap = new WeakMap();
+const transactionStoreNamesMap = new WeakMap();
+const transformCache = new WeakMap();
+const reverseTransformCache = new WeakMap();
 function promisifyRequest(request) {
   const promise = new Promise((resolve, reject) => {
     const unlisten = () => {
@@ -12176,11 +12195,7 @@ function openDB(name, version, { blocked, upgrade, blocking, terminated } = {}) 
     });
   }
   if (blocked) {
-    request.addEventListener("blocked", (event) => blocked(
-      event.oldVersion,
-      event.newVersion,
-      event
-    ));
+    request.addEventListener("blocked", (event) => blocked(event.oldVersion, event.newVersion, event));
   }
   openPromise.then((db) => {
     if (terminated)
@@ -12194,7 +12209,7 @@ function openDB(name, version, { blocked, upgrade, blocking, terminated } = {}) 
 }
 const readMethods = ["get", "getKey", "getAll", "getAllKeys", "count"];
 const writeMethods = ["put", "add", "delete", "clear"];
-const cachedMethods = /* @__PURE__ */ new Map();
+const cachedMethods = new Map();
 function getMethod(target, prop) {
   if (!(target instanceof IDBDatabase && !(prop in target) && typeof prop === "string")) {
     return;
@@ -12220,8 +12235,7 @@ function getMethod(target, prop) {
   cachedMethods.set(prop, method);
   return method;
 }
-replaceTraps((oldTraps) => ({
-  ...oldTraps,
+replaceTraps((oldTraps) => __spreadProps(__spreadValues({}, oldTraps), {
   get: (target, prop, receiver) => getMethod(target, prop) || oldTraps.get(target, prop, receiver),
   has: (target, prop) => !!getMethod(target, prop) || oldTraps.has(target, prop)
 }));
@@ -12257,7 +12271,7 @@ const defaultOptions = {
   additionalGroups: {},
   groupOrder: [],
   groupIcons: {},
-  emojiRemoteSource: EMOJI_REMOTE_SRC,
+  emojiRemoteSrc: EMOJI_REMOTE_SRC,
   lazyLoading: false
 };
 async function getRecentEmojis() {
@@ -12275,11 +12289,9 @@ function Store() {
     additionalGroups: {},
     recent: [],
     get emojis() {
-      return {
-        recent: this.recent,
-        ...this.options.additionalGroups,
-        ...emojis
-      };
+      return __spreadValues(__spreadValues({
+        recent: this.recent
+      }, this.options.additionalGroups), emojis);
     },
     get disabled() {
       let disabled = Array.isArray(this.options.disabledGroups) ? this.options.disabledGroups : [];
@@ -12289,9 +12301,7 @@ function Store() {
       return disabled;
     },
     get groups() {
-      return _groups.filter(
-        (group) => !this.disabled.includes(group.key)
-      );
+      return _groups.filter((group) => !this.disabled.includes(group.key));
     },
     get orderedGroupKeys() {
       const keys = [
@@ -12500,47 +12510,32 @@ function getBasePlacement(placement) {
 var max = Math.max;
 var min = Math.min;
 var round = Math.round;
-function getUAString() {
-  var uaData = navigator.userAgentData;
-  if (uaData != null && uaData.brands) {
-    return uaData.brands.map(function(item) {
-      return item.brand + "/" + item.version;
-    }).join(" ");
-  }
-  return navigator.userAgent;
-}
-function isLayoutViewport() {
-  return !/^((?!chrome|android).)*safari/i.test(getUAString());
-}
-function getBoundingClientRect(element, includeScale, isFixedStrategy) {
+function getBoundingClientRect(element, includeScale) {
   if (includeScale === void 0) {
     includeScale = false;
   }
-  if (isFixedStrategy === void 0) {
-    isFixedStrategy = false;
-  }
-  var clientRect = element.getBoundingClientRect();
+  var rect = element.getBoundingClientRect();
   var scaleX = 1;
   var scaleY = 1;
-  if (includeScale && isHTMLElement(element)) {
-    scaleX = element.offsetWidth > 0 ? round(clientRect.width) / element.offsetWidth || 1 : 1;
-    scaleY = element.offsetHeight > 0 ? round(clientRect.height) / element.offsetHeight || 1 : 1;
+  if (isHTMLElement(element) && includeScale) {
+    var offsetHeight = element.offsetHeight;
+    var offsetWidth = element.offsetWidth;
+    if (offsetWidth > 0) {
+      scaleX = round(rect.width) / offsetWidth || 1;
+    }
+    if (offsetHeight > 0) {
+      scaleY = round(rect.height) / offsetHeight || 1;
+    }
   }
-  var _ref = isElement(element) ? getWindow(element) : window, visualViewport = _ref.visualViewport;
-  var addVisualOffsets = !isLayoutViewport() && isFixedStrategy;
-  var x = (clientRect.left + (addVisualOffsets && visualViewport ? visualViewport.offsetLeft : 0)) / scaleX;
-  var y = (clientRect.top + (addVisualOffsets && visualViewport ? visualViewport.offsetTop : 0)) / scaleY;
-  var width = clientRect.width / scaleX;
-  var height = clientRect.height / scaleY;
   return {
-    width,
-    height,
-    top: y,
-    right: x + width,
-    bottom: y + height,
-    left: x,
-    x,
-    y
+    width: rect.width / scaleX,
+    height: rect.height / scaleY,
+    top: rect.top / scaleY,
+    right: rect.right / scaleX,
+    bottom: rect.bottom / scaleY,
+    left: rect.left / scaleX,
+    x: rect.left / scaleX,
+    y: rect.top / scaleY
   };
 }
 function getLayoutRect(element) {
@@ -12597,8 +12592,8 @@ function getTrueOffsetParent(element) {
   return element.offsetParent;
 }
 function getContainingBlock(element) {
-  var isFirefox = /firefox/i.test(getUAString());
-  var isIE = /Trident/i.test(getUAString());
+  var isFirefox = navigator.userAgent.toLowerCase().indexOf("firefox") !== -1;
+  var isIE = navigator.userAgent.indexOf("Trident") !== -1;
   if (isIE && isHTMLElement(element)) {
     var elementCss = getComputedStyle(element);
     if (elementCss.position === "fixed") {
@@ -12606,9 +12601,6 @@ function getContainingBlock(element) {
     }
   }
   var currentNode = getParentNode(element);
-  if (isShadowRoot(currentNode)) {
-    currentNode = currentNode.host;
-  }
   while (isHTMLElement(currentNode) && ["html", "body"].indexOf(getNodeName(currentNode)) < 0) {
     var css = getComputedStyle(currentNode);
     if (css.transform !== "none" || css.perspective !== "none" || css.contain === "paint" || ["transform", "perspective"].indexOf(css.willChange) !== -1 || isFirefox && css.willChange === "filter" || isFirefox && css.filter && css.filter !== "none") {
@@ -12738,16 +12730,7 @@ function roundOffsetsByDPR(_ref) {
 function mapToStyles(_ref2) {
   var _Object$assign2;
   var popper2 = _ref2.popper, popperRect = _ref2.popperRect, placement = _ref2.placement, variation = _ref2.variation, offsets = _ref2.offsets, position = _ref2.position, gpuAcceleration = _ref2.gpuAcceleration, adaptive = _ref2.adaptive, roundOffsets = _ref2.roundOffsets, isFixed = _ref2.isFixed;
-  var _offsets$x = offsets.x, x = _offsets$x === void 0 ? 0 : _offsets$x, _offsets$y = offsets.y, y = _offsets$y === void 0 ? 0 : _offsets$y;
-  var _ref3 = typeof roundOffsets === "function" ? roundOffsets({
-    x,
-    y
-  }) : {
-    x,
-    y
-  };
-  x = _ref3.x;
-  y = _ref3.y;
+  var _ref3 = roundOffsets === true ? roundOffsetsByDPR(offsets) : typeof roundOffsets === "function" ? roundOffsets(offsets) : offsets, _ref3$x = _ref3.x, x = _ref3$x === void 0 ? 0 : _ref3$x, _ref3$y = _ref3.y, y = _ref3$y === void 0 ? 0 : _ref3$y;
   var hasX = offsets.hasOwnProperty("x");
   var hasY = offsets.hasOwnProperty("y");
   var sideX = left;
@@ -12767,13 +12750,13 @@ function mapToStyles(_ref2) {
     offsetParent = offsetParent;
     if (placement === top || (placement === left || placement === right) && variation === end) {
       sideY = bottom;
-      var offsetY = isFixed && offsetParent === win && win.visualViewport ? win.visualViewport.height : offsetParent[heightProp];
+      var offsetY = isFixed && win.visualViewport ? win.visualViewport.height : offsetParent[heightProp];
       y -= offsetY - popperRect.height;
       y *= gpuAcceleration ? 1 : -1;
     }
     if (placement === left || (placement === top || placement === bottom) && variation === end) {
       sideX = right;
-      var offsetX = isFixed && offsetParent === win && win.visualViewport ? win.visualViewport.width : offsetParent[widthProp];
+      var offsetX = isFixed && win.visualViewport ? win.visualViewport.width : offsetParent[widthProp];
       x -= offsetX - popperRect.width;
       x *= gpuAcceleration ? 1 : -1;
     }
@@ -12781,23 +12764,14 @@ function mapToStyles(_ref2) {
   var commonStyles = Object.assign({
     position
   }, adaptive && unsetSides);
-  var _ref4 = roundOffsets === true ? roundOffsetsByDPR({
-    x,
-    y
-  }) : {
-    x,
-    y
-  };
-  x = _ref4.x;
-  y = _ref4.y;
   if (gpuAcceleration) {
     var _Object$assign;
     return Object.assign({}, commonStyles, (_Object$assign = {}, _Object$assign[sideY] = hasY ? "0" : "", _Object$assign[sideX] = hasX ? "0" : "", _Object$assign.transform = (win.devicePixelRatio || 1) <= 1 ? "translate(" + x + "px, " + y + "px)" : "translate3d(" + x + "px, " + y + "px, 0)", _Object$assign));
   }
   return Object.assign({}, commonStyles, (_Object$assign2 = {}, _Object$assign2[sideY] = hasY ? y + "px" : "", _Object$assign2[sideX] = hasX ? x + "px" : "", _Object$assign2.transform = "", _Object$assign2));
 }
-function computeStyles(_ref5) {
-  var state = _ref5.state, options = _ref5.options;
+function computeStyles(_ref4) {
+  var state = _ref4.state, options = _ref4.options;
   var _options$gpuAccelerat = options.gpuAcceleration, gpuAcceleration = _options$gpuAccelerat === void 0 ? true : _options$gpuAccelerat, _options$adaptive = options.adaptive, adaptive = _options$adaptive === void 0 ? true : _options$adaptive, _options$roundOffsets = options.roundOffsets, roundOffsets = _options$roundOffsets === void 0 ? true : _options$roundOffsets;
   var commonStyles = {
     placement: getBasePlacement(state.placement),
@@ -12902,7 +12876,7 @@ function getWindowScroll(node) {
 function getWindowScrollBarX(element) {
   return getBoundingClientRect(getDocumentElement(element)).left + getWindowScroll(element).scrollLeft;
 }
-function getViewportRect(element, strategy) {
+function getViewportRect(element) {
   var win = getWindow(element);
   var html = getDocumentElement(element);
   var visualViewport = win.visualViewport;
@@ -12913,8 +12887,7 @@ function getViewportRect(element, strategy) {
   if (visualViewport) {
     width = visualViewport.width;
     height = visualViewport.height;
-    var layoutViewport = isLayoutViewport();
-    if (layoutViewport || !layoutViewport && strategy === "fixed") {
+    if (!/^((?!chrome|android).)*safari/i.test(navigator.userAgent)) {
       x = visualViewport.offsetLeft;
       y = visualViewport.offsetTop;
     }
@@ -12978,8 +12951,8 @@ function rectToClientRect(rect) {
     bottom: rect.y + rect.height
   });
 }
-function getInnerBoundingClientRect(element, strategy) {
-  var rect = getBoundingClientRect(element, false, strategy === "fixed");
+function getInnerBoundingClientRect(element) {
+  var rect = getBoundingClientRect(element);
   rect.top = rect.top + element.clientTop;
   rect.left = rect.left + element.clientLeft;
   rect.bottom = rect.top + element.clientHeight;
@@ -12990,8 +12963,8 @@ function getInnerBoundingClientRect(element, strategy) {
   rect.y = rect.top;
   return rect;
 }
-function getClientRectFromMixedType(element, clippingParent, strategy) {
-  return clippingParent === viewport ? rectToClientRect(getViewportRect(element, strategy)) : isElement(clippingParent) ? getInnerBoundingClientRect(clippingParent, strategy) : rectToClientRect(getDocumentRect(getDocumentElement(element)));
+function getClientRectFromMixedType(element, clippingParent) {
+  return clippingParent === viewport ? rectToClientRect(getViewportRect(element)) : isElement(clippingParent) ? getInnerBoundingClientRect(clippingParent) : rectToClientRect(getDocumentRect(getDocumentElement(element)));
 }
 function getClippingParents(element) {
   var clippingParents2 = listScrollParents(getParentNode(element));
@@ -13001,21 +12974,21 @@ function getClippingParents(element) {
     return [];
   }
   return clippingParents2.filter(function(clippingParent) {
-    return isElement(clippingParent) && contains(clippingParent, clipperElement) && getNodeName(clippingParent) !== "body";
+    return isElement(clippingParent) && contains(clippingParent, clipperElement) && getNodeName(clippingParent) !== "body" && (canEscapeClipping ? getComputedStyle(clippingParent).position !== "static" : true);
   });
 }
-function getClippingRect(element, boundary, rootBoundary, strategy) {
+function getClippingRect(element, boundary, rootBoundary) {
   var mainClippingParents = boundary === "clippingParents" ? getClippingParents(element) : [].concat(boundary);
   var clippingParents2 = [].concat(mainClippingParents, [rootBoundary]);
   var firstClippingParent = clippingParents2[0];
   var clippingRect = clippingParents2.reduce(function(accRect, clippingParent) {
-    var rect = getClientRectFromMixedType(element, clippingParent, strategy);
+    var rect = getClientRectFromMixedType(element, clippingParent);
     accRect.top = max(rect.top, accRect.top);
     accRect.right = min(rect.right, accRect.right);
     accRect.bottom = min(rect.bottom, accRect.bottom);
     accRect.left = max(rect.left, accRect.left);
     return accRect;
-  }, getClientRectFromMixedType(element, firstClippingParent, strategy));
+  }, getClientRectFromMixedType(element, firstClippingParent));
   clippingRect.width = clippingRect.right - clippingRect.left;
   clippingRect.height = clippingRect.bottom - clippingRect.top;
   clippingRect.x = clippingRect.left;
@@ -13078,12 +13051,12 @@ function detectOverflow(state, options) {
   if (options === void 0) {
     options = {};
   }
-  var _options = options, _options$placement = _options.placement, placement = _options$placement === void 0 ? state.placement : _options$placement, _options$strategy = _options.strategy, strategy = _options$strategy === void 0 ? state.strategy : _options$strategy, _options$boundary = _options.boundary, boundary = _options$boundary === void 0 ? clippingParents : _options$boundary, _options$rootBoundary = _options.rootBoundary, rootBoundary = _options$rootBoundary === void 0 ? viewport : _options$rootBoundary, _options$elementConte = _options.elementContext, elementContext = _options$elementConte === void 0 ? popper : _options$elementConte, _options$altBoundary = _options.altBoundary, altBoundary = _options$altBoundary === void 0 ? false : _options$altBoundary, _options$padding = _options.padding, padding = _options$padding === void 0 ? 0 : _options$padding;
+  var _options = options, _options$placement = _options.placement, placement = _options$placement === void 0 ? state.placement : _options$placement, _options$boundary = _options.boundary, boundary = _options$boundary === void 0 ? clippingParents : _options$boundary, _options$rootBoundary = _options.rootBoundary, rootBoundary = _options$rootBoundary === void 0 ? viewport : _options$rootBoundary, _options$elementConte = _options.elementContext, elementContext = _options$elementConte === void 0 ? popper : _options$elementConte, _options$altBoundary = _options.altBoundary, altBoundary = _options$altBoundary === void 0 ? false : _options$altBoundary, _options$padding = _options.padding, padding = _options$padding === void 0 ? 0 : _options$padding;
   var paddingObject = mergePaddingObject(typeof padding !== "number" ? padding : expandToHashMap(padding, basePlacements));
   var altContext = elementContext === popper ? reference : popper;
   var popperRect = state.rects.popper;
   var element = state.elements[altBoundary ? altContext : elementContext];
-  var clippingClientRect = getClippingRect(isElement(element) ? element : element.contextElement || getDocumentElement(state.elements.popper), boundary, rootBoundary, strategy);
+  var clippingClientRect = getClippingRect(isElement(element) ? element : element.contextElement || getDocumentElement(state.elements.popper), boundary, rootBoundary);
   var referenceClientRect = getBoundingClientRect(state.elements.reference);
   var popperOffsets2 = computeOffsets({
     reference: referenceClientRect,
@@ -13167,7 +13140,7 @@ function flip(_ref) {
   }, []);
   var referenceRect = state.rects.reference;
   var popperRect = state.rects.popper;
-  var checksMap = /* @__PURE__ */ new Map();
+  var checksMap = new Map();
   var makeFallbackChecks = true;
   var firstFittingPlacement = placements2[0];
   for (var i = 0; i < placements2.length; i++) {
@@ -13467,7 +13440,7 @@ function getCompositeRect(elementOrVirtualElement, offsetParent, isFixed) {
   var isOffsetParentAnElement = isHTMLElement(offsetParent);
   var offsetParentIsScaled = isHTMLElement(offsetParent) && isElementScaled(offsetParent);
   var documentElement = getDocumentElement(offsetParent);
-  var rect = getBoundingClientRect(elementOrVirtualElement, offsetParentIsScaled, isFixed);
+  var rect = getBoundingClientRect(elementOrVirtualElement, offsetParentIsScaled);
   var scroll = {
     scrollLeft: 0,
     scrollTop: 0
@@ -13496,8 +13469,8 @@ function getCompositeRect(elementOrVirtualElement, offsetParent, isFixed) {
   };
 }
 function order(modifiers) {
-  var map = /* @__PURE__ */ new Map();
-  var visited = /* @__PURE__ */ new Set();
+  var map = new Map();
+  var visited = new Set();
   var result = [];
   modifiers.forEach(function(modifier) {
     map.set(modifier.name, modifier);
@@ -13708,17 +13681,14 @@ function filterEmojis(emojis2, keyword, skinTone, disabledGroups = []) {
       if (emoji[EMOJI_NAME_KEY][0].includes(keyword.toLocaleLowerCase())) {
         let result = emoji[EMOJI_UNICODE_KEY];
         if (skinTone !== SKIN_TONE_NEUTRAL && Array.isArray(emoji[EMOJI_VARIATIONS_KEY])) {
-          const v_index = ((_a = emoji[EMOJI_VARIATIONS_KEY]) == null ? void 0 : _a.findIndex(
-            (v) => v.includes(skinTone)
-          )) || -1;
+          const v_index = ((_a = emoji[EMOJI_VARIATIONS_KEY]) == null ? void 0 : _a.findIndex((v) => v.includes(skinTone))) || -1;
           if (v_index !== -1 && emoji[EMOJI_VARIATIONS_KEY]) {
             result = emoji[EMOJI_VARIATIONS_KEY][v_index];
           }
         }
-        return _emojis.push({
-          ...emoji,
+        return _emojis.push(__spreadProps(__spreadValues({}, emoji), {
           [EMOJI_RESULT_KEY]: result
-        });
+        }));
       }
     });
     if (_emojis.length) {
@@ -13733,17 +13703,13 @@ function isMac() {
   return platform.toUpperCase().indexOf("MAC") !== -1;
 }
 function snakeToCapitalizedCase(string) {
-  return string.replace(
-    /^_*(.)|_+(.)/g,
-    (s, c, d) => c ? c.toUpperCase() : " " + d.toUpperCase()
-  );
+  return string.replace(/^_*(.)|_+(.)/g, (s, c, d) => c ? c.toUpperCase() : " " + d.toUpperCase());
 }
 var _export_sfc = (sfc, props) => {
-  const target = sfc.__vccOpts || sfc;
   for (const [key, val] of props) {
-    target[key] = val;
+    sfc[key] = val;
   }
-  return target;
+  return sfc;
 };
 const _sfc_main$4 = defineComponent({
   name: "Body",
@@ -13751,19 +13717,14 @@ const _sfc_main$4 = defineComponent({
     const { state, updateEmoji, updateSelect } = inject("store");
     const bodyInner = ref(null);
     const emojis2 = computed(() => {
-      return filterEmojis(
-        state.emojis,
-        state.search,
-        state.skinTone,
-        state.options.disabledGroups
-      );
+      return filterEmojis(state.emojis, state.search, state.skinTone, state.options.disabledGroups);
     });
     const _this = getCurrentInstance();
     const hasGroupNames = computed(() => !state.options.hideGroupNames);
     const isSticky = computed(() => !state.options.disableStickyGroupNames);
     const groupNames = toRaw(state.options.groupNames);
     const orderedKeys = state.orderedGroupKeys;
-    const emojiRemoteSrc = state.options.emojiRemoteSource;
+    const emojiRemoteSrc = state.options.emojiRemoteSrc;
     const lazyLoading = state.options.lazyLoading;
     if (state.options.additionalGroups) {
       Object.keys(state.options.additionalGroups).map((k) => {
@@ -13780,11 +13741,10 @@ const _sfc_main$4 = defineComponent({
     }
     function handleClick(emoji) {
       updateSelect(emoji);
-      _this == null ? void 0 : _this.emit("select", {
-        ...emoji,
+      _this == null ? void 0 : _this.emit("select", __spreadProps(__spreadValues({}, emoji), {
         t: state.skinTone,
         i: unicodeToEmoji(emoji.r)
-      });
+      }));
     }
     function handleError(event, unicode) {
       var _a;
@@ -13793,16 +13753,13 @@ const _sfc_main$4 = defineComponent({
         button.innerHTML = `<span>${unicodeToEmoji(unicode)}</span>`;
       }
     }
-    watch(
-      () => state.activeGroup,
-      () => {
-        var _a;
-        const target = (_a = bodyInner.value) == null ? void 0 : _a.querySelector("#" + state.activeGroup);
-        if (target) {
-          target.parentNode.scrollTop = target.offsetTop - target.parentNode.offsetTop;
-        }
+    watch(() => state.activeGroup, () => {
+      var _a;
+      const target = (_a = bodyInner.value) == null ? void 0 : _a.querySelector("#" + state.activeGroup);
+      if (target) {
+        target.parentNode.scrollTop = target.offsetTop - target.parentNode.offsetTop;
       }
-    );
+    });
     return {
       emojis: emojis2,
       bodyInner,
@@ -13893,9 +13850,7 @@ const _sfc_main$3 = defineComponent({
     const hasSearch = computed(() => !state.options.hideSearch);
     const hasGroupIcons = computed(() => !state.options.hideGroupIcons);
     const orderedKeys = JSON.parse(JSON.stringify(state.orderedGroupKeys));
-    const placeholder = computed(
-      () => state.options.staticTexts.placeholder || ""
-    );
+    const placeholder = computed(() => state.options.staticTexts.placeholder || "");
     const searchValue = computed({
       get: () => state.search,
       set: (value) => updateSearch(value)
@@ -13923,7 +13878,7 @@ const _sfc_main$3 = defineComponent({
       hasSearch,
       hasGroupIcons,
       placeholder,
-      icons: {
+      icons: __spreadProps(__spreadValues({
         smileys_people,
         animals_nature,
         food_drink,
@@ -13931,10 +13886,10 @@ const _sfc_main$3 = defineComponent({
         travel_places,
         objects,
         symbols,
-        flags,
-        ...state.options.groupIcons,
+        flags
+      }, state.options.groupIcons), {
         recent
-      }
+      })
     };
   }
 });
@@ -14002,16 +13957,13 @@ const _sfc_main$2 = defineComponent({
     const skinTone = ref(false);
     const hasError = ref(false);
     const stateSkinTone = computed(() => state.skinTone);
-    const skinToneText = computed(
-      () => state.options.staticTexts.skinTone || "Skin tone"
-    );
+    const skinToneText = computed(() => state.options.staticTexts.skinTone || "Skin tone");
     const hasSkinTones = computed(() => !state.options.disableSkinTones);
     const platform = isMac() ? "is-mac" : "";
     const emoji = computed(() => {
-      return {
-        ...state.emoji,
+      return __spreadProps(__spreadValues({}, state.emoji), {
         src: state.options.emojiRemoteSrc + "/" + state.emoji[EMOJI_RESULT_KEY] + ".png"
-      };
+      });
     });
     function updateSkinToneState(open = true) {
       skinTone.value = open;
@@ -14023,12 +13975,9 @@ const _sfc_main$2 = defineComponent({
       updateSkinTone(tone);
       updateSkinToneState(false);
     }
-    watch(
-      () => state.emoji,
-      () => {
-        hasError.value = false;
-      }
-    );
+    watch(() => state.emoji, () => {
+      hasError.value = false;
+    });
     return {
       emoji,
       SKIN_TONES,
@@ -14166,9 +14115,7 @@ const _sfc_main$1 = defineComponent({
     }
     function clickListener(event) {
       var _a;
-      const isOutside = !((_a = event.target) == null ? void 0 : _a.closest(
-        ".v3-input-picker-wrap"
-      ));
+      const isOutside = !((_a = event.target) == null ? void 0 : _a.closest(".v3-input-picker-wrap"));
       if (isOutside && open.value) {
         open.value = false;
       }
@@ -14360,7 +14307,7 @@ const _sfc_main = defineComponent({
       type: String,
       default: "light"
     },
-    emojiRemoteSource: {
+    emojiRemoteSrc: {
       type: String,
       default: EMOJI_REMOTE_SRC
     },
@@ -14382,10 +14329,10 @@ const _sfc_main = defineComponent({
       hideSearch: props.hideSearch,
       hideGroupIcons: props.hideGroupIcons,
       hideGroupNames: props.hideGroupNames,
-      staticTexts: { ...STATIC_TEXTS, ...props.staticTexts },
+      staticTexts: __spreadValues(__spreadValues({}, STATIC_TEXTS), props.staticTexts),
       disableStickyGroupNames: props.disableStickyGroupNames,
       disabledGroups: props.disabledGroups,
-      groupNames: { ...GROUP_NAMES, ...props.groupNames },
+      groupNames: __spreadValues(__spreadValues({}, GROUP_NAMES), props.groupNames),
       disableSkinTones: props.disableSkinTones,
       displayRecent: props.displayRecent,
       additionalGroups: props.additionalGroups,
@@ -14394,7 +14341,7 @@ const _sfc_main = defineComponent({
       groupOrder: props.groupOrder,
       groupIcons: props.groupIcons,
       colorTheme: COLOR_THEMES.includes(props.theme) ? props.theme : "light",
-      emojiRemoteSource: props.emojiRemoteSource,
+      emojiRemoteSrc: props.emojiRemoteSrc,
       lazyLoading: props.lazyLoading
     });
     provide("store", store);
