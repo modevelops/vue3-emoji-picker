@@ -21,7 +21,7 @@ const defaultOptions: Record<string, any> = {
   additionalGroups: {},
   groupOrder: [],
   groupIcons: {},
-  emojiRemoteSource: EMOJI_REMOTE_SRC,
+  emojiRemoteSrc: EMOJI_REMOTE_SRC,
   lazyLoading: false,
 }
 
