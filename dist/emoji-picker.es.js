@@ -62,99 +62,152 @@ const smileys_people$1 = [
   {
     n: [
       "grinning face",
-      "grinning"
+      "grinning",
+      "smile",
+      "happy"
     ],
     u: "1f600"
   },
   {
     n: [
+      "grinning face with big eyes",
+      "smiley",
+      "happy",
+      "joy",
+      "haha"
+    ],
+    u: "1f603"
+  },
+  {
+    n: [
       "grinning face with smiling eyes",
+      "smile",
+      "happy",
+      "joy",
+      "laugh",
+      "pleased"
+    ],
+    u: "1f604"
+  },
+  {
+    n: [
+      "beaming face with smiling eyes",
       "grin"
     ],
     u: "1f601"
   },
   {
     n: [
-      "face with tears of joy",
-      "joy"
-    ],
-    u: "1f602"
-  },
-  {
-    n: [
-      "rolling on the floor laughing",
-      "rolling_on_the_floor_laughing"
-    ],
-    u: "1f923"
-  },
-  {
-    n: [
-      "smiling face with open mouth",
-      "smiley"
-    ],
-    u: "1f603"
-  },
-  {
-    n: [
-      "smiling face with open mouth and smiling eyes",
-      "smile"
-    ],
-    u: "1f604"
-  },
-  {
-    n: [
-      "smiling face with open mouth and cold sweat",
-      "sweat_smile"
-    ],
-    u: "1f605"
-  },
-  {
-    n: [
-      "smiling face with open mouth and tightly-closed eyes",
+      "grinning squinting face",
       "laughing",
-      "satisfied"
+      "satisfied",
+      "happy",
+      "haha"
     ],
     u: "1f606"
   },
   {
     n: [
+      "grinning face with sweat",
+      "sweat_smile",
+      "hot"
+    ],
+    u: "1f605"
+  },
+  {
+    n: [
+      "rolling on the floor laughing",
+      "rofl",
+      "lol",
+      "laughing"
+    ],
+    u: "1f923"
+  },
+  {
+    n: [
+      "face with tears of joy",
+      "joy",
+      "tears"
+    ],
+    u: "1f602"
+  },
+  {
+    n: [
+      "slightly smiling face",
+      "slightly_smiling_face"
+    ],
+    u: "1f642"
+  },
+  {
+    n: [
+      "upside-down face",
+      "upside_down_face"
+    ],
+    u: "1f643"
+  },
+  {
+    n: [
+      "melting face",
+      "melting_face",
+      "sarcasm",
+      "dread"
+    ],
+    u: "1fae0"
+  },
+  {
+    n: [
       "winking face",
-      "wink"
+      "wink",
+      "flirt"
     ],
     u: "1f609"
   },
   {
     n: [
       "smiling face with smiling eyes",
-      "blush"
+      "blush",
+      "proud"
     ],
     u: "1f60a"
   },
   {
     n: [
-      "face savouring delicious food",
-      "yum"
+      "smiling face with halo",
+      "innocent",
+      "angel"
     ],
-    u: "1f60b"
+    u: "1f607"
   },
   {
     n: [
-      "smiling face with sunglasses",
-      "sunglasses"
+      "smiling face with hearts",
+      "smiling_face_with_three_hearts",
+      "love"
     ],
-    u: "1f60e"
+    u: "1f970"
   },
   {
     n: [
-      "smiling face with heart-shaped eyes",
-      "heart_eyes"
+      "smiling face with heart-eyes",
+      "heart_eyes",
+      "love",
+      "crush"
     ],
     u: "1f60d"
   },
   {
     n: [
-      "face throwing a kiss",
-      "kissing_heart"
+      "star-struck",
+      "star_struck",
+      "eyes"
+    ],
+    u: "1f929"
+  },
+  {
+    n: [
+      "face blowing a kiss",
+      "kissing_heart",
+      "flirt"
     ],
     u: "1f618"
   },
@@ -167,10 +220,12 @@ const smileys_people$1 = [
   },
   {
     n: [
-      "kissing face with smiling eyes",
-      "kissing_smiling_eyes"
+      "smiling face",
+      "relaxed",
+      "blush",
+      "pleased"
     ],
-    u: "1f619"
+    u: "263a-fe0f"
   },
   {
     n: [
@@ -181,52 +236,146 @@ const smileys_people$1 = [
   },
   {
     n: [
-      "white smiling face",
-      "relaxed"
+      "kissing face with smiling eyes",
+      "kissing_smiling_eyes"
     ],
-    u: "263a-fe0f"
+    u: "1f619"
   },
   {
     n: [
-      "slightly smiling face",
-      "slightly_smiling_face"
+      "smiling face with tear",
+      "smiling_face_with_tear"
     ],
-    u: "1f642"
+    u: "1f972"
   },
   {
     n: [
-      "hugging face",
-      "hugging_face"
+      "face savoring food",
+      "yum",
+      "tongue",
+      "lick"
+    ],
+    u: "1f60b"
+  },
+  {
+    n: [
+      "face with tongue",
+      "stuck_out_tongue"
+    ],
+    u: "1f61b"
+  },
+  {
+    n: [
+      "winking face with tongue",
+      "stuck_out_tongue_winking_eye",
+      "prank",
+      "silly"
+    ],
+    u: "1f61c"
+  },
+  {
+    n: [
+      "zany face",
+      "zany_face",
+      "goofy",
+      "wacky"
+    ],
+    u: "1f92a"
+  },
+  {
+    n: [
+      "squinting face with tongue",
+      "stuck_out_tongue_closed_eyes",
+      "prank"
+    ],
+    u: "1f61d"
+  },
+  {
+    n: [
+      "money-mouth face",
+      "money_mouth_face",
+      "rich"
+    ],
+    u: "1f911"
+  },
+  {
+    n: [
+      "smiling face with open hands",
+      "hugs"
     ],
     u: "1f917"
   },
   {
     n: [
-      "grinning face with star eyes",
-      "star-struck",
-      "grinning_face_with_star_eyes"
+      "face with hand over mouth",
+      "hand_over_mouth",
+      "quiet",
+      "whoops"
     ],
-    u: "1f929"
+    u: "1f92d"
+  },
+  {
+    n: [
+      "face with open eyes and hand over mouth",
+      "face_with_open_eyes_and_hand_over_mouth",
+      "gasp",
+      "shock"
+    ],
+    u: "1fae2"
+  },
+  {
+    n: [
+      "face with peeking eye",
+      "face_with_peeking_eye"
+    ],
+    u: "1fae3"
+  },
+  {
+    n: [
+      "shushing face",
+      "shushing_face",
+      "silence",
+      "quiet"
+    ],
+    u: "1f92b"
   },
   {
     n: [
       "thinking face",
-      "thinking_face"
+      "thinking"
     ],
     u: "1f914"
   },
   {
     n: [
-      "face with one eyebrow raised",
-      "face_with_raised_eyebrow",
-      "face_with_one_eyebrow_raised"
+      "saluting face",
+      "saluting_face",
+      "respect"
+    ],
+    u: "1fae1"
+  },
+  {
+    n: [
+      "zipper-mouth face",
+      "zipper_mouth_face",
+      "silence",
+      "hush"
+    ],
+    u: "1f910"
+  },
+  {
+    n: [
+      "face with raised eyebrow",
+      "raised_eyebrow",
+      "suspicious"
     ],
     u: "1f928"
   },
   {
     n: [
       "neutral face",
-      "neutral_face"
+      "neutral_face",
+      "meh"
     ],
     u: "1f610"
   },
@@ -240,128 +389,79 @@ const smileys_people$1 = [
   {
     n: [
       "face without mouth",
-      "no_mouth"
+      "no_mouth",
+      "mute",
+      "silence"
     ],
     u: "1f636"
   },
   {
     n: [
-      "face with rolling eyes",
-      "face_with_rolling_eyes"
+      "dotted line face",
+      "dotted_line_face",
+      "invisible"
     ],
-    u: "1f644"
+    u: "1fae5"
+  },
+  {
+    n: [
+      "face in clouds",
+      "face_in_clouds"
+    ],
+    u: "1f636-200d-1f32b-fe0f"
   },
   {
     n: [
       "smirking face",
-      "smirk"
+      "smirk",
+      "smug"
     ],
     u: "1f60f"
   },
   {
     n: [
-      "persevering face",
-      "persevere"
-    ],
-    u: "1f623"
-  },
-  {
-    n: [
-      "disappointed but relieved face",
-      "disappointed_relieved"
-    ],
-    u: "1f625"
-  },
-  {
-    n: [
-      "face with open mouth",
-      "open_mouth"
-    ],
-    u: "1f62e"
-  },
-  {
-    n: [
-      "zipper-mouth face",
-      "zipper_mouth_face"
-    ],
-    u: "1f910"
-  },
-  {
-    n: [
-      "hushed face",
-      "hushed"
-    ],
-    u: "1f62f"
-  },
-  {
-    n: [
-      "sleepy face",
-      "sleepy"
-    ],
-    u: "1f62a"
-  },
-  {
-    n: [
-      "tired face",
-      "tired_face"
-    ],
-    u: "1f62b"
-  },
-  {
-    n: [
-      "sleeping face",
-      "sleeping"
-    ],
-    u: "1f634"
-  },
-  {
-    n: [
-      "relieved face",
-      "relieved"
-    ],
-    u: "1f60c"
-  },
-  {
-    n: [
-      "face with stuck-out tongue",
-      "stuck_out_tongue"
-    ],
-    u: "1f61b"
-  },
-  {
-    n: [
-      "face with stuck-out tongue and winking eye",
-      "stuck_out_tongue_winking_eye"
-    ],
-    u: "1f61c"
-  },
-  {
-    n: [
-      "face with stuck-out tongue and tightly-closed eyes",
-      "stuck_out_tongue_closed_eyes"
-    ],
-    u: "1f61d"
-  },
-  {
-    n: [
-      "drooling face",
-      "drooling_face"
-    ],
-    u: "1f924"
-  },
-  {
-    n: [
       "unamused face",
-      "unamused"
+      "unamused",
+      "meh"
     ],
     u: "1f612"
   },
   {
     n: [
-      "face with cold sweat",
-      "sweat"
+      "face with rolling eyes",
+      "roll_eyes"
     ],
-    u: "1f613"
+    u: "1f644"
+  },
+  {
+    n: [
+      "grimacing face",
+      "grimacing"
+    ],
+    u: "1f62c"
+  },
+  {
+    n: [
+      "face exhaling",
+      "face_exhaling"
+    ],
+    u: "1f62e-200d-1f4a8"
+  },
+  {
+    n: [
+      "lying face",
+      "lying_face",
+      "liar"
+    ],
+    u: "1f925"
+  },
+  {
+    n: [
+      "relieved face",
+      "relieved",
+      "whew"
+    ],
+    u: "1f60c"
   },
   {
     n: [
@@ -372,6 +472,178 @@ const smileys_people$1 = [
   },
   {
     n: [
+      "sleepy face",
+      "sleepy",
+      "tired"
+    ],
+    u: "1f62a"
+  },
+  {
+    n: [
+      "drooling face",
+      "drooling_face"
+    ],
+    u: "1f924"
+  },
+  {
+    n: [
+      "sleeping face",
+      "sleeping",
+      "zzz"
+    ],
+    u: "1f634"
+  },
+  {
+    n: [
+      "face with medical mask",
+      "mask",
+      "sick",
+      "ill"
+    ],
+    u: "1f637"
+  },
+  {
+    n: [
+      "face with thermometer",
+      "face_with_thermometer",
+      "sick"
+    ],
+    u: "1f912"
+  },
+  {
+    n: [
+      "face with head-bandage",
+      "face_with_head_bandage",
+      "hurt"
+    ],
+    u: "1f915"
+  },
+  {
+    n: [
+      "nauseated face",
+      "nauseated_face",
+      "sick",
+      "barf",
+      "disgusted"
+    ],
+    u: "1f922"
+  },
+  {
+    n: [
+      "face vomiting",
+      "vomiting_face",
+      "barf",
+      "sick"
+    ],
+    u: "1f92e"
+  },
+  {
+    n: [
+      "sneezing face",
+      "sneezing_face",
+      "achoo",
+      "sick"
+    ],
+    u: "1f927"
+  },
+  {
+    n: [
+      "hot face",
+      "hot_face",
+      "heat",
+      "sweating"
+    ],
+    u: "1f975"
+  },
+  {
+    n: [
+      "cold face",
+      "cold_face",
+      "freezing",
+      "ice"
+    ],
+    u: "1f976"
+  },
+  {
+    n: [
+      "woozy face",
+      "woozy_face",
+      "groggy"
+    ],
+    u: "1f974"
+  },
+  {
+    n: [
+      "face with crossed-out eyes",
+      "dizzy_face"
+    ],
+    u: "1f635"
+  },
+  {
+    n: [
+      "face with spiral eyes",
+      "face_with_spiral_eyes"
+    ],
+    u: "1f635-200d-1f4ab"
+  },
+  {
+    n: [
+      "exploding head",
+      "exploding_head",
+      "mind",
+      "blown"
+    ],
+    u: "1f92f"
+  },
+  {
+    n: [
+      "cowboy hat face",
+      "cowboy_hat_face"
+    ],
+    u: "1f920"
+  },
+  {
+    n: [
+      "partying face",
+      "partying_face",
+      "celebration",
+      "birthday"
+    ],
+    u: "1f973"
+  },
+  {
+    n: [
+      "disguised face",
+      "disguised_face"
+    ],
+    u: "1f978"
+  },
+  {
+    n: [
+      "smiling face with sunglasses",
+      "sunglasses",
+      "cool"
+    ],
+    u: "1f60e"
+  },
+  {
+    n: [
+      "nerd face",
+      "nerd_face",
+      "geek",
+      "glasses"
+    ],
+    u: "1f913"
+  },
+  {
+    n: [
+      "face with monocle",
+      "monocle_face"
+    ],
+    u: "1f9d0"
+  },
+  {
+    n: [
       "confused face",
       "confused"
     ],
@@ -379,30 +651,19 @@ const smileys_people$1 = [
   },
   {
     n: [
-      "upside-down face",
-      "upside_down_face"
+      "face with diagonal mouth",
+      "face_with_diagonal_mouth",
+      "confused"
     ],
-    u: "1f643"
+    u: "1fae4"
   },
   {
     n: [
-      "money-mouth face",
-      "money_mouth_face"
+      "worried face",
+      "worried",
+      "nervous"
     ],
-    u: "1f911"
-  },
-  {
-    n: [
-      "astonished face",
-      "astonished"
-    ],
-    u: "1f632"
-  },
-  {
-    n: [
-      "white_frowning_face"
-    ],
-    u: "2639-fe0f"
+    u: "1f61f"
   },
   {
     n: [
@@ -413,45 +674,63 @@ const smileys_people$1 = [
   },
   {
     n: [
-      "confounded face",
-      "confounded"
+      "frowning face",
+      "frowning_face"
     ],
-    u: "1f616"
+    u: "2639-fe0f"
   },
   {
     n: [
-      "disappointed face",
-      "disappointed"
+      "face with open mouth",
+      "open_mouth",
+      "surprise",
+      "impressed",
+      "wow"
     ],
-    u: "1f61e"
+    u: "1f62e"
   },
   {
     n: [
-      "worried face",
-      "worried"
+      "hushed face",
+      "hushed",
+      "silence",
+      "speechless"
     ],
-    u: "1f61f"
+    u: "1f62f"
   },
   {
     n: [
-      "face with look of triumph",
-      "triumph"
+      "astonished face",
+      "astonished",
+      "amazed",
+      "gasp"
     ],
-    u: "1f624"
+    u: "1f632"
   },
   {
     n: [
-      "crying face",
-      "cry"
+      "flushed face",
+      "flushed"
     ],
-    u: "1f622"
+    u: "1f633"
   },
   {
     n: [
-      "loudly crying face",
-      "sob"
+      "pleading face",
+      "pleading_face",
+      "puppy",
+      "eyes"
     ],
-    u: "1f62d"
+    u: "1f97a"
+  },
+  {
+    n: [
+      "face holding back tears",
+      "face_holding_back_tears",
+      "tears",
+      "gratitude"
+    ],
+    u: "1f979"
   },
   {
     n: [
@@ -463,153 +742,204 @@ const smileys_people$1 = [
   {
     n: [
       "anguished face",
-      "anguished"
+      "anguished",
+      "stunned"
     ],
     u: "1f627"
   },
   {
     n: [
       "fearful face",
-      "fearful"
+      "fearful",
+      "scared",
+      "shocked",
+      "oops"
     ],
     u: "1f628"
   },
   {
     n: [
-      "weary face",
-      "weary"
-    ],
-    u: "1f629"
-  },
-  {
-    n: [
-      "shocked face with exploding head",
-      "exploding_head",
-      "shocked_face_with_exploding_head"
-    ],
-    u: "1f92f"
-  },
-  {
-    n: [
-      "grimacing face",
-      "grimacing"
-    ],
-    u: "1f62c"
-  },
-  {
-    n: [
-      "face with open mouth and cold sweat",
-      "cold_sweat"
+      "anxious face with sweat",
+      "cold_sweat",
+      "nervous"
     ],
     u: "1f630"
   },
   {
     n: [
+      "sad but relieved face",
+      "disappointed_relieved",
+      "phew",
+      "sweat",
+      "nervous"
+    ],
+    u: "1f625"
+  },
+  {
+    n: [
+      "crying face",
+      "cry",
+      "sad",
+      "tear"
+    ],
+    u: "1f622"
+  },
+  {
+    n: [
+      "loudly crying face",
+      "sob",
+      "sad",
+      "cry",
+      "bawling"
+    ],
+    u: "1f62d"
+  },
+  {
+    n: [
       "face screaming in fear",
-      "scream"
+      "scream",
+      "horror",
+      "shocked"
     ],
     u: "1f631"
   },
   {
     n: [
-      "flushed face",
-      "flushed"
+      "confounded face",
+      "confounded"
     ],
-    u: "1f633"
+    u: "1f616"
   },
   {
     n: [
-      "grinning face with one large and one small eye",
-      "zany_face",
-      "grinning_face_with_one_large_and_one_small_eye"
+      "persevering face",
+      "persevere",
+      "struggling"
     ],
-    u: "1f92a"
+    u: "1f623"
   },
   {
     n: [
-      "dizzy face",
-      "dizzy_face"
+      "disappointed face",
+      "disappointed",
+      "sad"
     ],
-    u: "1f635"
+    u: "1f61e"
+  },
+  {
+    n: [
+      "downcast face with sweat",
+      "sweat"
+    ],
+    u: "1f613"
+  },
+  {
+    n: [
+      "weary face",
+      "weary",
+      "tired"
+    ],
+    u: "1f629"
+  },
+  {
+    n: [
+      "tired face",
+      "tired_face",
+      "upset",
+      "whine"
+    ],
+    u: "1f62b"
+  },
+  {
+    n: [
+      "yawning face",
+      "yawning_face"
+    ],
+    u: "1f971"
+  },
+  {
+    n: [
+      "face with steam from nose",
+      "triumph",
+      "smug"
+    ],
+    u: "1f624"
   },
   {
     n: [
       "pouting face",
-      "rage"
+      "rage",
+      "pout",
+      "angry"
     ],
     u: "1f621"
   },
   {
     n: [
       "angry face",
-      "angry"
+      "angry",
+      "mad",
+      "annoyed"
     ],
     u: "1f620"
   },
   {
     n: [
-      "serious face with symbols covering mouth",
-      "face_with_symbols_on_mouth",
-      "serious_face_with_symbols_covering_mouth"
+      "face with symbols on mouth",
+      "cursing_face",
+      "foul"
     ],
     u: "1f92c"
   },
   {
     n: [
-      "face with medical mask",
-      "mask"
+      "smiling face with horns",
+      "smiling_imp",
+      "devil",
+      "evil",
+      "horns"
     ],
-    u: "1f637"
+    u: "1f608"
   },
   {
     n: [
-      "face with thermometer",
-      "face_with_thermometer"
+      "angry face with horns",
+      "imp",
+      "angry",
+      "devil",
+      "evil",
+      "horns"
     ],
-    u: "1f912"
+    u: "1f47f"
   },
   {
     n: [
-      "face with head-bandage",
-      "face_with_head_bandage"
+      "skull",
+      "skull",
+      "dead",
+      "danger",
+      "poison"
     ],
-    u: "1f915"
+    u: "1f480"
   },
   {
     n: [
-      "nauseated face",
-      "nauseated_face"
+      "skull and crossbones",
+      "skull_and_crossbones",
+      "danger",
+      "pirate"
     ],
-    u: "1f922"
+    u: "2620-fe0f"
   },
   {
     n: [
-      "face with open mouth vomiting",
-      "face_vomiting",
-      "face_with_open_mouth_vomiting"
+      "pile of poo",
+      "hankey",
+      "poop",
+      "shit",
+      "crap"
     ],
-    u: "1f92e"
-  },
-  {
-    n: [
-      "sneezing face",
-      "sneezing_face"
-    ],
-    u: "1f927"
-  },
-  {
-    n: [
-      "smiling face with halo",
-      "innocent"
-    ],
-    u: "1f607"
-  },
-  {
-    n: [
-      "face with cowboy hat",
-      "face_with_cowboy_hat"
-    ],
-    u: "1f920"
+    u: "1f4a9"
   },
   {
     n: [
@@ -620,175 +950,113 @@ const smileys_people$1 = [
   },
   {
     n: [
-      "lying face",
-      "lying_face"
-    ],
-    u: "1f925"
-  },
-  {
-    n: [
-      "face with finger covering closed lips",
-      "shushing_face",
-      "face_with_finger_covering_closed_lips"
-    ],
-    u: "1f92b"
-  },
-  {
-    n: [
-      "smiling face with smiling eyes and hand covering mouth",
-      "face_with_hand_over_mouth",
-      "smiling_face_with_smiling_eyes_and_hand_covering_mouth"
-    ],
-    u: "1f92d"
-  },
-  {
-    n: [
-      "face with monocle",
-      "face_with_monocle"
-    ],
-    u: "1f9d0"
-  },
-  {
-    n: [
-      "nerd face",
-      "nerd_face"
-    ],
-    u: "1f913"
-  },
-  {
-    n: [
-      "smiling face with horns",
-      "smiling_imp"
-    ],
-    u: "1f608"
-  },
-  {
-    n: [
-      "imp"
-    ],
-    u: "1f47f"
-  },
-  {
-    n: [
-      "japanese ogre",
-      "japanese_ogre"
+      "ogre",
+      "japanese_ogre",
+      "monster"
     ],
     u: "1f479"
   },
   {
     n: [
-      "japanese goblin",
+      "goblin",
       "japanese_goblin"
     ],
     u: "1f47a"
   },
   {
     n: [
-      "skull"
-    ],
-    u: "1f480"
-  },
-  {
-    n: [
-      "skull_and_crossbones"
-    ],
-    u: "2620-fe0f"
-  },
-  {
-    n: [
-      "ghost"
+      "ghost",
+      "ghost",
+      "halloween"
     ],
     u: "1f47b"
   },
   {
     n: [
-      "extraterrestrial alien",
-      "alien"
+      "alien",
+      "alien",
+      "ufo"
     ],
     u: "1f47d"
   },
   {
     n: [
       "alien monster",
-      "space_invader"
+      "space_invader",
+      "game",
+      "retro"
     ],
     u: "1f47e"
   },
   {
     n: [
-      "robot face",
-      "robot_face"
+      "robot",
+      "robot"
     ],
     u: "1f916"
   },
   {
     n: [
-      "pile of poo",
-      "hankey",
-      "poop",
-      "shit"
-    ],
-    u: "1f4a9"
-  },
-  {
-    n: [
-      "smiling cat face with open mouth",
+      "grinning cat",
       "smiley_cat"
     ],
     u: "1f63a"
   },
   {
     n: [
-      "grinning cat face with smiling eyes",
+      "grinning cat with smiling eyes",
       "smile_cat"
     ],
     u: "1f638"
   },
   {
     n: [
-      "cat face with tears of joy",
+      "cat with tears of joy",
       "joy_cat"
     ],
     u: "1f639"
   },
   {
     n: [
-      "smiling cat face with heart-shaped eyes",
+      "smiling cat with heart-eyes",
       "heart_eyes_cat"
     ],
     u: "1f63b"
   },
   {
     n: [
-      "cat face with wry smile",
+      "cat with wry smile",
       "smirk_cat"
     ],
     u: "1f63c"
   },
   {
     n: [
-      "kissing cat face with closed eyes",
+      "kissing cat",
       "kissing_cat"
     ],
     u: "1f63d"
   },
   {
     n: [
-      "weary cat face",
-      "scream_cat"
+      "weary cat",
+      "scream_cat",
+      "horror"
     ],
     u: "1f640"
   },
   {
     n: [
-      "crying cat face",
-      "crying_cat_face"
+      "crying cat",
+      "crying_cat_face",
+      "sad",
+      "tear"
     ],
     u: "1f63f"
   },
   {
     n: [
-      "pouting cat face",
+      "pouting cat",
       "pouting_cat"
     ],
     u: "1f63e"
@@ -796,2867 +1064,379 @@ const smileys_people$1 = [
   {
     n: [
       "see-no-evil monkey",
-      "see_no_evil"
+      "see_no_evil",
+      "monkey",
+      "blind",
+      "ignore"
     ],
     u: "1f648"
   },
   {
     n: [
       "hear-no-evil monkey",
-      "hear_no_evil"
+      "hear_no_evil",
+      "monkey",
+      "deaf"
     ],
     u: "1f649"
   },
   {
     n: [
       "speak-no-evil monkey",
-      "speak_no_evil"
+      "speak_no_evil",
+      "monkey",
+      "mute",
+      "hush"
     ],
     u: "1f64a"
   },
   {
     n: [
-      "baby"
-    ],
-    u: "1f476",
-    v: [
-      "1f476-1f3fb",
-      "1f476-1f3fc",
-      "1f476-1f3fd",
-      "1f476-1f3fe",
-      "1f476-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "child"
-    ],
-    u: "1f9d2",
-    v: [
-      "1f9d2-1f3fb",
-      "1f9d2-1f3fc",
-      "1f9d2-1f3fd",
-      "1f9d2-1f3fe",
-      "1f9d2-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "boy"
-    ],
-    u: "1f466",
-    v: [
-      "1f466-1f3fb",
-      "1f466-1f3fc",
-      "1f466-1f3fd",
-      "1f466-1f3fe",
-      "1f466-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "girl"
-    ],
-    u: "1f467",
-    v: [
-      "1f467-1f3fb",
-      "1f467-1f3fc",
-      "1f467-1f3fd",
-      "1f467-1f3fe",
-      "1f467-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "adult"
-    ],
-    u: "1f9d1",
-    v: [
-      "1f9d1-1f3fb",
-      "1f9d1-1f3fc",
-      "1f9d1-1f3fd",
-      "1f9d1-1f3fe",
-      "1f9d1-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man"
-    ],
-    u: "1f468",
-    v: [
-      "1f468-1f3fb",
-      "1f468-1f3fc",
-      "1f468-1f3fd",
-      "1f468-1f3fe",
-      "1f468-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "woman"
-    ],
-    u: "1f469",
-    v: [
-      "1f469-1f3fb",
-      "1f469-1f3fc",
-      "1f469-1f3fd",
-      "1f469-1f3fe",
-      "1f469-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "older adult",
-      "older_adult"
-    ],
-    u: "1f9d3",
-    v: [
-      "1f9d3-1f3fb",
-      "1f9d3-1f3fc",
-      "1f9d3-1f3fd",
-      "1f9d3-1f3fe",
-      "1f9d3-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "older man",
-      "older_man"
-    ],
-    u: "1f474",
-    v: [
-      "1f474-1f3fb",
-      "1f474-1f3fc",
-      "1f474-1f3fd",
-      "1f474-1f3fe",
-      "1f474-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "older woman",
-      "older_woman"
-    ],
-    u: "1f475",
-    v: [
-      "1f475-1f3fb",
-      "1f475-1f3fc",
-      "1f475-1f3fd",
-      "1f475-1f3fe",
-      "1f475-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "male-doctor"
-    ],
-    u: "1f468-200d-2695-fe0f",
-    v: [
-      "1f468-1f3fb-200d-2695-fe0f",
-      "1f468-1f3fc-200d-2695-fe0f",
-      "1f468-1f3fd-200d-2695-fe0f",
-      "1f468-1f3fe-200d-2695-fe0f",
-      "1f468-1f3ff-200d-2695-fe0f"
-    ]
-  },
-  {
-    n: [
-      "female-doctor"
-    ],
-    u: "1f469-200d-2695-fe0f",
-    v: [
-      "1f469-1f3fb-200d-2695-fe0f",
-      "1f469-1f3fc-200d-2695-fe0f",
-      "1f469-1f3fd-200d-2695-fe0f",
-      "1f469-1f3fe-200d-2695-fe0f",
-      "1f469-1f3ff-200d-2695-fe0f"
-    ]
-  },
-  {
-    n: [
-      "male-student"
-    ],
-    u: "1f468-200d-1f393",
-    v: [
-      "1f468-1f3fb-200d-1f393",
-      "1f468-1f3fc-200d-1f393",
-      "1f468-1f3fd-200d-1f393",
-      "1f468-1f3fe-200d-1f393",
-      "1f468-1f3ff-200d-1f393"
-    ]
-  },
-  {
-    n: [
-      "female-student"
-    ],
-    u: "1f469-200d-1f393",
-    v: [
-      "1f469-1f3fb-200d-1f393",
-      "1f469-1f3fc-200d-1f393",
-      "1f469-1f3fd-200d-1f393",
-      "1f469-1f3fe-200d-1f393",
-      "1f469-1f3ff-200d-1f393"
-    ]
-  },
-  {
-    n: [
-      "male-teacher"
-    ],
-    u: "1f468-200d-1f3eb",
-    v: [
-      "1f468-1f3fb-200d-1f3eb",
-      "1f468-1f3fc-200d-1f3eb",
-      "1f468-1f3fd-200d-1f3eb",
-      "1f468-1f3fe-200d-1f3eb",
-      "1f468-1f3ff-200d-1f3eb"
-    ]
-  },
-  {
-    n: [
-      "female-teacher"
-    ],
-    u: "1f469-200d-1f3eb",
-    v: [
-      "1f469-1f3fb-200d-1f3eb",
-      "1f469-1f3fc-200d-1f3eb",
-      "1f469-1f3fd-200d-1f3eb",
-      "1f469-1f3fe-200d-1f3eb",
-      "1f469-1f3ff-200d-1f3eb"
-    ]
-  },
-  {
-    n: [
-      "male-judge"
-    ],
-    u: "1f468-200d-2696-fe0f",
-    v: [
-      "1f468-1f3fb-200d-2696-fe0f",
-      "1f468-1f3fc-200d-2696-fe0f",
-      "1f468-1f3fd-200d-2696-fe0f",
-      "1f468-1f3fe-200d-2696-fe0f",
-      "1f468-1f3ff-200d-2696-fe0f"
-    ]
-  },
-  {
-    n: [
-      "female-judge"
-    ],
-    u: "1f469-200d-2696-fe0f",
-    v: [
-      "1f469-1f3fb-200d-2696-fe0f",
-      "1f469-1f3fc-200d-2696-fe0f",
-      "1f469-1f3fd-200d-2696-fe0f",
-      "1f469-1f3fe-200d-2696-fe0f",
-      "1f469-1f3ff-200d-2696-fe0f"
-    ]
-  },
-  {
-    n: [
-      "male-farmer"
-    ],
-    u: "1f468-200d-1f33e",
-    v: [
-      "1f468-1f3fb-200d-1f33e",
-      "1f468-1f3fc-200d-1f33e",
-      "1f468-1f3fd-200d-1f33e",
-      "1f468-1f3fe-200d-1f33e",
-      "1f468-1f3ff-200d-1f33e"
-    ]
-  },
-  {
-    n: [
-      "female-farmer"
-    ],
-    u: "1f469-200d-1f33e",
-    v: [
-      "1f469-1f3fb-200d-1f33e",
-      "1f469-1f3fc-200d-1f33e",
-      "1f469-1f3fd-200d-1f33e",
-      "1f469-1f3fe-200d-1f33e",
-      "1f469-1f3ff-200d-1f33e"
-    ]
-  },
-  {
-    n: [
-      "male-cook"
-    ],
-    u: "1f468-200d-1f373",
-    v: [
-      "1f468-1f3fb-200d-1f373",
-      "1f468-1f3fc-200d-1f373",
-      "1f468-1f3fd-200d-1f373",
-      "1f468-1f3fe-200d-1f373",
-      "1f468-1f3ff-200d-1f373"
-    ]
-  },
-  {
-    n: [
-      "female-cook"
-    ],
-    u: "1f469-200d-1f373",
-    v: [
-      "1f469-1f3fb-200d-1f373",
-      "1f469-1f3fc-200d-1f373",
-      "1f469-1f3fd-200d-1f373",
-      "1f469-1f3fe-200d-1f373",
-      "1f469-1f3ff-200d-1f373"
-    ]
-  },
-  {
-    n: [
-      "male-mechanic"
-    ],
-    u: "1f468-200d-1f527",
-    v: [
-      "1f468-1f3fb-200d-1f527",
-      "1f468-1f3fc-200d-1f527",
-      "1f468-1f3fd-200d-1f527",
-      "1f468-1f3fe-200d-1f527",
-      "1f468-1f3ff-200d-1f527"
-    ]
-  },
-  {
-    n: [
-      "female-mechanic"
-    ],
-    u: "1f469-200d-1f527",
-    v: [
-      "1f469-1f3fb-200d-1f527",
-      "1f469-1f3fc-200d-1f527",
-      "1f469-1f3fd-200d-1f527",
-      "1f469-1f3fe-200d-1f527",
-      "1f469-1f3ff-200d-1f527"
-    ]
-  },
-  {
-    n: [
-      "male-factory-worker"
-    ],
-    u: "1f468-200d-1f3ed",
-    v: [
-      "1f468-1f3fb-200d-1f3ed",
-      "1f468-1f3fc-200d-1f3ed",
-      "1f468-1f3fd-200d-1f3ed",
-      "1f468-1f3fe-200d-1f3ed",
-      "1f468-1f3ff-200d-1f3ed"
-    ]
-  },
-  {
-    n: [
-      "female-factory-worker"
-    ],
-    u: "1f469-200d-1f3ed",
-    v: [
-      "1f469-1f3fb-200d-1f3ed",
-      "1f469-1f3fc-200d-1f3ed",
-      "1f469-1f3fd-200d-1f3ed",
-      "1f469-1f3fe-200d-1f3ed",
-      "1f469-1f3ff-200d-1f3ed"
-    ]
-  },
-  {
-    n: [
-      "male-office-worker"
-    ],
-    u: "1f468-200d-1f4bc",
-    v: [
-      "1f468-1f3fb-200d-1f4bc",
-      "1f468-1f3fc-200d-1f4bc",
-      "1f468-1f3fd-200d-1f4bc",
-      "1f468-1f3fe-200d-1f4bc",
-      "1f468-1f3ff-200d-1f4bc"
-    ]
-  },
-  {
-    n: [
-      "female-office-worker"
-    ],
-    u: "1f469-200d-1f4bc",
-    v: [
-      "1f469-1f3fb-200d-1f4bc",
-      "1f469-1f3fc-200d-1f4bc",
-      "1f469-1f3fd-200d-1f4bc",
-      "1f469-1f3fe-200d-1f4bc",
-      "1f469-1f3ff-200d-1f4bc"
-    ]
-  },
-  {
-    n: [
-      "male-scientist"
-    ],
-    u: "1f468-200d-1f52c",
-    v: [
-      "1f468-1f3fb-200d-1f52c",
-      "1f468-1f3fc-200d-1f52c",
-      "1f468-1f3fd-200d-1f52c",
-      "1f468-1f3fe-200d-1f52c",
-      "1f468-1f3ff-200d-1f52c"
-    ]
-  },
-  {
-    n: [
-      "female-scientist"
-    ],
-    u: "1f469-200d-1f52c",
-    v: [
-      "1f469-1f3fb-200d-1f52c",
-      "1f469-1f3fc-200d-1f52c",
-      "1f469-1f3fd-200d-1f52c",
-      "1f469-1f3fe-200d-1f52c",
-      "1f469-1f3ff-200d-1f52c"
-    ]
-  },
-  {
-    n: [
-      "male-technologist"
-    ],
-    u: "1f468-200d-1f4bb",
-    v: [
-      "1f468-1f3fb-200d-1f4bb",
-      "1f468-1f3fc-200d-1f4bb",
-      "1f468-1f3fd-200d-1f4bb",
-      "1f468-1f3fe-200d-1f4bb",
-      "1f468-1f3ff-200d-1f4bb"
-    ]
-  },
-  {
-    n: [
-      "female-technologist"
-    ],
-    u: "1f469-200d-1f4bb",
-    v: [
-      "1f469-1f3fb-200d-1f4bb",
-      "1f469-1f3fc-200d-1f4bb",
-      "1f469-1f3fd-200d-1f4bb",
-      "1f469-1f3fe-200d-1f4bb",
-      "1f469-1f3ff-200d-1f4bb"
-    ]
-  },
-  {
-    n: [
-      "male-singer"
-    ],
-    u: "1f468-200d-1f3a4",
-    v: [
-      "1f468-1f3fb-200d-1f3a4",
-      "1f468-1f3fc-200d-1f3a4",
-      "1f468-1f3fd-200d-1f3a4",
-      "1f468-1f3fe-200d-1f3a4",
-      "1f468-1f3ff-200d-1f3a4"
-    ]
-  },
-  {
-    n: [
-      "female-singer"
-    ],
-    u: "1f469-200d-1f3a4",
-    v: [
-      "1f469-1f3fb-200d-1f3a4",
-      "1f469-1f3fc-200d-1f3a4",
-      "1f469-1f3fd-200d-1f3a4",
-      "1f469-1f3fe-200d-1f3a4",
-      "1f469-1f3ff-200d-1f3a4"
-    ]
-  },
-  {
-    n: [
-      "male-artist"
-    ],
-    u: "1f468-200d-1f3a8",
-    v: [
-      "1f468-1f3fb-200d-1f3a8",
-      "1f468-1f3fc-200d-1f3a8",
-      "1f468-1f3fd-200d-1f3a8",
-      "1f468-1f3fe-200d-1f3a8",
-      "1f468-1f3ff-200d-1f3a8"
-    ]
-  },
-  {
-    n: [
-      "female-artist"
-    ],
-    u: "1f469-200d-1f3a8",
-    v: [
-      "1f469-1f3fb-200d-1f3a8",
-      "1f469-1f3fc-200d-1f3a8",
-      "1f469-1f3fd-200d-1f3a8",
-      "1f469-1f3fe-200d-1f3a8",
-      "1f469-1f3ff-200d-1f3a8"
-    ]
-  },
-  {
-    n: [
-      "male-pilot"
-    ],
-    u: "1f468-200d-2708-fe0f",
-    v: [
-      "1f468-1f3fb-200d-2708-fe0f",
-      "1f468-1f3fc-200d-2708-fe0f",
-      "1f468-1f3fd-200d-2708-fe0f",
-      "1f468-1f3fe-200d-2708-fe0f",
-      "1f468-1f3ff-200d-2708-fe0f"
-    ]
-  },
-  {
-    n: [
-      "female-pilot"
-    ],
-    u: "1f469-200d-2708-fe0f",
-    v: [
-      "1f469-1f3fb-200d-2708-fe0f",
-      "1f469-1f3fc-200d-2708-fe0f",
-      "1f469-1f3fd-200d-2708-fe0f",
-      "1f469-1f3fe-200d-2708-fe0f",
-      "1f469-1f3ff-200d-2708-fe0f"
-    ]
-  },
-  {
-    n: [
-      "male-astronaut"
-    ],
-    u: "1f468-200d-1f680",
-    v: [
-      "1f468-1f3fb-200d-1f680",
-      "1f468-1f3fc-200d-1f680",
-      "1f468-1f3fd-200d-1f680",
-      "1f468-1f3fe-200d-1f680",
-      "1f468-1f3ff-200d-1f680"
-    ]
-  },
-  {
-    n: [
-      "female-astronaut"
-    ],
-    u: "1f469-200d-1f680",
-    v: [
-      "1f469-1f3fb-200d-1f680",
-      "1f469-1f3fc-200d-1f680",
-      "1f469-1f3fd-200d-1f680",
-      "1f469-1f3fe-200d-1f680",
-      "1f469-1f3ff-200d-1f680"
-    ]
-  },
-  {
-    n: [
-      "male-firefighter"
-    ],
-    u: "1f468-200d-1f692",
-    v: [
-      "1f468-1f3fb-200d-1f692",
-      "1f468-1f3fc-200d-1f692",
-      "1f468-1f3fd-200d-1f692",
-      "1f468-1f3fe-200d-1f692",
-      "1f468-1f3ff-200d-1f692"
-    ]
-  },
-  {
-    n: [
-      "female-firefighter"
-    ],
-    u: "1f469-200d-1f692",
-    v: [
-      "1f469-1f3fb-200d-1f692",
-      "1f469-1f3fc-200d-1f692",
-      "1f469-1f3fd-200d-1f692",
-      "1f469-1f3fe-200d-1f692",
-      "1f469-1f3ff-200d-1f692"
-    ]
-  },
-  {
-    n: [
-      "police officer",
-      "cop"
-    ],
-    u: "1f46e",
-    v: [
-      "1f46e-1f3fb",
-      "1f46e-1f3fc",
-      "1f46e-1f3fd",
-      "1f46e-1f3fe",
-      "1f46e-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "male-police-officer"
-    ],
-    u: "1f46e-200d-2642-fe0f",
-    v: [
-      "1f46e-1f3fb-200d-2642-fe0f",
-      "1f46e-1f3fc-200d-2642-fe0f",
-      "1f46e-1f3fd-200d-2642-fe0f",
-      "1f46e-1f3fe-200d-2642-fe0f",
-      "1f46e-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "female-police-officer"
-    ],
-    u: "1f46e-200d-2640-fe0f",
-    v: [
-      "1f46e-1f3fb-200d-2640-fe0f",
-      "1f46e-1f3fc-200d-2640-fe0f",
-      "1f46e-1f3fd-200d-2640-fe0f",
-      "1f46e-1f3fe-200d-2640-fe0f",
-      "1f46e-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "sleuth_or_spy"
-    ],
-    u: "1f575-fe0f",
-    v: [
-      "1f575-1f3fb",
-      "1f575-1f3fc",
-      "1f575-1f3fd",
-      "1f575-1f3fe",
-      "1f575-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "male-detective"
-    ],
-    u: "1f575-fe0f-200d-2642-fe0f",
-    v: [
-      "1f575-1f3fb-200d-2642-fe0f",
-      "1f575-1f3fc-200d-2642-fe0f",
-      "1f575-1f3fd-200d-2642-fe0f",
-      "1f575-1f3fe-200d-2642-fe0f",
-      "1f575-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "female-detective"
-    ],
-    u: "1f575-fe0f-200d-2640-fe0f",
-    v: [
-      "1f575-1f3fb-200d-2640-fe0f",
-      "1f575-1f3fc-200d-2640-fe0f",
-      "1f575-1f3fd-200d-2640-fe0f",
-      "1f575-1f3fe-200d-2640-fe0f",
-      "1f575-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "guardsman"
-    ],
-    u: "1f482",
-    v: [
-      "1f482-1f3fb",
-      "1f482-1f3fc",
-      "1f482-1f3fd",
-      "1f482-1f3fe",
-      "1f482-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "male-guard"
-    ],
-    u: "1f482-200d-2642-fe0f",
-    v: [
-      "1f482-1f3fb-200d-2642-fe0f",
-      "1f482-1f3fc-200d-2642-fe0f",
-      "1f482-1f3fd-200d-2642-fe0f",
-      "1f482-1f3fe-200d-2642-fe0f",
-      "1f482-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "female-guard"
-    ],
-    u: "1f482-200d-2640-fe0f",
-    v: [
-      "1f482-1f3fb-200d-2640-fe0f",
-      "1f482-1f3fc-200d-2640-fe0f",
-      "1f482-1f3fd-200d-2640-fe0f",
-      "1f482-1f3fe-200d-2640-fe0f",
-      "1f482-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "construction worker",
-      "construction_worker"
-    ],
-    u: "1f477",
-    v: [
-      "1f477-1f3fb",
-      "1f477-1f3fc",
-      "1f477-1f3fd",
-      "1f477-1f3fe",
-      "1f477-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "male-construction-worker"
-    ],
-    u: "1f477-200d-2642-fe0f",
-    v: [
-      "1f477-1f3fb-200d-2642-fe0f",
-      "1f477-1f3fc-200d-2642-fe0f",
-      "1f477-1f3fd-200d-2642-fe0f",
-      "1f477-1f3fe-200d-2642-fe0f",
-      "1f477-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "female-construction-worker"
-    ],
-    u: "1f477-200d-2640-fe0f",
-    v: [
-      "1f477-1f3fb-200d-2640-fe0f",
-      "1f477-1f3fc-200d-2640-fe0f",
-      "1f477-1f3fd-200d-2640-fe0f",
-      "1f477-1f3fe-200d-2640-fe0f",
-      "1f477-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "prince"
-    ],
-    u: "1f934",
-    v: [
-      "1f934-1f3fb",
-      "1f934-1f3fc",
-      "1f934-1f3fd",
-      "1f934-1f3fe",
-      "1f934-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "princess"
-    ],
-    u: "1f478",
-    v: [
-      "1f478-1f3fb",
-      "1f478-1f3fc",
-      "1f478-1f3fd",
-      "1f478-1f3fe",
-      "1f478-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man with turban",
-      "man_with_turban"
-    ],
-    u: "1f473",
-    v: [
-      "1f473-1f3fb",
-      "1f473-1f3fc",
-      "1f473-1f3fd",
-      "1f473-1f3fe",
-      "1f473-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-wearing-turban"
-    ],
-    u: "1f473-200d-2642-fe0f",
-    v: [
-      "1f473-1f3fb-200d-2642-fe0f",
-      "1f473-1f3fc-200d-2642-fe0f",
-      "1f473-1f3fd-200d-2642-fe0f",
-      "1f473-1f3fe-200d-2642-fe0f",
-      "1f473-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-wearing-turban"
-    ],
-    u: "1f473-200d-2640-fe0f",
-    v: [
-      "1f473-1f3fb-200d-2640-fe0f",
-      "1f473-1f3fc-200d-2640-fe0f",
-      "1f473-1f3fd-200d-2640-fe0f",
-      "1f473-1f3fe-200d-2640-fe0f",
-      "1f473-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "man with gua pi mao",
-      "man_with_gua_pi_mao"
-    ],
-    u: "1f472",
-    v: [
-      "1f472-1f3fb",
-      "1f472-1f3fc",
-      "1f472-1f3fd",
-      "1f472-1f3fe",
-      "1f472-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "person with headscarf",
-      "person_with_headscarf"
-    ],
-    u: "1f9d5",
-    v: [
-      "1f9d5-1f3fb",
-      "1f9d5-1f3fc",
-      "1f9d5-1f3fd",
-      "1f9d5-1f3fe",
-      "1f9d5-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "bearded person",
-      "bearded_person"
-    ],
-    u: "1f9d4",
-    v: [
-      "1f9d4-1f3fb",
-      "1f9d4-1f3fc",
-      "1f9d4-1f3fd",
-      "1f9d4-1f3fe",
-      "1f9d4-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "person with blond hair",
-      "person_with_blond_hair"
-    ],
-    u: "1f471",
-    v: [
-      "1f471-1f3fb",
-      "1f471-1f3fc",
-      "1f471-1f3fd",
-      "1f471-1f3fe",
-      "1f471-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "blond-haired-man"
-    ],
-    u: "1f471-200d-2642-fe0f",
-    v: [
-      "1f471-1f3fb-200d-2642-fe0f",
-      "1f471-1f3fc-200d-2642-fe0f",
-      "1f471-1f3fd-200d-2642-fe0f",
-      "1f471-1f3fe-200d-2642-fe0f",
-      "1f471-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "blond-haired-woman"
-    ],
-    u: "1f471-200d-2640-fe0f",
-    v: [
-      "1f471-1f3fb-200d-2640-fe0f",
-      "1f471-1f3fc-200d-2640-fe0f",
-      "1f471-1f3fd-200d-2640-fe0f",
-      "1f471-1f3fe-200d-2640-fe0f",
-      "1f471-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "man in tuxedo",
-      "man_in_tuxedo"
-    ],
-    u: "1f935",
-    v: [
-      "1f935-1f3fb",
-      "1f935-1f3fc",
-      "1f935-1f3fd",
-      "1f935-1f3fe",
-      "1f935-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "bride with veil",
-      "bride_with_veil"
-    ],
-    u: "1f470",
-    v: [
-      "1f470-1f3fb",
-      "1f470-1f3fc",
-      "1f470-1f3fd",
-      "1f470-1f3fe",
-      "1f470-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "pregnant woman",
-      "pregnant_woman"
-    ],
-    u: "1f930",
-    v: [
-      "1f930-1f3fb",
-      "1f930-1f3fc",
-      "1f930-1f3fd",
-      "1f930-1f3fe",
-      "1f930-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "breast-feeding"
-    ],
-    u: "1f931",
-    v: [
-      "1f931-1f3fb",
-      "1f931-1f3fc",
-      "1f931-1f3fd",
-      "1f931-1f3fe",
-      "1f931-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "baby angel",
-      "angel"
-    ],
-    u: "1f47c",
-    v: [
-      "1f47c-1f3fb",
-      "1f47c-1f3fc",
-      "1f47c-1f3fd",
-      "1f47c-1f3fe",
-      "1f47c-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "father christmas",
-      "santa"
-    ],
-    u: "1f385",
-    v: [
-      "1f385-1f3fb",
-      "1f385-1f3fc",
-      "1f385-1f3fd",
-      "1f385-1f3fe",
-      "1f385-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "mother christmas",
-      "mrs_claus",
-      "mother_christmas"
-    ],
-    u: "1f936",
-    v: [
-      "1f936-1f3fb",
-      "1f936-1f3fc",
-      "1f936-1f3fd",
-      "1f936-1f3fe",
-      "1f936-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "mage"
-    ],
-    u: "1f9d9",
-    v: [
-      "1f9d9-1f3fb",
-      "1f9d9-1f3fc",
-      "1f9d9-1f3fd",
-      "1f9d9-1f3fe",
-      "1f9d9-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "female_mage"
-    ],
-    u: "1f9d9-200d-2640-fe0f",
-    v: [
-      "1f9d9-1f3fb-200d-2640-fe0f",
-      "1f9d9-1f3fc-200d-2640-fe0f",
-      "1f9d9-1f3fd-200d-2640-fe0f",
-      "1f9d9-1f3fe-200d-2640-fe0f",
-      "1f9d9-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "male_mage"
-    ],
-    u: "1f9d9-200d-2642-fe0f",
-    v: [
-      "1f9d9-1f3fb-200d-2642-fe0f",
-      "1f9d9-1f3fc-200d-2642-fe0f",
-      "1f9d9-1f3fd-200d-2642-fe0f",
-      "1f9d9-1f3fe-200d-2642-fe0f",
-      "1f9d9-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "fairy"
-    ],
-    u: "1f9da",
-    v: [
-      "1f9da-1f3fb",
-      "1f9da-1f3fc",
-      "1f9da-1f3fd",
-      "1f9da-1f3fe",
-      "1f9da-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "female_fairy"
-    ],
-    u: "1f9da-200d-2640-fe0f",
-    v: [
-      "1f9da-1f3fb-200d-2640-fe0f",
-      "1f9da-1f3fc-200d-2640-fe0f",
-      "1f9da-1f3fd-200d-2640-fe0f",
-      "1f9da-1f3fe-200d-2640-fe0f",
-      "1f9da-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "male_fairy"
-    ],
-    u: "1f9da-200d-2642-fe0f",
-    v: [
-      "1f9da-1f3fb-200d-2642-fe0f",
-      "1f9da-1f3fc-200d-2642-fe0f",
-      "1f9da-1f3fd-200d-2642-fe0f",
-      "1f9da-1f3fe-200d-2642-fe0f",
-      "1f9da-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "vampire"
-    ],
-    u: "1f9db",
-    v: [
-      "1f9db-1f3fb",
-      "1f9db-1f3fc",
-      "1f9db-1f3fd",
-      "1f9db-1f3fe",
-      "1f9db-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "female_vampire"
-    ],
-    u: "1f9db-200d-2640-fe0f",
-    v: [
-      "1f9db-1f3fb-200d-2640-fe0f",
-      "1f9db-1f3fc-200d-2640-fe0f",
-      "1f9db-1f3fd-200d-2640-fe0f",
-      "1f9db-1f3fe-200d-2640-fe0f",
-      "1f9db-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "male_vampire"
-    ],
-    u: "1f9db-200d-2642-fe0f",
-    v: [
-      "1f9db-1f3fb-200d-2642-fe0f",
-      "1f9db-1f3fc-200d-2642-fe0f",
-      "1f9db-1f3fd-200d-2642-fe0f",
-      "1f9db-1f3fe-200d-2642-fe0f",
-      "1f9db-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "merperson"
-    ],
-    u: "1f9dc",
-    v: [
-      "1f9dc-1f3fb",
-      "1f9dc-1f3fc",
-      "1f9dc-1f3fd",
-      "1f9dc-1f3fe",
-      "1f9dc-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "mermaid"
-    ],
-    u: "1f9dc-200d-2640-fe0f",
-    v: [
-      "1f9dc-1f3fb-200d-2640-fe0f",
-      "1f9dc-1f3fc-200d-2640-fe0f",
-      "1f9dc-1f3fd-200d-2640-fe0f",
-      "1f9dc-1f3fe-200d-2640-fe0f",
-      "1f9dc-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "merman"
-    ],
-    u: "1f9dc-200d-2642-fe0f",
-    v: [
-      "1f9dc-1f3fb-200d-2642-fe0f",
-      "1f9dc-1f3fc-200d-2642-fe0f",
-      "1f9dc-1f3fd-200d-2642-fe0f",
-      "1f9dc-1f3fe-200d-2642-fe0f",
-      "1f9dc-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "elf"
-    ],
-    u: "1f9dd",
-    v: [
-      "1f9dd-1f3fb",
-      "1f9dd-1f3fc",
-      "1f9dd-1f3fd",
-      "1f9dd-1f3fe",
-      "1f9dd-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "female_elf"
-    ],
-    u: "1f9dd-200d-2640-fe0f",
-    v: [
-      "1f9dd-1f3fb-200d-2640-fe0f",
-      "1f9dd-1f3fc-200d-2640-fe0f",
-      "1f9dd-1f3fd-200d-2640-fe0f",
-      "1f9dd-1f3fe-200d-2640-fe0f",
-      "1f9dd-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "male_elf"
-    ],
-    u: "1f9dd-200d-2642-fe0f",
-    v: [
-      "1f9dd-1f3fb-200d-2642-fe0f",
-      "1f9dd-1f3fc-200d-2642-fe0f",
-      "1f9dd-1f3fd-200d-2642-fe0f",
-      "1f9dd-1f3fe-200d-2642-fe0f",
-      "1f9dd-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "genie"
-    ],
-    u: "1f9de"
-  },
-  {
-    n: [
-      "female_genie"
-    ],
-    u: "1f9de-200d-2640-fe0f"
-  },
-  {
-    n: [
-      "male_genie"
-    ],
-    u: "1f9de-200d-2642-fe0f"
-  },
-  {
-    n: [
-      "zombie"
-    ],
-    u: "1f9df"
-  },
-  {
-    n: [
-      "female_zombie"
-    ],
-    u: "1f9df-200d-2640-fe0f"
-  },
-  {
-    n: [
-      "male_zombie"
-    ],
-    u: "1f9df-200d-2642-fe0f"
-  },
-  {
-    n: [
-      "person frowning",
-      "person_frowning"
-    ],
-    u: "1f64d",
-    v: [
-      "1f64d-1f3fb",
-      "1f64d-1f3fc",
-      "1f64d-1f3fd",
-      "1f64d-1f3fe",
-      "1f64d-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-frowning"
-    ],
-    u: "1f64d-200d-2642-fe0f",
-    v: [
-      "1f64d-1f3fb-200d-2642-fe0f",
-      "1f64d-1f3fc-200d-2642-fe0f",
-      "1f64d-1f3fd-200d-2642-fe0f",
-      "1f64d-1f3fe-200d-2642-fe0f",
-      "1f64d-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-frowning"
-    ],
-    u: "1f64d-200d-2640-fe0f",
-    v: [
-      "1f64d-1f3fb-200d-2640-fe0f",
-      "1f64d-1f3fc-200d-2640-fe0f",
-      "1f64d-1f3fd-200d-2640-fe0f",
-      "1f64d-1f3fe-200d-2640-fe0f",
-      "1f64d-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "person with pouting face",
-      "person_with_pouting_face"
-    ],
-    u: "1f64e",
-    v: [
-      "1f64e-1f3fb",
-      "1f64e-1f3fc",
-      "1f64e-1f3fd",
-      "1f64e-1f3fe",
-      "1f64e-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-pouting"
-    ],
-    u: "1f64e-200d-2642-fe0f",
-    v: [
-      "1f64e-1f3fb-200d-2642-fe0f",
-      "1f64e-1f3fc-200d-2642-fe0f",
-      "1f64e-1f3fd-200d-2642-fe0f",
-      "1f64e-1f3fe-200d-2642-fe0f",
-      "1f64e-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-pouting"
-    ],
-    u: "1f64e-200d-2640-fe0f",
-    v: [
-      "1f64e-1f3fb-200d-2640-fe0f",
-      "1f64e-1f3fc-200d-2640-fe0f",
-      "1f64e-1f3fd-200d-2640-fe0f",
-      "1f64e-1f3fe-200d-2640-fe0f",
-      "1f64e-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "face with no good gesture",
-      "no_good"
-    ],
-    u: "1f645",
-    v: [
-      "1f645-1f3fb",
-      "1f645-1f3fc",
-      "1f645-1f3fd",
-      "1f645-1f3fe",
-      "1f645-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-gesturing-no"
-    ],
-    u: "1f645-200d-2642-fe0f",
-    v: [
-      "1f645-1f3fb-200d-2642-fe0f",
-      "1f645-1f3fc-200d-2642-fe0f",
-      "1f645-1f3fd-200d-2642-fe0f",
-      "1f645-1f3fe-200d-2642-fe0f",
-      "1f645-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-gesturing-no"
-    ],
-    u: "1f645-200d-2640-fe0f",
-    v: [
-      "1f645-1f3fb-200d-2640-fe0f",
-      "1f645-1f3fc-200d-2640-fe0f",
-      "1f645-1f3fd-200d-2640-fe0f",
-      "1f645-1f3fe-200d-2640-fe0f",
-      "1f645-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "face with ok gesture",
-      "ok_woman"
-    ],
-    u: "1f646",
-    v: [
-      "1f646-1f3fb",
-      "1f646-1f3fc",
-      "1f646-1f3fd",
-      "1f646-1f3fe",
-      "1f646-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-gesturing-ok"
-    ],
-    u: "1f646-200d-2642-fe0f",
-    v: [
-      "1f646-1f3fb-200d-2642-fe0f",
-      "1f646-1f3fc-200d-2642-fe0f",
-      "1f646-1f3fd-200d-2642-fe0f",
-      "1f646-1f3fe-200d-2642-fe0f",
-      "1f646-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-gesturing-ok"
-    ],
-    u: "1f646-200d-2640-fe0f",
-    v: [
-      "1f646-1f3fb-200d-2640-fe0f",
-      "1f646-1f3fc-200d-2640-fe0f",
-      "1f646-1f3fd-200d-2640-fe0f",
-      "1f646-1f3fe-200d-2640-fe0f",
-      "1f646-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "information desk person",
-      "information_desk_person"
-    ],
-    u: "1f481",
-    v: [
-      "1f481-1f3fb",
-      "1f481-1f3fc",
-      "1f481-1f3fd",
-      "1f481-1f3fe",
-      "1f481-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-tipping-hand"
-    ],
-    u: "1f481-200d-2642-fe0f",
-    v: [
-      "1f481-1f3fb-200d-2642-fe0f",
-      "1f481-1f3fc-200d-2642-fe0f",
-      "1f481-1f3fd-200d-2642-fe0f",
-      "1f481-1f3fe-200d-2642-fe0f",
-      "1f481-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-tipping-hand"
-    ],
-    u: "1f481-200d-2640-fe0f",
-    v: [
-      "1f481-1f3fb-200d-2640-fe0f",
-      "1f481-1f3fc-200d-2640-fe0f",
-      "1f481-1f3fd-200d-2640-fe0f",
-      "1f481-1f3fe-200d-2640-fe0f",
-      "1f481-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "happy person raising one hand",
-      "raising_hand"
-    ],
-    u: "1f64b",
-    v: [
-      "1f64b-1f3fb",
-      "1f64b-1f3fc",
-      "1f64b-1f3fd",
-      "1f64b-1f3fe",
-      "1f64b-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-raising-hand"
-    ],
-    u: "1f64b-200d-2642-fe0f",
-    v: [
-      "1f64b-1f3fb-200d-2642-fe0f",
-      "1f64b-1f3fc-200d-2642-fe0f",
-      "1f64b-1f3fd-200d-2642-fe0f",
-      "1f64b-1f3fe-200d-2642-fe0f",
-      "1f64b-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-raising-hand"
-    ],
-    u: "1f64b-200d-2640-fe0f",
-    v: [
-      "1f64b-1f3fb-200d-2640-fe0f",
-      "1f64b-1f3fc-200d-2640-fe0f",
-      "1f64b-1f3fd-200d-2640-fe0f",
-      "1f64b-1f3fe-200d-2640-fe0f",
-      "1f64b-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "person bowing deeply",
-      "bow"
-    ],
-    u: "1f647",
-    v: [
-      "1f647-1f3fb",
-      "1f647-1f3fc",
-      "1f647-1f3fd",
-      "1f647-1f3fe",
-      "1f647-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-bowing"
-    ],
-    u: "1f647-200d-2642-fe0f",
-    v: [
-      "1f647-1f3fb-200d-2642-fe0f",
-      "1f647-1f3fc-200d-2642-fe0f",
-      "1f647-1f3fd-200d-2642-fe0f",
-      "1f647-1f3fe-200d-2642-fe0f",
-      "1f647-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-bowing"
-    ],
-    u: "1f647-200d-2640-fe0f",
-    v: [
-      "1f647-1f3fb-200d-2640-fe0f",
-      "1f647-1f3fc-200d-2640-fe0f",
-      "1f647-1f3fd-200d-2640-fe0f",
-      "1f647-1f3fe-200d-2640-fe0f",
-      "1f647-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "face palm",
-      "face_palm"
-    ],
-    u: "1f926",
-    v: [
-      "1f926-1f3fb",
-      "1f926-1f3fc",
-      "1f926-1f3fd",
-      "1f926-1f3fe",
-      "1f926-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-facepalming"
-    ],
-    u: "1f926-200d-2642-fe0f",
-    v: [
-      "1f926-1f3fb-200d-2642-fe0f",
-      "1f926-1f3fc-200d-2642-fe0f",
-      "1f926-1f3fd-200d-2642-fe0f",
-      "1f926-1f3fe-200d-2642-fe0f",
-      "1f926-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-facepalming"
-    ],
-    u: "1f926-200d-2640-fe0f",
-    v: [
-      "1f926-1f3fb-200d-2640-fe0f",
-      "1f926-1f3fc-200d-2640-fe0f",
-      "1f926-1f3fd-200d-2640-fe0f",
-      "1f926-1f3fe-200d-2640-fe0f",
-      "1f926-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "shrug"
-    ],
-    u: "1f937",
-    v: [
-      "1f937-1f3fb",
-      "1f937-1f3fc",
-      "1f937-1f3fd",
-      "1f937-1f3fe",
-      "1f937-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-shrugging"
-    ],
-    u: "1f937-200d-2642-fe0f",
-    v: [
-      "1f937-1f3fb-200d-2642-fe0f",
-      "1f937-1f3fc-200d-2642-fe0f",
-      "1f937-1f3fd-200d-2642-fe0f",
-      "1f937-1f3fe-200d-2642-fe0f",
-      "1f937-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-shrugging"
-    ],
-    u: "1f937-200d-2640-fe0f",
-    v: [
-      "1f937-1f3fb-200d-2640-fe0f",
-      "1f937-1f3fc-200d-2640-fe0f",
-      "1f937-1f3fd-200d-2640-fe0f",
-      "1f937-1f3fe-200d-2640-fe0f",
-      "1f937-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "face massage",
-      "massage"
-    ],
-    u: "1f486",
-    v: [
-      "1f486-1f3fb",
-      "1f486-1f3fc",
-      "1f486-1f3fd",
-      "1f486-1f3fe",
-      "1f486-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-getting-massage"
-    ],
-    u: "1f486-200d-2642-fe0f",
-    v: [
-      "1f486-1f3fb-200d-2642-fe0f",
-      "1f486-1f3fc-200d-2642-fe0f",
-      "1f486-1f3fd-200d-2642-fe0f",
-      "1f486-1f3fe-200d-2642-fe0f",
-      "1f486-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-getting-massage"
-    ],
-    u: "1f486-200d-2640-fe0f",
-    v: [
-      "1f486-1f3fb-200d-2640-fe0f",
-      "1f486-1f3fc-200d-2640-fe0f",
-      "1f486-1f3fd-200d-2640-fe0f",
-      "1f486-1f3fe-200d-2640-fe0f",
-      "1f486-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "haircut"
-    ],
-    u: "1f487",
-    v: [
-      "1f487-1f3fb",
-      "1f487-1f3fc",
-      "1f487-1f3fd",
-      "1f487-1f3fe",
-      "1f487-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-getting-haircut"
-    ],
-    u: "1f487-200d-2642-fe0f",
-    v: [
-      "1f487-1f3fb-200d-2642-fe0f",
-      "1f487-1f3fc-200d-2642-fe0f",
-      "1f487-1f3fd-200d-2642-fe0f",
-      "1f487-1f3fe-200d-2642-fe0f",
-      "1f487-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-getting-haircut"
-    ],
-    u: "1f487-200d-2640-fe0f",
-    v: [
-      "1f487-1f3fb-200d-2640-fe0f",
-      "1f487-1f3fc-200d-2640-fe0f",
-      "1f487-1f3fd-200d-2640-fe0f",
-      "1f487-1f3fe-200d-2640-fe0f",
-      "1f487-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "pedestrian",
-      "walking"
-    ],
-    u: "1f6b6",
-    v: [
-      "1f6b6-1f3fb",
-      "1f6b6-1f3fc",
-      "1f6b6-1f3fd",
-      "1f6b6-1f3fe",
-      "1f6b6-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-walking"
-    ],
-    u: "1f6b6-200d-2642-fe0f",
-    v: [
-      "1f6b6-1f3fb-200d-2642-fe0f",
-      "1f6b6-1f3fc-200d-2642-fe0f",
-      "1f6b6-1f3fd-200d-2642-fe0f",
-      "1f6b6-1f3fe-200d-2642-fe0f",
-      "1f6b6-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-walking"
-    ],
-    u: "1f6b6-200d-2640-fe0f",
-    v: [
-      "1f6b6-1f3fb-200d-2640-fe0f",
-      "1f6b6-1f3fc-200d-2640-fe0f",
-      "1f6b6-1f3fd-200d-2640-fe0f",
-      "1f6b6-1f3fe-200d-2640-fe0f",
-      "1f6b6-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "runner",
-      "running"
-    ],
-    u: "1f3c3",
-    v: [
-      "1f3c3-1f3fb",
-      "1f3c3-1f3fc",
-      "1f3c3-1f3fd",
-      "1f3c3-1f3fe",
-      "1f3c3-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-running"
-    ],
-    u: "1f3c3-200d-2642-fe0f",
-    v: [
-      "1f3c3-1f3fb-200d-2642-fe0f",
-      "1f3c3-1f3fc-200d-2642-fe0f",
-      "1f3c3-1f3fd-200d-2642-fe0f",
-      "1f3c3-1f3fe-200d-2642-fe0f",
-      "1f3c3-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-running"
-    ],
-    u: "1f3c3-200d-2640-fe0f",
-    v: [
-      "1f3c3-1f3fb-200d-2640-fe0f",
-      "1f3c3-1f3fc-200d-2640-fe0f",
-      "1f3c3-1f3fd-200d-2640-fe0f",
-      "1f3c3-1f3fe-200d-2640-fe0f",
-      "1f3c3-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "dancer"
-    ],
-    u: "1f483",
-    v: [
-      "1f483-1f3fb",
-      "1f483-1f3fc",
-      "1f483-1f3fd",
-      "1f483-1f3fe",
-      "1f483-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man dancing",
-      "man_dancing"
-    ],
-    u: "1f57a",
-    v: [
-      "1f57a-1f3fb",
-      "1f57a-1f3fc",
-      "1f57a-1f3fd",
-      "1f57a-1f3fe",
-      "1f57a-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "woman with bunny ears",
-      "dancers"
-    ],
-    u: "1f46f"
-  },
-  {
-    n: [
-      "man-with-bunny-ears-partying"
-    ],
-    u: "1f46f-200d-2642-fe0f"
-  },
-  {
-    n: [
-      "woman-with-bunny-ears-partying"
-    ],
-    u: "1f46f-200d-2640-fe0f"
-  },
-  {
-    n: [
-      "person in steamy room",
-      "person_in_steamy_room"
-    ],
-    u: "1f9d6",
-    v: [
-      "1f9d6-1f3fb",
-      "1f9d6-1f3fc",
-      "1f9d6-1f3fd",
-      "1f9d6-1f3fe",
-      "1f9d6-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "woman_in_steamy_room"
-    ],
-    u: "1f9d6-200d-2640-fe0f",
-    v: [
-      "1f9d6-1f3fb-200d-2640-fe0f",
-      "1f9d6-1f3fc-200d-2640-fe0f",
-      "1f9d6-1f3fd-200d-2640-fe0f",
-      "1f9d6-1f3fe-200d-2640-fe0f",
-      "1f9d6-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "man_in_steamy_room"
-    ],
-    u: "1f9d6-200d-2642-fe0f",
-    v: [
-      "1f9d6-1f3fb-200d-2642-fe0f",
-      "1f9d6-1f3fc-200d-2642-fe0f",
-      "1f9d6-1f3fd-200d-2642-fe0f",
-      "1f9d6-1f3fe-200d-2642-fe0f",
-      "1f9d6-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "person climbing",
-      "person_climbing"
-    ],
-    u: "1f9d7",
-    v: [
-      "1f9d7-1f3fb",
-      "1f9d7-1f3fc",
-      "1f9d7-1f3fd",
-      "1f9d7-1f3fe",
-      "1f9d7-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "woman_climbing"
-    ],
-    u: "1f9d7-200d-2640-fe0f",
-    v: [
-      "1f9d7-1f3fb-200d-2640-fe0f",
-      "1f9d7-1f3fc-200d-2640-fe0f",
-      "1f9d7-1f3fd-200d-2640-fe0f",
-      "1f9d7-1f3fe-200d-2640-fe0f",
-      "1f9d7-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "man_climbing"
-    ],
-    u: "1f9d7-200d-2642-fe0f",
-    v: [
-      "1f9d7-1f3fb-200d-2642-fe0f",
-      "1f9d7-1f3fc-200d-2642-fe0f",
-      "1f9d7-1f3fd-200d-2642-fe0f",
-      "1f9d7-1f3fe-200d-2642-fe0f",
-      "1f9d7-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "person in lotus position",
-      "person_in_lotus_position"
-    ],
-    u: "1f9d8",
-    v: [
-      "1f9d8-1f3fb",
-      "1f9d8-1f3fc",
-      "1f9d8-1f3fd",
-      "1f9d8-1f3fe",
-      "1f9d8-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "woman_in_lotus_position"
-    ],
-    u: "1f9d8-200d-2640-fe0f",
-    v: [
-      "1f9d8-1f3fb-200d-2640-fe0f",
-      "1f9d8-1f3fc-200d-2640-fe0f",
-      "1f9d8-1f3fd-200d-2640-fe0f",
-      "1f9d8-1f3fe-200d-2640-fe0f",
-      "1f9d8-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "man_in_lotus_position"
-    ],
-    u: "1f9d8-200d-2642-fe0f",
-    v: [
-      "1f9d8-1f3fb-200d-2642-fe0f",
-      "1f9d8-1f3fc-200d-2642-fe0f",
-      "1f9d8-1f3fd-200d-2642-fe0f",
-      "1f9d8-1f3fe-200d-2642-fe0f",
-      "1f9d8-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "bath"
-    ],
-    u: "1f6c0",
-    v: [
-      "1f6c0-1f3fb",
-      "1f6c0-1f3fc",
-      "1f6c0-1f3fd",
-      "1f6c0-1f3fe",
-      "1f6c0-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "sleeping accommodation",
-      "sleeping_accommodation"
-    ],
-    u: "1f6cc",
-    v: [
-      "1f6cc-1f3fb",
-      "1f6cc-1f3fc",
-      "1f6cc-1f3fd",
-      "1f6cc-1f3fe",
-      "1f6cc-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man_in_business_suit_levitating"
-    ],
-    u: "1f574-fe0f",
-    v: [
-      "1f574-1f3fb",
-      "1f574-1f3fc",
-      "1f574-1f3fd",
-      "1f574-1f3fe",
-      "1f574-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "speaking_head_in_silhouette"
-    ],
-    u: "1f5e3-fe0f"
-  },
-  {
-    n: [
-      "bust in silhouette",
-      "bust_in_silhouette"
-    ],
-    u: "1f464"
-  },
-  {
-    n: [
-      "busts in silhouette",
-      "busts_in_silhouette"
-    ],
-    u: "1f465"
-  },
-  {
-    n: [
-      "fencer"
-    ],
-    u: "1f93a"
-  },
-  {
-    n: [
-      "horse racing",
-      "horse_racing"
-    ],
-    u: "1f3c7",
-    v: [
-      "1f3c7-1f3fb",
-      "1f3c7-1f3fc",
-      "1f3c7-1f3fd",
-      "1f3c7-1f3fe",
-      "1f3c7-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "skier"
-    ],
-    u: "26f7-fe0f"
-  },
-  {
-    n: [
-      "snowboarder"
-    ],
-    u: "1f3c2",
-    v: [
-      "1f3c2-1f3fb",
-      "1f3c2-1f3fc",
-      "1f3c2-1f3fd",
-      "1f3c2-1f3fe",
-      "1f3c2-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "golfer"
-    ],
-    u: "1f3cc-fe0f",
-    v: [
-      "1f3cc-1f3fb",
-      "1f3cc-1f3fc",
-      "1f3cc-1f3fd",
-      "1f3cc-1f3fe",
-      "1f3cc-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-golfing"
-    ],
-    u: "1f3cc-fe0f-200d-2642-fe0f",
-    v: [
-      "1f3cc-1f3fb-200d-2642-fe0f",
-      "1f3cc-1f3fc-200d-2642-fe0f",
-      "1f3cc-1f3fd-200d-2642-fe0f",
-      "1f3cc-1f3fe-200d-2642-fe0f",
-      "1f3cc-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-golfing"
-    ],
-    u: "1f3cc-fe0f-200d-2640-fe0f",
-    v: [
-      "1f3cc-1f3fb-200d-2640-fe0f",
-      "1f3cc-1f3fc-200d-2640-fe0f",
-      "1f3cc-1f3fd-200d-2640-fe0f",
-      "1f3cc-1f3fe-200d-2640-fe0f",
-      "1f3cc-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "surfer"
-    ],
-    u: "1f3c4",
-    v: [
-      "1f3c4-1f3fb",
-      "1f3c4-1f3fc",
-      "1f3c4-1f3fd",
-      "1f3c4-1f3fe",
-      "1f3c4-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-surfing"
-    ],
-    u: "1f3c4-200d-2642-fe0f",
-    v: [
-      "1f3c4-1f3fb-200d-2642-fe0f",
-      "1f3c4-1f3fc-200d-2642-fe0f",
-      "1f3c4-1f3fd-200d-2642-fe0f",
-      "1f3c4-1f3fe-200d-2642-fe0f",
-      "1f3c4-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-surfing"
-    ],
-    u: "1f3c4-200d-2640-fe0f",
-    v: [
-      "1f3c4-1f3fb-200d-2640-fe0f",
-      "1f3c4-1f3fc-200d-2640-fe0f",
-      "1f3c4-1f3fd-200d-2640-fe0f",
-      "1f3c4-1f3fe-200d-2640-fe0f",
-      "1f3c4-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "rowboat"
-    ],
-    u: "1f6a3",
-    v: [
-      "1f6a3-1f3fb",
-      "1f6a3-1f3fc",
-      "1f6a3-1f3fd",
-      "1f6a3-1f3fe",
-      "1f6a3-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-rowing-boat"
-    ],
-    u: "1f6a3-200d-2642-fe0f",
-    v: [
-      "1f6a3-1f3fb-200d-2642-fe0f",
-      "1f6a3-1f3fc-200d-2642-fe0f",
-      "1f6a3-1f3fd-200d-2642-fe0f",
-      "1f6a3-1f3fe-200d-2642-fe0f",
-      "1f6a3-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-rowing-boat"
-    ],
-    u: "1f6a3-200d-2640-fe0f",
-    v: [
-      "1f6a3-1f3fb-200d-2640-fe0f",
-      "1f6a3-1f3fc-200d-2640-fe0f",
-      "1f6a3-1f3fd-200d-2640-fe0f",
-      "1f6a3-1f3fe-200d-2640-fe0f",
-      "1f6a3-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "swimmer"
-    ],
-    u: "1f3ca",
-    v: [
-      "1f3ca-1f3fb",
-      "1f3ca-1f3fc",
-      "1f3ca-1f3fd",
-      "1f3ca-1f3fe",
-      "1f3ca-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-swimming"
-    ],
-    u: "1f3ca-200d-2642-fe0f",
-    v: [
-      "1f3ca-1f3fb-200d-2642-fe0f",
-      "1f3ca-1f3fc-200d-2642-fe0f",
-      "1f3ca-1f3fd-200d-2642-fe0f",
-      "1f3ca-1f3fe-200d-2642-fe0f",
-      "1f3ca-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-swimming"
-    ],
-    u: "1f3ca-200d-2640-fe0f",
-    v: [
-      "1f3ca-1f3fb-200d-2640-fe0f",
-      "1f3ca-1f3fc-200d-2640-fe0f",
-      "1f3ca-1f3fd-200d-2640-fe0f",
-      "1f3ca-1f3fe-200d-2640-fe0f",
-      "1f3ca-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "person_with_ball"
-    ],
-    u: "26f9-fe0f",
-    v: [
-      "26f9-1f3fb",
-      "26f9-1f3fc",
-      "26f9-1f3fd",
-      "26f9-1f3fe",
-      "26f9-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-bouncing-ball"
-    ],
-    u: "26f9-fe0f-200d-2642-fe0f",
-    v: [
-      "26f9-1f3fb-200d-2642-fe0f",
-      "26f9-1f3fc-200d-2642-fe0f",
-      "26f9-1f3fd-200d-2642-fe0f",
-      "26f9-1f3fe-200d-2642-fe0f",
-      "26f9-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-bouncing-ball"
-    ],
-    u: "26f9-fe0f-200d-2640-fe0f",
-    v: [
-      "26f9-1f3fb-200d-2640-fe0f",
-      "26f9-1f3fc-200d-2640-fe0f",
-      "26f9-1f3fd-200d-2640-fe0f",
-      "26f9-1f3fe-200d-2640-fe0f",
-      "26f9-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "weight_lifter"
-    ],
-    u: "1f3cb-fe0f",
-    v: [
-      "1f3cb-1f3fb",
-      "1f3cb-1f3fc",
-      "1f3cb-1f3fd",
-      "1f3cb-1f3fe",
-      "1f3cb-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-lifting-weights"
-    ],
-    u: "1f3cb-fe0f-200d-2642-fe0f",
-    v: [
-      "1f3cb-1f3fb-200d-2642-fe0f",
-      "1f3cb-1f3fc-200d-2642-fe0f",
-      "1f3cb-1f3fd-200d-2642-fe0f",
-      "1f3cb-1f3fe-200d-2642-fe0f",
-      "1f3cb-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-lifting-weights"
-    ],
-    u: "1f3cb-fe0f-200d-2640-fe0f",
-    v: [
-      "1f3cb-1f3fb-200d-2640-fe0f",
-      "1f3cb-1f3fc-200d-2640-fe0f",
-      "1f3cb-1f3fd-200d-2640-fe0f",
-      "1f3cb-1f3fe-200d-2640-fe0f",
-      "1f3cb-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "bicyclist"
-    ],
-    u: "1f6b4",
-    v: [
-      "1f6b4-1f3fb",
-      "1f6b4-1f3fc",
-      "1f6b4-1f3fd",
-      "1f6b4-1f3fe",
-      "1f6b4-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-biking"
-    ],
-    u: "1f6b4-200d-2642-fe0f",
-    v: [
-      "1f6b4-1f3fb-200d-2642-fe0f",
-      "1f6b4-1f3fc-200d-2642-fe0f",
-      "1f6b4-1f3fd-200d-2642-fe0f",
-      "1f6b4-1f3fe-200d-2642-fe0f",
-      "1f6b4-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-biking"
-    ],
-    u: "1f6b4-200d-2640-fe0f",
-    v: [
-      "1f6b4-1f3fb-200d-2640-fe0f",
-      "1f6b4-1f3fc-200d-2640-fe0f",
-      "1f6b4-1f3fd-200d-2640-fe0f",
-      "1f6b4-1f3fe-200d-2640-fe0f",
-      "1f6b4-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "mountain bicyclist",
-      "mountain_bicyclist"
-    ],
-    u: "1f6b5",
-    v: [
-      "1f6b5-1f3fb",
-      "1f6b5-1f3fc",
-      "1f6b5-1f3fd",
-      "1f6b5-1f3fe",
-      "1f6b5-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-mountain-biking"
-    ],
-    u: "1f6b5-200d-2642-fe0f",
-    v: [
-      "1f6b5-1f3fb-200d-2642-fe0f",
-      "1f6b5-1f3fc-200d-2642-fe0f",
-      "1f6b5-1f3fd-200d-2642-fe0f",
-      "1f6b5-1f3fe-200d-2642-fe0f",
-      "1f6b5-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-mountain-biking"
-    ],
-    u: "1f6b5-200d-2640-fe0f",
-    v: [
-      "1f6b5-1f3fb-200d-2640-fe0f",
-      "1f6b5-1f3fc-200d-2640-fe0f",
-      "1f6b5-1f3fd-200d-2640-fe0f",
-      "1f6b5-1f3fe-200d-2640-fe0f",
-      "1f6b5-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "racing_car"
-    ],
-    u: "1f3ce-fe0f"
-  },
-  {
-    n: [
-      "racing_motorcycle"
-    ],
-    u: "1f3cd-fe0f"
-  },
-  {
-    n: [
-      "person doing cartwheel",
-      "person_doing_cartwheel"
-    ],
-    u: "1f938",
-    v: [
-      "1f938-1f3fb",
-      "1f938-1f3fc",
-      "1f938-1f3fd",
-      "1f938-1f3fe",
-      "1f938-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-cartwheeling"
-    ],
-    u: "1f938-200d-2642-fe0f",
-    v: [
-      "1f938-1f3fb-200d-2642-fe0f",
-      "1f938-1f3fc-200d-2642-fe0f",
-      "1f938-1f3fd-200d-2642-fe0f",
-      "1f938-1f3fe-200d-2642-fe0f",
-      "1f938-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-cartwheeling"
-    ],
-    u: "1f938-200d-2640-fe0f",
-    v: [
-      "1f938-1f3fb-200d-2640-fe0f",
-      "1f938-1f3fc-200d-2640-fe0f",
-      "1f938-1f3fd-200d-2640-fe0f",
-      "1f938-1f3fe-200d-2640-fe0f",
-      "1f938-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "wrestlers"
-    ],
-    u: "1f93c"
-  },
-  {
-    n: [
-      "man-wrestling"
-    ],
-    u: "1f93c-200d-2642-fe0f"
-  },
-  {
-    n: [
-      "woman-wrestling"
-    ],
-    u: "1f93c-200d-2640-fe0f"
-  },
-  {
-    n: [
-      "water polo",
-      "water_polo"
-    ],
-    u: "1f93d",
-    v: [
-      "1f93d-1f3fb",
-      "1f93d-1f3fc",
-      "1f93d-1f3fd",
-      "1f93d-1f3fe",
-      "1f93d-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-playing-water-polo"
-    ],
-    u: "1f93d-200d-2642-fe0f",
-    v: [
-      "1f93d-1f3fb-200d-2642-fe0f",
-      "1f93d-1f3fc-200d-2642-fe0f",
-      "1f93d-1f3fd-200d-2642-fe0f",
-      "1f93d-1f3fe-200d-2642-fe0f",
-      "1f93d-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-playing-water-polo"
-    ],
-    u: "1f93d-200d-2640-fe0f",
-    v: [
-      "1f93d-1f3fb-200d-2640-fe0f",
-      "1f93d-1f3fc-200d-2640-fe0f",
-      "1f93d-1f3fd-200d-2640-fe0f",
-      "1f93d-1f3fe-200d-2640-fe0f",
-      "1f93d-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "handball"
-    ],
-    u: "1f93e",
-    v: [
-      "1f93e-1f3fb",
-      "1f93e-1f3fc",
-      "1f93e-1f3fd",
-      "1f93e-1f3fe",
-      "1f93e-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-playing-handball"
-    ],
-    u: "1f93e-200d-2642-fe0f",
-    v: [
-      "1f93e-1f3fb-200d-2642-fe0f",
-      "1f93e-1f3fc-200d-2642-fe0f",
-      "1f93e-1f3fd-200d-2642-fe0f",
-      "1f93e-1f3fe-200d-2642-fe0f",
-      "1f93e-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-playing-handball"
-    ],
-    u: "1f93e-200d-2640-fe0f",
-    v: [
-      "1f93e-1f3fb-200d-2640-fe0f",
-      "1f93e-1f3fc-200d-2640-fe0f",
-      "1f93e-1f3fd-200d-2640-fe0f",
-      "1f93e-1f3fe-200d-2640-fe0f",
-      "1f93e-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "juggling"
-    ],
-    u: "1f939",
-    v: [
-      "1f939-1f3fb",
-      "1f939-1f3fc",
-      "1f939-1f3fd",
-      "1f939-1f3fe",
-      "1f939-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "man-juggling"
-    ],
-    u: "1f939-200d-2642-fe0f",
-    v: [
-      "1f939-1f3fb-200d-2642-fe0f",
-      "1f939-1f3fc-200d-2642-fe0f",
-      "1f939-1f3fd-200d-2642-fe0f",
-      "1f939-1f3fe-200d-2642-fe0f",
-      "1f939-1f3ff-200d-2642-fe0f"
-    ]
-  },
-  {
-    n: [
-      "woman-juggling"
-    ],
-    u: "1f939-200d-2640-fe0f",
-    v: [
-      "1f939-1f3fb-200d-2640-fe0f",
-      "1f939-1f3fc-200d-2640-fe0f",
-      "1f939-1f3fd-200d-2640-fe0f",
-      "1f939-1f3fe-200d-2640-fe0f",
-      "1f939-1f3ff-200d-2640-fe0f"
-    ]
-  },
-  {
-    n: [
-      "man and woman holding hands",
-      "couple",
-      "man_and_woman_holding_hands"
-    ],
-    u: "1f46b"
-  },
-  {
-    n: [
-      "two men holding hands",
-      "two_men_holding_hands"
-    ],
-    u: "1f46c"
-  },
-  {
-    n: [
-      "two women holding hands",
-      "two_women_holding_hands"
-    ],
-    u: "1f46d"
-  },
-  {
-    n: [
+      "kiss mark",
       "kiss",
-      "couplekiss"
+      "lipstick"
     ],
-    u: "1f48f"
+    u: "1f48b"
   },
   {
     n: [
-      "woman-kiss-man"
+      "love letter",
+      "love_letter",
+      "email",
+      "envelope"
     ],
-    u: "1f469-200d-2764-fe0f-200d-1f48b-200d-1f468"
+    u: "1f48c"
   },
   {
     n: [
-      "man-kiss-man"
+      "heart with arrow",
+      "cupid",
+      "love",
+      "heart"
     ],
-    u: "1f468-200d-2764-fe0f-200d-1f48b-200d-1f468"
+    u: "1f498"
   },
   {
     n: [
-      "woman-kiss-woman"
+      "heart with ribbon",
+      "gift_heart",
+      "chocolates"
     ],
-    u: "1f469-200d-2764-fe0f-200d-1f48b-200d-1f469"
+    u: "1f49d"
   },
   {
     n: [
-      "couple with heart",
-      "couple_with_heart"
+      "sparkling heart",
+      "sparkling_heart"
     ],
-    u: "1f491"
+    u: "1f496"
   },
   {
     n: [
-      "woman-heart-man"
+      "growing heart",
+      "heartpulse"
     ],
-    u: "1f469-200d-2764-fe0f-200d-1f468"
+    u: "1f497"
   },
   {
     n: [
-      "man-heart-man"
+      "beating heart",
+      "heartbeat"
     ],
-    u: "1f468-200d-2764-fe0f-200d-1f468"
+    u: "1f493"
   },
   {
     n: [
-      "woman-heart-woman"
+      "revolving hearts",
+      "revolving_hearts"
     ],
-    u: "1f469-200d-2764-fe0f-200d-1f469"
+    u: "1f49e"
   },
   {
     n: [
-      "family",
-      "man-woman-boy"
+      "two hearts",
+      "two_hearts"
     ],
-    u: "1f46a"
+    u: "1f495"
   },
   {
     n: [
-      "man-woman-boy",
-      "family"
+      "heart decoration",
+      "heart_decoration"
     ],
-    u: "1f468-200d-1f469-200d-1f466"
+    u: "1f49f"
   },
   {
     n: [
-      "man-woman-girl"
+      "heart exclamation",
+      "heavy_heart_exclamation"
     ],
-    u: "1f468-200d-1f469-200d-1f467"
+    u: "2763-fe0f"
   },
   {
     n: [
-      "man-woman-girl-boy"
+      "broken heart",
+      "broken_heart"
     ],
-    u: "1f468-200d-1f469-200d-1f467-200d-1f466"
+    u: "1f494"
   },
   {
     n: [
-      "man-woman-boy-boy"
+      "heart on fire",
+      "heart_on_fire"
     ],
-    u: "1f468-200d-1f469-200d-1f466-200d-1f466"
+    u: "2764-fe0f-200d-1f525"
   },
   {
     n: [
-      "man-woman-girl-girl"
+      "mending heart",
+      "mending_heart"
     ],
-    u: "1f468-200d-1f469-200d-1f467-200d-1f467"
+    u: "2764-fe0f-200d-1fa79"
   },
   {
     n: [
-      "man-man-boy"
+      "red heart",
+      "heart",
+      "love"
     ],
-    u: "1f468-200d-1f468-200d-1f466"
+    u: "2764-fe0f"
   },
   {
     n: [
-      "man-man-girl"
+      "orange heart",
+      "orange_heart"
     ],
-    u: "1f468-200d-1f468-200d-1f467"
+    u: "1f9e1"
   },
   {
     n: [
-      "man-man-girl-boy"
+      "yellow heart",
+      "yellow_heart"
     ],
-    u: "1f468-200d-1f468-200d-1f467-200d-1f466"
+    u: "1f49b"
   },
   {
     n: [
-      "man-man-boy-boy"
+      "green heart",
+      "green_heart"
     ],
-    u: "1f468-200d-1f468-200d-1f466-200d-1f466"
+    u: "1f49a"
   },
   {
     n: [
-      "man-man-girl-girl"
+      "blue heart",
+      "blue_heart"
     ],
-    u: "1f468-200d-1f468-200d-1f467-200d-1f467"
+    u: "1f499"
   },
   {
     n: [
-      "woman-woman-boy"
+      "purple heart",
+      "purple_heart"
     ],
-    u: "1f469-200d-1f469-200d-1f466"
+    u: "1f49c"
   },
   {
     n: [
-      "woman-woman-girl"
+      "brown heart",
+      "brown_heart"
     ],
-    u: "1f469-200d-1f469-200d-1f467"
+    u: "1f90e"
   },
   {
     n: [
-      "woman-woman-girl-boy"
+      "black heart",
+      "black_heart"
     ],
-    u: "1f469-200d-1f469-200d-1f467-200d-1f466"
+    u: "1f5a4"
   },
   {
     n: [
-      "woman-woman-boy-boy"
+      "white heart",
+      "white_heart"
     ],
-    u: "1f469-200d-1f469-200d-1f466-200d-1f466"
+    u: "1f90d"
   },
   {
     n: [
-      "woman-woman-girl-girl"
+      "hundred points",
+      "100",
+      "score",
+      "perfect"
     ],
-    u: "1f469-200d-1f469-200d-1f467-200d-1f467"
+    u: "1f4af"
   },
   {
     n: [
-      "man-boy"
+      "anger symbol",
+      "anger",
+      "angry"
     ],
-    u: "1f468-200d-1f466"
+    u: "1f4a2"
   },
   {
     n: [
-      "man-boy-boy"
+      "collision",
+      "boom",
+      "collision",
+      "explode"
     ],
-    u: "1f468-200d-1f466-200d-1f466"
+    u: "1f4a5"
   },
   {
     n: [
-      "man-girl"
+      "dizzy",
+      "dizzy",
+      "star"
     ],
-    u: "1f468-200d-1f467"
+    u: "1f4ab"
   },
   {
     n: [
-      "man-girl-boy"
+      "sweat droplets",
+      "sweat_drops",
+      "water",
+      "workout"
     ],
-    u: "1f468-200d-1f467-200d-1f466"
+    u: "1f4a6"
   },
   {
     n: [
-      "man-girl-girl"
+      "dashing away",
+      "dash",
+      "wind",
+      "blow",
+      "fast"
     ],
-    u: "1f468-200d-1f467-200d-1f467"
+    u: "1f4a8"
   },
   {
     n: [
-      "woman-boy"
+      "hole",
+      "hole"
     ],
-    u: "1f469-200d-1f466"
+    u: "1f573-fe0f"
   },
   {
     n: [
-      "woman-boy-boy"
+      "bomb",
+      "bomb",
+      "boom"
     ],
-    u: "1f469-200d-1f466-200d-1f466"
+    u: "1f4a3"
   },
   {
     n: [
-      "woman-girl"
+      "speech balloon",
+      "speech_balloon",
+      "comment"
     ],
-    u: "1f469-200d-1f467"
+    u: "1f4ac"
   },
   {
     n: [
-      "woman-girl-boy"
+      "eye in speech bubble",
+      "eye_speech_bubble"
     ],
-    u: "1f469-200d-1f467-200d-1f466"
+    u: "1f441-fe0f-200d-1f5e8-fe0f"
   },
   {
     n: [
-      "woman-girl-girl"
+      "left speech bubble",
+      "left_speech_bubble"
     ],
-    u: "1f469-200d-1f467-200d-1f467"
+    u: "1f5e8-fe0f"
   },
   {
     n: [
-      "selfie"
+      "right anger bubble",
+      "right_anger_bubble"
     ],
-    u: "1f933",
+    u: "1f5ef-fe0f"
+  },
+  {
+    n: [
+      "thought balloon",
+      "thought_balloon",
+      "thinking"
+    ],
+    u: "1f4ad"
+  },
+  {
+    n: [
+      "zzz",
+      "zzz",
+      "sleeping"
+    ],
+    u: "1f4a4"
+  },
+  {
+    n: [
+      "waving hand",
+      "wave",
+      "goodbye"
+    ],
+    u: "1f44b",
     v: [
-      "1f933-1f3fb",
-      "1f933-1f3fc",
-      "1f933-1f3fd",
-      "1f933-1f3fe",
-      "1f933-1f3ff"
+      "1f44b-1f3fb",
+      "1f44b-1f3fc",
+      "1f44b-1f3fd",
+      "1f44b-1f3fe",
+      "1f44b-1f3ff"
     ]
   },
   {
     n: [
-      "flexed biceps",
-      "muscle"
+      "raised back of hand",
+      "raised_back_of_hand"
     ],
-    u: "1f4aa",
+    u: "1f91a",
     v: [
-      "1f4aa-1f3fb",
-      "1f4aa-1f3fc",
-      "1f4aa-1f3fd",
-      "1f4aa-1f3fe",
-      "1f4aa-1f3ff"
+      "1f91a-1f3fb",
+      "1f91a-1f3fc",
+      "1f91a-1f3fd",
+      "1f91a-1f3fe",
+      "1f91a-1f3ff"
     ]
   },
   {
     n: [
-      "white left pointing backhand index",
-      "point_left"
+      "hand with fingers splayed",
+      "raised_hand_with_fingers_splayed"
     ],
-    u: "1f448",
+    u: "1f590-fe0f",
     v: [
-      "1f448-1f3fb",
-      "1f448-1f3fc",
-      "1f448-1f3fd",
-      "1f448-1f3fe",
-      "1f448-1f3ff"
+      "1f590-fe0f-1f3fb",
+      "1f590-fe0f-1f3fc",
+      "1f590-fe0f-1f3fd",
+      "1f590-fe0f-1f3fe",
+      "1f590-fe0f-1f3ff"
     ]
   },
   {
     n: [
-      "white right pointing backhand index",
-      "point_right"
+      "raised hand",
+      "hand",
+      "raised_hand",
+      "highfive",
+      "stop"
     ],
-    u: "1f449",
+    u: "270b",
     v: [
-      "1f449-1f3fb",
-      "1f449-1f3fc",
-      "1f449-1f3fd",
-      "1f449-1f3fe",
-      "1f449-1f3ff"
+      "270b-1f3fb",
+      "270b-1f3fc",
+      "270b-1f3fd",
+      "270b-1f3fe",
+      "270b-1f3ff"
     ]
   },
   {
     n: [
-      "white up pointing index",
-      "point_up"
-    ],
-    u: "261d-fe0f",
-    v: [
-      "261d-1f3fb",
-      "261d-1f3fc",
-      "261d-1f3fd",
-      "261d-1f3fe",
-      "261d-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "white up pointing backhand index",
-      "point_up_2"
-    ],
-    u: "1f446",
-    v: [
-      "1f446-1f3fb",
-      "1f446-1f3fc",
-      "1f446-1f3fd",
-      "1f446-1f3fe",
-      "1f446-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "reversed hand with middle finger extended",
-      "middle_finger",
-      "reversed_hand_with_middle_finger_extended"
-    ],
-    u: "1f595",
-    v: [
-      "1f595-1f3fb",
-      "1f595-1f3fc",
-      "1f595-1f3fd",
-      "1f595-1f3fe",
-      "1f595-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "white down pointing backhand index",
-      "point_down"
-    ],
-    u: "1f447",
-    v: [
-      "1f447-1f3fb",
-      "1f447-1f3fc",
-      "1f447-1f3fd",
-      "1f447-1f3fe",
-      "1f447-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "victory hand",
-      "v"
-    ],
-    u: "270c-fe0f",
-    v: [
-      "270c-1f3fb",
-      "270c-1f3fc",
-      "270c-1f3fd",
-      "270c-1f3fe",
-      "270c-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "hand with index and middle fingers crossed",
-      "crossed_fingers",
-      "hand_with_index_and_middle_fingers_crossed"
-    ],
-    u: "1f91e",
-    v: [
-      "1f91e-1f3fb",
-      "1f91e-1f3fc",
-      "1f91e-1f3fd",
-      "1f91e-1f3fe",
-      "1f91e-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "raised hand with part between middle and ring fingers",
-      "spock-hand"
+      "vulcan salute",
+      "vulcan_salute",
+      "prosper",
+      "spock"
     ],
     u: "1f596",
     v: [
@@ -3669,9 +1449,166 @@ const smileys_people$1 = [
   },
   {
     n: [
+      "rightwards hand",
+      "rightwards_hand"
+    ],
+    u: "1faf1",
+    v: [
+      "1faf1-1f3fb",
+      "1faf1-1f3fc",
+      "1faf1-1f3fd",
+      "1faf1-1f3fe",
+      "1faf1-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "leftwards hand",
+      "leftwards_hand"
+    ],
+    u: "1faf2",
+    v: [
+      "1faf2-1f3fb",
+      "1faf2-1f3fc",
+      "1faf2-1f3fd",
+      "1faf2-1f3fe",
+      "1faf2-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "palm down hand",
+      "palm_down_hand"
+    ],
+    u: "1faf3",
+    v: [
+      "1faf3-1f3fb",
+      "1faf3-1f3fc",
+      "1faf3-1f3fd",
+      "1faf3-1f3fe",
+      "1faf3-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "palm up hand",
+      "palm_up_hand"
+    ],
+    u: "1faf4",
+    v: [
+      "1faf4-1f3fb",
+      "1faf4-1f3fc",
+      "1faf4-1f3fd",
+      "1faf4-1f3fe",
+      "1faf4-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "OK hand",
+      "ok_hand"
+    ],
+    u: "1f44c",
+    v: [
+      "1f44c-1f3fb",
+      "1f44c-1f3fc",
+      "1f44c-1f3fd",
+      "1f44c-1f3fe",
+      "1f44c-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "pinched fingers",
+      "pinched_fingers"
+    ],
+    u: "1f90c",
+    v: [
+      "1f90c-1f3fb",
+      "1f90c-1f3fc",
+      "1f90c-1f3fd",
+      "1f90c-1f3fe",
+      "1f90c-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "pinching hand",
+      "pinching_hand"
+    ],
+    u: "1f90f",
+    v: [
+      "1f90f-1f3fb",
+      "1f90f-1f3fc",
+      "1f90f-1f3fd",
+      "1f90f-1f3fe",
+      "1f90f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "victory hand",
+      "v",
+      "victory",
+      "peace"
+    ],
+    u: "270c-fe0f",
+    v: [
+      "270c-fe0f-1f3fb",
+      "270c-fe0f-1f3fc",
+      "270c-fe0f-1f3fd",
+      "270c-fe0f-1f3fe",
+      "270c-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "crossed fingers",
+      "crossed_fingers",
+      "luck",
+      "hopeful"
+    ],
+    u: "1f91e",
+    v: [
+      "1f91e-1f3fb",
+      "1f91e-1f3fc",
+      "1f91e-1f3fd",
+      "1f91e-1f3fe",
+      "1f91e-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "hand with index finger and thumb crossed",
+      "hand_with_index_finger_and_thumb_crossed"
+    ],
+    u: "1faf0",
+    v: [
+      "1faf0-1f3fb",
+      "1faf0-1f3fc",
+      "1faf0-1f3fd",
+      "1faf0-1f3fe",
+      "1faf0-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "love-you gesture",
+      "love_you_gesture"
+    ],
+    u: "1f91f",
+    v: [
+      "1f91f-1f3fb",
+      "1f91f-1f3fc",
+      "1f91f-1f3fd",
+      "1f91f-1f3fe",
+      "1f91f-1f3ff"
+    ]
+  },
+  {
+    n: [
       "sign of the horns",
-      "the_horns",
-      "sign_of_the_horns"
+      "metal"
     ],
     u: "1f918",
     v: [
@@ -3698,51 +1635,110 @@ const smileys_people$1 = [
   },
   {
     n: [
-      "raised_hand_with_fingers_splayed"
+      "backhand index pointing left",
+      "point_left"
     ],
-    u: "1f590-fe0f",
+    u: "1f448",
     v: [
-      "1f590-1f3fb",
-      "1f590-1f3fc",
-      "1f590-1f3fd",
-      "1f590-1f3fe",
-      "1f590-1f3ff"
+      "1f448-1f3fb",
+      "1f448-1f3fc",
+      "1f448-1f3fd",
+      "1f448-1f3fe",
+      "1f448-1f3ff"
     ]
   },
   {
     n: [
-      "raised hand",
-      "hand",
-      "raised_hand"
+      "backhand index pointing right",
+      "point_right"
     ],
-    u: "270b",
+    u: "1f449",
     v: [
-      "270b-1f3fb",
-      "270b-1f3fc",
-      "270b-1f3fd",
-      "270b-1f3fe",
-      "270b-1f3ff"
+      "1f449-1f3fb",
+      "1f449-1f3fc",
+      "1f449-1f3fd",
+      "1f449-1f3fe",
+      "1f449-1f3ff"
     ]
   },
   {
     n: [
-      "ok hand sign",
-      "ok_hand"
+      "backhand index pointing up",
+      "point_up_2"
     ],
-    u: "1f44c",
+    u: "1f446",
     v: [
-      "1f44c-1f3fb",
-      "1f44c-1f3fc",
-      "1f44c-1f3fd",
-      "1f44c-1f3fe",
-      "1f44c-1f3ff"
+      "1f446-1f3fb",
+      "1f446-1f3fc",
+      "1f446-1f3fd",
+      "1f446-1f3fe",
+      "1f446-1f3ff"
     ]
   },
   {
     n: [
-      "thumbs up sign",
+      "middle finger",
+      "middle_finger",
+      "fu"
+    ],
+    u: "1f595",
+    v: [
+      "1f595-1f3fb",
+      "1f595-1f3fc",
+      "1f595-1f3fd",
+      "1f595-1f3fe",
+      "1f595-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "backhand index pointing down",
+      "point_down"
+    ],
+    u: "1f447",
+    v: [
+      "1f447-1f3fb",
+      "1f447-1f3fc",
+      "1f447-1f3fd",
+      "1f447-1f3fe",
+      "1f447-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "index pointing up",
+      "point_up"
+    ],
+    u: "261d-fe0f",
+    v: [
+      "261d-fe0f-1f3fb",
+      "261d-fe0f-1f3fc",
+      "261d-fe0f-1f3fd",
+      "261d-fe0f-1f3fe",
+      "261d-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "index pointing at the viewer",
+      "index_pointing_at_the_viewer"
+    ],
+    u: "1faf5",
+    v: [
+      "1faf5-1f3fb",
+      "1faf5-1f3fc",
+      "1faf5-1f3fd",
+      "1faf5-1f3fe",
+      "1faf5-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "thumbs up",
       "+1",
-      "thumbsup"
+      "thumbsup",
+      "approve",
+      "ok"
     ],
     u: "1f44d",
     v: [
@@ -3755,9 +1751,11 @@ const smileys_people$1 = [
   },
   {
     n: [
-      "thumbs down sign",
+      "thumbs down",
       "-1",
-      "thumbsdown"
+      "thumbsdown",
+      "disapprove",
+      "bury"
     ],
     u: "1f44e",
     v: [
@@ -3771,7 +1769,9 @@ const smileys_people$1 = [
   {
     n: [
       "raised fist",
-      "fist"
+      "fist_raised",
+      "fist",
+      "power"
     ],
     u: "270a",
     v: [
@@ -3784,9 +1784,11 @@ const smileys_people$1 = [
   },
   {
     n: [
-      "fisted hand sign",
+      "oncoming fist",
+      "fist_oncoming",
       "facepunch",
-      "punch"
+      "punch",
+      "attack"
     ],
     u: "1f44a",
     v: [
@@ -3800,7 +1802,7 @@ const smileys_people$1 = [
   {
     n: [
       "left-facing fist",
-      "left-facing_fist"
+      "fist_left"
     ],
     u: "1f91b",
     v: [
@@ -3814,7 +1816,7 @@ const smileys_people$1 = [
   {
     n: [
       "right-facing fist",
-      "right-facing_fist"
+      "fist_right"
     ],
     u: "1f91c",
     v: [
@@ -3827,63 +1829,10 @@ const smileys_people$1 = [
   },
   {
     n: [
-      "raised back of hand",
-      "raised_back_of_hand"
-    ],
-    u: "1f91a",
-    v: [
-      "1f91a-1f3fb",
-      "1f91a-1f3fc",
-      "1f91a-1f3fd",
-      "1f91a-1f3fe",
-      "1f91a-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "waving hand sign",
-      "wave"
-    ],
-    u: "1f44b",
-    v: [
-      "1f44b-1f3fb",
-      "1f44b-1f3fc",
-      "1f44b-1f3fd",
-      "1f44b-1f3fe",
-      "1f44b-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "i love you hand sign",
-      "i_love_you_hand_sign"
-    ],
-    u: "1f91f",
-    v: [
-      "1f91f-1f3fb",
-      "1f91f-1f3fc",
-      "1f91f-1f3fd",
-      "1f91f-1f3fe",
-      "1f91f-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "writing_hand"
-    ],
-    u: "270d-fe0f",
-    v: [
-      "270d-1f3fb",
-      "270d-1f3fc",
-      "270d-1f3fd",
-      "270d-1f3fe",
-      "270d-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "clapping hands sign",
-      "clap"
+      "clapping hands",
+      "clap",
+      "praise",
+      "applause"
     ],
     u: "1f44f",
     v: [
@@ -3896,7 +1845,37 @@ const smileys_people$1 = [
   },
   {
     n: [
-      "open hands sign",
+      "raising hands",
+      "raised_hands",
+      "hooray"
+    ],
+    u: "1f64c",
+    v: [
+      "1f64c-1f3fb",
+      "1f64c-1f3fc",
+      "1f64c-1f3fd",
+      "1f64c-1f3fe",
+      "1f64c-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "heart hands",
+      "heart_hands",
+      "love"
+    ],
+    u: "1faf6",
+    v: [
+      "1faf6-1f3fb",
+      "1faf6-1f3fc",
+      "1faf6-1f3fd",
+      "1faf6-1f3fe",
+      "1faf6-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "open hands",
       "open_hands"
     ],
     u: "1f450",
@@ -3906,20 +1885,6 @@ const smileys_people$1 = [
       "1f450-1f3fd",
       "1f450-1f3fe",
       "1f450-1f3ff"
-    ]
-  },
-  {
-    n: [
-      "person raising both hands in celebration",
-      "raised_hands"
-    ],
-    u: "1f64c",
-    v: [
-      "1f64c-1f3fb",
-      "1f64c-1f3fc",
-      "1f64c-1f3fd",
-      "1f64c-1f3fe",
-      "1f64c-1f3ff"
     ]
   },
   {
@@ -3938,8 +1903,26 @@ const smileys_people$1 = [
   },
   {
     n: [
-      "person with folded hands",
-      "pray"
+      "handshake",
+      "handshake",
+      "deal"
+    ],
+    u: "1f91d",
+    v: [
+      "1f91d-1f3fb",
+      "1f91d-1f3fc",
+      "1f91d-1f3fd",
+      "1f91d-1f3fe",
+      "1f91d-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "folded hands",
+      "pray",
+      "please",
+      "hope",
+      "wish"
     ],
     u: "1f64f",
     v: [
@@ -3952,14 +1935,24 @@ const smileys_people$1 = [
   },
   {
     n: [
-      "handshake"
+      "writing hand",
+      "writing_hand"
     ],
-    u: "1f91d"
+    u: "270d-fe0f",
+    v: [
+      "270d-fe0f-1f3fb",
+      "270d-fe0f-1f3fc",
+      "270d-fe0f-1f3fd",
+      "270d-fe0f-1f3fe",
+      "270d-fe0f-1f3ff"
+    ]
   },
   {
     n: [
       "nail polish",
-      "nail_care"
+      "nail_care",
+      "beauty",
+      "manicure"
     ],
     u: "1f485",
     v: [
@@ -3972,7 +1965,85 @@ const smileys_people$1 = [
   },
   {
     n: [
-      "ear"
+      "selfie",
+      "selfie"
+    ],
+    u: "1f933",
+    v: [
+      "1f933-1f3fb",
+      "1f933-1f3fc",
+      "1f933-1f3fd",
+      "1f933-1f3fe",
+      "1f933-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "flexed biceps",
+      "muscle",
+      "flex",
+      "bicep",
+      "strong",
+      "workout"
+    ],
+    u: "1f4aa",
+    v: [
+      "1f4aa-1f3fb",
+      "1f4aa-1f3fc",
+      "1f4aa-1f3fd",
+      "1f4aa-1f3fe",
+      "1f4aa-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "mechanical arm",
+      "mechanical_arm"
+    ],
+    u: "1f9be"
+  },
+  {
+    n: [
+      "mechanical leg",
+      "mechanical_leg"
+    ],
+    u: "1f9bf"
+  },
+  {
+    n: [
+      "leg",
+      "leg"
+    ],
+    u: "1f9b5",
+    v: [
+      "1f9b5-1f3fb",
+      "1f9b5-1f3fc",
+      "1f9b5-1f3fd",
+      "1f9b5-1f3fe",
+      "1f9b5-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "foot",
+      "foot"
+    ],
+    u: "1f9b6",
+    v: [
+      "1f9b6-1f3fb",
+      "1f9b6-1f3fc",
+      "1f9b6-1f3fd",
+      "1f9b6-1f3fe",
+      "1f9b6-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "ear",
+      "ear",
+      "hear",
+      "sound",
+      "listen"
     ],
     u: "1f442",
     v: [
@@ -3985,7 +2056,23 @@ const smileys_people$1 = [
   },
   {
     n: [
-      "nose"
+      "ear with hearing aid",
+      "ear_with_hearing_aid"
+    ],
+    u: "1f9bb",
+    v: [
+      "1f9bb-1f3fb",
+      "1f9bb-1f3fc",
+      "1f9bb-1f3fd",
+      "1f9bb-1f3fe",
+      "1f9bb-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "nose",
+      "nose",
+      "smell"
     ],
     u: "1f443",
     v: [
@@ -3998,473 +2085,4118 @@ const smileys_people$1 = [
   },
   {
     n: [
-      "footprints"
-    ],
-    u: "1f463"
-  },
-  {
-    n: [
-      "eyes"
-    ],
-    u: "1f440"
-  },
-  {
-    n: [
-      "eye"
-    ],
-    u: "1f441-fe0f"
-  },
-  {
-    n: [
-      "eye-in-speech-bubble"
-    ],
-    u: "1f441-fe0f-200d-1f5e8-fe0f"
-  },
-  {
-    n: [
+      "brain",
       "brain"
     ],
     u: "1f9e0"
   },
   {
     n: [
-      "tongue"
+      "anatomical heart",
+      "anatomical_heart"
+    ],
+    u: "1fac0"
+  },
+  {
+    n: [
+      "lungs",
+      "lungs"
+    ],
+    u: "1fac1"
+  },
+  {
+    n: [
+      "tooth",
+      "tooth"
+    ],
+    u: "1f9b7"
+  },
+  {
+    n: [
+      "bone",
+      "bone"
+    ],
+    u: "1f9b4"
+  },
+  {
+    n: [
+      "eyes",
+      "eyes",
+      "look",
+      "see",
+      "watch"
+    ],
+    u: "1f440"
+  },
+  {
+    n: [
+      "eye",
+      "eye"
+    ],
+    u: "1f441-fe0f"
+  },
+  {
+    n: [
+      "tongue",
+      "tongue",
+      "taste"
     ],
     u: "1f445"
   },
   {
     n: [
       "mouth",
-      "lips"
+      "lips",
+      "kiss"
     ],
     u: "1f444"
   },
   {
     n: [
-      "kiss mark",
-      "kiss"
+      "biting lip",
+      "biting_lip"
     ],
-    u: "1f48b"
+    u: "1fae6"
   },
   {
     n: [
-      "heart with arrow",
-      "cupid"
+      "baby",
+      "baby",
+      "child",
+      "newborn"
     ],
-    u: "1f498"
+    u: "1f476",
+    v: [
+      "1f476-1f3fb",
+      "1f476-1f3fc",
+      "1f476-1f3fd",
+      "1f476-1f3fe",
+      "1f476-1f3ff"
+    ]
   },
   {
     n: [
-      "heavy black heart",
-      "heart"
+      "child",
+      "child"
     ],
-    u: "2764-fe0f"
+    u: "1f9d2",
+    v: [
+      "1f9d2-1f3fb",
+      "1f9d2-1f3fc",
+      "1f9d2-1f3fd",
+      "1f9d2-1f3fe",
+      "1f9d2-1f3ff"
+    ]
   },
   {
     n: [
-      "beating heart",
-      "heartbeat"
+      "boy",
+      "boy",
+      "child"
     ],
-    u: "1f493"
+    u: "1f466",
+    v: [
+      "1f466-1f3fb",
+      "1f466-1f3fc",
+      "1f466-1f3fd",
+      "1f466-1f3fe",
+      "1f466-1f3ff"
+    ]
   },
   {
     n: [
-      "broken heart",
-      "broken_heart"
+      "girl",
+      "girl",
+      "child"
     ],
-    u: "1f494"
+    u: "1f467",
+    v: [
+      "1f467-1f3fb",
+      "1f467-1f3fc",
+      "1f467-1f3fd",
+      "1f467-1f3fe",
+      "1f467-1f3ff"
+    ]
   },
   {
     n: [
-      "two hearts",
-      "two_hearts"
+      "person",
+      "adult"
     ],
-    u: "1f495"
+    u: "1f9d1",
+    v: [
+      "1f9d1-1f3fb",
+      "1f9d1-1f3fc",
+      "1f9d1-1f3fd",
+      "1f9d1-1f3fe",
+      "1f9d1-1f3ff"
+    ]
   },
   {
     n: [
-      "sparkling heart",
-      "sparkling_heart"
+      "person: blond hair",
+      "blond_haired_person"
     ],
-    u: "1f496"
+    u: "1f471",
+    v: [
+      "1f471-1f3fb",
+      "1f471-1f3fc",
+      "1f471-1f3fd",
+      "1f471-1f3fe",
+      "1f471-1f3ff"
+    ]
   },
   {
     n: [
-      "growing heart",
-      "heartpulse"
+      "man",
+      "man",
+      "mustache",
+      "father",
+      "dad"
     ],
-    u: "1f497"
+    u: "1f468",
+    v: [
+      "1f468-1f3fb",
+      "1f468-1f3fc",
+      "1f468-1f3fd",
+      "1f468-1f3fe",
+      "1f468-1f3ff"
+    ]
   },
   {
     n: [
-      "blue heart",
-      "blue_heart"
+      "person: beard",
+      "bearded_person"
     ],
-    u: "1f499"
+    u: "1f9d4",
+    v: [
+      "1f9d4-1f3fb",
+      "1f9d4-1f3fc",
+      "1f9d4-1f3fd",
+      "1f9d4-1f3fe",
+      "1f9d4-1f3ff"
+    ]
   },
   {
     n: [
-      "green heart",
-      "green_heart"
+      "man: beard",
+      "man_beard"
     ],
-    u: "1f49a"
+    u: "1f9d4-200d-2642-fe0f",
+    v: [
+      "1f9d4-200d-2642-fe0f-1f3fb",
+      "1f9d4-200d-2642-fe0f-1f3fc",
+      "1f9d4-200d-2642-fe0f-1f3fd",
+      "1f9d4-200d-2642-fe0f-1f3fe",
+      "1f9d4-200d-2642-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "yellow heart",
-      "yellow_heart"
+      "woman: beard",
+      "woman_beard"
     ],
-    u: "1f49b"
+    u: "1f9d4-200d-2640-fe0f",
+    v: [
+      "1f9d4-200d-2640-fe0f-1f3fb",
+      "1f9d4-200d-2640-fe0f-1f3fc",
+      "1f9d4-200d-2640-fe0f-1f3fd",
+      "1f9d4-200d-2640-fe0f-1f3fe",
+      "1f9d4-200d-2640-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "orange heart",
-      "orange_heart"
+      "man: red hair",
+      "red_haired_man"
     ],
-    u: "1f9e1"
+    u: "1f468-200d-1f9b0",
+    v: [
+      "1f468-200d-1f9b0-1f3fb",
+      "1f468-200d-1f9b0-1f3fc",
+      "1f468-200d-1f9b0-1f3fd",
+      "1f468-200d-1f9b0-1f3fe",
+      "1f468-200d-1f9b0-1f3ff"
+    ]
   },
   {
     n: [
-      "purple heart",
-      "purple_heart"
+      "man: curly hair",
+      "curly_haired_man"
     ],
-    u: "1f49c"
+    u: "1f468-200d-1f9b1",
+    v: [
+      "1f468-200d-1f9b1-1f3fb",
+      "1f468-200d-1f9b1-1f3fc",
+      "1f468-200d-1f9b1-1f3fd",
+      "1f468-200d-1f9b1-1f3fe",
+      "1f468-200d-1f9b1-1f3ff"
+    ]
   },
   {
     n: [
-      "black heart",
-      "black_heart"
+      "man: white hair",
+      "white_haired_man"
     ],
-    u: "1f5a4"
+    u: "1f468-200d-1f9b3",
+    v: [
+      "1f468-200d-1f9b3-1f3fb",
+      "1f468-200d-1f9b3-1f3fc",
+      "1f468-200d-1f9b3-1f3fd",
+      "1f468-200d-1f9b3-1f3fe",
+      "1f468-200d-1f9b3-1f3ff"
+    ]
   },
   {
     n: [
-      "heart with ribbon",
-      "gift_heart"
+      "man: bald",
+      "bald_man"
     ],
-    u: "1f49d"
+    u: "1f468-200d-1f9b2",
+    v: [
+      "1f468-200d-1f9b2-1f3fb",
+      "1f468-200d-1f9b2-1f3fc",
+      "1f468-200d-1f9b2-1f3fd",
+      "1f468-200d-1f9b2-1f3fe",
+      "1f468-200d-1f9b2-1f3ff"
+    ]
   },
   {
     n: [
-      "revolving hearts",
-      "revolving_hearts"
+      "woman",
+      "woman",
+      "girls"
     ],
-    u: "1f49e"
+    u: "1f469",
+    v: [
+      "1f469-1f3fb",
+      "1f469-1f3fc",
+      "1f469-1f3fd",
+      "1f469-1f3fe",
+      "1f469-1f3ff"
+    ]
   },
   {
     n: [
-      "heart decoration",
-      "heart_decoration"
+      "woman: red hair",
+      "red_haired_woman"
     ],
-    u: "1f49f"
+    u: "1f469-200d-1f9b0",
+    v: [
+      "1f469-200d-1f9b0-1f3fb",
+      "1f469-200d-1f9b0-1f3fc",
+      "1f469-200d-1f9b0-1f3fd",
+      "1f469-200d-1f9b0-1f3fe",
+      "1f469-200d-1f9b0-1f3ff"
+    ]
   },
   {
     n: [
-      "heavy_heart_exclamation_mark_ornament"
+      "person: red hair",
+      "person_red_hair"
     ],
-    u: "2763-fe0f"
+    u: "1f9d1-200d-1f9b0",
+    v: [
+      "1f9d1-200d-1f9b0-1f3fb",
+      "1f9d1-200d-1f9b0-1f3fc",
+      "1f9d1-200d-1f9b0-1f3fd",
+      "1f9d1-200d-1f9b0-1f3fe",
+      "1f9d1-200d-1f9b0-1f3ff"
+    ]
   },
   {
     n: [
-      "love letter",
-      "love_letter"
+      "woman: curly hair",
+      "curly_haired_woman"
     ],
-    u: "1f48c"
+    u: "1f469-200d-1f9b1",
+    v: [
+      "1f469-200d-1f9b1-1f3fb",
+      "1f469-200d-1f9b1-1f3fc",
+      "1f469-200d-1f9b1-1f3fd",
+      "1f469-200d-1f9b1-1f3fe",
+      "1f469-200d-1f9b1-1f3ff"
+    ]
   },
   {
     n: [
-      "sleeping symbol",
-      "zzz"
+      "person: curly hair",
+      "person_curly_hair"
     ],
-    u: "1f4a4"
+    u: "1f9d1-200d-1f9b1",
+    v: [
+      "1f9d1-200d-1f9b1-1f3fb",
+      "1f9d1-200d-1f9b1-1f3fc",
+      "1f9d1-200d-1f9b1-1f3fd",
+      "1f9d1-200d-1f9b1-1f3fe",
+      "1f9d1-200d-1f9b1-1f3ff"
+    ]
   },
   {
     n: [
-      "anger symbol",
-      "anger"
+      "woman: white hair",
+      "white_haired_woman"
     ],
-    u: "1f4a2"
+    u: "1f469-200d-1f9b3",
+    v: [
+      "1f469-200d-1f9b3-1f3fb",
+      "1f469-200d-1f9b3-1f3fc",
+      "1f469-200d-1f9b3-1f3fd",
+      "1f469-200d-1f9b3-1f3fe",
+      "1f469-200d-1f9b3-1f3ff"
+    ]
   },
   {
     n: [
-      "bomb"
+      "person: white hair",
+      "person_white_hair"
     ],
-    u: "1f4a3"
+    u: "1f9d1-200d-1f9b3",
+    v: [
+      "1f9d1-200d-1f9b3-1f3fb",
+      "1f9d1-200d-1f9b3-1f3fc",
+      "1f9d1-200d-1f9b3-1f3fd",
+      "1f9d1-200d-1f9b3-1f3fe",
+      "1f9d1-200d-1f9b3-1f3ff"
+    ]
   },
   {
     n: [
-      "collision symbol",
-      "boom",
-      "collision"
+      "woman: bald",
+      "bald_woman"
     ],
-    u: "1f4a5"
+    u: "1f469-200d-1f9b2",
+    v: [
+      "1f469-200d-1f9b2-1f3fb",
+      "1f469-200d-1f9b2-1f3fc",
+      "1f469-200d-1f9b2-1f3fd",
+      "1f469-200d-1f9b2-1f3fe",
+      "1f469-200d-1f9b2-1f3ff"
+    ]
   },
   {
     n: [
-      "splashing sweat symbol",
-      "sweat_drops"
+      "person: bald",
+      "person_bald"
     ],
-    u: "1f4a6"
+    u: "1f9d1-200d-1f9b2",
+    v: [
+      "1f9d1-200d-1f9b2-1f3fb",
+      "1f9d1-200d-1f9b2-1f3fc",
+      "1f9d1-200d-1f9b2-1f3fd",
+      "1f9d1-200d-1f9b2-1f3fe",
+      "1f9d1-200d-1f9b2-1f3ff"
+    ]
   },
   {
     n: [
-      "dash symbol",
-      "dash"
+      "woman: blond hair",
+      "blond_haired_woman",
+      "blonde_woman"
     ],
-    u: "1f4a8"
+    u: "1f471-200d-2640-fe0f",
+    v: [
+      "1f471-200d-2640-fe0f-1f3fb",
+      "1f471-200d-2640-fe0f-1f3fc",
+      "1f471-200d-2640-fe0f-1f3fd",
+      "1f471-200d-2640-fe0f-1f3fe",
+      "1f471-200d-2640-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "dizzy symbol",
-      "dizzy"
+      "man: blond hair",
+      "blond_haired_man"
     ],
-    u: "1f4ab"
+    u: "1f471-200d-2642-fe0f",
+    v: [
+      "1f471-200d-2642-fe0f-1f3fb",
+      "1f471-200d-2642-fe0f-1f3fc",
+      "1f471-200d-2642-fe0f-1f3fd",
+      "1f471-200d-2642-fe0f-1f3fe",
+      "1f471-200d-2642-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "speech balloon",
-      "speech_balloon"
+      "older person",
+      "older_adult"
     ],
-    u: "1f4ac"
+    u: "1f9d3",
+    v: [
+      "1f9d3-1f3fb",
+      "1f9d3-1f3fc",
+      "1f9d3-1f3fd",
+      "1f9d3-1f3fe",
+      "1f9d3-1f3ff"
+    ]
   },
   {
     n: [
-      "left_speech_bubble"
+      "old man",
+      "older_man"
     ],
-    u: "1f5e8-fe0f"
+    u: "1f474",
+    v: [
+      "1f474-1f3fb",
+      "1f474-1f3fc",
+      "1f474-1f3fd",
+      "1f474-1f3fe",
+      "1f474-1f3ff"
+    ]
   },
   {
     n: [
-      "right_anger_bubble"
+      "old woman",
+      "older_woman"
     ],
-    u: "1f5ef-fe0f"
+    u: "1f475",
+    v: [
+      "1f475-1f3fb",
+      "1f475-1f3fc",
+      "1f475-1f3fd",
+      "1f475-1f3fe",
+      "1f475-1f3ff"
+    ]
   },
   {
     n: [
-      "thought balloon",
-      "thought_balloon"
+      "person frowning",
+      "frowning_person"
     ],
-    u: "1f4ad"
+    u: "1f64d",
+    v: [
+      "1f64d-1f3fb",
+      "1f64d-1f3fc",
+      "1f64d-1f3fd",
+      "1f64d-1f3fe",
+      "1f64d-1f3ff"
+    ]
   },
   {
     n: [
-      "hole"
+      "man frowning",
+      "frowning_man"
     ],
-    u: "1f573-fe0f"
+    u: "1f64d-200d-2642-fe0f",
+    v: [
+      "1f64d-200d-2642-fe0f-1f3fb",
+      "1f64d-200d-2642-fe0f-1f3fc",
+      "1f64d-200d-2642-fe0f-1f3fd",
+      "1f64d-200d-2642-fe0f-1f3fe",
+      "1f64d-200d-2642-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "eyeglasses"
+      "woman frowning",
+      "frowning_woman"
     ],
-    u: "1f453"
+    u: "1f64d-200d-2640-fe0f",
+    v: [
+      "1f64d-200d-2640-fe0f-1f3fb",
+      "1f64d-200d-2640-fe0f-1f3fc",
+      "1f64d-200d-2640-fe0f-1f3fd",
+      "1f64d-200d-2640-fe0f-1f3fe",
+      "1f64d-200d-2640-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "dark_sunglasses"
+      "person pouting",
+      "pouting_face"
     ],
-    u: "1f576-fe0f"
+    u: "1f64e",
+    v: [
+      "1f64e-1f3fb",
+      "1f64e-1f3fc",
+      "1f64e-1f3fd",
+      "1f64e-1f3fe",
+      "1f64e-1f3ff"
+    ]
   },
   {
     n: [
-      "necktie"
+      "man pouting",
+      "pouting_man"
     ],
-    u: "1f454"
+    u: "1f64e-200d-2642-fe0f",
+    v: [
+      "1f64e-200d-2642-fe0f-1f3fb",
+      "1f64e-200d-2642-fe0f-1f3fc",
+      "1f64e-200d-2642-fe0f-1f3fd",
+      "1f64e-200d-2642-fe0f-1f3fe",
+      "1f64e-200d-2642-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "t-shirt",
-      "shirt",
-      "tshirt"
+      "woman pouting",
+      "pouting_woman"
     ],
-    u: "1f455"
+    u: "1f64e-200d-2640-fe0f",
+    v: [
+      "1f64e-200d-2640-fe0f-1f3fb",
+      "1f64e-200d-2640-fe0f-1f3fc",
+      "1f64e-200d-2640-fe0f-1f3fd",
+      "1f64e-200d-2640-fe0f-1f3fe",
+      "1f64e-200d-2640-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "jeans"
+      "person gesturing NO",
+      "no_good",
+      "stop",
+      "halt",
+      "denied"
     ],
-    u: "1f456"
+    u: "1f645",
+    v: [
+      "1f645-1f3fb",
+      "1f645-1f3fc",
+      "1f645-1f3fd",
+      "1f645-1f3fe",
+      "1f645-1f3ff"
+    ]
   },
   {
     n: [
-      "scarf"
+      "man gesturing NO",
+      "no_good_man",
+      "ng_man",
+      "stop",
+      "halt",
+      "denied"
     ],
-    u: "1f9e3"
+    u: "1f645-200d-2642-fe0f",
+    v: [
+      "1f645-200d-2642-fe0f-1f3fb",
+      "1f645-200d-2642-fe0f-1f3fc",
+      "1f645-200d-2642-fe0f-1f3fd",
+      "1f645-200d-2642-fe0f-1f3fe",
+      "1f645-200d-2642-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "gloves"
+      "woman gesturing NO",
+      "no_good_woman",
+      "ng_woman",
+      "stop",
+      "halt",
+      "denied"
     ],
-    u: "1f9e4"
+    u: "1f645-200d-2640-fe0f",
+    v: [
+      "1f645-200d-2640-fe0f-1f3fb",
+      "1f645-200d-2640-fe0f-1f3fc",
+      "1f645-200d-2640-fe0f-1f3fd",
+      "1f645-200d-2640-fe0f-1f3fe",
+      "1f645-200d-2640-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "coat"
+      "person gesturing OK",
+      "ok_person"
     ],
-    u: "1f9e5"
+    u: "1f646",
+    v: [
+      "1f646-1f3fb",
+      "1f646-1f3fc",
+      "1f646-1f3fd",
+      "1f646-1f3fe",
+      "1f646-1f3ff"
+    ]
   },
   {
     n: [
-      "socks"
+      "man gesturing OK",
+      "ok_man"
     ],
-    u: "1f9e6"
+    u: "1f646-200d-2642-fe0f",
+    v: [
+      "1f646-200d-2642-fe0f-1f3fb",
+      "1f646-200d-2642-fe0f-1f3fc",
+      "1f646-200d-2642-fe0f-1f3fd",
+      "1f646-200d-2642-fe0f-1f3fe",
+      "1f646-200d-2642-fe0f-1f3ff"
+    ]
   },
   {
     n: [
+      "woman gesturing OK",
+      "ok_woman"
+    ],
+    u: "1f646-200d-2640-fe0f",
+    v: [
+      "1f646-200d-2640-fe0f-1f3fb",
+      "1f646-200d-2640-fe0f-1f3fc",
+      "1f646-200d-2640-fe0f-1f3fd",
+      "1f646-200d-2640-fe0f-1f3fe",
+      "1f646-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person tipping hand",
+      "tipping_hand_person",
+      "information_desk_person"
+    ],
+    u: "1f481",
+    v: [
+      "1f481-1f3fb",
+      "1f481-1f3fc",
+      "1f481-1f3fd",
+      "1f481-1f3fe",
+      "1f481-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man tipping hand",
+      "tipping_hand_man",
+      "sassy_man",
+      "information"
+    ],
+    u: "1f481-200d-2642-fe0f",
+    v: [
+      "1f481-200d-2642-fe0f-1f3fb",
+      "1f481-200d-2642-fe0f-1f3fc",
+      "1f481-200d-2642-fe0f-1f3fd",
+      "1f481-200d-2642-fe0f-1f3fe",
+      "1f481-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman tipping hand",
+      "tipping_hand_woman",
+      "sassy_woman",
+      "information"
+    ],
+    u: "1f481-200d-2640-fe0f",
+    v: [
+      "1f481-200d-2640-fe0f-1f3fb",
+      "1f481-200d-2640-fe0f-1f3fc",
+      "1f481-200d-2640-fe0f-1f3fd",
+      "1f481-200d-2640-fe0f-1f3fe",
+      "1f481-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person raising hand",
+      "raising_hand"
+    ],
+    u: "1f64b",
+    v: [
+      "1f64b-1f3fb",
+      "1f64b-1f3fc",
+      "1f64b-1f3fd",
+      "1f64b-1f3fe",
+      "1f64b-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man raising hand",
+      "raising_hand_man"
+    ],
+    u: "1f64b-200d-2642-fe0f",
+    v: [
+      "1f64b-200d-2642-fe0f-1f3fb",
+      "1f64b-200d-2642-fe0f-1f3fc",
+      "1f64b-200d-2642-fe0f-1f3fd",
+      "1f64b-200d-2642-fe0f-1f3fe",
+      "1f64b-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman raising hand",
+      "raising_hand_woman"
+    ],
+    u: "1f64b-200d-2640-fe0f",
+    v: [
+      "1f64b-200d-2640-fe0f-1f3fb",
+      "1f64b-200d-2640-fe0f-1f3fc",
+      "1f64b-200d-2640-fe0f-1f3fd",
+      "1f64b-200d-2640-fe0f-1f3fe",
+      "1f64b-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "deaf person",
+      "deaf_person"
+    ],
+    u: "1f9cf",
+    v: [
+      "1f9cf-1f3fb",
+      "1f9cf-1f3fc",
+      "1f9cf-1f3fd",
+      "1f9cf-1f3fe",
+      "1f9cf-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "deaf man",
+      "deaf_man"
+    ],
+    u: "1f9cf-200d-2642-fe0f",
+    v: [
+      "1f9cf-200d-2642-fe0f-1f3fb",
+      "1f9cf-200d-2642-fe0f-1f3fc",
+      "1f9cf-200d-2642-fe0f-1f3fd",
+      "1f9cf-200d-2642-fe0f-1f3fe",
+      "1f9cf-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "deaf woman",
+      "deaf_woman"
+    ],
+    u: "1f9cf-200d-2640-fe0f",
+    v: [
+      "1f9cf-200d-2640-fe0f-1f3fb",
+      "1f9cf-200d-2640-fe0f-1f3fc",
+      "1f9cf-200d-2640-fe0f-1f3fd",
+      "1f9cf-200d-2640-fe0f-1f3fe",
+      "1f9cf-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person bowing",
+      "bow",
+      "respect",
+      "thanks"
+    ],
+    u: "1f647",
+    v: [
+      "1f647-1f3fb",
+      "1f647-1f3fc",
+      "1f647-1f3fd",
+      "1f647-1f3fe",
+      "1f647-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man bowing",
+      "bowing_man",
+      "respect",
+      "thanks"
+    ],
+    u: "1f647-200d-2642-fe0f",
+    v: [
+      "1f647-200d-2642-fe0f-1f3fb",
+      "1f647-200d-2642-fe0f-1f3fc",
+      "1f647-200d-2642-fe0f-1f3fd",
+      "1f647-200d-2642-fe0f-1f3fe",
+      "1f647-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman bowing",
+      "bowing_woman",
+      "respect",
+      "thanks"
+    ],
+    u: "1f647-200d-2640-fe0f",
+    v: [
+      "1f647-200d-2640-fe0f-1f3fb",
+      "1f647-200d-2640-fe0f-1f3fc",
+      "1f647-200d-2640-fe0f-1f3fd",
+      "1f647-200d-2640-fe0f-1f3fe",
+      "1f647-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person facepalming",
+      "facepalm"
+    ],
+    u: "1f926",
+    v: [
+      "1f926-1f3fb",
+      "1f926-1f3fc",
+      "1f926-1f3fd",
+      "1f926-1f3fe",
+      "1f926-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man facepalming",
+      "man_facepalming"
+    ],
+    u: "1f926-200d-2642-fe0f",
+    v: [
+      "1f926-200d-2642-fe0f-1f3fb",
+      "1f926-200d-2642-fe0f-1f3fc",
+      "1f926-200d-2642-fe0f-1f3fd",
+      "1f926-200d-2642-fe0f-1f3fe",
+      "1f926-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman facepalming",
+      "woman_facepalming"
+    ],
+    u: "1f926-200d-2640-fe0f",
+    v: [
+      "1f926-200d-2640-fe0f-1f3fb",
+      "1f926-200d-2640-fe0f-1f3fc",
+      "1f926-200d-2640-fe0f-1f3fd",
+      "1f926-200d-2640-fe0f-1f3fe",
+      "1f926-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person shrugging",
+      "shrug"
+    ],
+    u: "1f937",
+    v: [
+      "1f937-1f3fb",
+      "1f937-1f3fc",
+      "1f937-1f3fd",
+      "1f937-1f3fe",
+      "1f937-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man shrugging",
+      "man_shrugging"
+    ],
+    u: "1f937-200d-2642-fe0f",
+    v: [
+      "1f937-200d-2642-fe0f-1f3fb",
+      "1f937-200d-2642-fe0f-1f3fc",
+      "1f937-200d-2642-fe0f-1f3fd",
+      "1f937-200d-2642-fe0f-1f3fe",
+      "1f937-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman shrugging",
+      "woman_shrugging"
+    ],
+    u: "1f937-200d-2640-fe0f",
+    v: [
+      "1f937-200d-2640-fe0f-1f3fb",
+      "1f937-200d-2640-fe0f-1f3fc",
+      "1f937-200d-2640-fe0f-1f3fd",
+      "1f937-200d-2640-fe0f-1f3fe",
+      "1f937-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "health worker",
+      "health_worker"
+    ],
+    u: "1f9d1-200d-2695-fe0f",
+    v: [
+      "1f9d1-200d-2695-fe0f-1f3fb",
+      "1f9d1-200d-2695-fe0f-1f3fc",
+      "1f9d1-200d-2695-fe0f-1f3fd",
+      "1f9d1-200d-2695-fe0f-1f3fe",
+      "1f9d1-200d-2695-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man health worker",
+      "man_health_worker",
+      "doctor",
+      "nurse"
+    ],
+    u: "1f468-200d-2695-fe0f",
+    v: [
+      "1f468-200d-2695-fe0f-1f3fb",
+      "1f468-200d-2695-fe0f-1f3fc",
+      "1f468-200d-2695-fe0f-1f3fd",
+      "1f468-200d-2695-fe0f-1f3fe",
+      "1f468-200d-2695-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman health worker",
+      "woman_health_worker",
+      "doctor",
+      "nurse"
+    ],
+    u: "1f469-200d-2695-fe0f",
+    v: [
+      "1f469-200d-2695-fe0f-1f3fb",
+      "1f469-200d-2695-fe0f-1f3fc",
+      "1f469-200d-2695-fe0f-1f3fd",
+      "1f469-200d-2695-fe0f-1f3fe",
+      "1f469-200d-2695-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "student",
+      "student"
+    ],
+    u: "1f9d1-200d-1f393",
+    v: [
+      "1f9d1-200d-1f393-1f3fb",
+      "1f9d1-200d-1f393-1f3fc",
+      "1f9d1-200d-1f393-1f3fd",
+      "1f9d1-200d-1f393-1f3fe",
+      "1f9d1-200d-1f393-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man student",
+      "man_student",
+      "graduation"
+    ],
+    u: "1f468-200d-1f393",
+    v: [
+      "1f468-200d-1f393-1f3fb",
+      "1f468-200d-1f393-1f3fc",
+      "1f468-200d-1f393-1f3fd",
+      "1f468-200d-1f393-1f3fe",
+      "1f468-200d-1f393-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman student",
+      "woman_student",
+      "graduation"
+    ],
+    u: "1f469-200d-1f393",
+    v: [
+      "1f469-200d-1f393-1f3fb",
+      "1f469-200d-1f393-1f3fc",
+      "1f469-200d-1f393-1f3fd",
+      "1f469-200d-1f393-1f3fe",
+      "1f469-200d-1f393-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "teacher",
+      "teacher"
+    ],
+    u: "1f9d1-200d-1f3eb",
+    v: [
+      "1f9d1-200d-1f3eb-1f3fb",
+      "1f9d1-200d-1f3eb-1f3fc",
+      "1f9d1-200d-1f3eb-1f3fd",
+      "1f9d1-200d-1f3eb-1f3fe",
+      "1f9d1-200d-1f3eb-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man teacher",
+      "man_teacher",
+      "school",
+      "professor"
+    ],
+    u: "1f468-200d-1f3eb",
+    v: [
+      "1f468-200d-1f3eb-1f3fb",
+      "1f468-200d-1f3eb-1f3fc",
+      "1f468-200d-1f3eb-1f3fd",
+      "1f468-200d-1f3eb-1f3fe",
+      "1f468-200d-1f3eb-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman teacher",
+      "woman_teacher",
+      "school",
+      "professor"
+    ],
+    u: "1f469-200d-1f3eb",
+    v: [
+      "1f469-200d-1f3eb-1f3fb",
+      "1f469-200d-1f3eb-1f3fc",
+      "1f469-200d-1f3eb-1f3fd",
+      "1f469-200d-1f3eb-1f3fe",
+      "1f469-200d-1f3eb-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "judge",
+      "judge"
+    ],
+    u: "1f9d1-200d-2696-fe0f",
+    v: [
+      "1f9d1-200d-2696-fe0f-1f3fb",
+      "1f9d1-200d-2696-fe0f-1f3fc",
+      "1f9d1-200d-2696-fe0f-1f3fd",
+      "1f9d1-200d-2696-fe0f-1f3fe",
+      "1f9d1-200d-2696-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man judge",
+      "man_judge",
+      "justice"
+    ],
+    u: "1f468-200d-2696-fe0f",
+    v: [
+      "1f468-200d-2696-fe0f-1f3fb",
+      "1f468-200d-2696-fe0f-1f3fc",
+      "1f468-200d-2696-fe0f-1f3fd",
+      "1f468-200d-2696-fe0f-1f3fe",
+      "1f468-200d-2696-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman judge",
+      "woman_judge",
+      "justice"
+    ],
+    u: "1f469-200d-2696-fe0f",
+    v: [
+      "1f469-200d-2696-fe0f-1f3fb",
+      "1f469-200d-2696-fe0f-1f3fc",
+      "1f469-200d-2696-fe0f-1f3fd",
+      "1f469-200d-2696-fe0f-1f3fe",
+      "1f469-200d-2696-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "farmer",
+      "farmer"
+    ],
+    u: "1f9d1-200d-1f33e",
+    v: [
+      "1f9d1-200d-1f33e-1f3fb",
+      "1f9d1-200d-1f33e-1f3fc",
+      "1f9d1-200d-1f33e-1f3fd",
+      "1f9d1-200d-1f33e-1f3fe",
+      "1f9d1-200d-1f33e-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man farmer",
+      "man_farmer"
+    ],
+    u: "1f468-200d-1f33e",
+    v: [
+      "1f468-200d-1f33e-1f3fb",
+      "1f468-200d-1f33e-1f3fc",
+      "1f468-200d-1f33e-1f3fd",
+      "1f468-200d-1f33e-1f3fe",
+      "1f468-200d-1f33e-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman farmer",
+      "woman_farmer"
+    ],
+    u: "1f469-200d-1f33e",
+    v: [
+      "1f469-200d-1f33e-1f3fb",
+      "1f469-200d-1f33e-1f3fc",
+      "1f469-200d-1f33e-1f3fd",
+      "1f469-200d-1f33e-1f3fe",
+      "1f469-200d-1f33e-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "cook",
+      "cook"
+    ],
+    u: "1f9d1-200d-1f373",
+    v: [
+      "1f9d1-200d-1f373-1f3fb",
+      "1f9d1-200d-1f373-1f3fc",
+      "1f9d1-200d-1f373-1f3fd",
+      "1f9d1-200d-1f373-1f3fe",
+      "1f9d1-200d-1f373-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man cook",
+      "man_cook",
+      "chef"
+    ],
+    u: "1f468-200d-1f373",
+    v: [
+      "1f468-200d-1f373-1f3fb",
+      "1f468-200d-1f373-1f3fc",
+      "1f468-200d-1f373-1f3fd",
+      "1f468-200d-1f373-1f3fe",
+      "1f468-200d-1f373-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman cook",
+      "woman_cook",
+      "chef"
+    ],
+    u: "1f469-200d-1f373",
+    v: [
+      "1f469-200d-1f373-1f3fb",
+      "1f469-200d-1f373-1f3fc",
+      "1f469-200d-1f373-1f3fd",
+      "1f469-200d-1f373-1f3fe",
+      "1f469-200d-1f373-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "mechanic",
+      "mechanic"
+    ],
+    u: "1f9d1-200d-1f527",
+    v: [
+      "1f9d1-200d-1f527-1f3fb",
+      "1f9d1-200d-1f527-1f3fc",
+      "1f9d1-200d-1f527-1f3fd",
+      "1f9d1-200d-1f527-1f3fe",
+      "1f9d1-200d-1f527-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man mechanic",
+      "man_mechanic"
+    ],
+    u: "1f468-200d-1f527",
+    v: [
+      "1f468-200d-1f527-1f3fb",
+      "1f468-200d-1f527-1f3fc",
+      "1f468-200d-1f527-1f3fd",
+      "1f468-200d-1f527-1f3fe",
+      "1f468-200d-1f527-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman mechanic",
+      "woman_mechanic"
+    ],
+    u: "1f469-200d-1f527",
+    v: [
+      "1f469-200d-1f527-1f3fb",
+      "1f469-200d-1f527-1f3fc",
+      "1f469-200d-1f527-1f3fd",
+      "1f469-200d-1f527-1f3fe",
+      "1f469-200d-1f527-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "factory worker",
+      "factory_worker"
+    ],
+    u: "1f9d1-200d-1f3ed",
+    v: [
+      "1f9d1-200d-1f3ed-1f3fb",
+      "1f9d1-200d-1f3ed-1f3fc",
+      "1f9d1-200d-1f3ed-1f3fd",
+      "1f9d1-200d-1f3ed-1f3fe",
+      "1f9d1-200d-1f3ed-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man factory worker",
+      "man_factory_worker"
+    ],
+    u: "1f468-200d-1f3ed",
+    v: [
+      "1f468-200d-1f3ed-1f3fb",
+      "1f468-200d-1f3ed-1f3fc",
+      "1f468-200d-1f3ed-1f3fd",
+      "1f468-200d-1f3ed-1f3fe",
+      "1f468-200d-1f3ed-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman factory worker",
+      "woman_factory_worker"
+    ],
+    u: "1f469-200d-1f3ed",
+    v: [
+      "1f469-200d-1f3ed-1f3fb",
+      "1f469-200d-1f3ed-1f3fc",
+      "1f469-200d-1f3ed-1f3fd",
+      "1f469-200d-1f3ed-1f3fe",
+      "1f469-200d-1f3ed-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "office worker",
+      "office_worker"
+    ],
+    u: "1f9d1-200d-1f4bc",
+    v: [
+      "1f9d1-200d-1f4bc-1f3fb",
+      "1f9d1-200d-1f4bc-1f3fc",
+      "1f9d1-200d-1f4bc-1f3fd",
+      "1f9d1-200d-1f4bc-1f3fe",
+      "1f9d1-200d-1f4bc-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man office worker",
+      "man_office_worker",
+      "business"
+    ],
+    u: "1f468-200d-1f4bc",
+    v: [
+      "1f468-200d-1f4bc-1f3fb",
+      "1f468-200d-1f4bc-1f3fc",
+      "1f468-200d-1f4bc-1f3fd",
+      "1f468-200d-1f4bc-1f3fe",
+      "1f468-200d-1f4bc-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman office worker",
+      "woman_office_worker",
+      "business"
+    ],
+    u: "1f469-200d-1f4bc",
+    v: [
+      "1f469-200d-1f4bc-1f3fb",
+      "1f469-200d-1f4bc-1f3fc",
+      "1f469-200d-1f4bc-1f3fd",
+      "1f469-200d-1f4bc-1f3fe",
+      "1f469-200d-1f4bc-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "scientist",
+      "scientist"
+    ],
+    u: "1f9d1-200d-1f52c",
+    v: [
+      "1f9d1-200d-1f52c-1f3fb",
+      "1f9d1-200d-1f52c-1f3fc",
+      "1f9d1-200d-1f52c-1f3fd",
+      "1f9d1-200d-1f52c-1f3fe",
+      "1f9d1-200d-1f52c-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man scientist",
+      "man_scientist",
+      "research"
+    ],
+    u: "1f468-200d-1f52c",
+    v: [
+      "1f468-200d-1f52c-1f3fb",
+      "1f468-200d-1f52c-1f3fc",
+      "1f468-200d-1f52c-1f3fd",
+      "1f468-200d-1f52c-1f3fe",
+      "1f468-200d-1f52c-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman scientist",
+      "woman_scientist",
+      "research"
+    ],
+    u: "1f469-200d-1f52c",
+    v: [
+      "1f469-200d-1f52c-1f3fb",
+      "1f469-200d-1f52c-1f3fc",
+      "1f469-200d-1f52c-1f3fd",
+      "1f469-200d-1f52c-1f3fe",
+      "1f469-200d-1f52c-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "technologist",
+      "technologist"
+    ],
+    u: "1f9d1-200d-1f4bb",
+    v: [
+      "1f9d1-200d-1f4bb-1f3fb",
+      "1f9d1-200d-1f4bb-1f3fc",
+      "1f9d1-200d-1f4bb-1f3fd",
+      "1f9d1-200d-1f4bb-1f3fe",
+      "1f9d1-200d-1f4bb-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man technologist",
+      "man_technologist",
+      "coder"
+    ],
+    u: "1f468-200d-1f4bb",
+    v: [
+      "1f468-200d-1f4bb-1f3fb",
+      "1f468-200d-1f4bb-1f3fc",
+      "1f468-200d-1f4bb-1f3fd",
+      "1f468-200d-1f4bb-1f3fe",
+      "1f468-200d-1f4bb-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman technologist",
+      "woman_technologist",
+      "coder"
+    ],
+    u: "1f469-200d-1f4bb",
+    v: [
+      "1f469-200d-1f4bb-1f3fb",
+      "1f469-200d-1f4bb-1f3fc",
+      "1f469-200d-1f4bb-1f3fd",
+      "1f469-200d-1f4bb-1f3fe",
+      "1f469-200d-1f4bb-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "singer",
+      "singer"
+    ],
+    u: "1f9d1-200d-1f3a4",
+    v: [
+      "1f9d1-200d-1f3a4-1f3fb",
+      "1f9d1-200d-1f3a4-1f3fc",
+      "1f9d1-200d-1f3a4-1f3fd",
+      "1f9d1-200d-1f3a4-1f3fe",
+      "1f9d1-200d-1f3a4-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man singer",
+      "man_singer",
+      "rockstar"
+    ],
+    u: "1f468-200d-1f3a4",
+    v: [
+      "1f468-200d-1f3a4-1f3fb",
+      "1f468-200d-1f3a4-1f3fc",
+      "1f468-200d-1f3a4-1f3fd",
+      "1f468-200d-1f3a4-1f3fe",
+      "1f468-200d-1f3a4-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman singer",
+      "woman_singer",
+      "rockstar"
+    ],
+    u: "1f469-200d-1f3a4",
+    v: [
+      "1f469-200d-1f3a4-1f3fb",
+      "1f469-200d-1f3a4-1f3fc",
+      "1f469-200d-1f3a4-1f3fd",
+      "1f469-200d-1f3a4-1f3fe",
+      "1f469-200d-1f3a4-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "artist",
+      "artist"
+    ],
+    u: "1f9d1-200d-1f3a8",
+    v: [
+      "1f9d1-200d-1f3a8-1f3fb",
+      "1f9d1-200d-1f3a8-1f3fc",
+      "1f9d1-200d-1f3a8-1f3fd",
+      "1f9d1-200d-1f3a8-1f3fe",
+      "1f9d1-200d-1f3a8-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man artist",
+      "man_artist",
+      "painter"
+    ],
+    u: "1f468-200d-1f3a8",
+    v: [
+      "1f468-200d-1f3a8-1f3fb",
+      "1f468-200d-1f3a8-1f3fc",
+      "1f468-200d-1f3a8-1f3fd",
+      "1f468-200d-1f3a8-1f3fe",
+      "1f468-200d-1f3a8-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman artist",
+      "woman_artist",
+      "painter"
+    ],
+    u: "1f469-200d-1f3a8",
+    v: [
+      "1f469-200d-1f3a8-1f3fb",
+      "1f469-200d-1f3a8-1f3fc",
+      "1f469-200d-1f3a8-1f3fd",
+      "1f469-200d-1f3a8-1f3fe",
+      "1f469-200d-1f3a8-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "pilot",
+      "pilot"
+    ],
+    u: "1f9d1-200d-2708-fe0f",
+    v: [
+      "1f9d1-200d-2708-fe0f-1f3fb",
+      "1f9d1-200d-2708-fe0f-1f3fc",
+      "1f9d1-200d-2708-fe0f-1f3fd",
+      "1f9d1-200d-2708-fe0f-1f3fe",
+      "1f9d1-200d-2708-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man pilot",
+      "man_pilot"
+    ],
+    u: "1f468-200d-2708-fe0f",
+    v: [
+      "1f468-200d-2708-fe0f-1f3fb",
+      "1f468-200d-2708-fe0f-1f3fc",
+      "1f468-200d-2708-fe0f-1f3fd",
+      "1f468-200d-2708-fe0f-1f3fe",
+      "1f468-200d-2708-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman pilot",
+      "woman_pilot"
+    ],
+    u: "1f469-200d-2708-fe0f",
+    v: [
+      "1f469-200d-2708-fe0f-1f3fb",
+      "1f469-200d-2708-fe0f-1f3fc",
+      "1f469-200d-2708-fe0f-1f3fd",
+      "1f469-200d-2708-fe0f-1f3fe",
+      "1f469-200d-2708-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "astronaut",
+      "astronaut"
+    ],
+    u: "1f9d1-200d-1f680",
+    v: [
+      "1f9d1-200d-1f680-1f3fb",
+      "1f9d1-200d-1f680-1f3fc",
+      "1f9d1-200d-1f680-1f3fd",
+      "1f9d1-200d-1f680-1f3fe",
+      "1f9d1-200d-1f680-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man astronaut",
+      "man_astronaut",
+      "space"
+    ],
+    u: "1f468-200d-1f680",
+    v: [
+      "1f468-200d-1f680-1f3fb",
+      "1f468-200d-1f680-1f3fc",
+      "1f468-200d-1f680-1f3fd",
+      "1f468-200d-1f680-1f3fe",
+      "1f468-200d-1f680-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman astronaut",
+      "woman_astronaut",
+      "space"
+    ],
+    u: "1f469-200d-1f680",
+    v: [
+      "1f469-200d-1f680-1f3fb",
+      "1f469-200d-1f680-1f3fc",
+      "1f469-200d-1f680-1f3fd",
+      "1f469-200d-1f680-1f3fe",
+      "1f469-200d-1f680-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "firefighter",
+      "firefighter"
+    ],
+    u: "1f9d1-200d-1f692",
+    v: [
+      "1f9d1-200d-1f692-1f3fb",
+      "1f9d1-200d-1f692-1f3fc",
+      "1f9d1-200d-1f692-1f3fd",
+      "1f9d1-200d-1f692-1f3fe",
+      "1f9d1-200d-1f692-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man firefighter",
+      "man_firefighter"
+    ],
+    u: "1f468-200d-1f692",
+    v: [
+      "1f468-200d-1f692-1f3fb",
+      "1f468-200d-1f692-1f3fc",
+      "1f468-200d-1f692-1f3fd",
+      "1f468-200d-1f692-1f3fe",
+      "1f468-200d-1f692-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman firefighter",
+      "woman_firefighter"
+    ],
+    u: "1f469-200d-1f692",
+    v: [
+      "1f469-200d-1f692-1f3fb",
+      "1f469-200d-1f692-1f3fc",
+      "1f469-200d-1f692-1f3fd",
+      "1f469-200d-1f692-1f3fe",
+      "1f469-200d-1f692-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "police officer",
+      "police_officer",
+      "cop",
+      "law"
+    ],
+    u: "1f46e",
+    v: [
+      "1f46e-1f3fb",
+      "1f46e-1f3fc",
+      "1f46e-1f3fd",
+      "1f46e-1f3fe",
+      "1f46e-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man police officer",
+      "policeman",
+      "law",
+      "cop"
+    ],
+    u: "1f46e-200d-2642-fe0f",
+    v: [
+      "1f46e-200d-2642-fe0f-1f3fb",
+      "1f46e-200d-2642-fe0f-1f3fc",
+      "1f46e-200d-2642-fe0f-1f3fd",
+      "1f46e-200d-2642-fe0f-1f3fe",
+      "1f46e-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman police officer",
+      "policewoman",
+      "law",
+      "cop"
+    ],
+    u: "1f46e-200d-2640-fe0f",
+    v: [
+      "1f46e-200d-2640-fe0f-1f3fb",
+      "1f46e-200d-2640-fe0f-1f3fc",
+      "1f46e-200d-2640-fe0f-1f3fd",
+      "1f46e-200d-2640-fe0f-1f3fe",
+      "1f46e-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "detective",
+      "detective",
+      "sleuth"
+    ],
+    u: "1f575-fe0f",
+    v: [
+      "1f575-fe0f-1f3fb",
+      "1f575-fe0f-1f3fc",
+      "1f575-fe0f-1f3fd",
+      "1f575-fe0f-1f3fe",
+      "1f575-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man detective",
+      "male_detective",
+      "sleuth"
+    ],
+    u: "1f575-fe0f-200d-2642-fe0f",
+    v: [
+      "1f575-fe0f-200d-2642-fe0f-1f3fb",
+      "1f575-fe0f-200d-2642-fe0f-1f3fc",
+      "1f575-fe0f-200d-2642-fe0f-1f3fd",
+      "1f575-fe0f-200d-2642-fe0f-1f3fe",
+      "1f575-fe0f-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman detective",
+      "female_detective",
+      "sleuth"
+    ],
+    u: "1f575-fe0f-200d-2640-fe0f",
+    v: [
+      "1f575-fe0f-200d-2640-fe0f-1f3fb",
+      "1f575-fe0f-200d-2640-fe0f-1f3fc",
+      "1f575-fe0f-200d-2640-fe0f-1f3fd",
+      "1f575-fe0f-200d-2640-fe0f-1f3fe",
+      "1f575-fe0f-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "guard",
+      "guard"
+    ],
+    u: "1f482",
+    v: [
+      "1f482-1f3fb",
+      "1f482-1f3fc",
+      "1f482-1f3fd",
+      "1f482-1f3fe",
+      "1f482-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man guard",
+      "guardsman"
+    ],
+    u: "1f482-200d-2642-fe0f",
+    v: [
+      "1f482-200d-2642-fe0f-1f3fb",
+      "1f482-200d-2642-fe0f-1f3fc",
+      "1f482-200d-2642-fe0f-1f3fd",
+      "1f482-200d-2642-fe0f-1f3fe",
+      "1f482-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman guard",
+      "guardswoman"
+    ],
+    u: "1f482-200d-2640-fe0f",
+    v: [
+      "1f482-200d-2640-fe0f-1f3fb",
+      "1f482-200d-2640-fe0f-1f3fc",
+      "1f482-200d-2640-fe0f-1f3fd",
+      "1f482-200d-2640-fe0f-1f3fe",
+      "1f482-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "ninja",
+      "ninja"
+    ],
+    u: "1f977",
+    v: [
+      "1f977-1f3fb",
+      "1f977-1f3fc",
+      "1f977-1f3fd",
+      "1f977-1f3fe",
+      "1f977-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "construction worker",
+      "construction_worker",
+      "helmet"
+    ],
+    u: "1f477",
+    v: [
+      "1f477-1f3fb",
+      "1f477-1f3fc",
+      "1f477-1f3fd",
+      "1f477-1f3fe",
+      "1f477-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man construction worker",
+      "construction_worker_man",
+      "helmet"
+    ],
+    u: "1f477-200d-2642-fe0f",
+    v: [
+      "1f477-200d-2642-fe0f-1f3fb",
+      "1f477-200d-2642-fe0f-1f3fc",
+      "1f477-200d-2642-fe0f-1f3fd",
+      "1f477-200d-2642-fe0f-1f3fe",
+      "1f477-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman construction worker",
+      "construction_worker_woman",
+      "helmet"
+    ],
+    u: "1f477-200d-2640-fe0f",
+    v: [
+      "1f477-200d-2640-fe0f-1f3fb",
+      "1f477-200d-2640-fe0f-1f3fc",
+      "1f477-200d-2640-fe0f-1f3fd",
+      "1f477-200d-2640-fe0f-1f3fe",
+      "1f477-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person with crown",
+      "person_with_crown"
+    ],
+    u: "1fac5",
+    v: [
+      "1fac5-1f3fb",
+      "1fac5-1f3fc",
+      "1fac5-1f3fd",
+      "1fac5-1f3fe",
+      "1fac5-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "prince",
+      "prince",
+      "crown",
+      "royal"
+    ],
+    u: "1f934",
+    v: [
+      "1f934-1f3fb",
+      "1f934-1f3fc",
+      "1f934-1f3fd",
+      "1f934-1f3fe",
+      "1f934-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "princess",
+      "princess",
+      "crown",
+      "royal"
+    ],
+    u: "1f478",
+    v: [
+      "1f478-1f3fb",
+      "1f478-1f3fc",
+      "1f478-1f3fd",
+      "1f478-1f3fe",
+      "1f478-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person wearing turban",
+      "person_with_turban"
+    ],
+    u: "1f473",
+    v: [
+      "1f473-1f3fb",
+      "1f473-1f3fc",
+      "1f473-1f3fd",
+      "1f473-1f3fe",
+      "1f473-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man wearing turban",
+      "man_with_turban"
+    ],
+    u: "1f473-200d-2642-fe0f",
+    v: [
+      "1f473-200d-2642-fe0f-1f3fb",
+      "1f473-200d-2642-fe0f-1f3fc",
+      "1f473-200d-2642-fe0f-1f3fd",
+      "1f473-200d-2642-fe0f-1f3fe",
+      "1f473-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman wearing turban",
+      "woman_with_turban"
+    ],
+    u: "1f473-200d-2640-fe0f",
+    v: [
+      "1f473-200d-2640-fe0f-1f3fb",
+      "1f473-200d-2640-fe0f-1f3fc",
+      "1f473-200d-2640-fe0f-1f3fd",
+      "1f473-200d-2640-fe0f-1f3fe",
+      "1f473-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person with skullcap",
+      "man_with_gua_pi_mao"
+    ],
+    u: "1f472",
+    v: [
+      "1f472-1f3fb",
+      "1f472-1f3fc",
+      "1f472-1f3fd",
+      "1f472-1f3fe",
+      "1f472-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman with headscarf",
+      "woman_with_headscarf",
+      "hijab"
+    ],
+    u: "1f9d5",
+    v: [
+      "1f9d5-1f3fb",
+      "1f9d5-1f3fc",
+      "1f9d5-1f3fd",
+      "1f9d5-1f3fe",
+      "1f9d5-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person in tuxedo",
+      "person_in_tuxedo",
+      "groom",
+      "marriage",
+      "wedding"
+    ],
+    u: "1f935",
+    v: [
+      "1f935-1f3fb",
+      "1f935-1f3fc",
+      "1f935-1f3fd",
+      "1f935-1f3fe",
+      "1f935-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man in tuxedo",
+      "man_in_tuxedo"
+    ],
+    u: "1f935-200d-2642-fe0f",
+    v: [
+      "1f935-200d-2642-fe0f-1f3fb",
+      "1f935-200d-2642-fe0f-1f3fc",
+      "1f935-200d-2642-fe0f-1f3fd",
+      "1f935-200d-2642-fe0f-1f3fe",
+      "1f935-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman in tuxedo",
+      "woman_in_tuxedo"
+    ],
+    u: "1f935-200d-2640-fe0f",
+    v: [
+      "1f935-200d-2640-fe0f-1f3fb",
+      "1f935-200d-2640-fe0f-1f3fc",
+      "1f935-200d-2640-fe0f-1f3fd",
+      "1f935-200d-2640-fe0f-1f3fe",
+      "1f935-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person with veil",
+      "person_with_veil",
+      "marriage",
+      "wedding"
+    ],
+    u: "1f470",
+    v: [
+      "1f470-1f3fb",
+      "1f470-1f3fc",
+      "1f470-1f3fd",
+      "1f470-1f3fe",
+      "1f470-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man with veil",
+      "man_with_veil"
+    ],
+    u: "1f470-200d-2642-fe0f",
+    v: [
+      "1f470-200d-2642-fe0f-1f3fb",
+      "1f470-200d-2642-fe0f-1f3fc",
+      "1f470-200d-2642-fe0f-1f3fd",
+      "1f470-200d-2642-fe0f-1f3fe",
+      "1f470-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman with veil",
+      "woman_with_veil",
+      "bride_with_veil"
+    ],
+    u: "1f470-200d-2640-fe0f",
+    v: [
+      "1f470-200d-2640-fe0f-1f3fb",
+      "1f470-200d-2640-fe0f-1f3fc",
+      "1f470-200d-2640-fe0f-1f3fd",
+      "1f470-200d-2640-fe0f-1f3fe",
+      "1f470-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "pregnant woman",
+      "pregnant_woman"
+    ],
+    u: "1f930",
+    v: [
+      "1f930-1f3fb",
+      "1f930-1f3fc",
+      "1f930-1f3fd",
+      "1f930-1f3fe",
+      "1f930-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "pregnant man",
+      "pregnant_man"
+    ],
+    u: "1fac3",
+    v: [
+      "1fac3-1f3fb",
+      "1fac3-1f3fc",
+      "1fac3-1f3fd",
+      "1fac3-1f3fe",
+      "1fac3-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "pregnant person",
+      "pregnant_person"
+    ],
+    u: "1fac4",
+    v: [
+      "1fac4-1f3fb",
+      "1fac4-1f3fc",
+      "1fac4-1f3fd",
+      "1fac4-1f3fe",
+      "1fac4-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "breast-feeding",
+      "breast_feeding",
+      "nursing"
+    ],
+    u: "1f931",
+    v: [
+      "1f931-1f3fb",
+      "1f931-1f3fc",
+      "1f931-1f3fd",
+      "1f931-1f3fe",
+      "1f931-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman feeding baby",
+      "woman_feeding_baby"
+    ],
+    u: "1f469-200d-1f37c",
+    v: [
+      "1f469-200d-1f37c-1f3fb",
+      "1f469-200d-1f37c-1f3fc",
+      "1f469-200d-1f37c-1f3fd",
+      "1f469-200d-1f37c-1f3fe",
+      "1f469-200d-1f37c-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man feeding baby",
+      "man_feeding_baby"
+    ],
+    u: "1f468-200d-1f37c",
+    v: [
+      "1f468-200d-1f37c-1f3fb",
+      "1f468-200d-1f37c-1f3fc",
+      "1f468-200d-1f37c-1f3fd",
+      "1f468-200d-1f37c-1f3fe",
+      "1f468-200d-1f37c-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person feeding baby",
+      "person_feeding_baby"
+    ],
+    u: "1f9d1-200d-1f37c",
+    v: [
+      "1f9d1-200d-1f37c-1f3fb",
+      "1f9d1-200d-1f37c-1f3fc",
+      "1f9d1-200d-1f37c-1f3fd",
+      "1f9d1-200d-1f37c-1f3fe",
+      "1f9d1-200d-1f37c-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "baby angel",
+      "angel"
+    ],
+    u: "1f47c",
+    v: [
+      "1f47c-1f3fb",
+      "1f47c-1f3fc",
+      "1f47c-1f3fd",
+      "1f47c-1f3fe",
+      "1f47c-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "Santa Claus",
+      "santa",
+      "christmas"
+    ],
+    u: "1f385",
+    v: [
+      "1f385-1f3fb",
+      "1f385-1f3fc",
+      "1f385-1f3fd",
+      "1f385-1f3fe",
+      "1f385-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "Mrs. Claus",
+      "mrs_claus",
+      "santa"
+    ],
+    u: "1f936",
+    v: [
+      "1f936-1f3fb",
+      "1f936-1f3fc",
+      "1f936-1f3fd",
+      "1f936-1f3fe",
+      "1f936-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "mx claus",
+      "mx_claus"
+    ],
+    u: "1f9d1-200d-1f384",
+    v: [
+      "1f9d1-200d-1f384-1f3fb",
+      "1f9d1-200d-1f384-1f3fc",
+      "1f9d1-200d-1f384-1f3fd",
+      "1f9d1-200d-1f384-1f3fe",
+      "1f9d1-200d-1f384-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "superhero",
+      "superhero"
+    ],
+    u: "1f9b8",
+    v: [
+      "1f9b8-1f3fb",
+      "1f9b8-1f3fc",
+      "1f9b8-1f3fd",
+      "1f9b8-1f3fe",
+      "1f9b8-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man superhero",
+      "superhero_man"
+    ],
+    u: "1f9b8-200d-2642-fe0f",
+    v: [
+      "1f9b8-200d-2642-fe0f-1f3fb",
+      "1f9b8-200d-2642-fe0f-1f3fc",
+      "1f9b8-200d-2642-fe0f-1f3fd",
+      "1f9b8-200d-2642-fe0f-1f3fe",
+      "1f9b8-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman superhero",
+      "superhero_woman"
+    ],
+    u: "1f9b8-200d-2640-fe0f",
+    v: [
+      "1f9b8-200d-2640-fe0f-1f3fb",
+      "1f9b8-200d-2640-fe0f-1f3fc",
+      "1f9b8-200d-2640-fe0f-1f3fd",
+      "1f9b8-200d-2640-fe0f-1f3fe",
+      "1f9b8-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "supervillain",
+      "supervillain"
+    ],
+    u: "1f9b9",
+    v: [
+      "1f9b9-1f3fb",
+      "1f9b9-1f3fc",
+      "1f9b9-1f3fd",
+      "1f9b9-1f3fe",
+      "1f9b9-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man supervillain",
+      "supervillain_man"
+    ],
+    u: "1f9b9-200d-2642-fe0f",
+    v: [
+      "1f9b9-200d-2642-fe0f-1f3fb",
+      "1f9b9-200d-2642-fe0f-1f3fc",
+      "1f9b9-200d-2642-fe0f-1f3fd",
+      "1f9b9-200d-2642-fe0f-1f3fe",
+      "1f9b9-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman supervillain",
+      "supervillain_woman"
+    ],
+    u: "1f9b9-200d-2640-fe0f",
+    v: [
+      "1f9b9-200d-2640-fe0f-1f3fb",
+      "1f9b9-200d-2640-fe0f-1f3fc",
+      "1f9b9-200d-2640-fe0f-1f3fd",
+      "1f9b9-200d-2640-fe0f-1f3fe",
+      "1f9b9-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "mage",
+      "mage",
+      "wizard"
+    ],
+    u: "1f9d9",
+    v: [
+      "1f9d9-1f3fb",
+      "1f9d9-1f3fc",
+      "1f9d9-1f3fd",
+      "1f9d9-1f3fe",
+      "1f9d9-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man mage",
+      "mage_man",
+      "wizard"
+    ],
+    u: "1f9d9-200d-2642-fe0f",
+    v: [
+      "1f9d9-200d-2642-fe0f-1f3fb",
+      "1f9d9-200d-2642-fe0f-1f3fc",
+      "1f9d9-200d-2642-fe0f-1f3fd",
+      "1f9d9-200d-2642-fe0f-1f3fe",
+      "1f9d9-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman mage",
+      "mage_woman",
+      "wizard"
+    ],
+    u: "1f9d9-200d-2640-fe0f",
+    v: [
+      "1f9d9-200d-2640-fe0f-1f3fb",
+      "1f9d9-200d-2640-fe0f-1f3fc",
+      "1f9d9-200d-2640-fe0f-1f3fd",
+      "1f9d9-200d-2640-fe0f-1f3fe",
+      "1f9d9-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "fairy",
+      "fairy"
+    ],
+    u: "1f9da",
+    v: [
+      "1f9da-1f3fb",
+      "1f9da-1f3fc",
+      "1f9da-1f3fd",
+      "1f9da-1f3fe",
+      "1f9da-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man fairy",
+      "fairy_man"
+    ],
+    u: "1f9da-200d-2642-fe0f",
+    v: [
+      "1f9da-200d-2642-fe0f-1f3fb",
+      "1f9da-200d-2642-fe0f-1f3fc",
+      "1f9da-200d-2642-fe0f-1f3fd",
+      "1f9da-200d-2642-fe0f-1f3fe",
+      "1f9da-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman fairy",
+      "fairy_woman"
+    ],
+    u: "1f9da-200d-2640-fe0f",
+    v: [
+      "1f9da-200d-2640-fe0f-1f3fb",
+      "1f9da-200d-2640-fe0f-1f3fc",
+      "1f9da-200d-2640-fe0f-1f3fd",
+      "1f9da-200d-2640-fe0f-1f3fe",
+      "1f9da-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "vampire",
+      "vampire"
+    ],
+    u: "1f9db",
+    v: [
+      "1f9db-1f3fb",
+      "1f9db-1f3fc",
+      "1f9db-1f3fd",
+      "1f9db-1f3fe",
+      "1f9db-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man vampire",
+      "vampire_man"
+    ],
+    u: "1f9db-200d-2642-fe0f",
+    v: [
+      "1f9db-200d-2642-fe0f-1f3fb",
+      "1f9db-200d-2642-fe0f-1f3fc",
+      "1f9db-200d-2642-fe0f-1f3fd",
+      "1f9db-200d-2642-fe0f-1f3fe",
+      "1f9db-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman vampire",
+      "vampire_woman"
+    ],
+    u: "1f9db-200d-2640-fe0f",
+    v: [
+      "1f9db-200d-2640-fe0f-1f3fb",
+      "1f9db-200d-2640-fe0f-1f3fc",
+      "1f9db-200d-2640-fe0f-1f3fd",
+      "1f9db-200d-2640-fe0f-1f3fe",
+      "1f9db-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "merperson",
+      "merperson"
+    ],
+    u: "1f9dc",
+    v: [
+      "1f9dc-1f3fb",
+      "1f9dc-1f3fc",
+      "1f9dc-1f3fd",
+      "1f9dc-1f3fe",
+      "1f9dc-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "merman",
+      "merman"
+    ],
+    u: "1f9dc-200d-2642-fe0f",
+    v: [
+      "1f9dc-200d-2642-fe0f-1f3fb",
+      "1f9dc-200d-2642-fe0f-1f3fc",
+      "1f9dc-200d-2642-fe0f-1f3fd",
+      "1f9dc-200d-2642-fe0f-1f3fe",
+      "1f9dc-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "mermaid",
+      "mermaid"
+    ],
+    u: "1f9dc-200d-2640-fe0f",
+    v: [
+      "1f9dc-200d-2640-fe0f-1f3fb",
+      "1f9dc-200d-2640-fe0f-1f3fc",
+      "1f9dc-200d-2640-fe0f-1f3fd",
+      "1f9dc-200d-2640-fe0f-1f3fe",
+      "1f9dc-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "elf",
+      "elf"
+    ],
+    u: "1f9dd",
+    v: [
+      "1f9dd-1f3fb",
+      "1f9dd-1f3fc",
+      "1f9dd-1f3fd",
+      "1f9dd-1f3fe",
+      "1f9dd-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man elf",
+      "elf_man"
+    ],
+    u: "1f9dd-200d-2642-fe0f",
+    v: [
+      "1f9dd-200d-2642-fe0f-1f3fb",
+      "1f9dd-200d-2642-fe0f-1f3fc",
+      "1f9dd-200d-2642-fe0f-1f3fd",
+      "1f9dd-200d-2642-fe0f-1f3fe",
+      "1f9dd-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman elf",
+      "elf_woman"
+    ],
+    u: "1f9dd-200d-2640-fe0f",
+    v: [
+      "1f9dd-200d-2640-fe0f-1f3fb",
+      "1f9dd-200d-2640-fe0f-1f3fc",
+      "1f9dd-200d-2640-fe0f-1f3fd",
+      "1f9dd-200d-2640-fe0f-1f3fe",
+      "1f9dd-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "genie",
+      "genie"
+    ],
+    u: "1f9de"
+  },
+  {
+    n: [
+      "man genie",
+      "genie_man"
+    ],
+    u: "1f9de-200d-2642-fe0f"
+  },
+  {
+    n: [
+      "woman genie",
+      "genie_woman"
+    ],
+    u: "1f9de-200d-2640-fe0f"
+  },
+  {
+    n: [
+      "zombie",
+      "zombie"
+    ],
+    u: "1f9df"
+  },
+  {
+    n: [
+      "man zombie",
+      "zombie_man"
+    ],
+    u: "1f9df-200d-2642-fe0f"
+  },
+  {
+    n: [
+      "woman zombie",
+      "zombie_woman"
+    ],
+    u: "1f9df-200d-2640-fe0f"
+  },
+  {
+    n: [
+      "troll",
+      "troll"
+    ],
+    u: "1f9cc"
+  },
+  {
+    n: [
+      "person getting massage",
+      "massage",
+      "spa"
+    ],
+    u: "1f486",
+    v: [
+      "1f486-1f3fb",
+      "1f486-1f3fc",
+      "1f486-1f3fd",
+      "1f486-1f3fe",
+      "1f486-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man getting massage",
+      "massage_man",
+      "spa"
+    ],
+    u: "1f486-200d-2642-fe0f",
+    v: [
+      "1f486-200d-2642-fe0f-1f3fb",
+      "1f486-200d-2642-fe0f-1f3fc",
+      "1f486-200d-2642-fe0f-1f3fd",
+      "1f486-200d-2642-fe0f-1f3fe",
+      "1f486-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman getting massage",
+      "massage_woman",
+      "spa"
+    ],
+    u: "1f486-200d-2640-fe0f",
+    v: [
+      "1f486-200d-2640-fe0f-1f3fb",
+      "1f486-200d-2640-fe0f-1f3fc",
+      "1f486-200d-2640-fe0f-1f3fd",
+      "1f486-200d-2640-fe0f-1f3fe",
+      "1f486-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person getting haircut",
+      "haircut",
+      "beauty"
+    ],
+    u: "1f487",
+    v: [
+      "1f487-1f3fb",
+      "1f487-1f3fc",
+      "1f487-1f3fd",
+      "1f487-1f3fe",
+      "1f487-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man getting haircut",
+      "haircut_man"
+    ],
+    u: "1f487-200d-2642-fe0f",
+    v: [
+      "1f487-200d-2642-fe0f-1f3fb",
+      "1f487-200d-2642-fe0f-1f3fc",
+      "1f487-200d-2642-fe0f-1f3fd",
+      "1f487-200d-2642-fe0f-1f3fe",
+      "1f487-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman getting haircut",
+      "haircut_woman"
+    ],
+    u: "1f487-200d-2640-fe0f",
+    v: [
+      "1f487-200d-2640-fe0f-1f3fb",
+      "1f487-200d-2640-fe0f-1f3fc",
+      "1f487-200d-2640-fe0f-1f3fd",
+      "1f487-200d-2640-fe0f-1f3fe",
+      "1f487-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person walking",
+      "walking"
+    ],
+    u: "1f6b6",
+    v: [
+      "1f6b6-1f3fb",
+      "1f6b6-1f3fc",
+      "1f6b6-1f3fd",
+      "1f6b6-1f3fe",
+      "1f6b6-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man walking",
+      "walking_man"
+    ],
+    u: "1f6b6-200d-2642-fe0f",
+    v: [
+      "1f6b6-200d-2642-fe0f-1f3fb",
+      "1f6b6-200d-2642-fe0f-1f3fc",
+      "1f6b6-200d-2642-fe0f-1f3fd",
+      "1f6b6-200d-2642-fe0f-1f3fe",
+      "1f6b6-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman walking",
+      "walking_woman"
+    ],
+    u: "1f6b6-200d-2640-fe0f",
+    v: [
+      "1f6b6-200d-2640-fe0f-1f3fb",
+      "1f6b6-200d-2640-fe0f-1f3fc",
+      "1f6b6-200d-2640-fe0f-1f3fd",
+      "1f6b6-200d-2640-fe0f-1f3fe",
+      "1f6b6-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person standing",
+      "standing_person"
+    ],
+    u: "1f9cd",
+    v: [
+      "1f9cd-1f3fb",
+      "1f9cd-1f3fc",
+      "1f9cd-1f3fd",
+      "1f9cd-1f3fe",
+      "1f9cd-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man standing",
+      "standing_man"
+    ],
+    u: "1f9cd-200d-2642-fe0f",
+    v: [
+      "1f9cd-200d-2642-fe0f-1f3fb",
+      "1f9cd-200d-2642-fe0f-1f3fc",
+      "1f9cd-200d-2642-fe0f-1f3fd",
+      "1f9cd-200d-2642-fe0f-1f3fe",
+      "1f9cd-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman standing",
+      "standing_woman"
+    ],
+    u: "1f9cd-200d-2640-fe0f",
+    v: [
+      "1f9cd-200d-2640-fe0f-1f3fb",
+      "1f9cd-200d-2640-fe0f-1f3fc",
+      "1f9cd-200d-2640-fe0f-1f3fd",
+      "1f9cd-200d-2640-fe0f-1f3fe",
+      "1f9cd-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person kneeling",
+      "kneeling_person"
+    ],
+    u: "1f9ce",
+    v: [
+      "1f9ce-1f3fb",
+      "1f9ce-1f3fc",
+      "1f9ce-1f3fd",
+      "1f9ce-1f3fe",
+      "1f9ce-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man kneeling",
+      "kneeling_man"
+    ],
+    u: "1f9ce-200d-2642-fe0f",
+    v: [
+      "1f9ce-200d-2642-fe0f-1f3fb",
+      "1f9ce-200d-2642-fe0f-1f3fc",
+      "1f9ce-200d-2642-fe0f-1f3fd",
+      "1f9ce-200d-2642-fe0f-1f3fe",
+      "1f9ce-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman kneeling",
+      "kneeling_woman"
+    ],
+    u: "1f9ce-200d-2640-fe0f",
+    v: [
+      "1f9ce-200d-2640-fe0f-1f3fb",
+      "1f9ce-200d-2640-fe0f-1f3fc",
+      "1f9ce-200d-2640-fe0f-1f3fd",
+      "1f9ce-200d-2640-fe0f-1f3fe",
+      "1f9ce-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person with white cane",
+      "person_with_probing_cane"
+    ],
+    u: "1f9d1-200d-1f9af",
+    v: [
+      "1f9d1-200d-1f9af-1f3fb",
+      "1f9d1-200d-1f9af-1f3fc",
+      "1f9d1-200d-1f9af-1f3fd",
+      "1f9d1-200d-1f9af-1f3fe",
+      "1f9d1-200d-1f9af-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man with white cane",
+      "man_with_probing_cane"
+    ],
+    u: "1f468-200d-1f9af",
+    v: [
+      "1f468-200d-1f9af-1f3fb",
+      "1f468-200d-1f9af-1f3fc",
+      "1f468-200d-1f9af-1f3fd",
+      "1f468-200d-1f9af-1f3fe",
+      "1f468-200d-1f9af-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman with white cane",
+      "woman_with_probing_cane"
+    ],
+    u: "1f469-200d-1f9af",
+    v: [
+      "1f469-200d-1f9af-1f3fb",
+      "1f469-200d-1f9af-1f3fc",
+      "1f469-200d-1f9af-1f3fd",
+      "1f469-200d-1f9af-1f3fe",
+      "1f469-200d-1f9af-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person in motorized wheelchair",
+      "person_in_motorized_wheelchair"
+    ],
+    u: "1f9d1-200d-1f9bc",
+    v: [
+      "1f9d1-200d-1f9bc-1f3fb",
+      "1f9d1-200d-1f9bc-1f3fc",
+      "1f9d1-200d-1f9bc-1f3fd",
+      "1f9d1-200d-1f9bc-1f3fe",
+      "1f9d1-200d-1f9bc-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man in motorized wheelchair",
+      "man_in_motorized_wheelchair"
+    ],
+    u: "1f468-200d-1f9bc",
+    v: [
+      "1f468-200d-1f9bc-1f3fb",
+      "1f468-200d-1f9bc-1f3fc",
+      "1f468-200d-1f9bc-1f3fd",
+      "1f468-200d-1f9bc-1f3fe",
+      "1f468-200d-1f9bc-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman in motorized wheelchair",
+      "woman_in_motorized_wheelchair"
+    ],
+    u: "1f469-200d-1f9bc",
+    v: [
+      "1f469-200d-1f9bc-1f3fb",
+      "1f469-200d-1f9bc-1f3fc",
+      "1f469-200d-1f9bc-1f3fd",
+      "1f469-200d-1f9bc-1f3fe",
+      "1f469-200d-1f9bc-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person in manual wheelchair",
+      "person_in_manual_wheelchair"
+    ],
+    u: "1f9d1-200d-1f9bd",
+    v: [
+      "1f9d1-200d-1f9bd-1f3fb",
+      "1f9d1-200d-1f9bd-1f3fc",
+      "1f9d1-200d-1f9bd-1f3fd",
+      "1f9d1-200d-1f9bd-1f3fe",
+      "1f9d1-200d-1f9bd-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man in manual wheelchair",
+      "man_in_manual_wheelchair"
+    ],
+    u: "1f468-200d-1f9bd",
+    v: [
+      "1f468-200d-1f9bd-1f3fb",
+      "1f468-200d-1f9bd-1f3fc",
+      "1f468-200d-1f9bd-1f3fd",
+      "1f468-200d-1f9bd-1f3fe",
+      "1f468-200d-1f9bd-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman in manual wheelchair",
+      "woman_in_manual_wheelchair"
+    ],
+    u: "1f469-200d-1f9bd",
+    v: [
+      "1f469-200d-1f9bd-1f3fb",
+      "1f469-200d-1f9bd-1f3fc",
+      "1f469-200d-1f9bd-1f3fd",
+      "1f469-200d-1f9bd-1f3fe",
+      "1f469-200d-1f9bd-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person running",
+      "runner",
+      "running",
+      "exercise",
+      "workout",
+      "marathon"
+    ],
+    u: "1f3c3",
+    v: [
+      "1f3c3-1f3fb",
+      "1f3c3-1f3fc",
+      "1f3c3-1f3fd",
+      "1f3c3-1f3fe",
+      "1f3c3-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man running",
+      "running_man",
+      "exercise",
+      "workout",
+      "marathon"
+    ],
+    u: "1f3c3-200d-2642-fe0f",
+    v: [
+      "1f3c3-200d-2642-fe0f-1f3fb",
+      "1f3c3-200d-2642-fe0f-1f3fc",
+      "1f3c3-200d-2642-fe0f-1f3fd",
+      "1f3c3-200d-2642-fe0f-1f3fe",
+      "1f3c3-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman running",
+      "running_woman",
+      "exercise",
+      "workout",
+      "marathon"
+    ],
+    u: "1f3c3-200d-2640-fe0f",
+    v: [
+      "1f3c3-200d-2640-fe0f-1f3fb",
+      "1f3c3-200d-2640-fe0f-1f3fc",
+      "1f3c3-200d-2640-fe0f-1f3fd",
+      "1f3c3-200d-2640-fe0f-1f3fe",
+      "1f3c3-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman dancing",
+      "woman_dancing",
+      "dancer",
       "dress"
     ],
-    u: "1f457"
+    u: "1f483",
+    v: [
+      "1f483-1f3fb",
+      "1f483-1f3fc",
+      "1f483-1f3fd",
+      "1f483-1f3fe",
+      "1f483-1f3ff"
+    ]
   },
   {
     n: [
-      "kimono"
+      "man dancing",
+      "man_dancing",
+      "dancer"
     ],
-    u: "1f458"
+    u: "1f57a",
+    v: [
+      "1f57a-1f3fb",
+      "1f57a-1f3fc",
+      "1f57a-1f3fd",
+      "1f57a-1f3fe",
+      "1f57a-1f3ff"
+    ]
   },
   {
     n: [
-      "bikini"
+      "person in suit levitating",
+      "business_suit_levitating"
     ],
-    u: "1f459"
+    u: "1f574-fe0f",
+    v: [
+      "1f574-fe0f-1f3fb",
+      "1f574-fe0f-1f3fc",
+      "1f574-fe0f-1f3fd",
+      "1f574-fe0f-1f3fe",
+      "1f574-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "womans clothes",
-      "womans_clothes"
+      "people with bunny ears",
+      "dancers",
+      "bunny"
     ],
-    u: "1f45a"
+    u: "1f46f"
   },
   {
     n: [
-      "purse"
+      "men with bunny ears",
+      "dancing_men",
+      "bunny"
     ],
-    u: "1f45b"
+    u: "1f46f-200d-2642-fe0f"
   },
   {
     n: [
-      "handbag"
+      "women with bunny ears",
+      "dancing_women",
+      "bunny"
     ],
-    u: "1f45c"
+    u: "1f46f-200d-2640-fe0f"
   },
   {
     n: [
-      "pouch"
+      "person in steamy room",
+      "sauna_person",
+      "steamy"
     ],
-    u: "1f45d"
+    u: "1f9d6",
+    v: [
+      "1f9d6-1f3fb",
+      "1f9d6-1f3fc",
+      "1f9d6-1f3fd",
+      "1f9d6-1f3fe",
+      "1f9d6-1f3ff"
+    ]
   },
   {
     n: [
-      "shopping_bags"
+      "man in steamy room",
+      "sauna_man",
+      "steamy"
     ],
-    u: "1f6cd-fe0f"
+    u: "1f9d6-200d-2642-fe0f",
+    v: [
+      "1f9d6-200d-2642-fe0f-1f3fb",
+      "1f9d6-200d-2642-fe0f-1f3fc",
+      "1f9d6-200d-2642-fe0f-1f3fd",
+      "1f9d6-200d-2642-fe0f-1f3fe",
+      "1f9d6-200d-2642-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "school satchel",
-      "school_satchel"
+      "woman in steamy room",
+      "sauna_woman",
+      "steamy"
     ],
-    u: "1f392"
+    u: "1f9d6-200d-2640-fe0f",
+    v: [
+      "1f9d6-200d-2640-fe0f-1f3fb",
+      "1f9d6-200d-2640-fe0f-1f3fc",
+      "1f9d6-200d-2640-fe0f-1f3fd",
+      "1f9d6-200d-2640-fe0f-1f3fe",
+      "1f9d6-200d-2640-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "mans shoe",
-      "mans_shoe",
-      "shoe"
+      "person climbing",
+      "climbing",
+      "bouldering"
     ],
-    u: "1f45e"
+    u: "1f9d7",
+    v: [
+      "1f9d7-1f3fb",
+      "1f9d7-1f3fc",
+      "1f9d7-1f3fd",
+      "1f9d7-1f3fe",
+      "1f9d7-1f3ff"
+    ]
   },
   {
     n: [
-      "athletic shoe",
-      "athletic_shoe"
+      "man climbing",
+      "climbing_man",
+      "bouldering"
     ],
-    u: "1f45f"
+    u: "1f9d7-200d-2642-fe0f",
+    v: [
+      "1f9d7-200d-2642-fe0f-1f3fb",
+      "1f9d7-200d-2642-fe0f-1f3fc",
+      "1f9d7-200d-2642-fe0f-1f3fd",
+      "1f9d7-200d-2642-fe0f-1f3fe",
+      "1f9d7-200d-2642-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "high-heeled shoe",
-      "high_heel"
+      "woman climbing",
+      "climbing_woman",
+      "bouldering"
     ],
-    u: "1f460"
+    u: "1f9d7-200d-2640-fe0f",
+    v: [
+      "1f9d7-200d-2640-fe0f-1f3fb",
+      "1f9d7-200d-2640-fe0f-1f3fc",
+      "1f9d7-200d-2640-fe0f-1f3fd",
+      "1f9d7-200d-2640-fe0f-1f3fe",
+      "1f9d7-200d-2640-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "womans sandal",
-      "sandal"
+      "person fencing",
+      "person_fencing"
     ],
-    u: "1f461"
+    u: "1f93a"
   },
   {
     n: [
-      "womans boots",
-      "boot"
+      "horse racing",
+      "horse_racing"
     ],
-    u: "1f462"
+    u: "1f3c7",
+    v: [
+      "1f3c7-1f3fb",
+      "1f3c7-1f3fc",
+      "1f3c7-1f3fd",
+      "1f3c7-1f3fe",
+      "1f3c7-1f3ff"
+    ]
   },
   {
     n: [
-      "crown"
+      "skier",
+      "skier"
     ],
-    u: "1f451"
+    u: "26f7-fe0f"
   },
   {
     n: [
-      "womans hat",
-      "womans_hat"
+      "snowboarder",
+      "snowboarder"
     ],
-    u: "1f452"
+    u: "1f3c2",
+    v: [
+      "1f3c2-1f3fb",
+      "1f3c2-1f3fc",
+      "1f3c2-1f3fd",
+      "1f3c2-1f3fe",
+      "1f3c2-1f3ff"
+    ]
   },
   {
     n: [
-      "top hat",
-      "tophat"
+      "person golfing",
+      "golfing"
     ],
-    u: "1f3a9"
+    u: "1f3cc-fe0f",
+    v: [
+      "1f3cc-fe0f-1f3fb",
+      "1f3cc-fe0f-1f3fc",
+      "1f3cc-fe0f-1f3fd",
+      "1f3cc-fe0f-1f3fe",
+      "1f3cc-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "graduation cap",
-      "mortar_board"
+      "man golfing",
+      "golfing_man"
     ],
-    u: "1f393"
+    u: "1f3cc-fe0f-200d-2642-fe0f",
+    v: [
+      "1f3cc-fe0f-200d-2642-fe0f-1f3fb",
+      "1f3cc-fe0f-200d-2642-fe0f-1f3fc",
+      "1f3cc-fe0f-200d-2642-fe0f-1f3fd",
+      "1f3cc-fe0f-200d-2642-fe0f-1f3fe",
+      "1f3cc-fe0f-200d-2642-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "billed cap",
-      "billed_cap"
+      "woman golfing",
+      "golfing_woman"
     ],
-    u: "1f9e2"
+    u: "1f3cc-fe0f-200d-2640-fe0f",
+    v: [
+      "1f3cc-fe0f-200d-2640-fe0f-1f3fb",
+      "1f3cc-fe0f-200d-2640-fe0f-1f3fc",
+      "1f3cc-fe0f-200d-2640-fe0f-1f3fd",
+      "1f3cc-fe0f-200d-2640-fe0f-1f3fe",
+      "1f3cc-fe0f-200d-2640-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "helmet_with_white_cross"
+      "person surfing",
+      "surfer"
     ],
-    u: "26d1-fe0f"
+    u: "1f3c4",
+    v: [
+      "1f3c4-1f3fb",
+      "1f3c4-1f3fc",
+      "1f3c4-1f3fd",
+      "1f3c4-1f3fe",
+      "1f3c4-1f3ff"
+    ]
   },
   {
     n: [
-      "prayer beads",
-      "prayer_beads"
+      "man surfing",
+      "surfing_man"
     ],
-    u: "1f4ff"
+    u: "1f3c4-200d-2642-fe0f",
+    v: [
+      "1f3c4-200d-2642-fe0f-1f3fb",
+      "1f3c4-200d-2642-fe0f-1f3fc",
+      "1f3c4-200d-2642-fe0f-1f3fd",
+      "1f3c4-200d-2642-fe0f-1f3fe",
+      "1f3c4-200d-2642-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "lipstick"
+      "woman surfing",
+      "surfing_woman"
     ],
-    u: "1f484"
+    u: "1f3c4-200d-2640-fe0f",
+    v: [
+      "1f3c4-200d-2640-fe0f-1f3fb",
+      "1f3c4-200d-2640-fe0f-1f3fc",
+      "1f3c4-200d-2640-fe0f-1f3fd",
+      "1f3c4-200d-2640-fe0f-1f3fe",
+      "1f3c4-200d-2640-fe0f-1f3ff"
+    ]
   },
   {
     n: [
-      "ring"
+      "person rowing boat",
+      "rowboat"
     ],
-    u: "1f48d"
+    u: "1f6a3",
+    v: [
+      "1f6a3-1f3fb",
+      "1f6a3-1f3fc",
+      "1f6a3-1f3fd",
+      "1f6a3-1f3fe",
+      "1f6a3-1f3ff"
+    ]
   },
   {
     n: [
-      "gem stone",
-      "gem"
+      "man rowing boat",
+      "rowing_man"
     ],
-    u: "1f48e"
+    u: "1f6a3-200d-2642-fe0f",
+    v: [
+      "1f6a3-200d-2642-fe0f-1f3fb",
+      "1f6a3-200d-2642-fe0f-1f3fc",
+      "1f6a3-200d-2642-fe0f-1f3fd",
+      "1f6a3-200d-2642-fe0f-1f3fe",
+      "1f6a3-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman rowing boat",
+      "rowing_woman"
+    ],
+    u: "1f6a3-200d-2640-fe0f",
+    v: [
+      "1f6a3-200d-2640-fe0f-1f3fb",
+      "1f6a3-200d-2640-fe0f-1f3fc",
+      "1f6a3-200d-2640-fe0f-1f3fd",
+      "1f6a3-200d-2640-fe0f-1f3fe",
+      "1f6a3-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person swimming",
+      "swimmer"
+    ],
+    u: "1f3ca",
+    v: [
+      "1f3ca-1f3fb",
+      "1f3ca-1f3fc",
+      "1f3ca-1f3fd",
+      "1f3ca-1f3fe",
+      "1f3ca-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man swimming",
+      "swimming_man"
+    ],
+    u: "1f3ca-200d-2642-fe0f",
+    v: [
+      "1f3ca-200d-2642-fe0f-1f3fb",
+      "1f3ca-200d-2642-fe0f-1f3fc",
+      "1f3ca-200d-2642-fe0f-1f3fd",
+      "1f3ca-200d-2642-fe0f-1f3fe",
+      "1f3ca-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman swimming",
+      "swimming_woman"
+    ],
+    u: "1f3ca-200d-2640-fe0f",
+    v: [
+      "1f3ca-200d-2640-fe0f-1f3fb",
+      "1f3ca-200d-2640-fe0f-1f3fc",
+      "1f3ca-200d-2640-fe0f-1f3fd",
+      "1f3ca-200d-2640-fe0f-1f3fe",
+      "1f3ca-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person bouncing ball",
+      "bouncing_ball_person",
+      "basketball"
+    ],
+    u: "26f9-fe0f",
+    v: [
+      "26f9-fe0f-1f3fb",
+      "26f9-fe0f-1f3fc",
+      "26f9-fe0f-1f3fd",
+      "26f9-fe0f-1f3fe",
+      "26f9-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man bouncing ball",
+      "bouncing_ball_man",
+      "basketball_man"
+    ],
+    u: "26f9-fe0f-200d-2642-fe0f",
+    v: [
+      "26f9-fe0f-200d-2642-fe0f-1f3fb",
+      "26f9-fe0f-200d-2642-fe0f-1f3fc",
+      "26f9-fe0f-200d-2642-fe0f-1f3fd",
+      "26f9-fe0f-200d-2642-fe0f-1f3fe",
+      "26f9-fe0f-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman bouncing ball",
+      "bouncing_ball_woman",
+      "basketball_woman"
+    ],
+    u: "26f9-fe0f-200d-2640-fe0f",
+    v: [
+      "26f9-fe0f-200d-2640-fe0f-1f3fb",
+      "26f9-fe0f-200d-2640-fe0f-1f3fc",
+      "26f9-fe0f-200d-2640-fe0f-1f3fd",
+      "26f9-fe0f-200d-2640-fe0f-1f3fe",
+      "26f9-fe0f-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person lifting weights",
+      "weight_lifting",
+      "gym",
+      "workout"
+    ],
+    u: "1f3cb-fe0f",
+    v: [
+      "1f3cb-fe0f-1f3fb",
+      "1f3cb-fe0f-1f3fc",
+      "1f3cb-fe0f-1f3fd",
+      "1f3cb-fe0f-1f3fe",
+      "1f3cb-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man lifting weights",
+      "weight_lifting_man",
+      "gym",
+      "workout"
+    ],
+    u: "1f3cb-fe0f-200d-2642-fe0f",
+    v: [
+      "1f3cb-fe0f-200d-2642-fe0f-1f3fb",
+      "1f3cb-fe0f-200d-2642-fe0f-1f3fc",
+      "1f3cb-fe0f-200d-2642-fe0f-1f3fd",
+      "1f3cb-fe0f-200d-2642-fe0f-1f3fe",
+      "1f3cb-fe0f-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman lifting weights",
+      "weight_lifting_woman",
+      "gym",
+      "workout"
+    ],
+    u: "1f3cb-fe0f-200d-2640-fe0f",
+    v: [
+      "1f3cb-fe0f-200d-2640-fe0f-1f3fb",
+      "1f3cb-fe0f-200d-2640-fe0f-1f3fc",
+      "1f3cb-fe0f-200d-2640-fe0f-1f3fd",
+      "1f3cb-fe0f-200d-2640-fe0f-1f3fe",
+      "1f3cb-fe0f-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person biking",
+      "bicyclist"
+    ],
+    u: "1f6b4",
+    v: [
+      "1f6b4-1f3fb",
+      "1f6b4-1f3fc",
+      "1f6b4-1f3fd",
+      "1f6b4-1f3fe",
+      "1f6b4-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man biking",
+      "biking_man"
+    ],
+    u: "1f6b4-200d-2642-fe0f",
+    v: [
+      "1f6b4-200d-2642-fe0f-1f3fb",
+      "1f6b4-200d-2642-fe0f-1f3fc",
+      "1f6b4-200d-2642-fe0f-1f3fd",
+      "1f6b4-200d-2642-fe0f-1f3fe",
+      "1f6b4-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman biking",
+      "biking_woman"
+    ],
+    u: "1f6b4-200d-2640-fe0f",
+    v: [
+      "1f6b4-200d-2640-fe0f-1f3fb",
+      "1f6b4-200d-2640-fe0f-1f3fc",
+      "1f6b4-200d-2640-fe0f-1f3fd",
+      "1f6b4-200d-2640-fe0f-1f3fe",
+      "1f6b4-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person mountain biking",
+      "mountain_bicyclist"
+    ],
+    u: "1f6b5",
+    v: [
+      "1f6b5-1f3fb",
+      "1f6b5-1f3fc",
+      "1f6b5-1f3fd",
+      "1f6b5-1f3fe",
+      "1f6b5-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man mountain biking",
+      "mountain_biking_man"
+    ],
+    u: "1f6b5-200d-2642-fe0f",
+    v: [
+      "1f6b5-200d-2642-fe0f-1f3fb",
+      "1f6b5-200d-2642-fe0f-1f3fc",
+      "1f6b5-200d-2642-fe0f-1f3fd",
+      "1f6b5-200d-2642-fe0f-1f3fe",
+      "1f6b5-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman mountain biking",
+      "mountain_biking_woman"
+    ],
+    u: "1f6b5-200d-2640-fe0f",
+    v: [
+      "1f6b5-200d-2640-fe0f-1f3fb",
+      "1f6b5-200d-2640-fe0f-1f3fc",
+      "1f6b5-200d-2640-fe0f-1f3fd",
+      "1f6b5-200d-2640-fe0f-1f3fe",
+      "1f6b5-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person cartwheeling",
+      "cartwheeling"
+    ],
+    u: "1f938",
+    v: [
+      "1f938-1f3fb",
+      "1f938-1f3fc",
+      "1f938-1f3fd",
+      "1f938-1f3fe",
+      "1f938-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man cartwheeling",
+      "man_cartwheeling"
+    ],
+    u: "1f938-200d-2642-fe0f",
+    v: [
+      "1f938-200d-2642-fe0f-1f3fb",
+      "1f938-200d-2642-fe0f-1f3fc",
+      "1f938-200d-2642-fe0f-1f3fd",
+      "1f938-200d-2642-fe0f-1f3fe",
+      "1f938-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman cartwheeling",
+      "woman_cartwheeling"
+    ],
+    u: "1f938-200d-2640-fe0f",
+    v: [
+      "1f938-200d-2640-fe0f-1f3fb",
+      "1f938-200d-2640-fe0f-1f3fc",
+      "1f938-200d-2640-fe0f-1f3fd",
+      "1f938-200d-2640-fe0f-1f3fe",
+      "1f938-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "people wrestling",
+      "wrestling"
+    ],
+    u: "1f93c"
+  },
+  {
+    n: [
+      "men wrestling",
+      "men_wrestling"
+    ],
+    u: "1f93c-200d-2642-fe0f"
+  },
+  {
+    n: [
+      "women wrestling",
+      "women_wrestling"
+    ],
+    u: "1f93c-200d-2640-fe0f"
+  },
+  {
+    n: [
+      "person playing water polo",
+      "water_polo"
+    ],
+    u: "1f93d",
+    v: [
+      "1f93d-1f3fb",
+      "1f93d-1f3fc",
+      "1f93d-1f3fd",
+      "1f93d-1f3fe",
+      "1f93d-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man playing water polo",
+      "man_playing_water_polo"
+    ],
+    u: "1f93d-200d-2642-fe0f",
+    v: [
+      "1f93d-200d-2642-fe0f-1f3fb",
+      "1f93d-200d-2642-fe0f-1f3fc",
+      "1f93d-200d-2642-fe0f-1f3fd",
+      "1f93d-200d-2642-fe0f-1f3fe",
+      "1f93d-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman playing water polo",
+      "woman_playing_water_polo"
+    ],
+    u: "1f93d-200d-2640-fe0f",
+    v: [
+      "1f93d-200d-2640-fe0f-1f3fb",
+      "1f93d-200d-2640-fe0f-1f3fc",
+      "1f93d-200d-2640-fe0f-1f3fd",
+      "1f93d-200d-2640-fe0f-1f3fe",
+      "1f93d-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person playing handball",
+      "handball_person"
+    ],
+    u: "1f93e",
+    v: [
+      "1f93e-1f3fb",
+      "1f93e-1f3fc",
+      "1f93e-1f3fd",
+      "1f93e-1f3fe",
+      "1f93e-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man playing handball",
+      "man_playing_handball"
+    ],
+    u: "1f93e-200d-2642-fe0f",
+    v: [
+      "1f93e-200d-2642-fe0f-1f3fb",
+      "1f93e-200d-2642-fe0f-1f3fc",
+      "1f93e-200d-2642-fe0f-1f3fd",
+      "1f93e-200d-2642-fe0f-1f3fe",
+      "1f93e-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman playing handball",
+      "woman_playing_handball"
+    ],
+    u: "1f93e-200d-2640-fe0f",
+    v: [
+      "1f93e-200d-2640-fe0f-1f3fb",
+      "1f93e-200d-2640-fe0f-1f3fc",
+      "1f93e-200d-2640-fe0f-1f3fd",
+      "1f93e-200d-2640-fe0f-1f3fe",
+      "1f93e-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person juggling",
+      "juggling_person"
+    ],
+    u: "1f939",
+    v: [
+      "1f939-1f3fb",
+      "1f939-1f3fc",
+      "1f939-1f3fd",
+      "1f939-1f3fe",
+      "1f939-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man juggling",
+      "man_juggling"
+    ],
+    u: "1f939-200d-2642-fe0f",
+    v: [
+      "1f939-200d-2642-fe0f-1f3fb",
+      "1f939-200d-2642-fe0f-1f3fc",
+      "1f939-200d-2642-fe0f-1f3fd",
+      "1f939-200d-2642-fe0f-1f3fe",
+      "1f939-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman juggling",
+      "woman_juggling"
+    ],
+    u: "1f939-200d-2640-fe0f",
+    v: [
+      "1f939-200d-2640-fe0f-1f3fb",
+      "1f939-200d-2640-fe0f-1f3fc",
+      "1f939-200d-2640-fe0f-1f3fd",
+      "1f939-200d-2640-fe0f-1f3fe",
+      "1f939-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person in lotus position",
+      "lotus_position",
+      "meditation"
+    ],
+    u: "1f9d8",
+    v: [
+      "1f9d8-1f3fb",
+      "1f9d8-1f3fc",
+      "1f9d8-1f3fd",
+      "1f9d8-1f3fe",
+      "1f9d8-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "man in lotus position",
+      "lotus_position_man",
+      "meditation"
+    ],
+    u: "1f9d8-200d-2642-fe0f",
+    v: [
+      "1f9d8-200d-2642-fe0f-1f3fb",
+      "1f9d8-200d-2642-fe0f-1f3fc",
+      "1f9d8-200d-2642-fe0f-1f3fd",
+      "1f9d8-200d-2642-fe0f-1f3fe",
+      "1f9d8-200d-2642-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman in lotus position",
+      "lotus_position_woman",
+      "meditation"
+    ],
+    u: "1f9d8-200d-2640-fe0f",
+    v: [
+      "1f9d8-200d-2640-fe0f-1f3fb",
+      "1f9d8-200d-2640-fe0f-1f3fc",
+      "1f9d8-200d-2640-fe0f-1f3fd",
+      "1f9d8-200d-2640-fe0f-1f3fe",
+      "1f9d8-200d-2640-fe0f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person taking bath",
+      "bath",
+      "shower"
+    ],
+    u: "1f6c0",
+    v: [
+      "1f6c0-1f3fb",
+      "1f6c0-1f3fc",
+      "1f6c0-1f3fd",
+      "1f6c0-1f3fe",
+      "1f6c0-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "person in bed",
+      "sleeping_bed"
+    ],
+    u: "1f6cc",
+    v: [
+      "1f6cc-1f3fb",
+      "1f6cc-1f3fc",
+      "1f6cc-1f3fd",
+      "1f6cc-1f3fe",
+      "1f6cc-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "people holding hands",
+      "people_holding_hands",
+      "couple",
+      "date"
+    ],
+    u: "1f9d1-200d-1f91d-200d-1f9d1"
+  },
+  {
+    n: [
+      "women holding hands",
+      "two_women_holding_hands",
+      "couple",
+      "date"
+    ],
+    u: "1f46d",
+    v: [
+      "1f46d-1f3fb",
+      "1f46d-1f3fc",
+      "1f46d-1f3fd",
+      "1f46d-1f3fe",
+      "1f46d-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "woman and man holding hands",
+      "couple",
+      "date"
+    ],
+    u: "1f46b",
+    v: [
+      "1f46b-1f3fb",
+      "1f46b-1f3fc",
+      "1f46b-1f3fd",
+      "1f46b-1f3fe",
+      "1f46b-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "men holding hands",
+      "two_men_holding_hands",
+      "couple",
+      "date"
+    ],
+    u: "1f46c",
+    v: [
+      "1f46c-1f3fb",
+      "1f46c-1f3fc",
+      "1f46c-1f3fd",
+      "1f46c-1f3fe",
+      "1f46c-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "kiss",
+      "couplekiss"
+    ],
+    u: "1f48f",
+    v: [
+      "1f48f-1f3fb",
+      "1f48f-1f3fc",
+      "1f48f-1f3fd",
+      "1f48f-1f3fe",
+      "1f48f-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "kiss: woman, man",
+      "couplekiss_man_woman"
+    ],
+    u: "1f469-200d-2764-fe0f-200d-1f48b-200d-1f468",
+    v: [
+      "1f469-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb",
+      "1f469-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc",
+      "1f469-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd",
+      "1f469-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe",
+      "1f469-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "kiss: man, man",
+      "couplekiss_man_man"
+    ],
+    u: "1f468-200d-2764-fe0f-200d-1f48b-200d-1f468",
+    v: [
+      "1f468-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb",
+      "1f468-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc",
+      "1f468-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd",
+      "1f468-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe",
+      "1f468-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "kiss: woman, woman",
+      "couplekiss_woman_woman"
+    ],
+    u: "1f469-200d-2764-fe0f-200d-1f48b-200d-1f469",
+    v: [
+      "1f469-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fb",
+      "1f469-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fc",
+      "1f469-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fd",
+      "1f469-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fe",
+      "1f469-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "couple with heart",
+      "couple_with_heart"
+    ],
+    u: "1f491",
+    v: [
+      "1f491-1f3fb",
+      "1f491-1f3fc",
+      "1f491-1f3fd",
+      "1f491-1f3fe",
+      "1f491-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "couple with heart: woman, man",
+      "couple_with_heart_woman_man"
+    ],
+    u: "1f469-200d-2764-fe0f-200d-1f468",
+    v: [
+      "1f469-200d-2764-fe0f-200d-1f468-1f3fb",
+      "1f469-200d-2764-fe0f-200d-1f468-1f3fc",
+      "1f469-200d-2764-fe0f-200d-1f468-1f3fd",
+      "1f469-200d-2764-fe0f-200d-1f468-1f3fe",
+      "1f469-200d-2764-fe0f-200d-1f468-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "couple with heart: man, man",
+      "couple_with_heart_man_man"
+    ],
+    u: "1f468-200d-2764-fe0f-200d-1f468",
+    v: [
+      "1f468-200d-2764-fe0f-200d-1f468-1f3fb",
+      "1f468-200d-2764-fe0f-200d-1f468-1f3fc",
+      "1f468-200d-2764-fe0f-200d-1f468-1f3fd",
+      "1f468-200d-2764-fe0f-200d-1f468-1f3fe",
+      "1f468-200d-2764-fe0f-200d-1f468-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "couple with heart: woman, woman",
+      "couple_with_heart_woman_woman"
+    ],
+    u: "1f469-200d-2764-fe0f-200d-1f469",
+    v: [
+      "1f469-200d-2764-fe0f-200d-1f469-1f3fb",
+      "1f469-200d-2764-fe0f-200d-1f469-1f3fc",
+      "1f469-200d-2764-fe0f-200d-1f469-1f3fd",
+      "1f469-200d-2764-fe0f-200d-1f469-1f3fe",
+      "1f469-200d-2764-fe0f-200d-1f469-1f3ff"
+    ]
+  },
+  {
+    n: [
+      "family",
+      "family",
+      "home",
+      "parents",
+      "child"
+    ],
+    u: "1f46a"
+  },
+  {
+    n: [
+      "family: man, woman, boy",
+      "family_man_woman_boy"
+    ],
+    u: "1f468-200d-1f469-200d-1f466"
+  },
+  {
+    n: [
+      "family: man, woman, girl",
+      "family_man_woman_girl"
+    ],
+    u: "1f468-200d-1f469-200d-1f467"
+  },
+  {
+    n: [
+      "family: man, woman, girl, boy",
+      "family_man_woman_girl_boy"
+    ],
+    u: "1f468-200d-1f469-200d-1f467-200d-1f466"
+  },
+  {
+    n: [
+      "family: man, woman, boy, boy",
+      "family_man_woman_boy_boy"
+    ],
+    u: "1f468-200d-1f469-200d-1f466-200d-1f466"
+  },
+  {
+    n: [
+      "family: man, woman, girl, girl",
+      "family_man_woman_girl_girl"
+    ],
+    u: "1f468-200d-1f469-200d-1f467-200d-1f467"
+  },
+  {
+    n: [
+      "family: man, man, boy",
+      "family_man_man_boy"
+    ],
+    u: "1f468-200d-1f468-200d-1f466"
+  },
+  {
+    n: [
+      "family: man, man, girl",
+      "family_man_man_girl"
+    ],
+    u: "1f468-200d-1f468-200d-1f467"
+  },
+  {
+    n: [
+      "family: man, man, girl, boy",
+      "family_man_man_girl_boy"
+    ],
+    u: "1f468-200d-1f468-200d-1f467-200d-1f466"
+  },
+  {
+    n: [
+      "family: man, man, boy, boy",
+      "family_man_man_boy_boy"
+    ],
+    u: "1f468-200d-1f468-200d-1f466-200d-1f466"
+  },
+  {
+    n: [
+      "family: man, man, girl, girl",
+      "family_man_man_girl_girl"
+    ],
+    u: "1f468-200d-1f468-200d-1f467-200d-1f467"
+  },
+  {
+    n: [
+      "family: woman, woman, boy",
+      "family_woman_woman_boy"
+    ],
+    u: "1f469-200d-1f469-200d-1f466"
+  },
+  {
+    n: [
+      "family: woman, woman, girl",
+      "family_woman_woman_girl"
+    ],
+    u: "1f469-200d-1f469-200d-1f467"
+  },
+  {
+    n: [
+      "family: woman, woman, girl, boy",
+      "family_woman_woman_girl_boy"
+    ],
+    u: "1f469-200d-1f469-200d-1f467-200d-1f466"
+  },
+  {
+    n: [
+      "family: woman, woman, boy, boy",
+      "family_woman_woman_boy_boy"
+    ],
+    u: "1f469-200d-1f469-200d-1f466-200d-1f466"
+  },
+  {
+    n: [
+      "family: woman, woman, girl, girl",
+      "family_woman_woman_girl_girl"
+    ],
+    u: "1f469-200d-1f469-200d-1f467-200d-1f467"
+  },
+  {
+    n: [
+      "family: man, boy",
+      "family_man_boy"
+    ],
+    u: "1f468-200d-1f466"
+  },
+  {
+    n: [
+      "family: man, boy, boy",
+      "family_man_boy_boy"
+    ],
+    u: "1f468-200d-1f466-200d-1f466"
+  },
+  {
+    n: [
+      "family: man, girl",
+      "family_man_girl"
+    ],
+    u: "1f468-200d-1f467"
+  },
+  {
+    n: [
+      "family: man, girl, boy",
+      "family_man_girl_boy"
+    ],
+    u: "1f468-200d-1f467-200d-1f466"
+  },
+  {
+    n: [
+      "family: man, girl, girl",
+      "family_man_girl_girl"
+    ],
+    u: "1f468-200d-1f467-200d-1f467"
+  },
+  {
+    n: [
+      "family: woman, boy",
+      "family_woman_boy"
+    ],
+    u: "1f469-200d-1f466"
+  },
+  {
+    n: [
+      "family: woman, boy, boy",
+      "family_woman_boy_boy"
+    ],
+    u: "1f469-200d-1f466-200d-1f466"
+  },
+  {
+    n: [
+      "family: woman, girl",
+      "family_woman_girl"
+    ],
+    u: "1f469-200d-1f467"
+  },
+  {
+    n: [
+      "family: woman, girl, boy",
+      "family_woman_girl_boy"
+    ],
+    u: "1f469-200d-1f467-200d-1f466"
+  },
+  {
+    n: [
+      "family: woman, girl, girl",
+      "family_woman_girl_girl"
+    ],
+    u: "1f469-200d-1f467-200d-1f467"
+  },
+  {
+    n: [
+      "speaking head",
+      "speaking_head"
+    ],
+    u: "1f5e3-fe0f"
+  },
+  {
+    n: [
+      "bust in silhouette",
+      "bust_in_silhouette",
+      "user"
+    ],
+    u: "1f464"
+  },
+  {
+    n: [
+      "busts in silhouette",
+      "busts_in_silhouette",
+      "users",
+      "group",
+      "team"
+    ],
+    u: "1f465"
+  },
+  {
+    n: [
+      "people hugging",
+      "people_hugging"
+    ],
+    u: "1fac2"
+  },
+  {
+    n: [
+      "footprints",
+      "footprints",
+      "feet",
+      "tracks"
+    ],
+    u: "1f463"
   }
 ];
 const animals_nature$1 = [
@@ -4477,20 +6209,30 @@ const animals_nature$1 = [
   },
   {
     n: [
+      "monkey",
       "monkey"
     ],
     u: "1f412"
   },
   {
     n: [
+      "gorilla",
       "gorilla"
     ],
     u: "1f98d"
   },
   {
     n: [
+      "orangutan",
+      "orangutan"
+    ],
+    u: "1f9a7"
+  },
+  {
+    n: [
       "dog face",
-      "dog"
+      "dog",
+      "pet"
     ],
     u: "1f436"
   },
@@ -4503,28 +6245,52 @@ const animals_nature$1 = [
   },
   {
     n: [
-      "poodle"
+      "guide dog",
+      "guide_dog"
+    ],
+    u: "1f9ae"
+  },
+  {
+    n: [
+      "service dog",
+      "service_dog"
+    ],
+    u: "1f415-200d-1f9ba"
+  },
+  {
+    n: [
+      "poodle",
+      "poodle",
+      "dog"
     ],
     u: "1f429"
   },
   {
     n: [
-      "wolf face",
+      "wolf",
       "wolf"
     ],
     u: "1f43a"
   },
   {
     n: [
-      "fox face",
+      "fox",
       "fox_face"
     ],
     u: "1f98a"
   },
   {
     n: [
+      "raccoon",
+      "raccoon"
+    ],
+    u: "1f99d"
+  },
+  {
+    n: [
       "cat face",
-      "cat"
+      "cat",
+      "pet"
     ],
     u: "1f431"
   },
@@ -4537,8 +6303,15 @@ const animals_nature$1 = [
   },
   {
     n: [
-      "lion face",
-      "lion_face"
+      "black cat",
+      "black_cat"
+    ],
+    u: "1f408-200d-2b1b"
+  },
+  {
+    n: [
+      "lion",
+      "lion"
     ],
     u: "1f981"
   },
@@ -4558,6 +6331,7 @@ const animals_nature$1 = [
   },
   {
     n: [
+      "leopard",
       "leopard"
     ],
     u: "1f406"
@@ -4572,29 +6346,38 @@ const animals_nature$1 = [
   {
     n: [
       "horse",
-      "racehorse"
+      "racehorse",
+      "speed"
     ],
     u: "1f40e"
   },
   {
     n: [
-      "unicorn face",
-      "unicorn_face"
+      "unicorn",
+      "unicorn"
     ],
     u: "1f984"
   },
   {
     n: [
-      "zebra face",
-      "zebra_face"
+      "zebra",
+      "zebra"
     ],
     u: "1f993"
   },
   {
     n: [
+      "deer",
       "deer"
     ],
     u: "1f98c"
+  },
+  {
+    n: [
+      "bison",
+      "bison"
+    ],
+    u: "1f9ac"
   },
   {
     n: [
@@ -4605,6 +6388,7 @@ const animals_nature$1 = [
   },
   {
     n: [
+      "ox",
       "ox"
     ],
     u: "1f402"
@@ -4639,6 +6423,7 @@ const animals_nature$1 = [
   },
   {
     n: [
+      "boar",
       "boar"
     ],
     u: "1f417"
@@ -4652,54 +6437,81 @@ const animals_nature$1 = [
   },
   {
     n: [
+      "ram",
       "ram"
     ],
     u: "1f40f"
   },
   {
     n: [
+      "ewe",
       "sheep"
     ],
     u: "1f411"
   },
   {
     n: [
+      "goat",
       "goat"
     ],
     u: "1f410"
   },
   {
     n: [
-      "dromedary camel",
-      "dromedary_camel"
+      "camel",
+      "dromedary_camel",
+      "desert"
     ],
     u: "1f42a"
   },
   {
     n: [
-      "bactrian camel",
+      "two-hump camel",
       "camel"
     ],
     u: "1f42b"
   },
   {
     n: [
-      "giraffe face",
-      "giraffe_face"
+      "llama",
+      "llama"
+    ],
+    u: "1f999"
+  },
+  {
+    n: [
+      "giraffe",
+      "giraffe"
     ],
     u: "1f992"
   },
   {
     n: [
+      "elephant",
       "elephant"
     ],
     u: "1f418"
   },
   {
     n: [
+      "mammoth",
+      "mammoth"
+    ],
+    u: "1f9a3"
+  },
+  {
+    n: [
+      "rhinoceros",
       "rhinoceros"
     ],
     u: "1f98f"
+  },
+  {
+    n: [
+      "hippopotamus",
+      "hippopotamus"
+    ],
+    u: "1f99b"
   },
   {
     n: [
@@ -4717,21 +6529,24 @@ const animals_nature$1 = [
   },
   {
     n: [
+      "rat",
       "rat"
     ],
     u: "1f400"
   },
   {
     n: [
-      "hamster face",
-      "hamster"
+      "hamster",
+      "hamster",
+      "pet"
     ],
     u: "1f439"
   },
   {
     n: [
       "rabbit face",
-      "rabbit"
+      "rabbit",
+      "bunny"
     ],
     u: "1f430"
   },
@@ -4744,41 +6559,94 @@ const animals_nature$1 = [
   },
   {
     n: [
+      "chipmunk",
       "chipmunk"
     ],
     u: "1f43f-fe0f"
   },
   {
     n: [
+      "beaver",
+      "beaver"
+    ],
+    u: "1f9ab"
+  },
+  {
+    n: [
+      "hedgehog",
       "hedgehog"
     ],
     u: "1f994"
   },
   {
     n: [
+      "bat",
       "bat"
     ],
     u: "1f987"
   },
   {
     n: [
-      "bear face",
+      "bear",
       "bear"
     ],
     u: "1f43b"
   },
   {
     n: [
+      "polar bear",
+      "polar_bear"
+    ],
+    u: "1f43b-200d-2744-fe0f"
+  },
+  {
+    n: [
+      "koala",
       "koala"
     ],
     u: "1f428"
   },
   {
     n: [
-      "panda face",
+      "panda",
       "panda_face"
     ],
     u: "1f43c"
+  },
+  {
+    n: [
+      "sloth",
+      "sloth"
+    ],
+    u: "1f9a5"
+  },
+  {
+    n: [
+      "otter",
+      "otter"
+    ],
+    u: "1f9a6"
+  },
+  {
+    n: [
+      "skunk",
+      "skunk"
+    ],
+    u: "1f9a8"
+  },
+  {
+    n: [
+      "kangaroo",
+      "kangaroo"
+    ],
+    u: "1f998"
+  },
+  {
+    n: [
+      "badger",
+      "badger"
+    ],
+    u: "1f9a1"
   },
   {
     n: [
@@ -4790,18 +6658,22 @@ const animals_nature$1 = [
   },
   {
     n: [
-      "turkey"
+      "turkey",
+      "turkey",
+      "thanksgiving"
     ],
     u: "1f983"
   },
   {
     n: [
+      "chicken",
       "chicken"
     ],
     u: "1f414"
   },
   {
     n: [
+      "rooster",
       "rooster"
     ],
     u: "1f413"
@@ -4829,67 +6701,121 @@ const animals_nature$1 = [
   },
   {
     n: [
+      "bird",
       "bird"
     ],
     u: "1f426"
   },
   {
     n: [
+      "penguin",
       "penguin"
     ],
     u: "1f427"
   },
   {
     n: [
-      "dove_of_peace"
+      "dove",
+      "dove",
+      "peace"
     ],
     u: "1f54a-fe0f"
   },
   {
     n: [
+      "eagle",
       "eagle"
     ],
     u: "1f985"
   },
   {
     n: [
+      "duck",
       "duck"
     ],
     u: "1f986"
   },
   {
     n: [
+      "swan",
+      "swan"
+    ],
+    u: "1f9a2"
+  },
+  {
+    n: [
+      "owl",
       "owl"
     ],
     u: "1f989"
   },
   {
     n: [
-      "frog face",
+      "dodo",
+      "dodo"
+    ],
+    u: "1f9a4"
+  },
+  {
+    n: [
+      "feather",
+      "feather"
+    ],
+    u: "1fab6"
+  },
+  {
+    n: [
+      "flamingo",
+      "flamingo"
+    ],
+    u: "1f9a9"
+  },
+  {
+    n: [
+      "peacock",
+      "peacock"
+    ],
+    u: "1f99a"
+  },
+  {
+    n: [
+      "parrot",
+      "parrot"
+    ],
+    u: "1f99c"
+  },
+  {
+    n: [
+      "frog",
       "frog"
     ],
     u: "1f438"
   },
   {
     n: [
+      "crocodile",
       "crocodile"
     ],
     u: "1f40a"
   },
   {
     n: [
-      "turtle"
+      "turtle",
+      "turtle",
+      "slow"
     ],
     u: "1f422"
   },
   {
     n: [
+      "lizard",
       "lizard"
     ],
     u: "1f98e"
   },
   {
     n: [
+      "snake",
       "snake"
     ],
     u: "1f40d"
@@ -4903,26 +6829,32 @@ const animals_nature$1 = [
   },
   {
     n: [
+      "dragon",
       "dragon"
     ],
     u: "1f409"
   },
   {
     n: [
-      "sauropod"
+      "sauropod",
+      "sauropod",
+      "dinosaur"
     ],
     u: "1f995"
   },
   {
     n: [
-      "t-rex"
+      "T-Rex",
+      "t-rex",
+      "dinosaur"
     ],
     u: "1f996"
   },
   {
     n: [
       "spouting whale",
-      "whale"
+      "whale",
+      "sea"
     ],
     u: "1f433"
   },
@@ -4936,12 +6868,21 @@ const animals_nature$1 = [
   {
     n: [
       "dolphin",
+      "dolphin",
       "flipper"
     ],
     u: "1f42c"
   },
   {
     n: [
+      "seal",
+      "seal"
+    ],
+    u: "1f9ad"
+  },
+  {
+    n: [
+      "fish",
       "fish"
     ],
     u: "1f41f"
@@ -4955,18 +6896,21 @@ const animals_nature$1 = [
   },
   {
     n: [
+      "blowfish",
       "blowfish"
     ],
     u: "1f421"
   },
   {
     n: [
+      "shark",
       "shark"
     ],
     u: "1f988"
   },
   {
     n: [
+      "octopus",
       "octopus"
     ],
     u: "1f419"
@@ -4974,48 +6918,44 @@ const animals_nature$1 = [
   {
     n: [
       "spiral shell",
-      "shell"
+      "shell",
+      "sea",
+      "beach"
     ],
     u: "1f41a"
   },
   {
     n: [
-      "crab"
+      "coral",
+      "coral"
     ],
-    u: "1f980"
+    u: "1fab8"
   },
   {
     n: [
-      "shrimp"
-    ],
-    u: "1f990"
-  },
-  {
-    n: [
-      "squid"
-    ],
-    u: "1f991"
-  },
-  {
-    n: [
-      "snail"
+      "snail",
+      "snail",
+      "slow"
     ],
     u: "1f40c"
   },
   {
     n: [
+      "butterfly",
       "butterfly"
     ],
     u: "1f98b"
   },
   {
     n: [
+      "bug",
       "bug"
     ],
     u: "1f41b"
   },
   {
     n: [
+      "ant",
       "ant"
     ],
     u: "1f41c"
@@ -5023,51 +6963,104 @@ const animals_nature$1 = [
   {
     n: [
       "honeybee",
-      "bee"
+      "bee",
+      "honeybee"
     ],
     u: "1f41d"
   },
   {
     n: [
-      "lady beetle",
+      "beetle",
       "beetle"
+    ],
+    u: "1fab2"
+  },
+  {
+    n: [
+      "lady beetle",
+      "lady_beetle",
+      "bug"
     ],
     u: "1f41e"
   },
   {
     n: [
+      "cricket",
       "cricket"
     ],
     u: "1f997"
   },
   {
     n: [
+      "cockroach",
+      "cockroach"
+    ],
+    u: "1fab3"
+  },
+  {
+    n: [
+      "spider",
       "spider"
     ],
     u: "1f577-fe0f"
   },
   {
     n: [
+      "spider web",
       "spider_web"
     ],
     u: "1f578-fe0f"
   },
   {
     n: [
+      "scorpion",
       "scorpion"
     ],
     u: "1f982"
   },
   {
     n: [
-      "bouquet"
+      "mosquito",
+      "mosquito"
+    ],
+    u: "1f99f"
+  },
+  {
+    n: [
+      "fly",
+      "fly"
+    ],
+    u: "1fab0"
+  },
+  {
+    n: [
+      "worm",
+      "worm"
+    ],
+    u: "1fab1"
+  },
+  {
+    n: [
+      "microbe",
+      "microbe",
+      "germ"
+    ],
+    u: "1f9a0"
+  },
+  {
+    n: [
+      "bouquet",
+      "bouquet",
+      "flowers"
     ],
     u: "1f490"
   },
   {
     n: [
       "cherry blossom",
-      "cherry_blossom"
+      "cherry_blossom",
+      "flower",
+      "spring"
     ],
     u: "1f338"
   },
@@ -5080,13 +7073,23 @@ const animals_nature$1 = [
   },
   {
     n: [
+      "lotus",
+      "lotus"
+    ],
+    u: "1fab7"
+  },
+  {
+    n: [
+      "rosette",
       "rosette"
     ],
     u: "1f3f5-fe0f"
   },
   {
     n: [
-      "rose"
+      "rose",
+      "rose",
+      "flower"
     ],
     u: "1f339"
   },
@@ -5099,45 +7102,61 @@ const animals_nature$1 = [
   },
   {
     n: [
+      "hibiscus",
       "hibiscus"
     ],
     u: "1f33a"
   },
   {
     n: [
+      "sunflower",
       "sunflower"
     ],
     u: "1f33b"
   },
   {
     n: [
+      "blossom",
       "blossom"
     ],
     u: "1f33c"
   },
   {
     n: [
-      "tulip"
+      "tulip",
+      "tulip",
+      "flower"
     ],
     u: "1f337"
   },
   {
     n: [
-      "seedling"
+      "seedling",
+      "seedling",
+      "plant"
     ],
     u: "1f331"
   },
   {
     n: [
+      "potted plant",
+      "potted_plant"
+    ],
+    u: "1fab4"
+  },
+  {
+    n: [
       "evergreen tree",
-      "evergreen_tree"
+      "evergreen_tree",
+      "wood"
     ],
     u: "1f332"
   },
   {
     n: [
       "deciduous tree",
-      "deciduous_tree"
+      "deciduous_tree",
+      "wood"
     ],
     u: "1f333"
   },
@@ -5150,25 +7169,28 @@ const animals_nature$1 = [
   },
   {
     n: [
+      "cactus",
       "cactus"
     ],
     u: "1f335"
   },
   {
     n: [
-      "ear of rice",
+      "sheaf of rice",
       "ear_of_rice"
     ],
     u: "1f33e"
   },
   {
     n: [
+      "herb",
       "herb"
     ],
     u: "1f33f"
   },
   {
     n: [
+      "shamrock",
       "shamrock"
     ],
     u: "2618-fe0f"
@@ -5176,74 +7198,109 @@ const animals_nature$1 = [
   {
     n: [
       "four leaf clover",
-      "four_leaf_clover"
+      "four_leaf_clover",
+      "luck"
     ],
     u: "1f340"
   },
   {
     n: [
       "maple leaf",
-      "maple_leaf"
+      "maple_leaf",
+      "canada"
     ],
     u: "1f341"
   },
   {
     n: [
       "fallen leaf",
-      "fallen_leaf"
+      "fallen_leaf",
+      "autumn"
     ],
     u: "1f342"
   },
   {
     n: [
       "leaf fluttering in wind",
-      "leaves"
+      "leaves",
+      "leaf"
     ],
     u: "1f343"
+  },
+  {
+    n: [
+      "empty nest",
+      "empty_nest"
+    ],
+    u: "1fab9"
+  },
+  {
+    n: [
+      "nest with eggs",
+      "nest_with_eggs"
+    ],
+    u: "1faba"
   }
 ];
 const food_drink$1 = [
   {
     n: [
+      "grapes",
       "grapes"
     ],
     u: "1f347"
   },
   {
     n: [
+      "melon",
       "melon"
     ],
     u: "1f348"
   },
   {
     n: [
+      "watermelon",
       "watermelon"
     ],
     u: "1f349"
   },
   {
     n: [
-      "tangerine"
+      "tangerine",
+      "tangerine",
+      "orange",
+      "mandarin"
     ],
     u: "1f34a"
   },
   {
     n: [
+      "lemon",
       "lemon"
     ],
     u: "1f34b"
   },
   {
     n: [
-      "banana"
+      "banana",
+      "banana",
+      "fruit"
     ],
     u: "1f34c"
   },
   {
     n: [
+      "pineapple",
       "pineapple"
     ],
     u: "1f34d"
+  },
+  {
+    n: [
+      "mango",
+      "mango"
+    ],
+    u: "1f96d"
   },
   {
     n: [
@@ -5255,128 +7312,201 @@ const food_drink$1 = [
   {
     n: [
       "green apple",
-      "green_apple"
+      "green_apple",
+      "fruit"
     ],
     u: "1f34f"
   },
   {
     n: [
+      "pear",
       "pear"
     ],
     u: "1f350"
   },
   {
     n: [
+      "peach",
       "peach"
     ],
     u: "1f351"
   },
   {
     n: [
-      "cherries"
+      "cherries",
+      "cherries",
+      "fruit"
     ],
     u: "1f352"
   },
   {
     n: [
-      "strawberry"
+      "strawberry",
+      "strawberry",
+      "fruit"
     ],
     u: "1f353"
   },
   {
     n: [
-      "kiwifruit"
+      "blueberries",
+      "blueberries"
+    ],
+    u: "1fad0"
+  },
+  {
+    n: [
+      "kiwi fruit",
+      "kiwi_fruit"
     ],
     u: "1f95d"
   },
   {
     n: [
+      "tomato",
       "tomato"
     ],
     u: "1f345"
   },
   {
     n: [
+      "olive",
+      "olive"
+    ],
+    u: "1fad2"
+  },
+  {
+    n: [
+      "coconut",
       "coconut"
     ],
     u: "1f965"
   },
   {
     n: [
+      "avocado",
       "avocado"
     ],
     u: "1f951"
   },
   {
     n: [
-      "aubergine",
-      "eggplant"
+      "eggplant",
+      "eggplant",
+      "aubergine"
     ],
     u: "1f346"
   },
   {
     n: [
+      "potato",
       "potato"
     ],
     u: "1f954"
   },
   {
     n: [
+      "carrot",
       "carrot"
     ],
     u: "1f955"
   },
   {
     n: [
-      "ear of maize",
+      "ear of corn",
       "corn"
     ],
     u: "1f33d"
   },
   {
     n: [
-      "hot_pepper"
+      "hot pepper",
+      "hot_pepper",
+      "spicy"
     ],
     u: "1f336-fe0f"
   },
   {
     n: [
+      "bell pepper",
+      "bell_pepper"
+    ],
+    u: "1fad1"
+  },
+  {
+    n: [
+      "cucumber",
       "cucumber"
     ],
     u: "1f952"
   },
   {
     n: [
+      "leafy green",
+      "leafy_green"
+    ],
+    u: "1f96c"
+  },
+  {
+    n: [
+      "broccoli",
       "broccoli"
     ],
     u: "1f966"
   },
   {
     n: [
+      "garlic",
+      "garlic"
+    ],
+    u: "1f9c4"
+  },
+  {
+    n: [
+      "onion",
+      "onion"
+    ],
+    u: "1f9c5"
+  },
+  {
+    n: [
+      "mushroom",
       "mushroom"
     ],
     u: "1f344"
   },
   {
     n: [
+      "peanuts",
       "peanuts"
     ],
     u: "1f95c"
   },
   {
     n: [
+      "beans",
+      "beans"
+    ],
+    u: "1fad8"
+  },
+  {
+    n: [
+      "chestnut",
       "chestnut"
     ],
     u: "1f330"
   },
   {
     n: [
-      "bread"
+      "bread",
+      "bread",
+      "toast"
     ],
     u: "1f35e"
   },
   {
     n: [
+      "croissant",
       "croissant"
     ],
     u: "1f950"
@@ -5390,20 +7520,43 @@ const food_drink$1 = [
   },
   {
     n: [
+      "flatbread",
+      "flatbread"
+    ],
+    u: "1fad3"
+  },
+  {
+    n: [
+      "pretzel",
       "pretzel"
     ],
     u: "1f968"
   },
   {
     n: [
+      "bagel",
+      "bagel"
+    ],
+    u: "1f96f"
+  },
+  {
+    n: [
+      "pancakes",
       "pancakes"
     ],
     u: "1f95e"
   },
   {
     n: [
+      "waffle",
+      "waffle"
+    ],
+    u: "1f9c7"
+  },
+  {
+    n: [
       "cheese wedge",
-      "cheese_wedge"
+      "cheese"
     ],
     u: "1f9c0"
   },
@@ -5417,7 +7570,9 @@ const food_drink$1 = [
   {
     n: [
       "poultry leg",
-      "poultry_leg"
+      "poultry_leg",
+      "meat",
+      "chicken"
     ],
     u: "1f357"
   },
@@ -5430,13 +7585,16 @@ const food_drink$1 = [
   },
   {
     n: [
+      "bacon",
       "bacon"
     ],
     u: "1f953"
   },
   {
     n: [
-      "hamburger"
+      "hamburger",
+      "hamburger",
+      "burger"
     ],
     u: "1f354"
   },
@@ -5449,7 +7607,7 @@ const food_drink$1 = [
   },
   {
     n: [
-      "slice of pizza",
+      "pizza",
       "pizza"
     ],
     u: "1f355"
@@ -5463,21 +7621,31 @@ const food_drink$1 = [
   },
   {
     n: [
+      "sandwich",
       "sandwich"
     ],
     u: "1f96a"
   },
   {
     n: [
+      "taco",
       "taco"
     ],
     u: "1f32e"
   },
   {
     n: [
+      "burrito",
       "burrito"
     ],
     u: "1f32f"
+  },
+  {
+    n: [
+      "tamale",
+      "tamale"
+    ],
+    u: "1fad4"
   },
   {
     n: [
@@ -5488,6 +7656,14 @@ const food_drink$1 = [
   },
   {
     n: [
+      "falafel",
+      "falafel"
+    ],
+    u: "1f9c6"
+  },
+  {
+    n: [
+      "egg",
       "egg"
     ],
     u: "1f95a"
@@ -5495,14 +7671,17 @@ const food_drink$1 = [
   {
     n: [
       "cooking",
-      "fried_egg"
+      "fried_egg",
+      "breakfast"
     ],
     u: "1f373"
   },
   {
     n: [
       "shallow pan of food",
-      "shallow_pan_of_food"
+      "shallow_pan_of_food",
+      "paella",
+      "curry"
     ],
     u: "1f958"
   },
@@ -5512,6 +7691,13 @@ const food_drink$1 = [
       "stew"
     ],
     u: "1f372"
+  },
+  {
+    n: [
+      "fondue",
+      "fondue"
+    ],
+    u: "1fad5"
   },
   {
     n: [
@@ -5529,9 +7715,24 @@ const food_drink$1 = [
   },
   {
     n: [
+      "popcorn",
       "popcorn"
     ],
     u: "1f37f"
+  },
+  {
+    n: [
+      "butter",
+      "butter"
+    ],
+    u: "1f9c8"
+  },
+  {
+    n: [
+      "salt",
+      "salt"
+    ],
+    u: "1f9c2"
   },
   {
     n: [
@@ -5570,7 +7771,7 @@ const food_drink$1 = [
   },
   {
     n: [
-      "curry and rice",
+      "curry rice",
       "curry"
     ],
     u: "1f35b"
@@ -5578,13 +7779,16 @@ const food_drink$1 = [
   {
     n: [
       "steaming bowl",
-      "ramen"
+      "ramen",
+      "noodle"
     ],
     u: "1f35c"
   },
   {
     n: [
-      "spaghetti"
+      "spaghetti",
+      "spaghetti",
+      "pasta"
     ],
     u: "1f35d"
   },
@@ -5597,12 +7801,14 @@ const food_drink$1 = [
   },
   {
     n: [
+      "oden",
       "oden"
     ],
     u: "1f362"
   },
   {
     n: [
+      "sushi",
       "sushi"
     ],
     u: "1f363"
@@ -5610,25 +7816,35 @@ const food_drink$1 = [
   {
     n: [
       "fried shrimp",
-      "fried_shrimp"
+      "fried_shrimp",
+      "tempura"
     ],
     u: "1f364"
   },
   {
     n: [
-      "fish cake with swirl design",
+      "fish cake with swirl",
       "fish_cake"
     ],
     u: "1f365"
   },
   {
     n: [
+      "moon cake",
+      "moon_cake"
+    ],
+    u: "1f96e"
+  },
+  {
+    n: [
+      "dango",
       "dango"
     ],
     u: "1f361"
   },
   {
     n: [
+      "dumpling",
       "dumpling"
     ],
     u: "1f95f"
@@ -5646,6 +7862,41 @@ const food_drink$1 = [
       "takeout_box"
     ],
     u: "1f961"
+  },
+  {
+    n: [
+      "crab",
+      "crab"
+    ],
+    u: "1f980"
+  },
+  {
+    n: [
+      "lobster",
+      "lobster"
+    ],
+    u: "1f99e"
+  },
+  {
+    n: [
+      "shrimp",
+      "shrimp"
+    ],
+    u: "1f990"
+  },
+  {
+    n: [
+      "squid",
+      "squid"
+    ],
+    u: "1f991"
+  },
+  {
+    n: [
+      "oyster",
+      "oyster"
+    ],
+    u: "1f9aa"
   },
   {
     n: [
@@ -5670,12 +7921,14 @@ const food_drink$1 = [
   },
   {
     n: [
+      "doughnut",
       "doughnut"
     ],
     u: "1f369"
   },
   {
     n: [
+      "cookie",
       "cookie"
     ],
     u: "1f36a"
@@ -5683,19 +7936,29 @@ const food_drink$1 = [
   {
     n: [
       "birthday cake",
-      "birthday"
+      "birthday",
+      "party"
     ],
     u: "1f382"
   },
   {
     n: [
       "shortcake",
-      "cake"
+      "cake",
+      "dessert"
     ],
     u: "1f370"
   },
   {
     n: [
+      "cupcake",
+      "cupcake"
+    ],
+    u: "1f9c1"
+  },
+  {
+    n: [
+      "pie",
       "pie"
     ],
     u: "1f967"
@@ -5709,18 +7972,22 @@ const food_drink$1 = [
   },
   {
     n: [
-      "candy"
+      "candy",
+      "candy",
+      "sweet"
     ],
     u: "1f36c"
   },
   {
     n: [
+      "lollipop",
       "lollipop"
     ],
     u: "1f36d"
   },
   {
     n: [
+      "custard",
       "custard"
     ],
     u: "1f36e"
@@ -5735,34 +8002,46 @@ const food_drink$1 = [
   {
     n: [
       "baby bottle",
-      "baby_bottle"
+      "baby_bottle",
+      "milk"
     ],
     u: "1f37c"
   },
   {
     n: [
       "glass of milk",
-      "glass_of_milk"
+      "milk_glass"
     ],
     u: "1f95b"
   },
   {
     n: [
       "hot beverage",
-      "coffee"
+      "coffee",
+      "cafe",
+      "espresso"
     ],
     u: "2615"
   },
   {
     n: [
+      "teapot",
+      "teapot"
+    ],
+    u: "1fad6"
+  },
+  {
+    n: [
       "teacup without handle",
-      "tea"
+      "tea",
+      "green",
+      "breakfast"
     ],
     u: "1f375"
   },
   {
     n: [
-      "sake bottle and cup",
+      "sake",
       "sake"
     ],
     u: "1f376"
@@ -5770,7 +8049,10 @@ const food_drink$1 = [
   {
     n: [
       "bottle with popping cork",
-      "champagne"
+      "champagne",
+      "bottle",
+      "bubbly",
+      "celebration"
     ],
     u: "1f37e"
   },
@@ -5784,44 +8066,59 @@ const food_drink$1 = [
   {
     n: [
       "cocktail glass",
-      "cocktail"
+      "cocktail",
+      "drink"
     ],
     u: "1f378"
   },
   {
     n: [
       "tropical drink",
-      "tropical_drink"
+      "tropical_drink",
+      "summer",
+      "vacation"
     ],
     u: "1f379"
   },
   {
     n: [
       "beer mug",
-      "beer"
+      "beer",
+      "drink"
     ],
     u: "1f37a"
   },
   {
     n: [
       "clinking beer mugs",
-      "beers"
+      "beers",
+      "drinks"
     ],
     u: "1f37b"
   },
   {
     n: [
       "clinking glasses",
-      "clinking_glasses"
+      "clinking_glasses",
+      "cheers",
+      "toast"
     ],
     u: "1f942"
   },
   {
     n: [
       "tumbler glass",
-      "tumbler_glass"
+      "tumbler_glass",
+      "whisky"
     ],
     u: "1f943"
+  },
+  {
+    n: [
+      "pouring liquid",
+      "pouring_liquid"
+    ],
+    u: "1fad7"
   },
   {
     n: [
@@ -5832,38 +8129,83 @@ const food_drink$1 = [
   },
   {
     n: [
+      "bubble tea",
+      "bubble_tea"
+    ],
+    u: "1f9cb"
+  },
+  {
+    n: [
+      "beverage box",
+      "beverage_box"
+    ],
+    u: "1f9c3"
+  },
+  {
+    n: [
+      "mate",
+      "mate"
+    ],
+    u: "1f9c9"
+  },
+  {
+    n: [
+      "ice",
+      "ice_cube"
+    ],
+    u: "1f9ca"
+  },
+  {
+    n: [
+      "chopsticks",
       "chopsticks"
     ],
     u: "1f962"
   },
   {
     n: [
-      "knife_fork_plate"
+      "fork and knife with plate",
+      "plate_with_cutlery",
+      "dining",
+      "dinner"
     ],
     u: "1f37d-fe0f"
   },
   {
     n: [
       "fork and knife",
-      "fork_and_knife"
+      "fork_and_knife",
+      "cutlery"
     ],
     u: "1f374"
   },
   {
     n: [
+      "spoon",
       "spoon"
     ],
     u: "1f944"
   },
   {
     n: [
+      "kitchen knife",
       "hocho",
-      "knife"
+      "knife",
+      "cut",
+      "chop"
     ],
     u: "1f52a"
   },
   {
     n: [
+      "jar",
+      "jar"
+    ],
+    u: "1fad9"
+  },
+  {
+    n: [
+      "amphora",
       "amphora"
     ],
     u: "1f3fa"
@@ -5873,46 +8215,64 @@ const activities$1 = [
   {
     n: [
       "jack-o-lantern",
-      "jack_o_lantern"
+      "jack_o_lantern",
+      "halloween"
     ],
     u: "1f383"
   },
   {
     n: [
-      "christmas tree",
+      "Christmas tree",
       "christmas_tree"
     ],
     u: "1f384"
   },
   {
     n: [
-      "fireworks"
+      "fireworks",
+      "fireworks",
+      "festival",
+      "celebration"
     ],
     u: "1f386"
   },
   {
     n: [
-      "firework sparkler",
+      "sparkler",
       "sparkler"
     ],
     u: "1f387"
   },
   {
     n: [
-      "sparkles"
+      "firecracker",
+      "firecracker"
+    ],
+    u: "1f9e8"
+  },
+  {
+    n: [
+      "sparkles",
+      "sparkles",
+      "shiny"
     ],
     u: "2728"
   },
   {
     n: [
-      "balloon"
+      "balloon",
+      "balloon",
+      "party",
+      "birthday"
     ],
     u: "1f388"
   },
   {
     n: [
       "party popper",
-      "tada"
+      "tada",
+      "hooray",
+      "party"
     ],
     u: "1f389"
   },
@@ -5939,7 +8299,7 @@ const activities$1 = [
   },
   {
     n: [
-      "japanese dolls",
+      "Japanese dolls",
       "dolls"
     ],
     u: "1f38e"
@@ -5967,97 +8327,133 @@ const activities$1 = [
   },
   {
     n: [
+      "red envelope",
+      "red_envelope"
+    ],
+    u: "1f9e7"
+  },
+  {
+    n: [
+      "ribbon",
       "ribbon"
     ],
     u: "1f380"
   },
   {
     n: [
-      "wrapped present",
-      "gift"
+      "wrapped gift",
+      "gift",
+      "present",
+      "birthday",
+      "christmas"
     ],
     u: "1f381"
   },
   {
     n: [
+      "reminder ribbon",
       "reminder_ribbon"
     ],
     u: "1f397-fe0f"
   },
   {
     n: [
-      "admission_tickets"
+      "admission tickets",
+      "tickets"
     ],
     u: "1f39f-fe0f"
   },
   {
     n: [
+      "ticket",
       "ticket"
     ],
     u: "1f3ab"
   },
   {
     n: [
-      "medal"
+      "military medal",
+      "medal_military"
     ],
     u: "1f396-fe0f"
   },
   {
     n: [
-      "trophy"
+      "trophy",
+      "trophy",
+      "award",
+      "contest",
+      "winner"
     ],
     u: "1f3c6"
   },
   {
     n: [
       "sports medal",
-      "sports_medal"
+      "medal_sports",
+      "gold",
+      "winner"
     ],
     u: "1f3c5"
   },
   {
     n: [
-      "first place medal",
-      "first_place_medal"
+      "1st place medal",
+      "1st_place_medal",
+      "gold"
     ],
     u: "1f947"
   },
   {
     n: [
-      "second place medal",
-      "second_place_medal"
+      "2nd place medal",
+      "2nd_place_medal",
+      "silver"
     ],
     u: "1f948"
   },
   {
     n: [
-      "third place medal",
-      "third_place_medal"
+      "3rd place medal",
+      "3rd_place_medal",
+      "bronze"
     ],
     u: "1f949"
   },
   {
     n: [
       "soccer ball",
-      "soccer"
+      "soccer",
+      "sports"
     ],
     u: "26bd"
   },
   {
     n: [
-      "baseball"
+      "baseball",
+      "baseball",
+      "sports"
     ],
     u: "26be"
   },
   {
     n: [
-      "basketball and hoop",
-      "basketball"
+      "softball",
+      "softball"
+    ],
+    u: "1f94e"
+  },
+  {
+    n: [
+      "basketball",
+      "basketball",
+      "sports"
     ],
     u: "1f3c0"
   },
   {
     n: [
+      "volleyball",
       "volleyball"
     ],
     u: "1f3d0"
@@ -6065,7 +8461,8 @@ const activities$1 = [
   {
     n: [
       "american football",
-      "football"
+      "football",
+      "sports"
     ],
     u: "1f3c8"
   },
@@ -6078,56 +8475,65 @@ const activities$1 = [
   },
   {
     n: [
-      "tennis racquet and ball",
-      "tennis"
+      "tennis",
+      "tennis",
+      "sports"
     ],
     u: "1f3be"
   },
   {
     n: [
-      "billiards",
-      "8ball"
+      "flying disc",
+      "flying_disc"
     ],
-    u: "1f3b1"
+    u: "1f94f"
   },
   {
     n: [
+      "bowling",
       "bowling"
     ],
     u: "1f3b3"
   },
   {
     n: [
-      "cricket bat and ball",
-      "cricket_bat_and_ball"
+      "cricket game",
+      "cricket_game"
     ],
     u: "1f3cf"
   },
   {
     n: [
-      "field hockey stick and ball",
-      "field_hockey_stick_and_ball"
+      "field hockey",
+      "field_hockey"
     ],
     u: "1f3d1"
   },
   {
     n: [
-      "ice hockey stick and puck",
-      "ice_hockey_stick_and_puck"
+      "ice hockey",
+      "ice_hockey"
     ],
     u: "1f3d2"
   },
   {
     n: [
-      "table tennis paddle and ball",
-      "table_tennis_paddle_and_ball"
+      "lacrosse",
+      "lacrosse"
+    ],
+    u: "1f94d"
+  },
+  {
+    n: [
+      "ping pong",
+      "ping_pong"
     ],
     u: "1f3d3"
   },
   {
     n: [
-      "badminton racquet and shuttlecock",
-      "badminton_racquet_and_shuttlecock"
+      "badminton",
+      "badminton"
     ],
     u: "1f3f8"
   },
@@ -6154,13 +8560,6 @@ const activities$1 = [
   },
   {
     n: [
-      "direct hit",
-      "dart"
-    ],
-    u: "1f3af"
-  },
-  {
-    n: [
       "flag in hole",
       "golf"
     ],
@@ -6168,33 +8567,44 @@ const activities$1 = [
   },
   {
     n: [
-      "ice_skate"
+      "ice skate",
+      "ice_skate",
+      "skating"
     ],
     u: "26f8-fe0f"
   },
   {
     n: [
-      "fishing pole and fish",
+      "fishing pole",
       "fishing_pole_and_fish"
     ],
     u: "1f3a3"
   },
   {
     n: [
-      "running shirt with sash",
-      "running_shirt_with_sash"
+      "diving mask",
+      "diving_mask"
+    ],
+    u: "1f93f"
+  },
+  {
+    n: [
+      "running shirt",
+      "running_shirt_with_sash",
+      "marathon"
     ],
     u: "1f3bd"
   },
   {
     n: [
-      "ski and ski boot",
+      "skis",
       "ski"
     ],
     u: "1f3bf"
   },
   {
     n: [
+      "sled",
       "sled"
     ],
     u: "1f6f7"
@@ -6208,62 +8618,179 @@ const activities$1 = [
   },
   {
     n: [
+      "bullseye",
+      "dart",
+      "target"
+    ],
+    u: "1f3af"
+  },
+  {
+    n: [
+      "yo-yo",
+      "yo_yo"
+    ],
+    u: "1fa80"
+  },
+  {
+    n: [
+      "kite",
+      "kite"
+    ],
+    u: "1fa81"
+  },
+  {
+    n: [
+      "pool 8 ball",
+      "8ball",
+      "pool",
+      "billiards"
+    ],
+    u: "1f3b1"
+  },
+  {
+    n: [
+      "crystal ball",
+      "crystal_ball",
+      "fortune"
+    ],
+    u: "1f52e"
+  },
+  {
+    n: [
+      "magic wand",
+      "magic_wand"
+    ],
+    u: "1fa84"
+  },
+  {
+    n: [
+      "nazar amulet",
+      "nazar_amulet"
+    ],
+    u: "1f9ff"
+  },
+  {
+    n: [
+      "hamsa",
+      "hamsa"
+    ],
+    u: "1faac"
+  },
+  {
+    n: [
       "video game",
-      "video_game"
+      "video_game",
+      "play",
+      "controller",
+      "console"
     ],
     u: "1f3ae"
   },
   {
     n: [
+      "joystick",
       "joystick"
     ],
     u: "1f579-fe0f"
   },
   {
     n: [
+      "slot machine",
+      "slot_machine"
+    ],
+    u: "1f3b0"
+  },
+  {
+    n: [
       "game die",
-      "game_die"
+      "game_die",
+      "dice",
+      "gambling"
     ],
     u: "1f3b2"
   },
   {
     n: [
-      "black spade suit",
+      "puzzle piece",
+      "jigsaw"
+    ],
+    u: "1f9e9"
+  },
+  {
+    n: [
+      "teddy bear",
+      "teddy_bear"
+    ],
+    u: "1f9f8"
+  },
+  {
+    n: [
+      "pi\xF1ata",
+      "pinata"
+    ],
+    u: "1fa85"
+  },
+  {
+    n: [
+      "mirror ball",
+      "mirror_ball",
+      "disco",
+      "party"
+    ],
+    u: "1faa9"
+  },
+  {
+    n: [
+      "nesting dolls",
+      "nesting_dolls"
+    ],
+    u: "1fa86"
+  },
+  {
+    n: [
+      "spade suit",
       "spades"
     ],
     u: "2660-fe0f"
   },
   {
     n: [
-      "black heart suit",
+      "heart suit",
       "hearts"
     ],
     u: "2665-fe0f"
   },
   {
     n: [
-      "black diamond suit",
+      "diamond suit",
       "diamonds"
     ],
     u: "2666-fe0f"
   },
   {
     n: [
-      "black club suit",
+      "club suit",
       "clubs"
     ],
     u: "2663-fe0f"
   },
   {
     n: [
-      "playing card black joker",
+      "chess pawn",
+      "chess_pawn"
+    ],
+    u: "265f-fe0f"
+  },
+  {
+    n: [
+      "joker",
       "black_joker"
     ],
     u: "1f0cf"
   },
   {
     n: [
-      "mahjong tile red dragon",
+      "mahjong red dragon",
       "mahjong"
     ],
     u: "1f004"
@@ -6274,64 +8801,141 @@ const activities$1 = [
       "flower_playing_cards"
     ],
     u: "1f3b4"
+  },
+  {
+    n: [
+      "performing arts",
+      "performing_arts",
+      "theater",
+      "drama"
+    ],
+    u: "1f3ad"
+  },
+  {
+    n: [
+      "framed picture",
+      "framed_picture"
+    ],
+    u: "1f5bc-fe0f"
+  },
+  {
+    n: [
+      "artist palette",
+      "art",
+      "design",
+      "paint"
+    ],
+    u: "1f3a8"
+  },
+  {
+    n: [
+      "thread",
+      "thread"
+    ],
+    u: "1f9f5"
+  },
+  {
+    n: [
+      "sewing needle",
+      "sewing_needle"
+    ],
+    u: "1faa1"
+  },
+  {
+    n: [
+      "yarn",
+      "yarn"
+    ],
+    u: "1f9f6"
+  },
+  {
+    n: [
+      "knot",
+      "knot"
+    ],
+    u: "1faa2"
   }
 ];
 const travel_places$1 = [
   {
     n: [
-      "earth globe europe-africa",
-      "earth_africa"
+      "globe showing Europe-Africa",
+      "earth_africa",
+      "globe",
+      "world",
+      "international"
     ],
     u: "1f30d"
   },
   {
     n: [
-      "earth globe americas",
-      "earth_americas"
+      "globe showing Americas",
+      "earth_americas",
+      "globe",
+      "world",
+      "international"
     ],
     u: "1f30e"
   },
   {
     n: [
-      "earth globe asia-australia",
-      "earth_asia"
+      "globe showing Asia-Australia",
+      "earth_asia",
+      "globe",
+      "world",
+      "international"
     ],
     u: "1f30f"
   },
   {
     n: [
       "globe with meridians",
-      "globe_with_meridians"
+      "globe_with_meridians",
+      "world",
+      "global",
+      "international"
     ],
     u: "1f310"
   },
   {
     n: [
-      "world_map"
+      "world map",
+      "world_map",
+      "travel"
     ],
     u: "1f5fa-fe0f"
   },
   {
     n: [
-      "silhouette of japan",
+      "map of Japan",
       "japan"
     ],
     u: "1f5fe"
   },
   {
     n: [
-      "snow_capped_mountain"
+      "compass",
+      "compass"
+    ],
+    u: "1f9ed"
+  },
+  {
+    n: [
+      "snow-capped mountain",
+      "mountain_snow"
     ],
     u: "1f3d4-fe0f"
   },
   {
     n: [
+      "mountain",
       "mountain"
     ],
     u: "26f0-fe0f"
   },
   {
     n: [
+      "volcano",
       "volcano"
     ],
     u: "1f30b"
@@ -6345,73 +8949,105 @@ const travel_places$1 = [
   },
   {
     n: [
+      "camping",
       "camping"
     ],
     u: "1f3d5-fe0f"
   },
   {
     n: [
-      "beach_with_umbrella"
+      "beach with umbrella",
+      "beach_umbrella"
     ],
     u: "1f3d6-fe0f"
   },
   {
     n: [
+      "desert",
       "desert"
     ],
     u: "1f3dc-fe0f"
   },
   {
     n: [
+      "desert island",
       "desert_island"
     ],
     u: "1f3dd-fe0f"
   },
   {
     n: [
+      "national park",
       "national_park"
     ],
     u: "1f3de-fe0f"
   },
   {
     n: [
+      "stadium",
       "stadium"
     ],
     u: "1f3df-fe0f"
   },
   {
     n: [
+      "classical building",
       "classical_building"
     ],
     u: "1f3db-fe0f"
   },
   {
     n: [
+      "building construction",
       "building_construction"
     ],
     u: "1f3d7-fe0f"
   },
   {
     n: [
-      "house_buildings"
+      "brick",
+      "bricks"
+    ],
+    u: "1f9f1"
+  },
+  {
+    n: [
+      "rock",
+      "rock"
+    ],
+    u: "1faa8"
+  },
+  {
+    n: [
+      "wood",
+      "wood"
+    ],
+    u: "1fab5"
+  },
+  {
+    n: [
+      "hut",
+      "hut"
+    ],
+    u: "1f6d6"
+  },
+  {
+    n: [
+      "houses",
+      "houses"
     ],
     u: "1f3d8-fe0f"
   },
   {
     n: [
-      "cityscape"
-    ],
-    u: "1f3d9-fe0f"
-  },
-  {
-    n: [
-      "derelict_house_building"
+      "derelict house",
+      "derelict_house"
     ],
     u: "1f3da-fe0f"
   },
   {
     n: [
-      "house building",
+      "house",
       "house"
     ],
     u: "1f3e0"
@@ -6432,32 +9068,35 @@ const travel_places$1 = [
   },
   {
     n: [
-      "japanese post office",
+      "Japanese post office",
       "post_office"
     ],
     u: "1f3e3"
   },
   {
     n: [
-      "european post office",
+      "post office",
       "european_post_office"
     ],
     u: "1f3e4"
   },
   {
     n: [
+      "hospital",
       "hospital"
     ],
     u: "1f3e5"
   },
   {
     n: [
+      "bank",
       "bank"
     ],
     u: "1f3e6"
   },
   {
     n: [
+      "hotel",
       "hotel"
     ],
     u: "1f3e8"
@@ -6478,6 +9117,7 @@ const travel_places$1 = [
   },
   {
     n: [
+      "school",
       "school"
     ],
     u: "1f3eb"
@@ -6491,89 +9131,109 @@ const travel_places$1 = [
   },
   {
     n: [
+      "factory",
       "factory"
     ],
     u: "1f3ed"
   },
   {
     n: [
-      "japanese castle",
+      "Japanese castle",
       "japanese_castle"
     ],
     u: "1f3ef"
   },
   {
     n: [
-      "european castle",
+      "castle",
       "european_castle"
     ],
     u: "1f3f0"
   },
   {
     n: [
-      "wedding"
+      "wedding",
+      "wedding",
+      "marriage"
     ],
     u: "1f492"
   },
   {
     n: [
-      "tokyo tower",
+      "Tokyo tower",
       "tokyo_tower"
     ],
     u: "1f5fc"
   },
   {
     n: [
-      "statue of liberty",
+      "Statue of Liberty",
       "statue_of_liberty"
     ],
     u: "1f5fd"
   },
   {
     n: [
+      "church",
       "church"
     ],
     u: "26ea"
   },
   {
     n: [
+      "mosque",
       "mosque"
     ],
     u: "1f54c"
   },
   {
     n: [
+      "hindu temple",
+      "hindu_temple"
+    ],
+    u: "1f6d5"
+  },
+  {
+    n: [
+      "synagogue",
       "synagogue"
     ],
     u: "1f54d"
   },
   {
     n: [
+      "shinto shrine",
       "shinto_shrine"
     ],
     u: "26e9-fe0f"
   },
   {
     n: [
+      "kaaba",
       "kaaba"
     ],
     u: "1f54b"
   },
   {
     n: [
+      "fountain",
       "fountain"
     ],
     u: "26f2"
   },
   {
     n: [
-      "tent"
+      "tent",
+      "tent",
+      "camping"
     ],
     u: "26fa"
   },
   {
     n: [
-      "foggy"
+      "foggy",
+      "foggy",
+      "karl"
     ],
     u: "1f301"
   },
@@ -6586,6 +9246,14 @@ const travel_places$1 = [
   },
   {
     n: [
+      "cityscape",
+      "cityscape",
+      "skyline"
+    ],
+    u: "1f3d9-fe0f"
+  },
+  {
+    n: [
       "sunrise over mountains",
       "sunrise_over_mountains"
     ],
@@ -6593,6 +9261,7 @@ const travel_places$1 = [
   },
   {
     n: [
+      "sunrise",
       "sunrise"
     ],
     u: "1f305"
@@ -6606,7 +9275,7 @@ const travel_places$1 = [
   },
   {
     n: [
-      "sunset over buildings",
+      "sunset",
       "city_sunrise"
     ],
     u: "1f307"
@@ -6627,17 +9296,17 @@ const travel_places$1 = [
   },
   {
     n: [
-      "milky way",
-      "milky_way"
-    ],
-    u: "1f30c"
-  },
-  {
-    n: [
       "carousel horse",
       "carousel_horse"
     ],
     u: "1f3a0"
+  },
+  {
+    n: [
+      "playground slide",
+      "playground_slide"
+    ],
+    u: "1f6dd"
   },
   {
     n: [
@@ -6669,35 +9338,9 @@ const travel_places$1 = [
   },
   {
     n: [
-      "performing arts",
-      "performing_arts"
-    ],
-    u: "1f3ad"
-  },
-  {
-    n: [
-      "frame_with_picture"
-    ],
-    u: "1f5bc-fe0f"
-  },
-  {
-    n: [
-      "artist palette",
-      "art"
-    ],
-    u: "1f3a8"
-  },
-  {
-    n: [
-      "slot machine",
-      "slot_machine"
-    ],
-    u: "1f3b0"
-  },
-  {
-    n: [
-      "steam locomotive",
-      "steam_locomotive"
+      "locomotive",
+      "steam_locomotive",
+      "train"
     ],
     u: "1f682"
   },
@@ -6711,14 +9354,16 @@ const travel_places$1 = [
   {
     n: [
       "high-speed train",
-      "bullettrain_side"
+      "bullettrain_side",
+      "train"
     ],
     u: "1f684"
   },
   {
     n: [
-      "high-speed train with bullet nose",
-      "bullettrain_front"
+      "bullet train",
+      "bullettrain_front",
+      "train"
     ],
     u: "1f685"
   },
@@ -6731,6 +9376,7 @@ const travel_places$1 = [
   },
   {
     n: [
+      "metro",
       "metro"
     ],
     u: "1f687"
@@ -6744,18 +9390,21 @@ const travel_places$1 = [
   },
   {
     n: [
+      "station",
       "station"
     ],
     u: "1f689"
   },
   {
     n: [
+      "tram",
       "tram"
     ],
     u: "1f68a"
   },
   {
     n: [
+      "monorail",
       "monorail"
     ],
     u: "1f69d"
@@ -6776,6 +9425,7 @@ const travel_places$1 = [
   },
   {
     n: [
+      "bus",
       "bus"
     ],
     u: "1f68c"
@@ -6789,18 +9439,21 @@ const travel_places$1 = [
   },
   {
     n: [
+      "trolleybus",
       "trolleybus"
     ],
     u: "1f68e"
   },
   {
     n: [
+      "minibus",
       "minibus"
     ],
     u: "1f690"
   },
   {
     n: [
+      "ambulance",
       "ambulance"
     ],
     u: "1f691"
@@ -6828,6 +9481,7 @@ const travel_places$1 = [
   },
   {
     n: [
+      "taxi",
       "taxi"
     ],
     u: "1f695"
@@ -6856,10 +9510,17 @@ const travel_places$1 = [
   },
   {
     n: [
-      "recreational vehicle",
+      "sport utility vehicle",
       "blue_car"
     ],
     u: "1f699"
+  },
+  {
+    n: [
+      "pickup truck",
+      "pickup_truck"
+    ],
+    u: "1f6fb"
   },
   {
     n: [
@@ -6877,22 +9538,24 @@ const travel_places$1 = [
   },
   {
     n: [
+      "tractor",
       "tractor"
     ],
     u: "1f69c"
   },
   {
     n: [
-      "bicycle",
-      "bike"
+      "racing car",
+      "racing_car"
     ],
-    u: "1f6b2"
+    u: "1f3ce-fe0f"
   },
   {
     n: [
-      "scooter"
+      "motorcycle",
+      "motorcycle"
     ],
-    u: "1f6f4"
+    u: "1f3cd-fe0f"
   },
   {
     n: [
@@ -6903,6 +9566,56 @@ const travel_places$1 = [
   },
   {
     n: [
+      "manual wheelchair",
+      "manual_wheelchair"
+    ],
+    u: "1f9bd"
+  },
+  {
+    n: [
+      "motorized wheelchair",
+      "motorized_wheelchair"
+    ],
+    u: "1f9bc"
+  },
+  {
+    n: [
+      "auto rickshaw",
+      "auto_rickshaw"
+    ],
+    u: "1f6fa"
+  },
+  {
+    n: [
+      "bicycle",
+      "bike",
+      "bicycle"
+    ],
+    u: "1f6b2"
+  },
+  {
+    n: [
+      "kick scooter",
+      "kick_scooter"
+    ],
+    u: "1f6f4"
+  },
+  {
+    n: [
+      "skateboard",
+      "skateboard"
+    ],
+    u: "1f6f9"
+  },
+  {
+    n: [
+      "roller skate",
+      "roller_skate"
+    ],
+    u: "1f6fc"
+  },
+  {
+    n: [
       "bus stop",
       "busstop"
     ],
@@ -6910,15 +9623,24 @@ const travel_places$1 = [
   },
   {
     n: [
+      "motorway",
       "motorway"
     ],
     u: "1f6e3-fe0f"
   },
   {
     n: [
+      "railway track",
       "railway_track"
     ],
     u: "1f6e4-fe0f"
+  },
+  {
+    n: [
+      "oil drum",
+      "oil_drum"
+    ],
+    u: "1f6e2-fe0f"
   },
   {
     n: [
@@ -6929,8 +9651,17 @@ const travel_places$1 = [
   },
   {
     n: [
-      "police cars revolving light",
-      "rotating_light"
+      "wheel",
+      "wheel"
+    ],
+    u: "1f6de"
+  },
+  {
+    n: [
+      "police car light",
+      "rotating_light",
+      "911",
+      "emergency"
     ],
     u: "1f6a8"
   },
@@ -6944,107 +9675,141 @@ const travel_places$1 = [
   {
     n: [
       "vertical traffic light",
-      "vertical_traffic_light"
+      "vertical_traffic_light",
+      "semaphore"
     ],
     u: "1f6a6"
   },
   {
     n: [
-      "construction sign",
-      "construction"
-    ],
-    u: "1f6a7"
-  },
-  {
-    n: [
-      "octagonal sign",
-      "octagonal_sign"
+      "stop sign",
+      "stop_sign"
     ],
     u: "1f6d1"
   },
   {
     n: [
-      "anchor"
+      "construction",
+      "construction",
+      "wip"
+    ],
+    u: "1f6a7"
+  },
+  {
+    n: [
+      "anchor",
+      "anchor",
+      "ship"
     ],
     u: "2693"
   },
   {
     n: [
+      "ring buoy",
+      "ring_buoy",
+      "life preserver"
+    ],
+    u: "1f6df"
+  },
+  {
+    n: [
       "sailboat",
-      "boat"
+      "boat",
+      "sailboat"
     ],
     u: "26f5"
   },
   {
     n: [
+      "canoe",
       "canoe"
     ],
     u: "1f6f6"
   },
   {
     n: [
-      "speedboat"
+      "speedboat",
+      "speedboat",
+      "ship"
     ],
     u: "1f6a4"
   },
   {
     n: [
-      "passenger_ship"
+      "passenger ship",
+      "passenger_ship",
+      "cruise"
     ],
     u: "1f6f3-fe0f"
   },
   {
     n: [
+      "ferry",
       "ferry"
     ],
     u: "26f4-fe0f"
   },
   {
     n: [
+      "motor boat",
       "motor_boat"
     ],
     u: "1f6e5-fe0f"
   },
   {
     n: [
+      "ship",
       "ship"
     ],
     u: "1f6a2"
   },
   {
     n: [
-      "airplane"
+      "airplane",
+      "airplane",
+      "flight"
     ],
     u: "2708-fe0f"
   },
   {
     n: [
-      "small_airplane"
+      "small airplane",
+      "small_airplane",
+      "flight"
     ],
     u: "1f6e9-fe0f"
   },
   {
     n: [
       "airplane departure",
-      "airplane_departure"
+      "flight_departure"
     ],
     u: "1f6eb"
   },
   {
     n: [
-      "airplane arriving",
-      "airplane_arriving"
+      "airplane arrival",
+      "flight_arrival"
     ],
     u: "1f6ec"
   },
   {
     n: [
+      "parachute",
+      "parachute"
+    ],
+    u: "1fa82"
+  },
+  {
+    n: [
+      "seat",
       "seat"
     ],
     u: "1f4ba"
   },
   {
     n: [
+      "helicopter",
       "helicopter"
     ],
     u: "1f681"
@@ -7072,301 +9837,289 @@ const travel_places$1 = [
   },
   {
     n: [
-      "satellite"
+      "satellite",
+      "artificial_satellite",
+      "orbit",
+      "space"
     ],
     u: "1f6f0-fe0f"
   },
   {
     n: [
-      "rocket"
+      "rocket",
+      "rocket",
+      "ship",
+      "launch"
     ],
     u: "1f680"
   },
   {
     n: [
       "flying saucer",
-      "flying_saucer"
+      "flying_saucer",
+      "ufo"
     ],
     u: "1f6f8"
   },
   {
     n: [
+      "bellhop bell",
       "bellhop_bell"
     ],
     u: "1f6ce-fe0f"
   },
   {
     n: [
-      "door"
+      "luggage",
+      "luggage"
     ],
-    u: "1f6aa"
+    u: "1f9f3"
   },
   {
     n: [
-      "bed"
-    ],
-    u: "1f6cf-fe0f"
-  },
-  {
-    n: [
-      "couch_and_lamp"
-    ],
-    u: "1f6cb-fe0f"
-  },
-  {
-    n: [
-      "toilet"
-    ],
-    u: "1f6bd"
-  },
-  {
-    n: [
-      "shower"
-    ],
-    u: "1f6bf"
-  },
-  {
-    n: [
-      "bathtub"
-    ],
-    u: "1f6c1"
-  },
-  {
-    n: [
-      "hourglass"
+      "hourglass done",
+      "hourglass",
+      "time"
     ],
     u: "231b"
   },
   {
     n: [
-      "hourglass with flowing sand",
-      "hourglass_flowing_sand"
+      "hourglass not done",
+      "hourglass_flowing_sand",
+      "time"
     ],
     u: "23f3"
   },
   {
     n: [
-      "watch"
+      "watch",
+      "watch",
+      "time"
     ],
     u: "231a"
   },
   {
     n: [
       "alarm clock",
-      "alarm_clock"
+      "alarm_clock",
+      "morning"
     ],
     u: "23f0"
   },
   {
     n: [
+      "stopwatch",
       "stopwatch"
     ],
     u: "23f1-fe0f"
   },
   {
     n: [
+      "timer clock",
       "timer_clock"
     ],
     u: "23f2-fe0f"
   },
   {
     n: [
+      "mantelpiece clock",
       "mantelpiece_clock"
     ],
     u: "1f570-fe0f"
   },
   {
     n: [
-      "clock face twelve oclock",
+      "twelve o\u2019clock",
       "clock12"
     ],
     u: "1f55b"
   },
   {
     n: [
-      "clock face twelve-thirty",
+      "twelve-thirty",
       "clock1230"
     ],
     u: "1f567"
   },
   {
     n: [
-      "clock face one oclock",
+      "one o\u2019clock",
       "clock1"
     ],
     u: "1f550"
   },
   {
     n: [
-      "clock face one-thirty",
+      "one-thirty",
       "clock130"
     ],
     u: "1f55c"
   },
   {
     n: [
-      "clock face two oclock",
+      "two o\u2019clock",
       "clock2"
     ],
     u: "1f551"
   },
   {
     n: [
-      "clock face two-thirty",
+      "two-thirty",
       "clock230"
     ],
     u: "1f55d"
   },
   {
     n: [
-      "clock face three oclock",
+      "three o\u2019clock",
       "clock3"
     ],
     u: "1f552"
   },
   {
     n: [
-      "clock face three-thirty",
+      "three-thirty",
       "clock330"
     ],
     u: "1f55e"
   },
   {
     n: [
-      "clock face four oclock",
+      "four o\u2019clock",
       "clock4"
     ],
     u: "1f553"
   },
   {
     n: [
-      "clock face four-thirty",
+      "four-thirty",
       "clock430"
     ],
     u: "1f55f"
   },
   {
     n: [
-      "clock face five oclock",
+      "five o\u2019clock",
       "clock5"
     ],
     u: "1f554"
   },
   {
     n: [
-      "clock face five-thirty",
+      "five-thirty",
       "clock530"
     ],
     u: "1f560"
   },
   {
     n: [
-      "clock face six oclock",
+      "six o\u2019clock",
       "clock6"
     ],
     u: "1f555"
   },
   {
     n: [
-      "clock face six-thirty",
+      "six-thirty",
       "clock630"
     ],
     u: "1f561"
   },
   {
     n: [
-      "clock face seven oclock",
+      "seven o\u2019clock",
       "clock7"
     ],
     u: "1f556"
   },
   {
     n: [
-      "clock face seven-thirty",
+      "seven-thirty",
       "clock730"
     ],
     u: "1f562"
   },
   {
     n: [
-      "clock face eight oclock",
+      "eight o\u2019clock",
       "clock8"
     ],
     u: "1f557"
   },
   {
     n: [
-      "clock face eight-thirty",
+      "eight-thirty",
       "clock830"
     ],
     u: "1f563"
   },
   {
     n: [
-      "clock face nine oclock",
+      "nine o\u2019clock",
       "clock9"
     ],
     u: "1f558"
   },
   {
     n: [
-      "clock face nine-thirty",
+      "nine-thirty",
       "clock930"
     ],
     u: "1f564"
   },
   {
     n: [
-      "clock face ten oclock",
+      "ten o\u2019clock",
       "clock10"
     ],
     u: "1f559"
   },
   {
     n: [
-      "clock face ten-thirty",
+      "ten-thirty",
       "clock1030"
     ],
     u: "1f565"
   },
   {
     n: [
-      "clock face eleven oclock",
+      "eleven o\u2019clock",
       "clock11"
     ],
     u: "1f55a"
   },
   {
     n: [
-      "clock face eleven-thirty",
+      "eleven-thirty",
       "clock1130"
     ],
     u: "1f566"
   },
   {
     n: [
-      "new moon symbol",
+      "new moon",
       "new_moon"
     ],
     u: "1f311"
   },
   {
     n: [
-      "waxing crescent moon symbol",
+      "waxing crescent moon",
       "waxing_crescent_moon"
     ],
     u: "1f312"
   },
   {
     n: [
-      "first quarter moon symbol",
+      "first quarter moon",
       "first_quarter_moon"
     ],
     u: "1f313"
   },
   {
     n: [
-      "waxing gibbous moon symbol",
+      "waxing gibbous moon",
       "moon",
       "waxing_gibbous_moon"
     ],
@@ -7374,28 +10127,28 @@ const travel_places$1 = [
   },
   {
     n: [
-      "full moon symbol",
+      "full moon",
       "full_moon"
     ],
     u: "1f315"
   },
   {
     n: [
-      "waning gibbous moon symbol",
+      "waning gibbous moon",
       "waning_gibbous_moon"
     ],
     u: "1f316"
   },
   {
     n: [
-      "last quarter moon symbol",
+      "last quarter moon",
       "last_quarter_moon"
     ],
     u: "1f317"
   },
   {
     n: [
-      "waning crescent moon symbol",
+      "waning crescent moon",
       "waning_crescent_moon"
     ],
     u: "1f318"
@@ -7403,47 +10156,50 @@ const travel_places$1 = [
   {
     n: [
       "crescent moon",
-      "crescent_moon"
+      "crescent_moon",
+      "night"
     ],
     u: "1f319"
   },
   {
     n: [
-      "new moon with face",
+      "new moon face",
       "new_moon_with_face"
     ],
     u: "1f31a"
   },
   {
     n: [
-      "first quarter moon with face",
+      "first quarter moon face",
       "first_quarter_moon_with_face"
     ],
     u: "1f31b"
   },
   {
     n: [
-      "last quarter moon with face",
+      "last quarter moon face",
       "last_quarter_moon_with_face"
     ],
     u: "1f31c"
   },
   {
     n: [
+      "thermometer",
       "thermometer"
     ],
     u: "1f321-fe0f"
   },
   {
     n: [
-      "black sun with rays",
-      "sunny"
+      "sun",
+      "sunny",
+      "weather"
     ],
     u: "2600-fe0f"
   },
   {
     n: [
-      "full moon with face",
+      "full moon face",
       "full_moon_with_face"
     ],
     u: "1f31d"
@@ -7451,13 +10207,21 @@ const travel_places$1 = [
   {
     n: [
       "sun with face",
-      "sun_with_face"
+      "sun_with_face",
+      "summer"
     ],
     u: "1f31e"
   },
   {
     n: [
-      "white medium star",
+      "ringed planet",
+      "ringed_planet"
+    ],
+    u: "1fa90"
+  },
+  {
+    n: [
+      "star",
       "star"
     ],
     u: "2b50"
@@ -7478,6 +10242,14 @@ const travel_places$1 = [
   },
   {
     n: [
+      "milky way",
+      "milky_way"
+    ],
+    u: "1f30c"
+  },
+  {
+    n: [
+      "cloud",
       "cloud"
     ],
     u: "2601-fe0f"
@@ -7485,83 +10257,93 @@ const travel_places$1 = [
   {
     n: [
       "sun behind cloud",
-      "partly_sunny"
+      "partly_sunny",
+      "weather",
+      "cloud"
     ],
     u: "26c5"
   },
   {
     n: [
-      "thunder_cloud_and_rain"
+      "cloud with lightning and rain",
+      "cloud_with_lightning_and_rain"
     ],
     u: "26c8-fe0f"
   },
   {
     n: [
-      "mostly_sunny",
-      "sun_small_cloud"
+      "sun behind small cloud",
+      "sun_behind_small_cloud"
     ],
     u: "1f324-fe0f"
   },
   {
     n: [
-      "barely_sunny",
-      "sun_behind_cloud"
+      "sun behind large cloud",
+      "sun_behind_large_cloud"
     ],
     u: "1f325-fe0f"
   },
   {
     n: [
-      "partly_sunny_rain",
+      "sun behind rain cloud",
       "sun_behind_rain_cloud"
     ],
     u: "1f326-fe0f"
   },
   {
     n: [
-      "rain_cloud"
+      "cloud with rain",
+      "cloud_with_rain"
     ],
     u: "1f327-fe0f"
   },
   {
     n: [
-      "snow_cloud"
+      "cloud with snow",
+      "cloud_with_snow"
     ],
     u: "1f328-fe0f"
   },
   {
     n: [
-      "lightning",
-      "lightning_cloud"
+      "cloud with lightning",
+      "cloud_with_lightning"
     ],
     u: "1f329-fe0f"
   },
   {
     n: [
       "tornado",
-      "tornado_cloud"
+      "tornado"
     ],
     u: "1f32a-fe0f"
   },
   {
     n: [
+      "fog",
       "fog"
     ],
     u: "1f32b-fe0f"
   },
   {
     n: [
-      "wind_blowing_face"
+      "wind face",
+      "wind_face"
     ],
     u: "1f32c-fe0f"
   },
   {
     n: [
-      "cyclone"
+      "cyclone",
+      "cyclone",
+      "swirl"
     ],
     u: "1f300"
   },
   {
     n: [
+      "rainbow",
       "rainbow"
     ],
     u: "1f308"
@@ -7569,77 +10351,100 @@ const travel_places$1 = [
   {
     n: [
       "closed umbrella",
-      "closed_umbrella"
+      "closed_umbrella",
+      "weather",
+      "rain"
     ],
     u: "1f302"
   },
   {
     n: [
-      "umbrella"
+      "umbrella",
+      "open_umbrella"
     ],
     u: "2602-fe0f"
   },
   {
     n: [
       "umbrella with rain drops",
-      "umbrella_with_rain_drops"
+      "umbrella",
+      "rain",
+      "weather"
     ],
     u: "2614"
   },
   {
     n: [
-      "umbrella_on_ground"
+      "umbrella on ground",
+      "parasol_on_ground",
+      "beach_umbrella"
     ],
     u: "26f1-fe0f"
   },
   {
     n: [
-      "high voltage sign",
-      "zap"
+      "high voltage",
+      "zap",
+      "lightning",
+      "thunder"
     ],
     u: "26a1"
   },
   {
     n: [
-      "snowflake"
+      "snowflake",
+      "snowflake",
+      "winter",
+      "cold",
+      "weather"
     ],
     u: "2744-fe0f"
   },
   {
     n: [
-      "snowman"
+      "snowman",
+      "snowman_with_snow",
+      "winter",
+      "christmas"
     ],
     u: "2603-fe0f"
   },
   {
     n: [
       "snowman without snow",
-      "snowman_without_snow"
+      "snowman",
+      "winter"
     ],
     u: "26c4"
   },
   {
     n: [
+      "comet",
       "comet"
     ],
     u: "2604-fe0f"
   },
   {
     n: [
-      "fire"
+      "fire",
+      "fire",
+      "burn"
     ],
     u: "1f525"
   },
   {
     n: [
-      "droplet"
+      "droplet",
+      "droplet",
+      "water"
     ],
     u: "1f4a7"
   },
   {
     n: [
       "water wave",
-      "ocean"
+      "ocean",
+      "sea"
     ],
     u: "1f30a"
   }
@@ -7647,41 +10452,391 @@ const travel_places$1 = [
 const objects$1 = [
   {
     n: [
-      "speaker with cancellation stroke",
-      "mute"
+      "glasses",
+      "eyeglasses",
+      "glasses"
+    ],
+    u: "1f453"
+  },
+  {
+    n: [
+      "sunglasses",
+      "dark_sunglasses"
+    ],
+    u: "1f576-fe0f"
+  },
+  {
+    n: [
+      "goggles",
+      "goggles"
+    ],
+    u: "1f97d"
+  },
+  {
+    n: [
+      "lab coat",
+      "lab_coat"
+    ],
+    u: "1f97c"
+  },
+  {
+    n: [
+      "safety vest",
+      "safety_vest"
+    ],
+    u: "1f9ba"
+  },
+  {
+    n: [
+      "necktie",
+      "necktie",
+      "shirt",
+      "formal"
+    ],
+    u: "1f454"
+  },
+  {
+    n: [
+      "t-shirt",
+      "shirt",
+      "tshirt"
+    ],
+    u: "1f455"
+  },
+  {
+    n: [
+      "jeans",
+      "jeans",
+      "pants"
+    ],
+    u: "1f456"
+  },
+  {
+    n: [
+      "scarf",
+      "scarf"
+    ],
+    u: "1f9e3"
+  },
+  {
+    n: [
+      "gloves",
+      "gloves"
+    ],
+    u: "1f9e4"
+  },
+  {
+    n: [
+      "coat",
+      "coat"
+    ],
+    u: "1f9e5"
+  },
+  {
+    n: [
+      "socks",
+      "socks"
+    ],
+    u: "1f9e6"
+  },
+  {
+    n: [
+      "dress",
+      "dress"
+    ],
+    u: "1f457"
+  },
+  {
+    n: [
+      "kimono",
+      "kimono"
+    ],
+    u: "1f458"
+  },
+  {
+    n: [
+      "sari",
+      "sari"
+    ],
+    u: "1f97b"
+  },
+  {
+    n: [
+      "one-piece swimsuit",
+      "one_piece_swimsuit"
+    ],
+    u: "1fa71"
+  },
+  {
+    n: [
+      "briefs",
+      "swim_brief"
+    ],
+    u: "1fa72"
+  },
+  {
+    n: [
+      "shorts",
+      "shorts"
+    ],
+    u: "1fa73"
+  },
+  {
+    n: [
+      "bikini",
+      "bikini",
+      "beach"
+    ],
+    u: "1f459"
+  },
+  {
+    n: [
+      "woman\u2019s clothes",
+      "womans_clothes"
+    ],
+    u: "1f45a"
+  },
+  {
+    n: [
+      "purse",
+      "purse"
+    ],
+    u: "1f45b"
+  },
+  {
+    n: [
+      "handbag",
+      "handbag",
+      "bag"
+    ],
+    u: "1f45c"
+  },
+  {
+    n: [
+      "clutch bag",
+      "pouch",
+      "bag"
+    ],
+    u: "1f45d"
+  },
+  {
+    n: [
+      "shopping bags",
+      "shopping",
+      "bags"
+    ],
+    u: "1f6cd-fe0f"
+  },
+  {
+    n: [
+      "backpack",
+      "school_satchel"
+    ],
+    u: "1f392"
+  },
+  {
+    n: [
+      "thong sandal",
+      "thong_sandal"
+    ],
+    u: "1fa74"
+  },
+  {
+    n: [
+      "man\u2019s shoe",
+      "mans_shoe",
+      "shoe"
+    ],
+    u: "1f45e"
+  },
+  {
+    n: [
+      "running shoe",
+      "athletic_shoe",
+      "sneaker",
+      "sport",
+      "running"
+    ],
+    u: "1f45f"
+  },
+  {
+    n: [
+      "hiking boot",
+      "hiking_boot"
+    ],
+    u: "1f97e"
+  },
+  {
+    n: [
+      "flat shoe",
+      "flat_shoe"
+    ],
+    u: "1f97f"
+  },
+  {
+    n: [
+      "high-heeled shoe",
+      "high_heel",
+      "shoe"
+    ],
+    u: "1f460"
+  },
+  {
+    n: [
+      "woman\u2019s sandal",
+      "sandal",
+      "shoe"
+    ],
+    u: "1f461"
+  },
+  {
+    n: [
+      "ballet shoes",
+      "ballet_shoes"
+    ],
+    u: "1fa70"
+  },
+  {
+    n: [
+      "woman\u2019s boot",
+      "boot"
+    ],
+    u: "1f462"
+  },
+  {
+    n: [
+      "crown",
+      "crown",
+      "king",
+      "queen",
+      "royal"
+    ],
+    u: "1f451"
+  },
+  {
+    n: [
+      "woman\u2019s hat",
+      "womans_hat"
+    ],
+    u: "1f452"
+  },
+  {
+    n: [
+      "top hat",
+      "tophat",
+      "hat",
+      "classy"
+    ],
+    u: "1f3a9"
+  },
+  {
+    n: [
+      "graduation cap",
+      "mortar_board",
+      "education",
+      "college",
+      "university",
+      "graduation"
+    ],
+    u: "1f393"
+  },
+  {
+    n: [
+      "billed cap",
+      "billed_cap"
+    ],
+    u: "1f9e2"
+  },
+  {
+    n: [
+      "military helmet",
+      "military_helmet"
+    ],
+    u: "1fa96"
+  },
+  {
+    n: [
+      "rescue worker\u2019s helmet",
+      "rescue_worker_helmet"
+    ],
+    u: "26d1-fe0f"
+  },
+  {
+    n: [
+      "prayer beads",
+      "prayer_beads"
+    ],
+    u: "1f4ff"
+  },
+  {
+    n: [
+      "lipstick",
+      "lipstick",
+      "makeup"
+    ],
+    u: "1f484"
+  },
+  {
+    n: [
+      "ring",
+      "ring",
+      "wedding",
+      "marriage",
+      "engaged"
+    ],
+    u: "1f48d"
+  },
+  {
+    n: [
+      "gem stone",
+      "gem",
+      "diamond"
+    ],
+    u: "1f48e"
+  },
+  {
+    n: [
+      "muted speaker",
+      "mute",
+      "sound",
+      "volume"
     ],
     u: "1f507"
   },
   {
     n: [
+      "speaker low volume",
       "speaker"
     ],
     u: "1f508"
   },
   {
     n: [
-      "speaker with one sound wave",
-      "sound"
+      "speaker medium volume",
+      "sound",
+      "volume"
     ],
     u: "1f509"
   },
   {
     n: [
-      "speaker with three sound waves",
-      "loud_sound"
+      "speaker high volume",
+      "loud_sound",
+      "volume"
     ],
     u: "1f50a"
   },
   {
     n: [
-      "public address loudspeaker",
-      "loudspeaker"
+      "loudspeaker",
+      "loudspeaker",
+      "announcement"
     ],
     u: "1f4e2"
   },
   {
     n: [
-      "cheering megaphone",
+      "megaphone",
       "mega"
     ],
     u: "1f4e3"
@@ -7695,14 +10850,19 @@ const objects$1 = [
   },
   {
     n: [
-      "bell"
+      "bell",
+      "bell",
+      "sound",
+      "notification"
     ],
     u: "1f514"
   },
   {
     n: [
-      "bell with cancellation stroke",
-      "no_bell"
+      "bell with slash",
+      "no_bell",
+      "volume",
+      "off"
     ],
     u: "1f515"
   },
@@ -7722,103 +10882,145 @@ const objects$1 = [
   },
   {
     n: [
-      "multiple musical notes",
-      "notes"
+      "musical notes",
+      "notes",
+      "music"
     ],
     u: "1f3b6"
   },
   {
     n: [
-      "studio_microphone"
+      "studio microphone",
+      "studio_microphone",
+      "podcast"
     ],
     u: "1f399-fe0f"
   },
   {
     n: [
+      "level slider",
       "level_slider"
     ],
     u: "1f39a-fe0f"
   },
   {
     n: [
+      "control knobs",
       "control_knobs"
     ],
     u: "1f39b-fe0f"
   },
   {
     n: [
-      "microphone"
+      "microphone",
+      "microphone",
+      "sing"
     ],
     u: "1f3a4"
   },
   {
     n: [
       "headphone",
-      "headphones"
+      "headphones",
+      "music",
+      "earphones"
     ],
     u: "1f3a7"
   },
   {
     n: [
-      "radio"
+      "radio",
+      "radio",
+      "podcast"
     ],
     u: "1f4fb"
   },
   {
     n: [
+      "saxophone",
       "saxophone"
     ],
     u: "1f3b7"
   },
   {
     n: [
-      "guitar"
+      "accordion",
+      "accordion"
+    ],
+    u: "1fa97"
+  },
+  {
+    n: [
+      "guitar",
+      "guitar",
+      "rock"
     ],
     u: "1f3b8"
   },
   {
     n: [
       "musical keyboard",
-      "musical_keyboard"
+      "musical_keyboard",
+      "piano"
     ],
     u: "1f3b9"
   },
   {
     n: [
+      "trumpet",
       "trumpet"
     ],
     u: "1f3ba"
   },
   {
     n: [
+      "violin",
       "violin"
     ],
     u: "1f3bb"
   },
   {
     n: [
-      "drum with drumsticks",
-      "drum_with_drumsticks"
+      "banjo",
+      "banjo"
+    ],
+    u: "1fa95"
+  },
+  {
+    n: [
+      "drum",
+      "drum"
     ],
     u: "1f941"
   },
   {
     n: [
+      "long drum",
+      "long_drum"
+    ],
+    u: "1fa98"
+  },
+  {
+    n: [
       "mobile phone",
-      "iphone"
+      "iphone",
+      "smartphone",
+      "mobile"
     ],
     u: "1f4f1"
   },
   {
     n: [
-      "mobile phone with rightwards arrow at left",
-      "calling"
+      "mobile phone with arrow",
+      "calling",
+      "call",
+      "incoming"
     ],
     u: "1f4f2"
   },
   {
     n: [
-      "black telephone",
+      "telephone",
       "phone",
       "telephone"
     ],
@@ -7827,12 +11029,15 @@ const objects$1 = [
   {
     n: [
       "telephone receiver",
-      "telephone_receiver"
+      "telephone_receiver",
+      "phone",
+      "call"
     ],
     u: "1f4de"
   },
   {
     n: [
+      "pager",
       "pager"
     ],
     u: "1f4df"
@@ -7846,9 +11051,18 @@ const objects$1 = [
   },
   {
     n: [
-      "battery"
+      "battery",
+      "battery",
+      "power"
     ],
     u: "1f50b"
+  },
+  {
+    n: [
+      "low battery",
+      "low_battery"
+    ],
+    u: "1faab"
   },
   {
     n: [
@@ -7859,43 +11073,51 @@ const objects$1 = [
   },
   {
     n: [
-      "personal computer",
-      "computer"
+      "laptop",
+      "computer",
+      "desktop",
+      "screen"
     ],
     u: "1f4bb"
   },
   {
     n: [
+      "desktop computer",
       "desktop_computer"
     ],
     u: "1f5a5-fe0f"
   },
   {
     n: [
+      "printer",
       "printer"
     ],
     u: "1f5a8-fe0f"
   },
   {
     n: [
+      "keyboard",
       "keyboard"
     ],
     u: "2328-fe0f"
   },
   {
     n: [
-      "three_button_mouse"
+      "computer mouse",
+      "computer_mouse"
     ],
     u: "1f5b1-fe0f"
   },
   {
     n: [
+      "trackball",
       "trackball"
     ],
     u: "1f5b2-fe0f"
   },
   {
     n: [
+      "computer disk",
       "minidisc"
     ],
     u: "1f4bd"
@@ -7903,38 +11125,51 @@ const objects$1 = [
   {
     n: [
       "floppy disk",
-      "floppy_disk"
+      "floppy_disk",
+      "save"
     ],
     u: "1f4be"
   },
   {
     n: [
-      "optical disc",
+      "optical disk",
       "cd"
     ],
     u: "1f4bf"
   },
   {
     n: [
+      "dvd",
       "dvd"
     ],
     u: "1f4c0"
   },
   {
     n: [
+      "abacus",
+      "abacus"
+    ],
+    u: "1f9ee"
+  },
+  {
+    n: [
       "movie camera",
-      "movie_camera"
+      "movie_camera",
+      "film",
+      "video"
     ],
     u: "1f3a5"
   },
   {
     n: [
-      "film_frames"
+      "film frames",
+      "film_strip"
     ],
     u: "1f39e-fe0f"
   },
   {
     n: [
+      "film projector",
       "film_projector"
     ],
     u: "1f4fd-fe0f"
@@ -7942,7 +11177,8 @@ const objects$1 = [
   {
     n: [
       "clapper board",
-      "clapper"
+      "clapper",
+      "film"
     ],
     u: "1f3ac"
   },
@@ -7955,14 +11191,17 @@ const objects$1 = [
   },
   {
     n: [
-      "camera"
+      "camera",
+      "camera",
+      "photo"
     ],
     u: "1f4f7"
   },
   {
     n: [
       "camera with flash",
-      "camera_with_flash"
+      "camera_flash",
+      "photo"
     ],
     u: "1f4f8"
   },
@@ -7982,64 +11221,57 @@ const objects$1 = [
   },
   {
     n: [
-      "left-pointing magnifying glass",
-      "mag"
+      "magnifying glass tilted left",
+      "mag",
+      "search",
+      "zoom"
     ],
     u: "1f50d"
   },
   {
     n: [
-      "right-pointing magnifying glass",
+      "magnifying glass tilted right",
       "mag_right"
     ],
     u: "1f50e"
   },
   {
     n: [
-      "microscope"
-    ],
-    u: "1f52c"
-  },
-  {
-    n: [
-      "telescope"
-    ],
-    u: "1f52d"
-  },
-  {
-    n: [
-      "satellite antenna",
-      "satellite_antenna"
-    ],
-    u: "1f4e1"
-  },
-  {
-    n: [
+      "candle",
       "candle"
     ],
     u: "1f56f-fe0f"
   },
   {
     n: [
-      "electric light bulb",
-      "bulb"
+      "light bulb",
+      "bulb",
+      "idea",
+      "light"
     ],
     u: "1f4a1"
   },
   {
     n: [
-      "electric torch",
+      "flashlight",
       "flashlight"
     ],
     u: "1f526"
   },
   {
     n: [
-      "izakaya lantern",
+      "red paper lantern",
       "izakaya_lantern",
       "lantern"
     ],
     u: "1f3ee"
+  },
+  {
+    n: [
+      "diya lamp",
+      "diya_lamp"
+    ],
+    u: "1fa94"
   },
   {
     n: [
@@ -8086,18 +11318,22 @@ const objects$1 = [
   },
   {
     n: [
-      "books"
+      "books",
+      "books",
+      "library"
     ],
     u: "1f4da"
   },
   {
     n: [
+      "notebook",
       "notebook"
     ],
     u: "1f4d3"
   },
   {
     n: [
+      "ledger",
       "ledger"
     ],
     u: "1f4d2"
@@ -8111,26 +11347,33 @@ const objects$1 = [
   },
   {
     n: [
-      "scroll"
+      "scroll",
+      "scroll",
+      "document"
     ],
     u: "1f4dc"
   },
   {
     n: [
       "page facing up",
-      "page_facing_up"
+      "page_facing_up",
+      "document"
     ],
     u: "1f4c4"
   },
   {
     n: [
-      "newspaper"
+      "newspaper",
+      "newspaper",
+      "press"
     ],
     u: "1f4f0"
   },
   {
     n: [
-      "rolled_up_newspaper"
+      "rolled-up newspaper",
+      "newspaper_roll",
+      "press"
     ],
     u: "1f5de-fe0f"
   },
@@ -8143,47 +11386,60 @@ const objects$1 = [
   },
   {
     n: [
+      "bookmark",
       "bookmark"
     ],
     u: "1f516"
   },
   {
     n: [
-      "label"
+      "label",
+      "label",
+      "tag"
     ],
     u: "1f3f7-fe0f"
   },
   {
     n: [
       "money bag",
-      "moneybag"
+      "moneybag",
+      "dollar",
+      "cream"
     ],
     u: "1f4b0"
   },
   {
     n: [
-      "banknote with yen sign",
+      "coin",
+      "coin"
+    ],
+    u: "1fa99"
+  },
+  {
+    n: [
+      "yen banknote",
       "yen"
     ],
     u: "1f4b4"
   },
   {
     n: [
-      "banknote with dollar sign",
-      "dollar"
+      "dollar banknote",
+      "dollar",
+      "money"
     ],
     u: "1f4b5"
   },
   {
     n: [
-      "banknote with euro sign",
+      "euro banknote",
       "euro"
     ],
     u: "1f4b6"
   },
   {
     n: [
-      "banknote with pound sign",
+      "pound banknote",
       "pound"
     ],
     u: "1f4b7"
@@ -8191,48 +11447,46 @@ const objects$1 = [
   {
     n: [
       "money with wings",
-      "money_with_wings"
+      "money_with_wings",
+      "dollar"
     ],
     u: "1f4b8"
   },
   {
     n: [
       "credit card",
-      "credit_card"
+      "credit_card",
+      "subscription"
     ],
     u: "1f4b3"
   },
   {
     n: [
-      "chart with upwards trend and yen sign",
+      "receipt",
+      "receipt"
+    ],
+    u: "1f9fe"
+  },
+  {
+    n: [
+      "chart increasing with yen",
       "chart"
     ],
     u: "1f4b9"
   },
   {
     n: [
-      "currency exchange",
-      "currency_exchange"
-    ],
-    u: "1f4b1"
-  },
-  {
-    n: [
-      "heavy dollar sign",
-      "heavy_dollar_sign"
-    ],
-    u: "1f4b2"
-  },
-  {
-    n: [
       "envelope",
+      "envelope",
+      "letter",
       "email"
     ],
     u: "2709-fe0f"
   },
   {
     n: [
-      "e-mail symbol",
+      "e-mail",
+      "email",
       "e-mail"
     ],
     u: "1f4e7"
@@ -8246,7 +11500,7 @@ const objects$1 = [
   },
   {
     n: [
-      "envelope with downwards arrow above",
+      "envelope with arrow",
       "envelope_with_arrow"
     ],
     u: "1f4e9"
@@ -8267,7 +11521,9 @@ const objects$1 = [
   },
   {
     n: [
-      "package"
+      "package",
+      "package",
+      "shipping"
     ],
     u: "1f4e6"
   },
@@ -8301,13 +11557,15 @@ const objects$1 = [
   },
   {
     n: [
+      "postbox",
       "postbox"
     ],
     u: "1f4ee"
   },
   {
     n: [
-      "ballot_box_with_ballot"
+      "ballot box with ballot",
+      "ballot_box"
     ],
     u: "1f5f3-fe0f"
   },
@@ -8327,45 +11585,55 @@ const objects$1 = [
   },
   {
     n: [
-      "lower_left_fountain_pen"
+      "fountain pen",
+      "fountain_pen"
     ],
     u: "1f58b-fe0f"
   },
   {
     n: [
-      "lower_left_ballpoint_pen"
+      "pen",
+      "pen"
     ],
     u: "1f58a-fe0f"
   },
   {
     n: [
-      "lower_left_paintbrush"
+      "paintbrush",
+      "paintbrush"
     ],
     u: "1f58c-fe0f"
   },
   {
     n: [
-      "lower_left_crayon"
+      "crayon",
+      "crayon"
     ],
     u: "1f58d-fe0f"
   },
   {
     n: [
       "memo",
-      "pencil"
+      "memo",
+      "pencil",
+      "document",
+      "note"
     ],
     u: "1f4dd"
   },
   {
     n: [
-      "briefcase"
+      "briefcase",
+      "briefcase",
+      "business"
     ],
     u: "1f4bc"
   },
   {
     n: [
       "file folder",
-      "file_folder"
+      "file_folder",
+      "directory"
     ],
     u: "1f4c1"
   },
@@ -8378,6 +11646,7 @@ const objects$1 = [
   },
   {
     n: [
+      "card index dividers",
       "card_index_dividers"
     ],
     u: "1f5c2-fe0f"
@@ -8385,26 +11654,31 @@ const objects$1 = [
   {
     n: [
       "calendar",
-      "date"
+      "date",
+      "calendar",
+      "schedule"
     ],
     u: "1f4c5"
   },
   {
     n: [
       "tear-off calendar",
-      "calendar"
+      "calendar",
+      "schedule"
     ],
     u: "1f4c6"
   },
   {
     n: [
-      "spiral_note_pad"
+      "spiral notepad",
+      "spiral_notepad"
     ],
     u: "1f5d2-fe0f"
   },
   {
     n: [
-      "spiral_calendar_pad"
+      "spiral calendar",
+      "spiral_calendar"
     ],
     u: "1f5d3-fe0f"
   },
@@ -8417,53 +11691,65 @@ const objects$1 = [
   },
   {
     n: [
-      "chart with upwards trend",
-      "chart_with_upwards_trend"
+      "chart increasing",
+      "chart_with_upwards_trend",
+      "graph",
+      "metrics"
     ],
     u: "1f4c8"
   },
   {
     n: [
-      "chart with downwards trend",
-      "chart_with_downwards_trend"
+      "chart decreasing",
+      "chart_with_downwards_trend",
+      "graph",
+      "metrics"
     ],
     u: "1f4c9"
   },
   {
     n: [
       "bar chart",
-      "bar_chart"
+      "bar_chart",
+      "stats",
+      "metrics"
     ],
     u: "1f4ca"
   },
   {
     n: [
+      "clipboard",
       "clipboard"
     ],
     u: "1f4cb"
   },
   {
     n: [
-      "pushpin"
+      "pushpin",
+      "pushpin",
+      "location"
     ],
     u: "1f4cc"
   },
   {
     n: [
       "round pushpin",
-      "round_pushpin"
+      "round_pushpin",
+      "location"
     ],
     u: "1f4cd"
   },
   {
     n: [
+      "paperclip",
       "paperclip"
     ],
     u: "1f4ce"
   },
   {
     n: [
-      "linked_paperclips"
+      "linked paperclips",
+      "paperclips"
     ],
     u: "1f587-fe0f"
   },
@@ -8483,129 +11769,184 @@ const objects$1 = [
   },
   {
     n: [
-      "black scissors",
-      "scissors"
+      "scissors",
+      "scissors",
+      "cut"
     ],
     u: "2702-fe0f"
   },
   {
     n: [
+      "card file box",
       "card_file_box"
     ],
     u: "1f5c3-fe0f"
   },
   {
     n: [
+      "file cabinet",
       "file_cabinet"
     ],
     u: "1f5c4-fe0f"
   },
   {
     n: [
-      "wastebasket"
+      "wastebasket",
+      "wastebasket",
+      "trash"
     ],
     u: "1f5d1-fe0f"
   },
   {
     n: [
-      "lock"
+      "locked",
+      "lock",
+      "security",
+      "private"
     ],
     u: "1f512"
   },
   {
     n: [
-      "open lock",
-      "unlock"
+      "unlocked",
+      "unlock",
+      "security"
     ],
     u: "1f513"
   },
   {
     n: [
-      "lock with ink pen",
+      "locked with pen",
       "lock_with_ink_pen"
     ],
     u: "1f50f"
   },
   {
     n: [
-      "closed lock with key",
-      "closed_lock_with_key"
+      "locked with key",
+      "closed_lock_with_key",
+      "security"
     ],
     u: "1f510"
   },
   {
     n: [
-      "key"
+      "key",
+      "key",
+      "lock",
+      "password"
     ],
     u: "1f511"
   },
   {
     n: [
+      "old key",
       "old_key"
     ],
     u: "1f5dd-fe0f"
   },
   {
     n: [
-      "hammer"
+      "hammer",
+      "hammer",
+      "tool"
     ],
     u: "1f528"
   },
   {
     n: [
+      "axe",
+      "axe"
+    ],
+    u: "1fa93"
+  },
+  {
+    n: [
+      "pick",
       "pick"
     ],
     u: "26cf-fe0f"
   },
   {
     n: [
+      "hammer and pick",
       "hammer_and_pick"
     ],
     u: "2692-fe0f"
   },
   {
     n: [
+      "hammer and wrench",
       "hammer_and_wrench"
     ],
     u: "1f6e0-fe0f"
   },
   {
     n: [
-      "dagger_knife"
+      "dagger",
+      "dagger"
     ],
     u: "1f5e1-fe0f"
   },
   {
     n: [
+      "crossed swords",
       "crossed_swords"
     ],
     u: "2694-fe0f"
   },
   {
     n: [
-      "pistol",
-      "gun"
+      "water pistol",
+      "gun",
+      "shoot",
+      "weapon"
     ],
     u: "1f52b"
   },
   {
     n: [
+      "boomerang",
+      "boomerang"
+    ],
+    u: "1fa83"
+  },
+  {
+    n: [
       "bow and arrow",
-      "bow_and_arrow"
+      "bow_and_arrow",
+      "archery"
     ],
     u: "1f3f9"
   },
   {
     n: [
+      "shield",
       "shield"
     ],
     u: "1f6e1-fe0f"
   },
   {
     n: [
-      "wrench"
+      "carpentry saw",
+      "carpentry_saw"
+    ],
+    u: "1fa9a"
+  },
+  {
+    n: [
+      "wrench",
+      "wrench",
+      "tool"
     ],
     u: "1f527"
+  },
+  {
+    n: [
+      "screwdriver",
+      "screwdriver"
+    ],
+    u: "1fa9b"
   },
   {
     n: [
@@ -8616,117 +11957,430 @@ const objects$1 = [
   },
   {
     n: [
+      "gear",
       "gear"
     ],
     u: "2699-fe0f"
   },
   {
     n: [
-      "compression"
+      "clamp",
+      "clamp"
     ],
     u: "1f5dc-fe0f"
   },
   {
     n: [
-      "alembic"
-    ],
-    u: "2697-fe0f"
-  },
-  {
-    n: [
-      "scales"
+      "balance scale",
+      "balance_scale"
     ],
     u: "2696-fe0f"
   },
   {
     n: [
-      "link symbol",
+      "white cane",
+      "probing_cane"
+    ],
+    u: "1f9af"
+  },
+  {
+    n: [
+      "link",
       "link"
     ],
     u: "1f517"
   },
   {
     n: [
+      "chains",
       "chains"
     ],
     u: "26d3-fe0f"
   },
   {
     n: [
-      "syringe"
+      "hook",
+      "hook"
+    ],
+    u: "1fa9d"
+  },
+  {
+    n: [
+      "toolbox",
+      "toolbox"
+    ],
+    u: "1f9f0"
+  },
+  {
+    n: [
+      "magnet",
+      "magnet"
+    ],
+    u: "1f9f2"
+  },
+  {
+    n: [
+      "ladder",
+      "ladder"
+    ],
+    u: "1fa9c"
+  },
+  {
+    n: [
+      "alembic",
+      "alembic"
+    ],
+    u: "2697-fe0f"
+  },
+  {
+    n: [
+      "test tube",
+      "test_tube"
+    ],
+    u: "1f9ea"
+  },
+  {
+    n: [
+      "petri dish",
+      "petri_dish"
+    ],
+    u: "1f9eb"
+  },
+  {
+    n: [
+      "dna",
+      "dna"
+    ],
+    u: "1f9ec"
+  },
+  {
+    n: [
+      "microscope",
+      "microscope",
+      "science",
+      "laboratory",
+      "investigate"
+    ],
+    u: "1f52c"
+  },
+  {
+    n: [
+      "telescope",
+      "telescope"
+    ],
+    u: "1f52d"
+  },
+  {
+    n: [
+      "satellite antenna",
+      "satellite",
+      "signal"
+    ],
+    u: "1f4e1"
+  },
+  {
+    n: [
+      "syringe",
+      "syringe",
+      "health",
+      "hospital",
+      "needle"
     ],
     u: "1f489"
   },
   {
     n: [
-      "pill"
+      "drop of blood",
+      "drop_of_blood"
+    ],
+    u: "1fa78"
+  },
+  {
+    n: [
+      "pill",
+      "pill",
+      "health",
+      "medicine"
     ],
     u: "1f48a"
   },
   {
     n: [
-      "smoking symbol",
-      "smoking"
+      "adhesive bandage",
+      "adhesive_bandage"
+    ],
+    u: "1fa79"
+  },
+  {
+    n: [
+      "crutch",
+      "crutch"
+    ],
+    u: "1fa7c"
+  },
+  {
+    n: [
+      "stethoscope",
+      "stethoscope"
+    ],
+    u: "1fa7a"
+  },
+  {
+    n: [
+      "x-ray",
+      "x_ray"
+    ],
+    u: "1fa7b"
+  },
+  {
+    n: [
+      "door",
+      "door"
+    ],
+    u: "1f6aa"
+  },
+  {
+    n: [
+      "elevator",
+      "elevator"
+    ],
+    u: "1f6d7"
+  },
+  {
+    n: [
+      "mirror",
+      "mirror"
+    ],
+    u: "1fa9e"
+  },
+  {
+    n: [
+      "window",
+      "window"
+    ],
+    u: "1fa9f"
+  },
+  {
+    n: [
+      "bed",
+      "bed"
+    ],
+    u: "1f6cf-fe0f"
+  },
+  {
+    n: [
+      "couch and lamp",
+      "couch_and_lamp"
+    ],
+    u: "1f6cb-fe0f"
+  },
+  {
+    n: [
+      "chair",
+      "chair"
+    ],
+    u: "1fa91"
+  },
+  {
+    n: [
+      "toilet",
+      "toilet",
+      "wc"
+    ],
+    u: "1f6bd"
+  },
+  {
+    n: [
+      "plunger",
+      "plunger"
+    ],
+    u: "1faa0"
+  },
+  {
+    n: [
+      "shower",
+      "shower",
+      "bath"
+    ],
+    u: "1f6bf"
+  },
+  {
+    n: [
+      "bathtub",
+      "bathtub"
+    ],
+    u: "1f6c1"
+  },
+  {
+    n: [
+      "mouse trap",
+      "mouse_trap"
+    ],
+    u: "1faa4"
+  },
+  {
+    n: [
+      "razor",
+      "razor"
+    ],
+    u: "1fa92"
+  },
+  {
+    n: [
+      "lotion bottle",
+      "lotion_bottle"
+    ],
+    u: "1f9f4"
+  },
+  {
+    n: [
+      "safety pin",
+      "safety_pin"
+    ],
+    u: "1f9f7"
+  },
+  {
+    n: [
+      "broom",
+      "broom"
+    ],
+    u: "1f9f9"
+  },
+  {
+    n: [
+      "basket",
+      "basket"
+    ],
+    u: "1f9fa"
+  },
+  {
+    n: [
+      "roll of paper",
+      "roll_of_paper",
+      "toilet"
+    ],
+    u: "1f9fb"
+  },
+  {
+    n: [
+      "bucket",
+      "bucket"
+    ],
+    u: "1faa3"
+  },
+  {
+    n: [
+      "soap",
+      "soap"
+    ],
+    u: "1f9fc"
+  },
+  {
+    n: [
+      "bubbles",
+      "bubbles"
+    ],
+    u: "1fae7"
+  },
+  {
+    n: [
+      "toothbrush",
+      "toothbrush"
+    ],
+    u: "1faa5"
+  },
+  {
+    n: [
+      "sponge",
+      "sponge"
+    ],
+    u: "1f9fd"
+  },
+  {
+    n: [
+      "fire extinguisher",
+      "fire_extinguisher"
+    ],
+    u: "1f9ef"
+  },
+  {
+    n: [
+      "shopping cart",
+      "shopping_cart"
+    ],
+    u: "1f6d2"
+  },
+  {
+    n: [
+      "cigarette",
+      "smoking",
+      "cigarette"
     ],
     u: "1f6ac"
   },
   {
     n: [
-      "coffin"
+      "coffin",
+      "coffin",
+      "funeral"
     ],
     u: "26b0-fe0f"
   },
   {
     n: [
+      "headstone",
+      "headstone"
+    ],
+    u: "1faa6"
+  },
+  {
+    n: [
+      "funeral urn",
       "funeral_urn"
     ],
     u: "26b1-fe0f"
   },
   {
     n: [
-      "moyai"
+      "moai",
+      "moyai",
+      "stone"
     ],
     u: "1f5ff"
   },
   {
     n: [
-      "oil_drum"
+      "placard",
+      "placard"
     ],
-    u: "1f6e2-fe0f"
+    u: "1faa7"
   },
   {
     n: [
-      "crystal ball",
-      "crystal_ball"
+      "identification card",
+      "identification_card"
     ],
-    u: "1f52e"
-  },
-  {
-    n: [
-      "shopping trolley",
-      "shopping_trolley"
-    ],
-    u: "1f6d2"
+    u: "1faaa"
   }
 ];
 const symbols$1 = [
   {
     n: [
-      "automated teller machine",
+      "ATM sign",
       "atm"
     ],
     u: "1f3e7"
   },
   {
     n: [
-      "put litter in its place symbol",
+      "litter in bin sign",
       "put_litter_in_its_place"
     ],
     u: "1f6ae"
   },
   {
     n: [
-      "potable water symbol",
+      "potable water",
       "potable_water"
     ],
     u: "1f6b0"
@@ -8734,27 +12388,30 @@ const symbols$1 = [
   {
     n: [
       "wheelchair symbol",
-      "wheelchair"
+      "wheelchair",
+      "accessibility"
     ],
     u: "267f"
   },
   {
     n: [
-      "mens symbol",
+      "men\u2019s room",
       "mens"
     ],
     u: "1f6b9"
   },
   {
     n: [
-      "womens symbol",
+      "women\u2019s room",
       "womens"
     ],
     u: "1f6ba"
   },
   {
     n: [
-      "restroom"
+      "restroom",
+      "restroom",
+      "toilet"
     ],
     u: "1f6bb"
   },
@@ -8768,7 +12425,9 @@ const symbols$1 = [
   {
     n: [
       "water closet",
-      "wc"
+      "wc",
+      "toilet",
+      "restroom"
     ],
     u: "1f6be"
   },
@@ -8781,6 +12440,7 @@ const symbols$1 = [
   },
   {
     n: [
+      "customs",
       "customs"
     ],
     u: "1f6c3"
@@ -8788,7 +12448,8 @@ const symbols$1 = [
   {
     n: [
       "baggage claim",
-      "baggage_claim"
+      "baggage_claim",
+      "airport"
     ],
     u: "1f6c4"
   },
@@ -8801,8 +12462,9 @@ const symbols$1 = [
   },
   {
     n: [
-      "warning sign",
-      "warning"
+      "warning",
+      "warning",
+      "wip"
     ],
     u: "26a0-fe0f"
   },
@@ -8816,14 +12478,17 @@ const symbols$1 = [
   {
     n: [
       "no entry",
-      "no_entry"
+      "no_entry",
+      "limit"
     ],
     u: "26d4"
   },
   {
     n: [
-      "no entry sign",
-      "no_entry_sign"
+      "prohibited",
+      "no_entry_sign",
+      "block",
+      "forbidden"
     ],
     u: "1f6ab"
   },
@@ -8836,21 +12501,21 @@ const symbols$1 = [
   },
   {
     n: [
-      "no smoking symbol",
+      "no smoking",
       "no_smoking"
     ],
     u: "1f6ad"
   },
   {
     n: [
-      "do not litter symbol",
+      "no littering",
       "do_not_litter"
     ],
     u: "1f6af"
   },
   {
     n: [
-      "non-potable water symbol",
+      "non-potable water",
       "non-potable_water"
     ],
     u: "1f6b1"
@@ -8871,166 +12536,170 @@ const symbols$1 = [
   },
   {
     n: [
-      "no one under eighteen symbol",
+      "no one under eighteen",
       "underage"
     ],
     u: "1f51e"
   },
   {
     n: [
-      "radioactive_sign"
+      "radioactive",
+      "radioactive"
     ],
     u: "2622-fe0f"
   },
   {
     n: [
-      "biohazard_sign"
+      "biohazard",
+      "biohazard"
     ],
     u: "2623-fe0f"
   },
   {
     n: [
-      "upwards black arrow",
+      "up arrow",
       "arrow_up"
     ],
     u: "2b06-fe0f"
   },
   {
     n: [
-      "north east arrow",
+      "up-right arrow",
       "arrow_upper_right"
     ],
     u: "2197-fe0f"
   },
   {
     n: [
-      "black rightwards arrow",
+      "right arrow",
       "arrow_right"
     ],
     u: "27a1-fe0f"
   },
   {
     n: [
-      "south east arrow",
+      "down-right arrow",
       "arrow_lower_right"
     ],
     u: "2198-fe0f"
   },
   {
     n: [
-      "downwards black arrow",
+      "down arrow",
       "arrow_down"
     ],
     u: "2b07-fe0f"
   },
   {
     n: [
-      "south west arrow",
+      "down-left arrow",
       "arrow_lower_left"
     ],
     u: "2199-fe0f"
   },
   {
     n: [
-      "leftwards black arrow",
+      "left arrow",
       "arrow_left"
     ],
     u: "2b05-fe0f"
   },
   {
     n: [
-      "north west arrow",
+      "up-left arrow",
       "arrow_upper_left"
     ],
     u: "2196-fe0f"
   },
   {
     n: [
-      "up down arrow",
+      "up-down arrow",
       "arrow_up_down"
     ],
     u: "2195-fe0f"
   },
   {
     n: [
-      "left right arrow",
+      "left-right arrow",
       "left_right_arrow"
     ],
     u: "2194-fe0f"
   },
   {
     n: [
-      "leftwards arrow with hook",
-      "leftwards_arrow_with_hook"
+      "right arrow curving left",
+      "leftwards_arrow_with_hook",
+      "return"
     ],
     u: "21a9-fe0f"
   },
   {
     n: [
-      "rightwards arrow with hook",
+      "left arrow curving right",
       "arrow_right_hook"
     ],
     u: "21aa-fe0f"
   },
   {
     n: [
-      "arrow pointing rightwards then curving upwards",
+      "right arrow curving up",
       "arrow_heading_up"
     ],
     u: "2934-fe0f"
   },
   {
     n: [
-      "arrow pointing rightwards then curving downwards",
+      "right arrow curving down",
       "arrow_heading_down"
     ],
     u: "2935-fe0f"
   },
   {
     n: [
-      "clockwise downwards and upwards open circle arrows",
+      "clockwise vertical arrows",
       "arrows_clockwise"
     ],
     u: "1f503"
   },
   {
     n: [
-      "anticlockwise downwards and upwards open circle arrows",
-      "arrows_counterclockwise"
+      "counterclockwise arrows button",
+      "arrows_counterclockwise",
+      "sync"
     ],
     u: "1f504"
   },
   {
     n: [
-      "back with leftwards arrow above",
+      "BACK arrow",
       "back"
     ],
     u: "1f519"
   },
   {
     n: [
-      "end with leftwards arrow above",
+      "END arrow",
       "end"
     ],
     u: "1f51a"
   },
   {
     n: [
-      "on with exclamation mark with left right arrow above",
+      "ON! arrow",
       "on"
     ],
     u: "1f51b"
   },
   {
     n: [
-      "soon with rightwards arrow above",
+      "SOON arrow",
       "soon"
     ],
     u: "1f51c"
   },
   {
     n: [
-      "top with upwards arrow above",
+      "TOP arrow",
       "top"
     ],
     u: "1f51d"
@@ -9044,293 +12713,328 @@ const symbols$1 = [
   },
   {
     n: [
+      "atom symbol",
       "atom_symbol"
     ],
     u: "269b-fe0f"
   },
   {
     n: [
-      "om_symbol"
+      "om",
+      "om"
     ],
     u: "1f549-fe0f"
   },
   {
     n: [
+      "star of David",
       "star_of_david"
     ],
     u: "2721-fe0f"
   },
   {
     n: [
+      "wheel of dharma",
       "wheel_of_dharma"
     ],
     u: "2638-fe0f"
   },
   {
     n: [
+      "yin yang",
       "yin_yang"
     ],
     u: "262f-fe0f"
   },
   {
     n: [
+      "latin cross",
       "latin_cross"
     ],
     u: "271d-fe0f"
   },
   {
     n: [
+      "orthodox cross",
       "orthodox_cross"
     ],
     u: "2626-fe0f"
   },
   {
     n: [
+      "star and crescent",
       "star_and_crescent"
     ],
     u: "262a-fe0f"
   },
   {
     n: [
+      "peace symbol",
       "peace_symbol"
     ],
     u: "262e-fe0f"
   },
   {
     n: [
-      "menorah with nine branches",
-      "menorah_with_nine_branches"
+      "menorah",
+      "menorah"
     ],
     u: "1f54e"
   },
   {
     n: [
-      "six pointed star with middle dot",
+      "dotted six-pointed star",
       "six_pointed_star"
     ],
     u: "1f52f"
   },
   {
     n: [
+      "Aries",
       "aries"
     ],
     u: "2648"
   },
   {
     n: [
+      "Taurus",
       "taurus"
     ],
     u: "2649"
   },
   {
     n: [
+      "Gemini",
       "gemini"
     ],
     u: "264a"
   },
   {
     n: [
+      "Cancer",
       "cancer"
     ],
     u: "264b"
   },
   {
     n: [
+      "Leo",
       "leo"
     ],
     u: "264c"
   },
   {
     n: [
+      "Virgo",
       "virgo"
     ],
     u: "264d"
   },
   {
     n: [
+      "Libra",
       "libra"
     ],
     u: "264e"
   },
   {
     n: [
+      "Scorpio",
       "scorpius"
     ],
     u: "264f"
   },
   {
     n: [
+      "Sagittarius",
       "sagittarius"
     ],
     u: "2650"
   },
   {
     n: [
+      "Capricorn",
       "capricorn"
     ],
     u: "2651"
   },
   {
     n: [
+      "Aquarius",
       "aquarius"
     ],
     u: "2652"
   },
   {
     n: [
+      "Pisces",
       "pisces"
     ],
     u: "2653"
   },
   {
     n: [
+      "Ophiuchus",
       "ophiuchus"
     ],
     u: "26ce"
   },
   {
     n: [
-      "twisted rightwards arrows",
-      "twisted_rightwards_arrows"
+      "shuffle tracks button",
+      "twisted_rightwards_arrows",
+      "shuffle"
     ],
     u: "1f500"
   },
   {
     n: [
-      "clockwise rightwards and leftwards open circle arrows",
-      "repeat"
+      "repeat button",
+      "repeat",
+      "loop"
     ],
     u: "1f501"
   },
   {
     n: [
-      "clockwise rightwards and leftwards open circle arrows with circled one overlay",
+      "repeat single button",
       "repeat_one"
     ],
     u: "1f502"
   },
   {
     n: [
-      "black right-pointing triangle",
+      "play button",
       "arrow_forward"
     ],
     u: "25b6-fe0f"
   },
   {
     n: [
-      "black right-pointing double triangle",
+      "fast-forward button",
       "fast_forward"
     ],
     u: "23e9"
   },
   {
     n: [
-      "black_right_pointing_double_triangle_with_vertical_bar"
+      "next track button",
+      "next_track_button"
     ],
     u: "23ed-fe0f"
   },
   {
     n: [
-      "black_right_pointing_triangle_with_double_vertical_bar"
+      "play or pause button",
+      "play_or_pause_button"
     ],
     u: "23ef-fe0f"
   },
   {
     n: [
-      "black left-pointing triangle",
+      "reverse button",
       "arrow_backward"
     ],
     u: "25c0-fe0f"
   },
   {
     n: [
-      "black left-pointing double triangle",
+      "fast reverse button",
       "rewind"
     ],
     u: "23ea"
   },
   {
     n: [
-      "black_left_pointing_double_triangle_with_vertical_bar"
+      "last track button",
+      "previous_track_button"
     ],
     u: "23ee-fe0f"
   },
   {
     n: [
-      "up-pointing small red triangle",
+      "upwards button",
       "arrow_up_small"
     ],
     u: "1f53c"
   },
   {
     n: [
-      "black up-pointing double triangle",
+      "fast up button",
       "arrow_double_up"
     ],
     u: "23eb"
   },
   {
     n: [
-      "down-pointing small red triangle",
+      "downwards button",
       "arrow_down_small"
     ],
     u: "1f53d"
   },
   {
     n: [
-      "black down-pointing double triangle",
+      "fast down button",
       "arrow_double_down"
     ],
     u: "23ec"
   },
   {
     n: [
-      "double_vertical_bar"
+      "pause button",
+      "pause_button"
     ],
     u: "23f8-fe0f"
   },
   {
     n: [
-      "black_square_for_stop"
+      "stop button",
+      "stop_button"
     ],
     u: "23f9-fe0f"
   },
   {
     n: [
-      "black_circle_for_record"
+      "record button",
+      "record_button"
     ],
     u: "23fa-fe0f"
   },
   {
     n: [
-      "eject"
+      "eject button",
+      "eject_button"
     ],
     u: "23cf-fe0f"
   },
   {
     n: [
-      "cinema"
+      "cinema",
+      "cinema",
+      "film",
+      "movie"
     ],
     u: "1f3a6"
   },
   {
     n: [
-      "low brightness symbol",
+      "dim button",
       "low_brightness"
     ],
     u: "1f505"
   },
   {
     n: [
-      "high brightness symbol",
+      "bright button",
       "high_brightness"
     ],
     u: "1f506"
   },
   {
     n: [
-      "antenna with bars",
-      "signal_strength"
+      "antenna bars",
+      "signal_strength",
+      "wifi"
     ],
     u: "1f4f6"
   },
@@ -9344,38 +13048,160 @@ const symbols$1 = [
   {
     n: [
       "mobile phone off",
-      "mobile_phone_off"
+      "mobile_phone_off",
+      "mute",
+      "off"
     ],
     u: "1f4f4"
   },
   {
     n: [
+      "female sign",
       "female_sign"
     ],
     u: "2640-fe0f"
   },
   {
     n: [
+      "male sign",
       "male_sign"
     ],
     u: "2642-fe0f"
   },
   {
     n: [
-      "medical_symbol",
-      "staff_of_aesculapius"
+      "transgender symbol",
+      "transgender_symbol"
+    ],
+    u: "26a7-fe0f"
+  },
+  {
+    n: [
+      "multiply",
+      "heavy_multiplication_x"
+    ],
+    u: "2716-fe0f"
+  },
+  {
+    n: [
+      "plus",
+      "heavy_plus_sign"
+    ],
+    u: "2795"
+  },
+  {
+    n: [
+      "minus",
+      "heavy_minus_sign"
+    ],
+    u: "2796"
+  },
+  {
+    n: [
+      "divide",
+      "heavy_division_sign"
+    ],
+    u: "2797"
+  },
+  {
+    n: [
+      "heavy equals sign",
+      "heavy_equals_sign"
+    ],
+    u: "1f7f0"
+  },
+  {
+    n: [
+      "infinity",
+      "infinity"
+    ],
+    u: "267e-fe0f"
+  },
+  {
+    n: [
+      "double exclamation mark",
+      "bangbang"
+    ],
+    u: "203c-fe0f"
+  },
+  {
+    n: [
+      "exclamation question mark",
+      "interrobang"
+    ],
+    u: "2049-fe0f"
+  },
+  {
+    n: [
+      "red question mark",
+      "question",
+      "confused"
+    ],
+    u: "2753"
+  },
+  {
+    n: [
+      "white question mark",
+      "grey_question"
+    ],
+    u: "2754"
+  },
+  {
+    n: [
+      "white exclamation mark",
+      "grey_exclamation"
+    ],
+    u: "2755"
+  },
+  {
+    n: [
+      "red exclamation mark",
+      "exclamation",
+      "heavy_exclamation_mark",
+      "bang"
+    ],
+    u: "2757"
+  },
+  {
+    n: [
+      "wavy dash",
+      "wavy_dash"
+    ],
+    u: "3030-fe0f"
+  },
+  {
+    n: [
+      "currency exchange",
+      "currency_exchange"
+    ],
+    u: "1f4b1"
+  },
+  {
+    n: [
+      "heavy dollar sign",
+      "heavy_dollar_sign"
+    ],
+    u: "1f4b2"
+  },
+  {
+    n: [
+      "medical symbol",
+      "medical_symbol"
     ],
     u: "2695-fe0f"
   },
   {
     n: [
-      "black universal recycling symbol",
-      "recycle"
+      "recycling symbol",
+      "recycle",
+      "environment",
+      "green"
     ],
     u: "267b-fe0f"
   },
   {
     n: [
+      "fleur-de-lis",
       "fleur_de_lis"
     ],
     u: "269c-fe0f"
@@ -9396,45 +13222,38 @@ const symbols$1 = [
   },
   {
     n: [
-      "japanese symbol for beginner",
+      "Japanese symbol for beginner",
       "beginner"
     ],
     u: "1f530"
   },
   {
     n: [
-      "heavy large circle",
+      "hollow red circle",
       "o"
     ],
     u: "2b55"
   },
   {
     n: [
-      "white heavy check mark",
+      "check mark button",
       "white_check_mark"
     ],
     u: "2705"
   },
   {
     n: [
-      "ballot box with check",
+      "check box with check",
       "ballot_box_with_check"
     ],
     u: "2611-fe0f"
   },
   {
     n: [
-      "heavy check mark",
+      "check mark",
       "heavy_check_mark"
     ],
     u: "2714-fe0f"
-  },
-  {
-    n: [
-      "heavy multiplication x",
-      "heavy_multiplication_x"
-    ],
-    u: "2716-fe0f"
   },
   {
     n: [
@@ -9445,31 +13264,10 @@ const symbols$1 = [
   },
   {
     n: [
-      "negative squared cross mark",
+      "cross mark button",
       "negative_squared_cross_mark"
     ],
     u: "274e"
-  },
-  {
-    n: [
-      "heavy plus sign",
-      "heavy_plus_sign"
-    ],
-    u: "2795"
-  },
-  {
-    n: [
-      "heavy minus sign",
-      "heavy_minus_sign"
-    ],
-    u: "2796"
-  },
-  {
-    n: [
-      "heavy division sign",
-      "heavy_division_sign"
-    ],
-    u: "2797"
   },
   {
     n: [
@@ -9494,506 +13292,530 @@ const symbols$1 = [
   },
   {
     n: [
-      "eight spoked asterisk",
+      "eight-spoked asterisk",
       "eight_spoked_asterisk"
     ],
     u: "2733-fe0f"
   },
   {
     n: [
-      "eight pointed black star",
+      "eight-pointed star",
       "eight_pointed_black_star"
     ],
     u: "2734-fe0f"
   },
   {
     n: [
+      "sparkle",
       "sparkle"
     ],
     u: "2747-fe0f"
   },
   {
     n: [
-      "double exclamation mark",
-      "bangbang"
-    ],
-    u: "203c-fe0f"
-  },
-  {
-    n: [
-      "exclamation question mark",
-      "interrobang"
-    ],
-    u: "2049-fe0f"
-  },
-  {
-    n: [
-      "black question mark ornament",
-      "question"
-    ],
-    u: "2753"
-  },
-  {
-    n: [
-      "white question mark ornament",
-      "grey_question"
-    ],
-    u: "2754"
-  },
-  {
-    n: [
-      "white exclamation mark ornament",
-      "grey_exclamation"
-    ],
-    u: "2755"
-  },
-  {
-    n: [
-      "heavy exclamation mark symbol",
-      "exclamation",
-      "heavy_exclamation_mark"
-    ],
-    u: "2757"
-  },
-  {
-    n: [
-      "wavy dash",
-      "wavy_dash"
-    ],
-    u: "3030-fe0f"
-  },
-  {
-    n: [
-      "copyright sign",
+      "copyright",
       "copyright"
     ],
-    u: "00a9-fe0f"
+    u: "a9-fe0f"
   },
   {
     n: [
-      "registered sign",
+      "registered",
       "registered"
     ],
-    u: "00ae-fe0f"
+    u: "ae-fe0f"
   },
   {
     n: [
-      "trade mark sign",
-      "tm"
+      "trade mark",
+      "tm",
+      "trademark"
     ],
     u: "2122-fe0f"
   },
   {
     n: [
-      "hash key",
-      "hash"
+      "keycap: #",
+      "hash",
+      "number"
     ],
-    u: "0023-fe0f-20e3"
+    u: "23-fe0f-20e3"
   },
   {
     n: [
-      "keycap_star"
+      "keycap: *",
+      "asterisk"
     ],
-    u: "002a-fe0f-20e3"
+    u: "2a-fe0f-20e3"
   },
   {
     n: [
-      "keycap 0",
+      "keycap: 0",
       "zero"
     ],
-    u: "0030-fe0f-20e3"
+    u: "30-fe0f-20e3"
   },
   {
     n: [
-      "keycap 1",
+      "keycap: 1",
       "one"
     ],
-    u: "0031-fe0f-20e3"
+    u: "31-fe0f-20e3"
   },
   {
     n: [
-      "keycap 2",
+      "keycap: 2",
       "two"
     ],
-    u: "0032-fe0f-20e3"
+    u: "32-fe0f-20e3"
   },
   {
     n: [
-      "keycap 3",
+      "keycap: 3",
       "three"
     ],
-    u: "0033-fe0f-20e3"
+    u: "33-fe0f-20e3"
   },
   {
     n: [
-      "keycap 4",
+      "keycap: 4",
       "four"
     ],
-    u: "0034-fe0f-20e3"
+    u: "34-fe0f-20e3"
   },
   {
     n: [
-      "keycap 5",
+      "keycap: 5",
       "five"
     ],
-    u: "0035-fe0f-20e3"
+    u: "35-fe0f-20e3"
   },
   {
     n: [
-      "keycap 6",
+      "keycap: 6",
       "six"
     ],
-    u: "0036-fe0f-20e3"
+    u: "36-fe0f-20e3"
   },
   {
     n: [
-      "keycap 7",
+      "keycap: 7",
       "seven"
     ],
-    u: "0037-fe0f-20e3"
+    u: "37-fe0f-20e3"
   },
   {
     n: [
-      "keycap 8",
+      "keycap: 8",
       "eight"
     ],
-    u: "0038-fe0f-20e3"
+    u: "38-fe0f-20e3"
   },
   {
     n: [
-      "keycap 9",
+      "keycap: 9",
       "nine"
     ],
-    u: "0039-fe0f-20e3"
+    u: "39-fe0f-20e3"
   },
   {
     n: [
-      "keycap ten",
+      "keycap: 10",
       "keycap_ten"
     ],
     u: "1f51f"
   },
   {
     n: [
-      "hundred points symbol",
-      "100"
-    ],
-    u: "1f4af"
-  },
-  {
-    n: [
-      "input symbol for latin capital letters",
-      "capital_abcd"
+      "input latin uppercase",
+      "capital_abcd",
+      "letters"
     ],
     u: "1f520"
   },
   {
     n: [
-      "input symbol for latin small letters",
+      "input latin lowercase",
       "abcd"
     ],
     u: "1f521"
   },
   {
     n: [
-      "input symbol for numbers",
-      "1234"
+      "input numbers",
+      "1234",
+      "numbers"
     ],
     u: "1f522"
   },
   {
     n: [
-      "input symbol for symbols",
+      "input symbols",
       "symbols"
     ],
     u: "1f523"
   },
   {
     n: [
-      "input symbol for latin letters",
-      "abc"
+      "input latin letters",
+      "abc",
+      "alphabet"
     ],
     u: "1f524"
   },
   {
     n: [
-      "negative squared latin capital letter a",
+      "A button (blood type)",
       "a"
     ],
     u: "1f170-fe0f"
   },
   {
     n: [
-      "negative squared ab",
+      "AB button (blood type)",
       "ab"
     ],
     u: "1f18e"
   },
   {
     n: [
-      "negative squared latin capital letter b",
+      "B button (blood type)",
       "b"
     ],
     u: "1f171-fe0f"
   },
   {
     n: [
-      "squared cl",
+      "CL button",
       "cl"
     ],
     u: "1f191"
   },
   {
     n: [
-      "squared cool",
+      "COOL button",
       "cool"
     ],
     u: "1f192"
   },
   {
     n: [
-      "squared free",
+      "FREE button",
       "free"
     ],
     u: "1f193"
   },
   {
     n: [
-      "information source",
+      "information",
       "information_source"
     ],
     u: "2139-fe0f"
   },
   {
     n: [
-      "squared id",
+      "ID button",
       "id"
     ],
     u: "1f194"
   },
   {
     n: [
-      "circled latin capital letter m",
+      "circled M",
       "m"
     ],
     u: "24c2-fe0f"
   },
   {
     n: [
-      "squared new",
-      "new"
+      "NEW button",
+      "new",
+      "fresh"
     ],
     u: "1f195"
   },
   {
     n: [
-      "squared ng",
+      "NG button",
       "ng"
     ],
     u: "1f196"
   },
   {
     n: [
-      "negative squared latin capital letter o",
+      "O button (blood type)",
       "o2"
     ],
     u: "1f17e-fe0f"
   },
   {
     n: [
-      "squared ok",
-      "ok"
+      "OK button",
+      "ok",
+      "yes"
     ],
     u: "1f197"
   },
   {
     n: [
-      "negative squared latin capital letter p",
+      "P button",
       "parking"
     ],
     u: "1f17f-fe0f"
   },
   {
     n: [
-      "squared sos",
-      "sos"
+      "SOS button",
+      "sos",
+      "help",
+      "emergency"
     ],
     u: "1f198"
   },
   {
     n: [
-      "squared up with exclamation mark",
+      "UP! button",
       "up"
     ],
     u: "1f199"
   },
   {
     n: [
-      "squared vs",
+      "VS button",
       "vs"
     ],
     u: "1f19a"
   },
   {
     n: [
-      "squared katakana koko",
+      "Japanese \u201Chere\u201D button",
       "koko"
     ],
     u: "1f201"
   },
   {
     n: [
-      "squared katakana sa",
+      "Japanese \u201Cservice charge\u201D button",
       "sa"
     ],
     u: "1f202-fe0f"
   },
   {
     n: [
-      "squared cjk unified ideograph-6708",
+      "Japanese \u201Cmonthly amount\u201D button",
       "u6708"
     ],
     u: "1f237-fe0f"
   },
   {
     n: [
-      "squared cjk unified ideograph-6709",
+      "Japanese \u201Cnot free of charge\u201D button",
       "u6709"
     ],
     u: "1f236"
   },
   {
     n: [
-      "squared cjk unified ideograph-6307",
+      "Japanese \u201Creserved\u201D button",
       "u6307"
     ],
     u: "1f22f"
   },
   {
     n: [
-      "circled ideograph advantage",
+      "Japanese \u201Cbargain\u201D button",
       "ideograph_advantage"
     ],
     u: "1f250"
   },
   {
     n: [
-      "squared cjk unified ideograph-5272",
+      "Japanese \u201Cdiscount\u201D button",
       "u5272"
     ],
     u: "1f239"
   },
   {
     n: [
-      "squared cjk unified ideograph-7121",
+      "Japanese \u201Cfree of charge\u201D button",
       "u7121"
     ],
     u: "1f21a"
   },
   {
     n: [
-      "squared cjk unified ideograph-7981",
+      "Japanese \u201Cprohibited\u201D button",
       "u7981"
     ],
     u: "1f232"
   },
   {
     n: [
-      "circled ideograph accept",
+      "Japanese \u201Cacceptable\u201D button",
       "accept"
     ],
     u: "1f251"
   },
   {
     n: [
-      "squared cjk unified ideograph-7533",
+      "Japanese \u201Capplication\u201D button",
       "u7533"
     ],
     u: "1f238"
   },
   {
     n: [
-      "squared cjk unified ideograph-5408",
+      "Japanese \u201Cpassing grade\u201D button",
       "u5408"
     ],
     u: "1f234"
   },
   {
     n: [
-      "squared cjk unified ideograph-7a7a",
+      "Japanese \u201Cvacancy\u201D button",
       "u7a7a"
     ],
     u: "1f233"
   },
   {
     n: [
-      "circled ideograph congratulation",
+      "Japanese \u201Ccongratulations\u201D button",
       "congratulations"
     ],
     u: "3297-fe0f"
   },
   {
     n: [
-      "circled ideograph secret",
+      "Japanese \u201Csecret\u201D button",
       "secret"
     ],
     u: "3299-fe0f"
   },
   {
     n: [
-      "squared cjk unified ideograph-55b6",
+      "Japanese \u201Copen for business\u201D button",
       "u55b6"
     ],
     u: "1f23a"
   },
   {
     n: [
-      "squared cjk unified ideograph-6e80",
+      "Japanese \u201Cno vacancy\u201D button",
       "u6e80"
     ],
     u: "1f235"
   },
   {
     n: [
-      "black small square",
-      "black_small_square"
+      "red circle",
+      "red_circle"
     ],
-    u: "25aa-fe0f"
+    u: "1f534"
   },
   {
     n: [
-      "white small square",
-      "white_small_square"
+      "orange circle",
+      "orange_circle"
     ],
-    u: "25ab-fe0f"
+    u: "1f7e0"
   },
   {
     n: [
-      "white medium square",
-      "white_medium_square"
+      "yellow circle",
+      "yellow_circle"
     ],
-    u: "25fb-fe0f"
+    u: "1f7e1"
   },
   {
     n: [
-      "black medium square",
-      "black_medium_square"
+      "green circle",
+      "green_circle"
     ],
-    u: "25fc-fe0f"
+    u: "1f7e2"
   },
   {
     n: [
-      "white medium small square",
-      "white_medium_small_square"
+      "blue circle",
+      "large_blue_circle"
     ],
-    u: "25fd"
+    u: "1f535"
   },
   {
     n: [
-      "black medium small square",
-      "black_medium_small_square"
+      "purple circle",
+      "purple_circle"
     ],
-    u: "25fe"
+    u: "1f7e3"
+  },
+  {
+    n: [
+      "brown circle",
+      "brown_circle"
+    ],
+    u: "1f7e4"
+  },
+  {
+    n: [
+      "black circle",
+      "black_circle"
+    ],
+    u: "26ab"
+  },
+  {
+    n: [
+      "white circle",
+      "white_circle"
+    ],
+    u: "26aa"
+  },
+  {
+    n: [
+      "red square",
+      "red_square"
+    ],
+    u: "1f7e5"
+  },
+  {
+    n: [
+      "orange square",
+      "orange_square"
+    ],
+    u: "1f7e7"
+  },
+  {
+    n: [
+      "yellow square",
+      "yellow_square"
+    ],
+    u: "1f7e8"
+  },
+  {
+    n: [
+      "green square",
+      "green_square"
+    ],
+    u: "1f7e9"
+  },
+  {
+    n: [
+      "blue square",
+      "blue_square"
+    ],
+    u: "1f7e6"
+  },
+  {
+    n: [
+      "purple square",
+      "purple_square"
+    ],
+    u: "1f7ea"
+  },
+  {
+    n: [
+      "brown square",
+      "brown_square"
+    ],
+    u: "1f7eb"
   },
   {
     n: [
@@ -10008,6 +13830,48 @@ const symbols$1 = [
       "white_large_square"
     ],
     u: "2b1c"
+  },
+  {
+    n: [
+      "black medium square",
+      "black_medium_square"
+    ],
+    u: "25fc-fe0f"
+  },
+  {
+    n: [
+      "white medium square",
+      "white_medium_square"
+    ],
+    u: "25fb-fe0f"
+  },
+  {
+    n: [
+      "black medium-small square",
+      "black_medium_small_square"
+    ],
+    u: "25fe"
+  },
+  {
+    n: [
+      "white medium-small square",
+      "white_medium_small_square"
+    ],
+    u: "25fd"
+  },
+  {
+    n: [
+      "black small square",
+      "black_small_square"
+    ],
+    u: "25aa-fe0f"
+  },
+  {
+    n: [
+      "white small square",
+      "white_small_square"
+    ],
+    u: "25ab-fe0f"
   },
   {
     n: [
@@ -10039,21 +13903,21 @@ const symbols$1 = [
   },
   {
     n: [
-      "up-pointing red triangle",
+      "red triangle pointed up",
       "small_red_triangle"
     ],
     u: "1f53a"
   },
   {
     n: [
-      "down-pointing red triangle",
+      "red triangle pointed down",
       "small_red_triangle_down"
     ],
     u: "1f53b"
   },
   {
     n: [
-      "diamond shape with a dot inside",
+      "diamond with a dot",
       "diamond_shape_with_a_dot_inside"
     ],
     u: "1f4a0"
@@ -10067,13 +13931,6 @@ const symbols$1 = [
   },
   {
     n: [
-      "black square button",
-      "black_square_button"
-    ],
-    u: "1f532"
-  },
-  {
-    n: [
       "white square button",
       "white_square_button"
     ],
@@ -10081,44 +13938,25 @@ const symbols$1 = [
   },
   {
     n: [
-      "medium white circle",
-      "white_circle"
+      "black square button",
+      "black_square_button"
     ],
-    u: "26aa"
-  },
-  {
-    n: [
-      "medium black circle",
-      "black_circle"
-    ],
-    u: "26ab"
-  },
-  {
-    n: [
-      "large red circle",
-      "red_circle"
-    ],
-    u: "1f534"
-  },
-  {
-    n: [
-      "large blue circle",
-      "large_blue_circle"
-    ],
-    u: "1f535"
+    u: "1f532"
   }
 ];
 const flags$1 = [
   {
     n: [
       "chequered flag",
-      "checkered_flag"
+      "checkered_flag",
+      "milestone",
+      "finish"
     ],
     u: "1f3c1"
   },
   {
     n: [
-      "triangular flag on post",
+      "triangular flag",
       "triangular_flag_on_post"
     ],
     u: "1f6a9"
@@ -10132,1858 +13970,1885 @@ const flags$1 = [
   },
   {
     n: [
-      "waving black flag",
-      "waving_black_flag"
+      "black flag",
+      "black_flag"
     ],
     u: "1f3f4"
   },
   {
     n: [
-      "waving_white_flag"
+      "white flag",
+      "white_flag"
     ],
     u: "1f3f3-fe0f"
   },
   {
     n: [
-      "rainbow-flag"
+      "rainbow flag",
+      "rainbow_flag",
+      "pride"
     ],
     u: "1f3f3-fe0f-200d-1f308"
   },
   {
     n: [
-      "ascension island flag",
-      "flag-ac"
+      "transgender flag",
+      "transgender_flag"
+    ],
+    u: "1f3f3-fe0f-200d-26a7-fe0f"
+  },
+  {
+    n: [
+      "pirate flag",
+      "pirate_flag"
+    ],
+    u: "1f3f4-200d-2620-fe0f"
+  },
+  {
+    n: [
+      "flag: Ascension Island",
+      "ascension_island"
     ],
     u: "1f1e6-1f1e8"
   },
   {
     n: [
-      "andorra flag",
-      "flag-ad"
+      "flag: Andorra",
+      "andorra"
     ],
     u: "1f1e6-1f1e9"
   },
   {
     n: [
-      "united arab emirates flag",
-      "flag-ae"
+      "flag: United Arab Emirates",
+      "united_arab_emirates"
     ],
     u: "1f1e6-1f1ea"
   },
   {
     n: [
-      "afghanistan flag",
-      "flag-af"
+      "flag: Afghanistan",
+      "afghanistan"
     ],
     u: "1f1e6-1f1eb"
   },
   {
     n: [
-      "antigua & barbuda flag",
-      "flag-ag"
+      "flag: Antigua & Barbuda",
+      "antigua_barbuda"
     ],
     u: "1f1e6-1f1ec"
   },
   {
     n: [
-      "anguilla flag",
-      "flag-ai"
+      "flag: Anguilla",
+      "anguilla"
     ],
     u: "1f1e6-1f1ee"
   },
   {
     n: [
-      "albania flag",
-      "flag-al"
+      "flag: Albania",
+      "albania"
     ],
     u: "1f1e6-1f1f1"
   },
   {
     n: [
-      "armenia flag",
-      "flag-am"
+      "flag: Armenia",
+      "armenia"
     ],
     u: "1f1e6-1f1f2"
   },
   {
     n: [
-      "angola flag",
-      "flag-ao"
+      "flag: Angola",
+      "angola"
     ],
     u: "1f1e6-1f1f4"
   },
   {
     n: [
-      "antarctica flag",
-      "flag-aq"
+      "flag: Antarctica",
+      "antarctica"
     ],
     u: "1f1e6-1f1f6"
   },
   {
     n: [
-      "argentina flag",
-      "flag-ar"
+      "flag: Argentina",
+      "argentina"
     ],
     u: "1f1e6-1f1f7"
   },
   {
     n: [
-      "american samoa flag",
-      "flag-as"
+      "flag: American Samoa",
+      "american_samoa"
     ],
     u: "1f1e6-1f1f8"
   },
   {
     n: [
-      "austria flag",
-      "flag-at"
+      "flag: Austria",
+      "austria"
     ],
     u: "1f1e6-1f1f9"
   },
   {
     n: [
-      "australia flag",
-      "flag-au"
+      "flag: Australia",
+      "australia"
     ],
     u: "1f1e6-1f1fa"
   },
   {
     n: [
-      "aruba flag",
-      "flag-aw"
+      "flag: Aruba",
+      "aruba"
     ],
     u: "1f1e6-1f1fc"
   },
   {
     n: [
-      "\xE5land islands flag",
-      "flag-ax"
+      "flag: \xC5land Islands",
+      "aland_islands"
     ],
     u: "1f1e6-1f1fd"
   },
   {
     n: [
-      "azerbaijan flag",
-      "flag-az"
+      "flag: Azerbaijan",
+      "azerbaijan"
     ],
     u: "1f1e6-1f1ff"
   },
   {
     n: [
-      "bosnia & herzegovina flag",
-      "flag-ba"
+      "flag: Bosnia & Herzegovina",
+      "bosnia_herzegovina"
     ],
     u: "1f1e7-1f1e6"
   },
   {
     n: [
-      "barbados flag",
-      "flag-bb"
+      "flag: Barbados",
+      "barbados"
     ],
     u: "1f1e7-1f1e7"
   },
   {
     n: [
-      "bangladesh flag",
-      "flag-bd"
+      "flag: Bangladesh",
+      "bangladesh"
     ],
     u: "1f1e7-1f1e9"
   },
   {
     n: [
-      "belgium flag",
-      "flag-be"
+      "flag: Belgium",
+      "belgium"
     ],
     u: "1f1e7-1f1ea"
   },
   {
     n: [
-      "burkina faso flag",
-      "flag-bf"
+      "flag: Burkina Faso",
+      "burkina_faso"
     ],
     u: "1f1e7-1f1eb"
   },
   {
     n: [
-      "bulgaria flag",
-      "flag-bg"
+      "flag: Bulgaria",
+      "bulgaria"
     ],
     u: "1f1e7-1f1ec"
   },
   {
     n: [
-      "bahrain flag",
-      "flag-bh"
+      "flag: Bahrain",
+      "bahrain"
     ],
     u: "1f1e7-1f1ed"
   },
   {
     n: [
-      "burundi flag",
-      "flag-bi"
+      "flag: Burundi",
+      "burundi"
     ],
     u: "1f1e7-1f1ee"
   },
   {
     n: [
-      "benin flag",
-      "flag-bj"
+      "flag: Benin",
+      "benin"
     ],
     u: "1f1e7-1f1ef"
   },
   {
     n: [
-      "st. barth\xE9lemy flag",
-      "flag-bl"
+      "flag: St. Barth\xE9lemy",
+      "st_barthelemy"
     ],
     u: "1f1e7-1f1f1"
   },
   {
     n: [
-      "bermuda flag",
-      "flag-bm"
+      "flag: Bermuda",
+      "bermuda"
     ],
     u: "1f1e7-1f1f2"
   },
   {
     n: [
-      "brunei flag",
-      "flag-bn"
+      "flag: Brunei",
+      "brunei"
     ],
     u: "1f1e7-1f1f3"
   },
   {
     n: [
-      "bolivia flag",
-      "flag-bo"
+      "flag: Bolivia",
+      "bolivia"
     ],
     u: "1f1e7-1f1f4"
   },
   {
     n: [
-      "caribbean netherlands flag",
-      "flag-bq"
+      "flag: Caribbean Netherlands",
+      "caribbean_netherlands"
     ],
     u: "1f1e7-1f1f6"
   },
   {
     n: [
-      "brazil flag",
-      "flag-br"
+      "flag: Brazil",
+      "brazil"
     ],
     u: "1f1e7-1f1f7"
   },
   {
     n: [
-      "bahamas flag",
-      "flag-bs"
+      "flag: Bahamas",
+      "bahamas"
     ],
     u: "1f1e7-1f1f8"
   },
   {
     n: [
-      "bhutan flag",
-      "flag-bt"
+      "flag: Bhutan",
+      "bhutan"
     ],
     u: "1f1e7-1f1f9"
   },
   {
     n: [
-      "bouvet island flag",
-      "flag-bv"
+      "flag: Bouvet Island",
+      "bouvet_island"
     ],
     u: "1f1e7-1f1fb"
   },
   {
     n: [
-      "botswana flag",
-      "flag-bw"
+      "flag: Botswana",
+      "botswana"
     ],
     u: "1f1e7-1f1fc"
   },
   {
     n: [
-      "belarus flag",
-      "flag-by"
+      "flag: Belarus",
+      "belarus"
     ],
     u: "1f1e7-1f1fe"
   },
   {
     n: [
-      "belize flag",
-      "flag-bz"
+      "flag: Belize",
+      "belize"
     ],
     u: "1f1e7-1f1ff"
   },
   {
     n: [
-      "canada flag",
-      "flag-ca"
+      "flag: Canada",
+      "canada"
     ],
     u: "1f1e8-1f1e6"
   },
   {
     n: [
-      "cocos (keeling) islands flag",
-      "flag-cc"
+      "flag: Cocos (Keeling) Islands",
+      "cocos_islands",
+      "keeling"
     ],
     u: "1f1e8-1f1e8"
   },
   {
     n: [
-      "congo - kinshasa flag",
-      "flag-cd"
+      "flag: Congo - Kinshasa",
+      "congo_kinshasa"
     ],
     u: "1f1e8-1f1e9"
   },
   {
     n: [
-      "central african republic flag",
-      "flag-cf"
+      "flag: Central African Republic",
+      "central_african_republic"
     ],
     u: "1f1e8-1f1eb"
   },
   {
     n: [
-      "congo - brazzaville flag",
-      "flag-cg"
+      "flag: Congo - Brazzaville",
+      "congo_brazzaville"
     ],
     u: "1f1e8-1f1ec"
   },
   {
     n: [
-      "switzerland flag",
-      "flag-ch"
+      "flag: Switzerland",
+      "switzerland"
     ],
     u: "1f1e8-1f1ed"
   },
   {
     n: [
-      "c\xF4te d\u2019ivoire flag",
-      "flag-ci"
+      "flag: C\xF4te d\u2019Ivoire",
+      "cote_divoire",
+      "ivory"
     ],
     u: "1f1e8-1f1ee"
   },
   {
     n: [
-      "cook islands flag",
-      "flag-ck"
+      "flag: Cook Islands",
+      "cook_islands"
     ],
     u: "1f1e8-1f1f0"
   },
   {
     n: [
-      "chile flag",
-      "flag-cl"
+      "flag: Chile",
+      "chile"
     ],
     u: "1f1e8-1f1f1"
   },
   {
     n: [
-      "cameroon flag",
-      "flag-cm"
+      "flag: Cameroon",
+      "cameroon"
     ],
     u: "1f1e8-1f1f2"
   },
   {
     n: [
-      "china flag",
+      "flag: China",
       "cn",
-      "flag-cn"
+      "china"
     ],
     u: "1f1e8-1f1f3"
   },
   {
     n: [
-      "colombia flag",
-      "flag-co"
+      "flag: Colombia",
+      "colombia"
     ],
     u: "1f1e8-1f1f4"
   },
   {
     n: [
-      "clipperton island flag",
-      "flag-cp"
+      "flag: Clipperton Island",
+      "clipperton_island"
     ],
     u: "1f1e8-1f1f5"
   },
   {
     n: [
-      "costa rica flag",
-      "flag-cr"
+      "flag: Costa Rica",
+      "costa_rica"
     ],
     u: "1f1e8-1f1f7"
   },
   {
     n: [
-      "cuba flag",
-      "flag-cu"
+      "flag: Cuba",
+      "cuba"
     ],
     u: "1f1e8-1f1fa"
   },
   {
     n: [
-      "cape verde flag",
-      "flag-cv"
+      "flag: Cape Verde",
+      "cape_verde"
     ],
     u: "1f1e8-1f1fb"
   },
   {
     n: [
-      "cura\xE7ao flag",
-      "flag-cw"
+      "flag: Cura\xE7ao",
+      "curacao"
     ],
     u: "1f1e8-1f1fc"
   },
   {
     n: [
-      "christmas island flag",
-      "flag-cx"
+      "flag: Christmas Island",
+      "christmas_island"
     ],
     u: "1f1e8-1f1fd"
   },
   {
     n: [
-      "cyprus flag",
-      "flag-cy"
+      "flag: Cyprus",
+      "cyprus"
     ],
     u: "1f1e8-1f1fe"
   },
   {
     n: [
-      "czechia flag",
-      "flag-cz"
+      "flag: Czechia",
+      "czech_republic"
     ],
     u: "1f1e8-1f1ff"
   },
   {
     n: [
-      "germany flag",
+      "flag: Germany",
       "de",
-      "flag-de"
+      "flag",
+      "germany"
     ],
     u: "1f1e9-1f1ea"
   },
   {
     n: [
-      "diego garcia flag",
-      "flag-dg"
+      "flag: Diego Garcia",
+      "diego_garcia"
     ],
     u: "1f1e9-1f1ec"
   },
   {
     n: [
-      "djibouti flag",
-      "flag-dj"
+      "flag: Djibouti",
+      "djibouti"
     ],
     u: "1f1e9-1f1ef"
   },
   {
     n: [
-      "denmark flag",
-      "flag-dk"
+      "flag: Denmark",
+      "denmark"
     ],
     u: "1f1e9-1f1f0"
   },
   {
     n: [
-      "dominica flag",
-      "flag-dm"
+      "flag: Dominica",
+      "dominica"
     ],
     u: "1f1e9-1f1f2"
   },
   {
     n: [
-      "dominican republic flag",
-      "flag-do"
+      "flag: Dominican Republic",
+      "dominican_republic"
     ],
     u: "1f1e9-1f1f4"
   },
   {
     n: [
-      "algeria flag",
-      "flag-dz"
+      "flag: Algeria",
+      "algeria"
     ],
     u: "1f1e9-1f1ff"
   },
   {
     n: [
-      "ceuta & melilla flag",
-      "flag-ea"
+      "flag: Ceuta & Melilla",
+      "ceuta_melilla"
     ],
     u: "1f1ea-1f1e6"
   },
   {
     n: [
-      "ecuador flag",
-      "flag-ec"
+      "flag: Ecuador",
+      "ecuador"
     ],
     u: "1f1ea-1f1e8"
   },
   {
     n: [
-      "estonia flag",
-      "flag-ee"
+      "flag: Estonia",
+      "estonia"
     ],
     u: "1f1ea-1f1ea"
   },
   {
     n: [
-      "egypt flag",
-      "flag-eg"
+      "flag: Egypt",
+      "egypt"
     ],
     u: "1f1ea-1f1ec"
   },
   {
     n: [
-      "western sahara flag",
-      "flag-eh"
+      "flag: Western Sahara",
+      "western_sahara"
     ],
     u: "1f1ea-1f1ed"
   },
   {
     n: [
-      "eritrea flag",
-      "flag-er"
+      "flag: Eritrea",
+      "eritrea"
     ],
     u: "1f1ea-1f1f7"
   },
   {
     n: [
-      "spain flag",
+      "flag: Spain",
       "es",
-      "flag-es"
+      "spain"
     ],
     u: "1f1ea-1f1f8"
   },
   {
     n: [
-      "ethiopia flag",
-      "flag-et"
+      "flag: Ethiopia",
+      "ethiopia"
     ],
     u: "1f1ea-1f1f9"
   },
   {
     n: [
-      "european union flag",
-      "flag-eu"
+      "flag: European Union",
+      "eu",
+      "european_union"
     ],
     u: "1f1ea-1f1fa"
   },
   {
     n: [
-      "finland flag",
-      "flag-fi"
+      "flag: Finland",
+      "finland"
     ],
     u: "1f1eb-1f1ee"
   },
   {
     n: [
-      "fiji flag",
-      "flag-fj"
+      "flag: Fiji",
+      "fiji"
     ],
     u: "1f1eb-1f1ef"
   },
   {
     n: [
-      "falkland islands flag",
-      "flag-fk"
+      "flag: Falkland Islands",
+      "falkland_islands"
     ],
     u: "1f1eb-1f1f0"
   },
   {
     n: [
-      "micronesia flag",
-      "flag-fm"
+      "flag: Micronesia",
+      "micronesia"
     ],
     u: "1f1eb-1f1f2"
   },
   {
     n: [
-      "faroe islands flag",
-      "flag-fo"
+      "flag: Faroe Islands",
+      "faroe_islands"
     ],
     u: "1f1eb-1f1f4"
   },
   {
     n: [
-      "france flag",
+      "flag: France",
       "fr",
-      "flag-fr"
+      "france",
+      "french"
     ],
     u: "1f1eb-1f1f7"
   },
   {
     n: [
-      "gabon flag",
-      "flag-ga"
+      "flag: Gabon",
+      "gabon"
     ],
     u: "1f1ec-1f1e6"
   },
   {
     n: [
-      "united kingdom flag",
+      "flag: United Kingdom",
       "gb",
       "uk",
-      "flag-gb"
+      "flag",
+      "british"
     ],
     u: "1f1ec-1f1e7"
   },
   {
     n: [
-      "grenada flag",
-      "flag-gd"
+      "flag: Grenada",
+      "grenada"
     ],
     u: "1f1ec-1f1e9"
   },
   {
     n: [
-      "georgia flag",
-      "flag-ge"
+      "flag: Georgia",
+      "georgia"
     ],
     u: "1f1ec-1f1ea"
   },
   {
     n: [
-      "french guiana flag",
-      "flag-gf"
+      "flag: French Guiana",
+      "french_guiana"
     ],
     u: "1f1ec-1f1eb"
   },
   {
     n: [
-      "guernsey flag",
-      "flag-gg"
+      "flag: Guernsey",
+      "guernsey"
     ],
     u: "1f1ec-1f1ec"
   },
   {
     n: [
-      "ghana flag",
-      "flag-gh"
+      "flag: Ghana",
+      "ghana"
     ],
     u: "1f1ec-1f1ed"
   },
   {
     n: [
-      "gibraltar flag",
-      "flag-gi"
+      "flag: Gibraltar",
+      "gibraltar"
     ],
     u: "1f1ec-1f1ee"
   },
   {
     n: [
-      "greenland flag",
-      "flag-gl"
+      "flag: Greenland",
+      "greenland"
     ],
     u: "1f1ec-1f1f1"
   },
   {
     n: [
-      "gambia flag",
-      "flag-gm"
+      "flag: Gambia",
+      "gambia"
     ],
     u: "1f1ec-1f1f2"
   },
   {
     n: [
-      "guinea flag",
-      "flag-gn"
+      "flag: Guinea",
+      "guinea"
     ],
     u: "1f1ec-1f1f3"
   },
   {
     n: [
-      "guadeloupe flag",
-      "flag-gp"
+      "flag: Guadeloupe",
+      "guadeloupe"
     ],
     u: "1f1ec-1f1f5"
   },
   {
     n: [
-      "equatorial guinea flag",
-      "flag-gq"
+      "flag: Equatorial Guinea",
+      "equatorial_guinea"
     ],
     u: "1f1ec-1f1f6"
   },
   {
     n: [
-      "greece flag",
-      "flag-gr"
+      "flag: Greece",
+      "greece"
     ],
     u: "1f1ec-1f1f7"
   },
   {
     n: [
-      "south georgia & south sandwich islands flag",
-      "flag-gs"
+      "flag: South Georgia & South Sandwich Islands",
+      "south_georgia_south_sandwich_islands"
     ],
     u: "1f1ec-1f1f8"
   },
   {
     n: [
-      "guatemala flag",
-      "flag-gt"
+      "flag: Guatemala",
+      "guatemala"
     ],
     u: "1f1ec-1f1f9"
   },
   {
     n: [
-      "guam flag",
-      "flag-gu"
+      "flag: Guam",
+      "guam"
     ],
     u: "1f1ec-1f1fa"
   },
   {
     n: [
-      "guinea-bissau flag",
-      "flag-gw"
+      "flag: Guinea-Bissau",
+      "guinea_bissau"
     ],
     u: "1f1ec-1f1fc"
   },
   {
     n: [
-      "guyana flag",
-      "flag-gy"
+      "flag: Guyana",
+      "guyana"
     ],
     u: "1f1ec-1f1fe"
   },
   {
     n: [
-      "hong kong sar china flag",
-      "flag-hk"
+      "flag: Hong Kong SAR China",
+      "hong_kong"
     ],
     u: "1f1ed-1f1f0"
   },
   {
     n: [
-      "heard & mcdonald islands flag",
-      "flag-hm"
+      "flag: Heard & McDonald Islands",
+      "heard_mcdonald_islands"
     ],
     u: "1f1ed-1f1f2"
   },
   {
     n: [
-      "honduras flag",
-      "flag-hn"
+      "flag: Honduras",
+      "honduras"
     ],
     u: "1f1ed-1f1f3"
   },
   {
     n: [
-      "croatia flag",
-      "flag-hr"
+      "flag: Croatia",
+      "croatia"
     ],
     u: "1f1ed-1f1f7"
   },
   {
     n: [
-      "haiti flag",
-      "flag-ht"
+      "flag: Haiti",
+      "haiti"
     ],
     u: "1f1ed-1f1f9"
   },
   {
     n: [
-      "hungary flag",
-      "flag-hu"
+      "flag: Hungary",
+      "hungary"
     ],
     u: "1f1ed-1f1fa"
   },
   {
     n: [
-      "canary islands flag",
-      "flag-ic"
+      "flag: Canary Islands",
+      "canary_islands"
     ],
     u: "1f1ee-1f1e8"
   },
   {
     n: [
-      "indonesia flag",
-      "flag-id"
+      "flag: Indonesia",
+      "indonesia"
     ],
     u: "1f1ee-1f1e9"
   },
   {
     n: [
-      "ireland flag",
-      "flag-ie"
+      "flag: Ireland",
+      "ireland"
     ],
     u: "1f1ee-1f1ea"
   },
   {
     n: [
-      "israel flag",
-      "flag-il"
+      "flag: Israel",
+      "israel"
     ],
     u: "1f1ee-1f1f1"
   },
   {
     n: [
-      "isle of man flag",
-      "flag-im"
+      "flag: Isle of Man",
+      "isle_of_man"
     ],
     u: "1f1ee-1f1f2"
   },
   {
     n: [
-      "india flag",
-      "flag-in"
+      "flag: India",
+      "india"
     ],
     u: "1f1ee-1f1f3"
   },
   {
     n: [
-      "british indian ocean territory flag",
-      "flag-io"
+      "flag: British Indian Ocean Territory",
+      "british_indian_ocean_territory"
     ],
     u: "1f1ee-1f1f4"
   },
   {
     n: [
-      "iraq flag",
-      "flag-iq"
+      "flag: Iraq",
+      "iraq"
     ],
     u: "1f1ee-1f1f6"
   },
   {
     n: [
-      "iran flag",
-      "flag-ir"
+      "flag: Iran",
+      "iran"
     ],
     u: "1f1ee-1f1f7"
   },
   {
     n: [
-      "iceland flag",
-      "flag-is"
+      "flag: Iceland",
+      "iceland"
     ],
     u: "1f1ee-1f1f8"
   },
   {
     n: [
-      "italy flag",
+      "flag: Italy",
       "it",
-      "flag-it"
+      "italy"
     ],
     u: "1f1ee-1f1f9"
   },
   {
     n: [
-      "jersey flag",
-      "flag-je"
+      "flag: Jersey",
+      "jersey"
     ],
     u: "1f1ef-1f1ea"
   },
   {
     n: [
-      "jamaica flag",
-      "flag-jm"
+      "flag: Jamaica",
+      "jamaica"
     ],
     u: "1f1ef-1f1f2"
   },
   {
     n: [
-      "jordan flag",
-      "flag-jo"
+      "flag: Jordan",
+      "jordan"
     ],
     u: "1f1ef-1f1f4"
   },
   {
     n: [
-      "japan flag",
+      "flag: Japan",
       "jp",
-      "flag-jp"
+      "japan"
     ],
     u: "1f1ef-1f1f5"
   },
   {
     n: [
-      "kenya flag",
-      "flag-ke"
+      "flag: Kenya",
+      "kenya"
     ],
     u: "1f1f0-1f1ea"
   },
   {
     n: [
-      "kyrgyzstan flag",
-      "flag-kg"
+      "flag: Kyrgyzstan",
+      "kyrgyzstan"
     ],
     u: "1f1f0-1f1ec"
   },
   {
     n: [
-      "cambodia flag",
-      "flag-kh"
+      "flag: Cambodia",
+      "cambodia"
     ],
     u: "1f1f0-1f1ed"
   },
   {
     n: [
-      "kiribati flag",
-      "flag-ki"
+      "flag: Kiribati",
+      "kiribati"
     ],
     u: "1f1f0-1f1ee"
   },
   {
     n: [
-      "comoros flag",
-      "flag-km"
+      "flag: Comoros",
+      "comoros"
     ],
     u: "1f1f0-1f1f2"
   },
   {
     n: [
-      "st. kitts & nevis flag",
-      "flag-kn"
+      "flag: St. Kitts & Nevis",
+      "st_kitts_nevis"
     ],
     u: "1f1f0-1f1f3"
   },
   {
     n: [
-      "north korea flag",
-      "flag-kp"
+      "flag: North Korea",
+      "north_korea"
     ],
     u: "1f1f0-1f1f5"
   },
   {
     n: [
-      "south korea flag",
+      "flag: South Korea",
       "kr",
-      "flag-kr"
+      "korea"
     ],
     u: "1f1f0-1f1f7"
   },
   {
     n: [
-      "kuwait flag",
-      "flag-kw"
+      "flag: Kuwait",
+      "kuwait"
     ],
     u: "1f1f0-1f1fc"
   },
   {
     n: [
-      "cayman islands flag",
-      "flag-ky"
+      "flag: Cayman Islands",
+      "cayman_islands"
     ],
     u: "1f1f0-1f1fe"
   },
   {
     n: [
-      "kazakhstan flag",
-      "flag-kz"
+      "flag: Kazakhstan",
+      "kazakhstan"
     ],
     u: "1f1f0-1f1ff"
   },
   {
     n: [
-      "laos flag",
-      "flag-la"
+      "flag: Laos",
+      "laos"
     ],
     u: "1f1f1-1f1e6"
   },
   {
     n: [
-      "lebanon flag",
-      "flag-lb"
+      "flag: Lebanon",
+      "lebanon"
     ],
     u: "1f1f1-1f1e7"
   },
   {
     n: [
-      "st. lucia flag",
-      "flag-lc"
+      "flag: St. Lucia",
+      "st_lucia"
     ],
     u: "1f1f1-1f1e8"
   },
   {
     n: [
-      "liechtenstein flag",
-      "flag-li"
+      "flag: Liechtenstein",
+      "liechtenstein"
     ],
     u: "1f1f1-1f1ee"
   },
   {
     n: [
-      "sri lanka flag",
-      "flag-lk"
+      "flag: Sri Lanka",
+      "sri_lanka"
     ],
     u: "1f1f1-1f1f0"
   },
   {
     n: [
-      "liberia flag",
-      "flag-lr"
+      "flag: Liberia",
+      "liberia"
     ],
     u: "1f1f1-1f1f7"
   },
   {
     n: [
-      "lesotho flag",
-      "flag-ls"
+      "flag: Lesotho",
+      "lesotho"
     ],
     u: "1f1f1-1f1f8"
   },
   {
     n: [
-      "lithuania flag",
-      "flag-lt"
+      "flag: Lithuania",
+      "lithuania"
     ],
     u: "1f1f1-1f1f9"
   },
   {
     n: [
-      "luxembourg flag",
-      "flag-lu"
+      "flag: Luxembourg",
+      "luxembourg"
     ],
     u: "1f1f1-1f1fa"
   },
   {
     n: [
-      "latvia flag",
-      "flag-lv"
+      "flag: Latvia",
+      "latvia"
     ],
     u: "1f1f1-1f1fb"
   },
   {
     n: [
-      "libya flag",
-      "flag-ly"
+      "flag: Libya",
+      "libya"
     ],
     u: "1f1f1-1f1fe"
   },
   {
     n: [
-      "morocco flag",
-      "flag-ma"
+      "flag: Morocco",
+      "morocco"
     ],
     u: "1f1f2-1f1e6"
   },
   {
     n: [
-      "monaco flag",
-      "flag-mc"
+      "flag: Monaco",
+      "monaco"
     ],
     u: "1f1f2-1f1e8"
   },
   {
     n: [
-      "moldova flag",
-      "flag-md"
+      "flag: Moldova",
+      "moldova"
     ],
     u: "1f1f2-1f1e9"
   },
   {
     n: [
-      "montenegro flag",
-      "flag-me"
+      "flag: Montenegro",
+      "montenegro"
     ],
     u: "1f1f2-1f1ea"
   },
   {
     n: [
-      "st. martin flag",
-      "flag-mf"
+      "flag: St. Martin",
+      "st_martin"
     ],
     u: "1f1f2-1f1eb"
   },
   {
     n: [
-      "madagascar flag",
-      "flag-mg"
+      "flag: Madagascar",
+      "madagascar"
     ],
     u: "1f1f2-1f1ec"
   },
   {
     n: [
-      "marshall islands flag",
-      "flag-mh"
+      "flag: Marshall Islands",
+      "marshall_islands"
     ],
     u: "1f1f2-1f1ed"
   },
   {
     n: [
-      "macedonia flag",
-      "flag-mk"
+      "flag: North Macedonia",
+      "macedonia"
     ],
     u: "1f1f2-1f1f0"
   },
   {
     n: [
-      "mali flag",
-      "flag-ml"
+      "flag: Mali",
+      "mali"
     ],
     u: "1f1f2-1f1f1"
   },
   {
     n: [
-      "myanmar (burma) flag",
-      "flag-mm"
+      "flag: Myanmar (Burma)",
+      "myanmar",
+      "burma"
     ],
     u: "1f1f2-1f1f2"
   },
   {
     n: [
-      "mongolia flag",
-      "flag-mn"
+      "flag: Mongolia",
+      "mongolia"
     ],
     u: "1f1f2-1f1f3"
   },
   {
     n: [
-      "macau sar china flag",
-      "flag-mo"
+      "flag: Macao SAR China",
+      "macau"
     ],
     u: "1f1f2-1f1f4"
   },
   {
     n: [
-      "northern mariana islands flag",
-      "flag-mp"
+      "flag: Northern Mariana Islands",
+      "northern_mariana_islands"
     ],
     u: "1f1f2-1f1f5"
   },
   {
     n: [
-      "martinique flag",
-      "flag-mq"
+      "flag: Martinique",
+      "martinique"
     ],
     u: "1f1f2-1f1f6"
   },
   {
     n: [
-      "mauritania flag",
-      "flag-mr"
+      "flag: Mauritania",
+      "mauritania"
     ],
     u: "1f1f2-1f1f7"
   },
   {
     n: [
-      "montserrat flag",
-      "flag-ms"
+      "flag: Montserrat",
+      "montserrat"
     ],
     u: "1f1f2-1f1f8"
   },
   {
     n: [
-      "malta flag",
-      "flag-mt"
+      "flag: Malta",
+      "malta"
     ],
     u: "1f1f2-1f1f9"
   },
   {
     n: [
-      "mauritius flag",
-      "flag-mu"
+      "flag: Mauritius",
+      "mauritius"
     ],
     u: "1f1f2-1f1fa"
   },
   {
     n: [
-      "maldives flag",
-      "flag-mv"
+      "flag: Maldives",
+      "maldives"
     ],
     u: "1f1f2-1f1fb"
   },
   {
     n: [
-      "malawi flag",
-      "flag-mw"
+      "flag: Malawi",
+      "malawi"
     ],
     u: "1f1f2-1f1fc"
   },
   {
     n: [
-      "mexico flag",
-      "flag-mx"
+      "flag: Mexico",
+      "mexico"
     ],
     u: "1f1f2-1f1fd"
   },
   {
     n: [
-      "malaysia flag",
-      "flag-my"
+      "flag: Malaysia",
+      "malaysia"
     ],
     u: "1f1f2-1f1fe"
   },
   {
     n: [
-      "mozambique flag",
-      "flag-mz"
+      "flag: Mozambique",
+      "mozambique"
     ],
     u: "1f1f2-1f1ff"
   },
   {
     n: [
-      "namibia flag",
-      "flag-na"
+      "flag: Namibia",
+      "namibia"
     ],
     u: "1f1f3-1f1e6"
   },
   {
     n: [
-      "new caledonia flag",
-      "flag-nc"
+      "flag: New Caledonia",
+      "new_caledonia"
     ],
     u: "1f1f3-1f1e8"
   },
   {
     n: [
-      "niger flag",
-      "flag-ne"
+      "flag: Niger",
+      "niger"
     ],
     u: "1f1f3-1f1ea"
   },
   {
     n: [
-      "norfolk island flag",
-      "flag-nf"
+      "flag: Norfolk Island",
+      "norfolk_island"
     ],
     u: "1f1f3-1f1eb"
   },
   {
     n: [
-      "nigeria flag",
-      "flag-ng"
+      "flag: Nigeria",
+      "nigeria"
     ],
     u: "1f1f3-1f1ec"
   },
   {
     n: [
-      "nicaragua flag",
-      "flag-ni"
+      "flag: Nicaragua",
+      "nicaragua"
     ],
     u: "1f1f3-1f1ee"
   },
   {
     n: [
-      "netherlands flag",
-      "flag-nl"
+      "flag: Netherlands",
+      "netherlands"
     ],
     u: "1f1f3-1f1f1"
   },
   {
     n: [
-      "norway flag",
-      "flag-no"
+      "flag: Norway",
+      "norway"
     ],
     u: "1f1f3-1f1f4"
   },
   {
     n: [
-      "nepal flag",
-      "flag-np"
+      "flag: Nepal",
+      "nepal"
     ],
     u: "1f1f3-1f1f5"
   },
   {
     n: [
-      "nauru flag",
-      "flag-nr"
+      "flag: Nauru",
+      "nauru"
     ],
     u: "1f1f3-1f1f7"
   },
   {
     n: [
-      "niue flag",
-      "flag-nu"
+      "flag: Niue",
+      "niue"
     ],
     u: "1f1f3-1f1fa"
   },
   {
     n: [
-      "new zealand flag",
-      "flag-nz"
+      "flag: New Zealand",
+      "new_zealand"
     ],
     u: "1f1f3-1f1ff"
   },
   {
     n: [
-      "oman flag",
-      "flag-om"
+      "flag: Oman",
+      "oman"
     ],
     u: "1f1f4-1f1f2"
   },
   {
     n: [
-      "panama flag",
-      "flag-pa"
+      "flag: Panama",
+      "panama"
     ],
     u: "1f1f5-1f1e6"
   },
   {
     n: [
-      "peru flag",
-      "flag-pe"
+      "flag: Peru",
+      "peru"
     ],
     u: "1f1f5-1f1ea"
   },
   {
     n: [
-      "french polynesia flag",
-      "flag-pf"
+      "flag: French Polynesia",
+      "french_polynesia"
     ],
     u: "1f1f5-1f1eb"
   },
   {
     n: [
-      "papua new guinea flag",
-      "flag-pg"
+      "flag: Papua New Guinea",
+      "papua_new_guinea"
     ],
     u: "1f1f5-1f1ec"
   },
   {
     n: [
-      "philippines flag",
-      "flag-ph"
+      "flag: Philippines",
+      "philippines"
     ],
     u: "1f1f5-1f1ed"
   },
   {
     n: [
-      "pakistan flag",
-      "flag-pk"
+      "flag: Pakistan",
+      "pakistan"
     ],
     u: "1f1f5-1f1f0"
   },
   {
     n: [
-      "poland flag",
-      "flag-pl"
+      "flag: Poland",
+      "poland"
     ],
     u: "1f1f5-1f1f1"
   },
   {
     n: [
-      "st. pierre & miquelon flag",
-      "flag-pm"
+      "flag: St. Pierre & Miquelon",
+      "st_pierre_miquelon"
     ],
     u: "1f1f5-1f1f2"
   },
   {
     n: [
-      "pitcairn islands flag",
-      "flag-pn"
+      "flag: Pitcairn Islands",
+      "pitcairn_islands"
     ],
     u: "1f1f5-1f1f3"
   },
   {
     n: [
-      "puerto rico flag",
-      "flag-pr"
+      "flag: Puerto Rico",
+      "puerto_rico"
     ],
     u: "1f1f5-1f1f7"
   },
   {
     n: [
-      "palestinian territories flag",
-      "flag-ps"
+      "flag: Palestinian Territories",
+      "palestinian_territories"
     ],
     u: "1f1f5-1f1f8"
   },
   {
     n: [
-      "portugal flag",
-      "flag-pt"
+      "flag: Portugal",
+      "portugal"
     ],
     u: "1f1f5-1f1f9"
   },
   {
     n: [
-      "palau flag",
-      "flag-pw"
+      "flag: Palau",
+      "palau"
     ],
     u: "1f1f5-1f1fc"
   },
   {
     n: [
-      "paraguay flag",
-      "flag-py"
+      "flag: Paraguay",
+      "paraguay"
     ],
     u: "1f1f5-1f1fe"
   },
   {
     n: [
-      "qatar flag",
-      "flag-qa"
+      "flag: Qatar",
+      "qatar"
     ],
     u: "1f1f6-1f1e6"
   },
   {
     n: [
-      "r\xE9union flag",
-      "flag-re"
+      "flag: R\xE9union",
+      "reunion"
     ],
     u: "1f1f7-1f1ea"
   },
   {
     n: [
-      "romania flag",
-      "flag-ro"
+      "flag: Romania",
+      "romania"
     ],
     u: "1f1f7-1f1f4"
   },
   {
     n: [
-      "serbia flag",
-      "flag-rs"
+      "flag: Serbia",
+      "serbia"
     ],
     u: "1f1f7-1f1f8"
   },
   {
     n: [
-      "russia flag",
+      "flag: Russia",
       "ru",
-      "flag-ru"
+      "russia"
     ],
     u: "1f1f7-1f1fa"
   },
   {
     n: [
-      "rwanda flag",
-      "flag-rw"
+      "flag: Rwanda",
+      "rwanda"
     ],
     u: "1f1f7-1f1fc"
   },
   {
     n: [
-      "saudi arabia flag",
-      "flag-sa"
+      "flag: Saudi Arabia",
+      "saudi_arabia"
     ],
     u: "1f1f8-1f1e6"
   },
   {
     n: [
-      "solomon islands flag",
-      "flag-sb"
+      "flag: Solomon Islands",
+      "solomon_islands"
     ],
     u: "1f1f8-1f1e7"
   },
   {
     n: [
-      "seychelles flag",
-      "flag-sc"
+      "flag: Seychelles",
+      "seychelles"
     ],
     u: "1f1f8-1f1e8"
   },
   {
     n: [
-      "sudan flag",
-      "flag-sd"
+      "flag: Sudan",
+      "sudan"
     ],
     u: "1f1f8-1f1e9"
   },
   {
     n: [
-      "sweden flag",
-      "flag-se"
+      "flag: Sweden",
+      "sweden"
     ],
     u: "1f1f8-1f1ea"
   },
   {
     n: [
-      "singapore flag",
-      "flag-sg"
+      "flag: Singapore",
+      "singapore"
     ],
     u: "1f1f8-1f1ec"
   },
   {
     n: [
-      "st. helena flag",
-      "flag-sh"
+      "flag: St. Helena",
+      "st_helena"
     ],
     u: "1f1f8-1f1ed"
   },
   {
     n: [
-      "slovenia flag",
-      "flag-si"
+      "flag: Slovenia",
+      "slovenia"
     ],
     u: "1f1f8-1f1ee"
   },
   {
     n: [
-      "svalbard & jan mayen flag",
-      "flag-sj"
+      "flag: Svalbard & Jan Mayen",
+      "svalbard_jan_mayen"
     ],
     u: "1f1f8-1f1ef"
   },
   {
     n: [
-      "slovakia flag",
-      "flag-sk"
+      "flag: Slovakia",
+      "slovakia"
     ],
     u: "1f1f8-1f1f0"
   },
   {
     n: [
-      "sierra leone flag",
-      "flag-sl"
+      "flag: Sierra Leone",
+      "sierra_leone"
     ],
     u: "1f1f8-1f1f1"
   },
   {
     n: [
-      "san marino flag",
-      "flag-sm"
+      "flag: San Marino",
+      "san_marino"
     ],
     u: "1f1f8-1f1f2"
   },
   {
     n: [
-      "senegal flag",
-      "flag-sn"
+      "flag: Senegal",
+      "senegal"
     ],
     u: "1f1f8-1f1f3"
   },
   {
     n: [
-      "somalia flag",
-      "flag-so"
+      "flag: Somalia",
+      "somalia"
     ],
     u: "1f1f8-1f1f4"
   },
   {
     n: [
-      "suriname flag",
-      "flag-sr"
+      "flag: Suriname",
+      "suriname"
     ],
     u: "1f1f8-1f1f7"
   },
   {
     n: [
-      "south sudan flag",
-      "flag-ss"
+      "flag: South Sudan",
+      "south_sudan"
     ],
     u: "1f1f8-1f1f8"
   },
   {
     n: [
-      "s\xE3o tom\xE9 & pr\xEDncipe flag",
-      "flag-st"
+      "flag: S\xE3o Tom\xE9 & Pr\xEDncipe",
+      "sao_tome_principe"
     ],
     u: "1f1f8-1f1f9"
   },
   {
     n: [
-      "el salvador flag",
-      "flag-sv"
+      "flag: El Salvador",
+      "el_salvador"
     ],
     u: "1f1f8-1f1fb"
   },
   {
     n: [
-      "sint maarten flag",
-      "flag-sx"
+      "flag: Sint Maarten",
+      "sint_maarten"
     ],
     u: "1f1f8-1f1fd"
   },
   {
     n: [
-      "syria flag",
-      "flag-sy"
+      "flag: Syria",
+      "syria"
     ],
     u: "1f1f8-1f1fe"
   },
   {
     n: [
-      "swaziland flag",
-      "flag-sz"
+      "flag: Eswatini",
+      "swaziland"
     ],
     u: "1f1f8-1f1ff"
   },
   {
     n: [
-      "tristan da cunha flag",
-      "flag-ta"
+      "flag: Tristan da Cunha",
+      "tristan_da_cunha"
     ],
     u: "1f1f9-1f1e6"
   },
   {
     n: [
-      "turks & caicos islands flag",
-      "flag-tc"
+      "flag: Turks & Caicos Islands",
+      "turks_caicos_islands"
     ],
     u: "1f1f9-1f1e8"
   },
   {
     n: [
-      "chad flag",
-      "flag-td"
+      "flag: Chad",
+      "chad"
     ],
     u: "1f1f9-1f1e9"
   },
   {
     n: [
-      "french southern territories flag",
-      "flag-tf"
+      "flag: French Southern Territories",
+      "french_southern_territories"
     ],
     u: "1f1f9-1f1eb"
   },
   {
     n: [
-      "togo flag",
-      "flag-tg"
+      "flag: Togo",
+      "togo"
     ],
     u: "1f1f9-1f1ec"
   },
   {
     n: [
-      "thailand flag",
-      "flag-th"
+      "flag: Thailand",
+      "thailand"
     ],
     u: "1f1f9-1f1ed"
   },
   {
     n: [
-      "tajikistan flag",
-      "flag-tj"
+      "flag: Tajikistan",
+      "tajikistan"
     ],
     u: "1f1f9-1f1ef"
   },
   {
     n: [
-      "tokelau flag",
-      "flag-tk"
+      "flag: Tokelau",
+      "tokelau"
     ],
     u: "1f1f9-1f1f0"
   },
   {
     n: [
-      "timor-leste flag",
-      "flag-tl"
+      "flag: Timor-Leste",
+      "timor_leste"
     ],
     u: "1f1f9-1f1f1"
   },
   {
     n: [
-      "turkmenistan flag",
-      "flag-tm"
+      "flag: Turkmenistan",
+      "turkmenistan"
     ],
     u: "1f1f9-1f1f2"
   },
   {
     n: [
-      "tunisia flag",
-      "flag-tn"
+      "flag: Tunisia",
+      "tunisia"
     ],
     u: "1f1f9-1f1f3"
   },
   {
     n: [
-      "tonga flag",
-      "flag-to"
+      "flag: Tonga",
+      "tonga"
     ],
     u: "1f1f9-1f1f4"
   },
   {
     n: [
-      "turkey flag",
-      "flag-tr"
+      "flag: Turkey",
+      "tr",
+      "turkey"
     ],
     u: "1f1f9-1f1f7"
   },
   {
     n: [
-      "trinidad & tobago flag",
-      "flag-tt"
+      "flag: Trinidad & Tobago",
+      "trinidad_tobago"
     ],
     u: "1f1f9-1f1f9"
   },
   {
     n: [
-      "tuvalu flag",
-      "flag-tv"
+      "flag: Tuvalu",
+      "tuvalu"
     ],
     u: "1f1f9-1f1fb"
   },
   {
     n: [
-      "taiwan flag",
-      "flag-tw"
+      "flag: Taiwan",
+      "taiwan"
     ],
     u: "1f1f9-1f1fc"
   },
   {
     n: [
-      "tanzania flag",
-      "flag-tz"
+      "flag: Tanzania",
+      "tanzania"
     ],
     u: "1f1f9-1f1ff"
   },
   {
     n: [
-      "ukraine flag",
-      "flag-ua"
+      "flag: Ukraine",
+      "ukraine"
     ],
     u: "1f1fa-1f1e6"
   },
   {
     n: [
-      "uganda flag",
-      "flag-ug"
+      "flag: Uganda",
+      "uganda"
     ],
     u: "1f1fa-1f1ec"
   },
   {
     n: [
-      "u.s. outlying islands flag",
-      "flag-um"
+      "flag: U.S. Outlying Islands",
+      "us_outlying_islands"
     ],
     u: "1f1fa-1f1f2"
   },
   {
     n: [
-      "united nations flag",
-      "flag-un"
+      "flag: United Nations",
+      "united_nations"
     ],
     u: "1f1fa-1f1f3"
   },
   {
     n: [
-      "united states flag",
+      "flag: United States",
       "us",
-      "flag-us"
+      "flag",
+      "united",
+      "america"
     ],
     u: "1f1fa-1f1f8"
   },
   {
     n: [
-      "uruguay flag",
-      "flag-uy"
+      "flag: Uruguay",
+      "uruguay"
     ],
     u: "1f1fa-1f1fe"
   },
   {
     n: [
-      "uzbekistan flag",
-      "flag-uz"
+      "flag: Uzbekistan",
+      "uzbekistan"
     ],
     u: "1f1fa-1f1ff"
   },
   {
     n: [
-      "vatican city flag",
-      "flag-va"
+      "flag: Vatican City",
+      "vatican_city"
     ],
     u: "1f1fb-1f1e6"
   },
   {
     n: [
-      "st. vincent & grenadines flag",
-      "flag-vc"
+      "flag: St. Vincent & Grenadines",
+      "st_vincent_grenadines"
     ],
     u: "1f1fb-1f1e8"
   },
   {
     n: [
-      "venezuela flag",
-      "flag-ve"
+      "flag: Venezuela",
+      "venezuela"
     ],
     u: "1f1fb-1f1ea"
   },
   {
     n: [
-      "british virgin islands flag",
-      "flag-vg"
+      "flag: British Virgin Islands",
+      "british_virgin_islands"
     ],
     u: "1f1fb-1f1ec"
   },
   {
     n: [
-      "u.s. virgin islands flag",
-      "flag-vi"
+      "flag: U.S. Virgin Islands",
+      "us_virgin_islands"
     ],
     u: "1f1fb-1f1ee"
   },
   {
     n: [
-      "vietnam flag",
-      "flag-vn"
+      "flag: Vietnam",
+      "vietnam"
     ],
     u: "1f1fb-1f1f3"
   },
   {
     n: [
-      "vanuatu flag",
-      "flag-vu"
+      "flag: Vanuatu",
+      "vanuatu"
     ],
     u: "1f1fb-1f1fa"
   },
   {
     n: [
-      "wallis & futuna flag",
-      "flag-wf"
+      "flag: Wallis & Futuna",
+      "wallis_futuna"
     ],
     u: "1f1fc-1f1eb"
   },
   {
     n: [
-      "samoa flag",
-      "flag-ws"
+      "flag: Samoa",
+      "samoa"
     ],
     u: "1f1fc-1f1f8"
   },
   {
     n: [
-      "kosovo flag",
-      "flag-xk"
+      "flag: Kosovo",
+      "kosovo"
     ],
     u: "1f1fd-1f1f0"
   },
   {
     n: [
-      "yemen flag",
-      "flag-ye"
+      "flag: Yemen",
+      "yemen"
     ],
     u: "1f1fe-1f1ea"
   },
   {
     n: [
-      "mayotte flag",
-      "flag-yt"
+      "flag: Mayotte",
+      "mayotte"
     ],
     u: "1f1fe-1f1f9"
   },
   {
     n: [
-      "south africa flag",
-      "flag-za"
+      "flag: South Africa",
+      "south_africa"
     ],
     u: "1f1ff-1f1e6"
   },
   {
     n: [
-      "zambia flag",
-      "flag-zm"
+      "flag: Zambia",
+      "zambia"
     ],
     u: "1f1ff-1f1f2"
   },
   {
     n: [
-      "zimbabwe flag",
-      "flag-zw"
+      "flag: Zimbabwe",
+      "zimbabwe"
     ],
     u: "1f1ff-1f1fc"
   },
   {
     n: [
-      "england flag",
-      "flag-england"
+      "flag: England",
+      "england"
     ],
     u: "1f3f4-e0067-e0062-e0065-e006e-e0067-e007f"
   },
   {
     n: [
-      "scotland flag",
-      "flag-scotland"
+      "flag: Scotland",
+      "scotland"
     ],
     u: "1f3f4-e0067-e0062-e0073-e0063-e0074-e007f"
   },
   {
     n: [
-      "wales flag",
-      "flag-wales"
+      "flag: Wales",
+      "wales"
     ],
     u: "1f3f4-e0067-e0062-e0077-e006c-e0073-e007f"
   }
