@@ -13316,14 +13316,14 @@ const symbols$1 = [
       "copyright",
       "copyright"
     ],
-    u: "a9-fe0f"
+    u: "00a9-fe0f"
   },
   {
     n: [
       "registered",
       "registered"
     ],
-    u: "ae-fe0f"
+    u: "00ae-fe0f"
   },
   {
     n: [
@@ -13339,84 +13339,84 @@ const symbols$1 = [
       "hash",
       "number"
     ],
-    u: "23-fe0f-20e3"
+    u: "0023-fe0f-20e3"
   },
   {
     n: [
       "keycap: *",
       "asterisk"
     ],
-    u: "2a-fe0f-20e3"
+    u: "002a-fe0f-20e3"
   },
   {
     n: [
       "keycap: 0",
       "zero"
     ],
-    u: "30-fe0f-20e3"
+    u: "0030-fe0f-20e3"
   },
   {
     n: [
       "keycap: 1",
       "one"
     ],
-    u: "31-fe0f-20e3"
+    u: "0031-fe0f-20e3"
   },
   {
     n: [
       "keycap: 2",
       "two"
     ],
-    u: "32-fe0f-20e3"
+    u: "0032-fe0f-20e3"
   },
   {
     n: [
       "keycap: 3",
       "three"
     ],
-    u: "33-fe0f-20e3"
+    u: "0033-fe0f-20e3"
   },
   {
     n: [
       "keycap: 4",
       "four"
     ],
-    u: "34-fe0f-20e3"
+    u: "0034-fe0f-20e3"
   },
   {
     n: [
       "keycap: 5",
       "five"
     ],
-    u: "35-fe0f-20e3"
+    u: "0035-fe0f-20e3"
   },
   {
     n: [
       "keycap: 6",
       "six"
     ],
-    u: "36-fe0f-20e3"
+    u: "0036-fe0f-20e3"
   },
   {
     n: [
       "keycap: 7",
       "seven"
     ],
-    u: "37-fe0f-20e3"
+    u: "0037-fe0f-20e3"
   },
   {
     n: [
       "keycap: 8",
       "eight"
     ],
-    u: "38-fe0f-20e3"
+    u: "0038-fe0f-20e3"
   },
   {
     n: [
       "keycap: 9",
       "nine"
     ],
-    u: "39-fe0f-20e3"
+    u: "0039-fe0f-20e3"
   },
   {
     n: [
