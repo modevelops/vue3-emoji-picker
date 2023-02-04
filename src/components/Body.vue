@@ -26,7 +26,6 @@
                 v-else
                 :loading="lazyLoading ? `lazy` : `eager`"
                 :src="emojiRemoteSrc + `/${emoji.r}.png`"
-                :alt="emoji.n[0]"
                 @error="handleError($event, emoji.r)"
               />
             </button>
