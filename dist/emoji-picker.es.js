@@ -17686,6 +17686,7 @@ function _sfc_render$4(_ctx, _cache, $props, $setup, $data, $options) {
                   key: 1,
                   loading: _ctx.lazyLoading ? `lazy` : `eager`,
                   src: _ctx.emojiRemoteSrc + `/${emoji.r}.png`,
+                  alt: "",
                   onError: ($event) => _ctx.handleError($event, emoji.r)
                 }, null, 40, _hoisted_6$2))
               ], 40, _hoisted_4$3);
